@@ -25,6 +25,7 @@ import {
 } from "lucide-react";
 
 import type { CompanyIntel as Intel } from "@/lib/types";
+import { SimilarAccounts } from "./SimilarAccounts";
 import type { EnrichContact } from "@/lib/enrich/types";
 import {
   emailStatusLabel,
@@ -2262,6 +2263,7 @@ export function CompanyIntel({
         )}
       </Section>
 
+      <SimilarAccounts company={acctKey} />
     </div>
   );
 }

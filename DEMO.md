@@ -54,6 +54,7 @@ Everything in the demo path is cached in SingleStore. Live calls (Pull More, a n
 
 ### 4:10–5:00 · It runs on SingleStore
 - **GitHub Prospecting:** 1,154 activity events from the watchlist (Debezium, Kafka, ClickHouse, pgvector, langchain-singlestore…), rolled up into account intent.
+- **Similar accounts (vector search):** at the bottom of the Coinbase brief, click **Find look-alikes** → Ramp, Cloudflare, Instacart. Then search a theme: *"teams replicating several operational databases through Kafka CDC"* → Coinbase ranks first. Toggle **show the SQL**: one statement, an ANN search on the HNSW index (`embedding <*> query_vector`) with segment / ICP filters in the same WHERE clause, about 200–400 ms.
 - The architecture, in one breath:
   - **29 tables** in `gtm_dashboard`. High-volume feeds (signals, directory, briefs as JSON, GitHub events) are **sharded columnstore**. Small transactional tables (users, sequences, OAuth) are **rowstore reference tables** that carry several unique keys.
   - I replaced Supabase/Postgres with a **supabase-compatible query layer over the MySQL protocol**, so all 38 API routes moved without a rewrite.
@@ -71,7 +72,7 @@ Everything in the demo path is cached in SingleStore. Live calls (Pull More, a n
   - Live research drops any source the model didn't actually retrieve.
 - **"Why columnstore for a CRM-like app?"** The feed and directory are scans and aggregations over thousands of rows, and briefs are JSON documents queried server-side. The OLTP-shaped tables sit in rowstore reference tables. Same database, both shapes.
 - **"What would you build next?"**
-  - Vector search over cached briefs: "find accounts like Coinbase", in the same engine, on the briefs already stored in `gtm_briefs`.
+  - Chunk-level retrieval (one vector per pain point / signal instead of per account) and hybrid full-text + vector ranking.
   - Pipelines ingesting job-posting feeds continuously instead of pull-based scans.
 
 ## Not live without extra keys

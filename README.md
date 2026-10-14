@@ -12,6 +12,7 @@ Every signal and every intel brief is generated **live** by Claude with the `web
 | **Signal 2000** | The ~2,000 largest US companies (public list), remapped to SingleStore segments with a data-intensity fit prior (`lib/directoryFit.ts`). Short brief on view, full intel on demand. |
 | **Intel Brief** | Any account or company. Covers:<br>• ICP breakdown: data scale, architecture complexity (stitched systems), real-time workload, scaling activity, AI workload, plus a streaming bonus<br>• stakeholder map for the data-platform buying group<br>• evidence-grounded pain hypotheses with the SingleStore answer<br>• competitive context<br>• motion<br>• data-estate cost and consolidation exposure<br>• migration friction<br>• LinkedIn and email outreach<br>• live contacts<br>• citations |
 | **Proposal** | One click turns a brief into a prospect-facing proposal page at `/p/<token>`, stored in `gtm_proposals`. Operational and cost views, with consolidation economics from public list pricing. Every figure is labelled MEASURED, MODELED or CUSTOMER ASSUMPTION. |
+| **Similar accounts** (in every brief) | Vector search over all researched accounts: "Find look-alikes" for the open account, or a free-text theme ("teams replicating several databases through Kafka"), filtered by segment / ICP. Shows the SQL and its latency. |
 | **GitHub Prospecting** | Polls a watchlist of 25 repos SingleStore buyers touch (SingleStore's own, plus streaming, vector, OLTP/OLAP, AI frameworks and pipeline tools). Resolves people to companies, scores them by contribution weight and writes openers. |
 | **Title Search** | Finds contacts by persona: data platform, data engineering, database, real-time analytics, ML platform, CDO. Classified qualified / router / unresolved. |
 | **Favorites** | Starred accounts, synced per user in `gtm_user_state`. |
@@ -24,6 +25,7 @@ Every signal and every intel brief is generated **live** by Claude with the `web
   - Signals, briefs (JSON documents), the directory, GitHub activity and contacts are **sharded columnstore** tables. The feed and directory are analytical reads over thousands of rows.
   - Users, sequences, prospects, enrollments and OAuth connections are **rowstore reference tables**: replicated, transactional, and carrying several unique keys.
 - **MySQL wire protocol** via `mysql2`. No Postgres driver, no PostgREST. `lib/s2/client.ts` implements the supabase-js query-builder subset the original app used and compiles it to parameterised SQL. `lib/store.ts` and `lib/githubProspect/store.ts` are hand-written SQL.
+- **Vector search in the same database.** `gtm_brief_vectors` holds each brief's research embedding (OpenAI `text-embedding-3-small`, `VECTOR(1536, F32)`) with an HNSW index next to segment and ICP score, so look-alike and theme searches are one SQL statement: ANN ranking (`<*>`, dot product on unit vectors = cosine) plus relational filters. Briefs re-index when saved or expanded.
 - **JSON in SQL.** Brief fields are extracted server-side, e.g. `intel::$domain` and `intel::%sweEstimate` for GitHub target matching.
 - **Row-level security, re-implemented.** Per-user tables are scoped to the session user in the client layer. `npm run db:check` verifies that another user sees nothing.
 - **Auth.** Users and scrypt hashes live in `gtm_users`, with HMAC-signed session cookies (`lib/session.ts`, Edge-safe). The gate is off until `AUTH_SECRET` is set.
@@ -36,6 +38,7 @@ cp .env.example .env.local      # SINGLESTORE_* and ANTHROPIC_API_KEY are requir
 npm run db:schema               # create the 29 tables
 npm run db:seed-directory       # load the Signal 2000 directory
 npm run db:check                # connection, row counts, write/read + per-user scoping
+npm run db:embed-briefs         # (re)embed cached briefs for semantic search (needs OPENAI_API_KEY)
 npm run dev                     # http://localhost:3000, then "Pull Signals"
 ```
 
@@ -45,6 +48,7 @@ Optional keys unlock more features. Each missing key degrades to an honest "not 
 - `GITHUB_TOKEN`: watchlist rate limits
 - `CRUNCHBASE_API_KEY`
 - `HUBSPOT_TOKEN`
+- `OPENAI_API_KEY`: embeddings for theme search and indexing new briefs (look-alikes over already-indexed briefs work without it)
 
 ### Things that bite
 

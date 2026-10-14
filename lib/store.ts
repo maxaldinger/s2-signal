@@ -9,6 +9,7 @@
 
 import { randomUUID } from "node:crypto";
 import { q, s2Configured, toSqlValue } from "./s2/db";
+import { indexBrief } from "./briefVectors";
 import type { CompanyIntel, DirectoryEntry, Signal, SegmentId, SignalTypeId } from "./types";
 import type { RegionId } from "./data";
 
@@ -169,6 +170,8 @@ export async function upsertBrief(company: string, intel: CompanyIntel): Promise
        ON DUPLICATE KEY UPDATE company = VALUES(company), intel = VALUES(intel), generated_at = VALUES(generated_at)`,
       [briefKey(company), company.trim(), JSON.stringify(intel), toSqlValue(new Date())],
     );
+    // Keep the semantic index in step with the brief (never fails the save).
+    await indexBrief(company, intel);
     return { ok: true };
   } catch (e) {
     return { ok: false, error: `SingleStore brief upsert failed: ${errMsg(e)}` };
@@ -205,6 +208,9 @@ export async function mergeIntoBrief(company: string, mutate: (brief: CompanyInt
     const brief = (typeof row.intel === "string" ? JSON.parse(row.intel) : row.intel) as CompanyIntel;
     mutate(brief);
     await q(`UPDATE gtm_briefs SET intel = ? WHERE company_key = ?`, [JSON.stringify(brief), key]);
+    // Expanded sections (pain points, why SingleStore) enrich the research
+    // text, so re-embed the account.
+    await indexBrief(row.company, brief, key);
     return true;
   });
   const settled = run.catch(() => false);

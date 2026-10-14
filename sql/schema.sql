@@ -440,3 +440,26 @@ CREATE ROWSTORE REFERENCE TABLE IF NOT EXISTS gtm_m365_mailboxes (
   PRIMARY KEY (id),
   UNIQUE KEY (email)
 );
+
+-- ---------------------------------------------------------------------------
+-- Semantic search over researched accounts (vector + relational in one table)
+-- ---------------------------------------------------------------------------
+-- One row per intel brief: the brief's research text, its embedding, and the
+-- structured fields semantic queries filter and rank on. The HNSW index makes
+-- "accounts like Coinbase" / "teams fighting CDC pipeline sprawl" an
+-- approximate-nearest-neighbour lookup; DOT_PRODUCT on unit vectors = cosine.
+-- Written whenever a brief is saved or expanded (lib/briefVectors.ts).
+CREATE TABLE IF NOT EXISTS gtm_brief_vectors (
+  company_key   VARCHAR(300) NOT NULL,
+  company       VARCHAR(300) NOT NULL,
+  segment       VARCHAR(40),
+  icp_total     INT,
+  product_focus VARCHAR(16),
+  content       TEXT         NOT NULL,
+  embedding     VECTOR(1536, F32) NOT NULL,
+  model         VARCHAR(60)  NOT NULL,
+  updated_at    DATETIME(6)  NOT NULL DEFAULT NOW(6),
+  SHARD KEY (company_key),
+  UNIQUE KEY (company_key) USING HASH,
+  VECTOR INDEX ix_brief_embedding (embedding) INDEX_OPTIONS '{"index_type":"HNSW_FLAT","metric_type":"DOT_PRODUCT"}'
+);
