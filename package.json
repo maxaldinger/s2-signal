@@ -11,7 +11,8 @@
     "db:schema": "tsx scripts/apply-schema.ts",
     "db:seed-directory": "tsx scripts/seed-directory.ts",
     "db:check": "tsx scripts/check-db.ts",
-    "db:embed-briefs": "tsx scripts/embed-briefs.ts"
+    "db:embed-briefs": "tsx scripts/embed-briefs.ts",
+    "db:reconcile-briefs": "tsx scripts/reconcile-briefs.ts"
   },
   "dependencies": {
     "exceljs": "^4.4.0",

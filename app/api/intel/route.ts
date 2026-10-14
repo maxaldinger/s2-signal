@@ -4,6 +4,7 @@ import { singlestoreContextFor, type S2Focus } from "@/lib/singlestore";
 import { apolloOrgFacts } from "@/lib/enrich/apollo";
 import { apolloOrgLookup } from "@/lib/githubProspect/enrich";
 import { SEGMENT_MAP } from "@/lib/data";
+import { computeIcpTotal, SEGMENT_GUIDE, subScoresComplete } from "@/lib/icpScore";
 import { CONNECT_CAP, VOICE_SPEC, enforceLinkedin } from "@/lib/outreachRules";
 import { fetchBrief, upsertBrief, dbConfigured } from "@/lib/store";
 import type {
@@ -103,7 +104,7 @@ Scoring: ICP sub-scores are each 0-20.
 - realtimeWorkload: customer-facing real-time analytics, high-concurrency and low-latency query needs, or transactions and analytics on the same fresh data (HTAP).
 - scalingActivity: growth, migrations, re-platforming, data-platform initiatives and the hiring behind them, in roughly the last 12 months.
 - aiWorkload: gen-AI, RAG, semantic/vector search or agents in production or being built.
-The "streaming" block is a SILENT BONUS folded into the score (never surfaced to the user): when you find concrete streaming / CDC evidence (checklist item 5), set detected=true, quote the specific evidence, and award a bonus of +4 (indirect, e.g. one blog mention) to +10 (direct, e.g. multiple roles requiring Kafka/Flink, or Debezium/Kafka config in public repos). total = the five sub-scores + streaming bonus, capped at 99, and must be consistent. Score honestly: evidence of a tool is not evidence of pain, and set detected=false with bonus 0 when there is no real streaming evidence.
+The "streaming" block is a SILENT BONUS folded into the score (never surfaced to the user): when you find concrete streaming / CDC evidence (checklist item 5), set detected=true, quote the specific evidence, and award a bonus of +4 (indirect, e.g. one blog mention) to +10 (direct, e.g. multiple roles requiring Kafka/Flink, or Debezium/Kafka config in public repos). Do not output a total: the app computes it from your sub-scores and bonus (sum, capped at 99). Score honestly: evidence of a tool is not evidence of pain, and set detected=false with bonus 0 when there is no real streaming evidence.
 
 Motion: pick exactly one of PLG, Top-Down, Champion-Led, Land-and-Expand from the evidence (developer-led teams => PLG on the free Shared tier or $500 starter credits for one workload; strict procurement or a CTO/CDO consolidation mandate => Top-Down; Land-and-Expand = one real-time workload or one consolidated pipeline, then adjacent workloads). Give ONE concrete firstMove (the specific first action to take) and name the key contact (real full name) it targets if found in public sources.
 
@@ -131,6 +132,8 @@ DEFUNCT, RENAMED, ACQUIRED OR AMBIGUOUS TARGETS. The company you are given comes
 - Split into several entities: pick the one that carries the data and software organisation, name it, and say in "summary" which parts went where.
 - Genuinely nothing there, or too ambiguous to resolve: still return the object, with "name" set to the string you were given, every icp sub-score 0, and "summary" explaining in one or two sentences what you found and what the rep should search for instead.
 
+${SEGMENT_GUIDE}
+
 Output ONLY one JSON object — no prose, no code fences:
 {
   "name": "Canonical Company Name",
@@ -143,7 +146,6 @@ Output ONLY one JSON object — no prose, no code fences:
   "employeeBand": "e.g. 200-500",
   "sweEstimate": number or null (software + data engineers),
   "icp": {
-    "total": 0-99,
     "dataScale": 0-20,
     "architectureComplexity": 0-20,
     "realtimeWorkload": 0-20,
@@ -227,18 +229,10 @@ function pickMessage(
   return { subject, body };
 }
 
+/** Every sub-score is a real number (null / "" / missing fail: Number(null)
+ *  is 0, which used to pass). The total is not required: it is computed. */
 function icpComplete(icp: Partial<ICPScore> | undefined): icp is ICPScore {
-  if (!icp) return false;
-  return (
-    [
-      icp.total,
-      icp.dataScale,
-      icp.architectureComplexity,
-      icp.realtimeWorkload,
-      icp.scalingActivity,
-      icp.aiWorkload,
-    ].every((v) => Number.isFinite(Number(v)))
-  );
+  return subScoresComplete(icp);
 }
 
 export async function GET(req: NextRequest) {
@@ -414,7 +408,7 @@ export async function GET(req: NextRequest) {
           : undefined,
       icp: {
         // icpComplete() guaranteed these are numeric — clamp only bounds them.
-        total: clamp(parsed.icp.total, 0, 99, 0),
+        total: 0, // computed from the sub-scores below
         dataScale: clamp(parsed.icp.dataScale, 0, 20, 0),
         architectureComplexity: clamp(parsed.icp.architectureComplexity, 0, 20, 0),
         realtimeWorkload: clamp(parsed.icp.realtimeWorkload, 0, 20, 0),
@@ -526,6 +520,8 @@ export async function GET(req: NextRequest) {
       },
       citations: Array.from(citations.values()).slice(0, 16),
     };
+    // The total is arithmetic, not a model output: sub-scores + streaming bonus, capped at 99.
+    intel.icp.total = computeIcpTotal(intel.icp);
 
     // Persist for instant future opens, keyed on the REQUESTED name — that's
     // what the next click looks up (the model may canonicalize differently).
