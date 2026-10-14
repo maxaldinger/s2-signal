@@ -192,6 +192,14 @@ const TITLE_ALLOWLIST =
 
 const HARD_EXCLUSIONS: Array<{ code: ICPReasonCode; re: RegExp; why: string }> = [
   {
+    // Business functions that borrow a technical word ("Head of Infrastructure
+    // Marketing", "VP, People (AI, Tech, Analytics)", "Chief Investment Officer
+    // (CIO)"). Checked first so the technical word can't carry them through.
+    code: "NOT_ENGINEERING",
+    re: /\bmarketing\b|\bbrand\b|\bcommunications\b|\bpublic\s+relations\b|\bpeople\b|\bhuman\s+resources\b|\bhr\b|\btalent\b|\brecruit|\baccounting\b|\bcontroller\b|\btax\b|\btreasury\b|\blegal\b|\bcounsel\b|\bcorporate\s+development\b|\binvestor\s+relations\b|\binvestments?\b|\bpartnerships?\b/i,
+    why: "A business function (marketing, people, finance, legal, corporate development, investment) that borrows a technical word. It never owns the database decision.",
+  },
+  {
     // Compound first: Network DevOps is infrastructure on both axes.
     code: "INFRA_OPS",
     re: /\bnetwork\s+(?:dev\s*ops|devops|sre|reliability|engineering|operations)\b/i,
@@ -206,7 +214,7 @@ const HARD_EXCLUSIONS: Array<{ code: ICPReasonCode; re: RegExp; why: string }> =
   },
   {
     code: "EXEC_IT_SECURITY",
-    re: /\bciso\b|\bchief\s+(?:information\s+)?security\s+officer\b|\bchief\s+security\b|\binformation\s+security\b|\bcyber\b|\bsecurity\s+(?:engineering|architect|operations|leadership)\b/i,
+    re: /\bciso\b|\bchief\s+(?:information\s+)?security\s+officer\b|\bchief\s+security\b|\binformation\s+security\b|\bcyber\b|\bsecurity\s+(?:engineer(?:ing)?|architect|operations|leadership)\b/i,
     why: "Security reviews the evaluation (encryption, audit, SOC 2 / PCI) but never owns the database purchase.",
   },
   {
@@ -281,7 +289,8 @@ export function hardExclude(titles?: string): ICPVerdict | undefined {
     // ...unless it ALSO carries an unambiguous disqualifier. "Solutions
     // Architect, Data Platform" is pre-sales wearing a platform label.
     const disqualified = HARD_EXCLUSIONS.find(
-      (r) => (r.code === "DATA_ML_RESEARCH" || r.code === "FIELD_CUSTOMER") && r.re.test(t),
+      (r) =>
+        (r.code === "DATA_ML_RESEARCH" || r.code === "FIELD_CUSTOMER" || r.code === "NOT_ENGINEERING") && r.re.test(t),
     );
     if (!disqualified) return undefined;
     return pass(disqualified.code, disqualified.why);
