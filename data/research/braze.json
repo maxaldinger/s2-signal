@@ -1,0 +1,119 @@
+{
+  "slug": "braze",
+  "name": "Braze",
+  "domain": "braze.com",
+  "hq": "New York, NY, USA",
+  "industry": "adtech",
+  "business_model": "SaaS customer engagement platform that lets consumer brands run personalized cross-channel messaging (push, email, SMS, in-app) driven by real-time user data, sold on subscription.",
+  "employee_range": null,
+  "ownership": "public (NASDAQ: BRZE)",
+  "overview": "Braze is a customer engagement platform that reported $738.2M revenue and 2,609 customers for fiscal 2026 (b9). Its Data Lakehouse team manages petabyte-scale event data across Snowflake, ClickHouse and Databricks, with tens of billions of rows inserted daily (b1, b2), and it runs a fleet of MongoDB clusters on Kubernetes for product-critical features (b4). In 2025 Braze bought AI decisioning company OfferFit to extend its agentic AI strategy (b7, b8).",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "b1", "url": "https://job-boards.greenhouse.io/braze/jobs/8232097", "title": "Senior Software Engineer II, Data Lakehouse", "publisher": "Braze careers (Greenhouse)", "published_date": null,
+      "excerpt": "Open on 2026-10-14; no post date shown. Data Lakehouse team manages petabyte-scale event data across Snowflake, ClickHouse and Databricks, with tens of billions of rows inserted daily, shared with internal teams and external customers. Also names Kafka, Airflow, Sidekiq, SQS, RabbitMQ, Rails." },
+    { "id": "b2", "url": "https://job-boards.greenhouse.io/braze/jobs/8222294", "title": "Software Engineer II, Data Lakehouse", "publisher": "Braze careers (Greenhouse)", "published_date": null,
+      "excerpt": "Open on 2026-10-14; no post date shown. Same team description: petabyte-scale storage, query and analysis; tens of billions of rows inserted daily; Snowflake and ClickHouse listed as bonus skills." },
+    { "id": "b3", "url": "https://builtin.com/job/engineering-manager-datalake/2293582", "title": "Engineering Manager, Datalake", "publisher": "Built In (mirror of Braze posting)", "published_date": null,
+      "excerpt": "Posting (seen only via search snippet; page returned 404 on 2026-10-14) described a multi-petabyte Snowflake warehouse, data streamed and shared via Kafka and Snowflake, and team ownership of Cloud Data Ingestion." },
+    { "id": "b4", "url": "https://job-boards.greenhouse.io/braze/jobs/8209268", "title": "Senior Database Administrator (MongoDB)", "publisher": "Braze careers (Greenhouse)", "published_date": null,
+      "excerpt": "Open on 2026-10-14; no post date shown. Platform Engineering runs a growing fleet of MongoDB clusters across regions and clouds on Kubernetes (GitOps, Terraform, ArgoCD); PostgreSQL, MySQL and DynamoDB listed as bonus experience." },
+    { "id": "b5", "url": "https://www.braze.com/resources/articles/how-braze-and-snowflake-built-an-effective-ongoing-technical-partnership", "title": "How Braze and Snowflake Built an Effective, Ongoing Technical Partnership", "publisher": "Braze", "published_date": "2022-03-16",
+      "excerpt": "Braze built an internal data lake on Snowflake for Secure Data Sharing, re-partitioned its Kafka cluster by Snowflake region to simplify the streaming pipeline, and worked with Snowflake on GDPR-delete clustering costs." },
+    { "id": "b6", "url": "https://www.braze.com/resources/articles/building-braze-introduction", "title": "Sharing and Growing: Welcome to Building Braze", "publisher": "Braze engineering (CTO Jon Hyman)", "published_date": "2018-09-07",
+      "excerpt": "Historical baseline: 3,000+ MongoDB processes, Kafka moving hundreds of MB/s, Redis at millions of ops/s, 40B+ messages per month. Dated 2018; scale today is likely larger but unverified." },
+    { "id": "b7", "url": "https://www.braze.com/press-releases/braze-announces-agreement-to-acquire-offerfit", "title": "Braze Announces Agreement to Acquire OfferFit", "publisher": "Braze press release", "published_date": "2025-03-27",
+      "excerpt": "Braze agreed to acquire OfferFit, a reinforcement-learning AI decisioning company, for about $325M in cash and stock, as part of its agentic AI strategy and Project Catalyst." },
+    { "id": "b8", "url": "https://www.nasdaq.com/press-release/braze-completes-acquisition-offerfit-2025-06-02", "title": "Braze Completes Acquisition of OfferFit", "publisher": "Braze press release (via Nasdaq)", "published_date": "2025-06-02",
+      "excerpt": "Acquisition closed; Braze plans to integrate OfferFit's multi-agent decisioning engine into its Customer Engagement Platform." },
+    { "id": "b9", "url": "https://www.braze.com/ja/press-releases/braze-reports-fiscal-year-and-fourth-quarter-2026-results", "title": "Braze Reports Fiscal Year and Fourth Quarter 2026 Results", "publisher": "Braze press release", "published_date": "2026",
+      "excerpt": "Fiscal year ended 2026-01-31: revenue $738.2M (+24.4% YoY), 2,609 customers, 109% dollar-based net retention, GAAP operating loss $134.1M. Figures read via search summary of the release." },
+    { "id": "b10", "url": "https://www.braze.com/docs/partners/data_and_infrastructure_agility/data_warehouses/snowflake/", "title": "Snowflake partner documentation", "publisher": "Braze docs", "published_date": null,
+      "excerpt": "Product supports Snowflake Secure Data Sharing of engagement data to customers and Cloud Data Ingestion syncing customer warehouse data into Braze." }
+  ],
+
+  "tech_signals": [
+    { "technology": "Snowflake", "category": "warehouse", "detail": "Multi-petabyte internal warehouse and data lake; powers Secure Data Sharing to customers and Cloud Data Ingestion.", "evidence": "verified", "source_ids": ["b1", "b3", "b5", "b10"] },
+    { "technology": "ClickHouse", "category": "olap", "detail": "One of three stores for petabyte-scale event data managed by the Data Lakehouse team; specific workloads not stated.", "evidence": "verified", "source_ids": ["b1", "b2"] },
+    { "technology": "Databricks", "category": "lakehouse", "detail": "Third store for event data alongside Snowflake and ClickHouse.", "evidence": "verified", "source_ids": ["b1"] },
+    { "technology": "MongoDB", "category": "oltp", "detail": "Growing fleet of sharded clusters on Kubernetes across regions and clouds backing product-critical features; historically 3,000+ processes (2018).", "evidence": "verified", "source_ids": ["b4", "b6"] },
+    { "technology": "Kafka", "category": "streaming", "detail": "Streams event data into Snowflake and to customers; partitioned by Snowflake region.", "evidence": "verified", "source_ids": ["b1", "b3", "b5"] },
+    { "technology": "Redis", "category": "cache", "detail": "High-volume operations (millions of ops/s as of 2018).", "evidence": "verified", "source_ids": ["b6"] },
+    { "technology": "Sidekiq / SQS / RabbitMQ / Airflow", "category": "other", "detail": "Async processing and orchestration named in Data Lakehouse posting.", "evidence": "verified", "source_ids": ["b1"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Same event data spread across Snowflake, ClickHouse and Databricks", "detail": "Current Data Lakehouse postings say tens of billions of rows per day land across three analytical engines and are shared with internal teams and customers. Running three engines for the same event stream is the multi-system pattern SingleStore targets. No source says this is a problem for Braze.", "signal_date": "2026-10-14", "strength": 4, "evidence": "verified", "source_ids": ["b1", "b2"] },
+    { "kind": "business", "title": "AI decisioning push via OfferFit acquisition", "detail": "The ~$300M OfferFit deal and Project Catalyst point to per-user real-time decisioning, which needs low-latency access to fresh behavioral and outcome data.", "signal_date": "2025-06-02", "strength": 3, "evidence": "verified", "source_ids": ["b7", "b8"] },
+    { "kind": "organizational", "title": "Hiring across Data Lakehouse and database platform teams", "detail": "Open roles for Data Lakehouse engineers and a MongoDB DBA show continued investment in data infrastructure; open roles mean there is budget and attention, not a specific evaluation.", "signal_date": "2026-10-14", "strength": 2, "evidence": "verified", "source_ids": ["b1", "b2", "b4"] },
+    { "kind": "technology", "title": "Customer-facing data products on the warehouse", "detail": "Braze shares data to customers through Snowflake Secure Data Sharing and ingests customer data through Cloud Data Ingestion, so warehouse latency and cost flow into customer-facing features.", "signal_date": "2022-03-16", "strength": 2, "evidence": "inferred", "source_ids": ["b5", "b10"] }
+  ],
+
+  "initiatives": [
+    { "title": "Data Lakehouse platform", "detail": "Infrastructure and tools for storing, querying and analyzing petabyte-scale event data across Snowflake, ClickHouse and Databricks, including sharing with customers.", "evidence": "verified", "source_ids": ["b1", "b2"] },
+    { "title": "Agentic AI / AI decisioning (OfferFit, Project Catalyst)", "detail": "Integrating reinforcement-learning decisioning agents into the engagement platform.", "evidence": "verified", "source_ids": ["b7", "b8"] },
+    { "title": "MongoDB fleet automation on Kubernetes", "detail": "Automating scaling, upgrades, restores and DR for multi-region MongoDB clusters.", "evidence": "verified", "source_ids": ["b4"] }
+  ],
+
+  "scoring": {
+    "architectural_fit": { "score": 4, "rationale": "Petabyte event data in three analytical engines, Kafka streaming, MongoDB operational fleet and customer-facing data sharing; a fit for real-time analytics consolidation.", "source_ids": ["b1", "b4", "b5"] },
+    "buying_signals": { "score": 3, "rationale": "Active data-platform hiring and AI decisioning investment, but no public evaluation, migration or stated pain.", "source_ids": ["b1", "b7"] },
+    "workload_relevance": { "score": 4, "rationale": "Real-time segmentation, campaign analytics and per-user decisioning are high-concurrency, low-latency workloads.", "source_ids": ["b1", "b7"] },
+    "organizational_fit": { "score": 3, "rationale": "Deep, long-standing Snowflake partnership and large MongoDB investment mean any new engine has to justify itself against entrenched platforms.", "source_ids": ["b4", "b5"] },
+    "evidence_confidence": { "score": 3, "rationale": "Current first-party job postings (undated) and 2025-2026 press releases; the deepest engineering write-ups are from 2018 and 2022." }
+  },
+
+  "personas": [
+    { "title": "Engineering leader, Data Lakehouse", "why": "Owns the Snowflake/ClickHouse/Databricks event data platform and data sharing.", "name": null, "source_ids": ["b1"] },
+    { "title": "CTO", "why": "Historically authored Braze's engineering architecture posts; sets platform direction.", "name": null, "source_ids": ["b6"] },
+    { "title": "Head of Platform Engineering / Infrastructure", "why": "Owns the MongoDB fleet and database operations.", "name": null, "source_ids": ["b4"] }
+  ],
+
+  "use_cases": [
+    { "title": "Real-time campaign and segment analytics", "detail": "Ingest Kafka events and serve high-concurrency aggregations for customer dashboards and segmentation from one engine.", "singlestore_capability": "Pipelines from Kafka / real-time analytics / high concurrency" },
+    { "title": "Feature store for AI decisioning", "detail": "Low-latency reads of fresh per-user behavior and outcome data for OfferFit-style decisioning agents.", "singlestore_capability": "HTAP / low-latency point lookups + aggregations" },
+    { "title": "Consolidating hot event analytics", "detail": "Evaluate whether one engine can cover workloads now split between ClickHouse and Snowflake for recent data.", "singlestore_capability": "Columnstore + rowstore in one engine, cost consolidation" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Braze's Data Lakehouse team manages event data across Snowflake, ClickHouse and Databricks with tens of billions of rows inserted daily.", "source_ids": ["b1", "b2"] },
+    { "fact": "Braze runs a growing fleet of MongoDB clusters on Kubernetes across multiple regions and clouds.", "source_ids": ["b4"] },
+    { "fact": "Braze built an internal data lake on Snowflake to support Secure Data Sharing with customers.", "source_ids": ["b5"] },
+    { "fact": "Braze completed its acquisition of OfferFit in June 2025.", "source_ids": ["b8"] },
+    { "fact": "Braze reported fiscal 2026 revenue of $738.2M and 2,609 customers.", "source_ids": ["b9"] }
+  ],
+
+  "inferences": [
+    { "inference": "Keeping three analytical engines for the same event stream likely adds data movement, duplicated storage and operational cost.", "based_on": ["b1", "b2"] },
+    { "inference": "AI decisioning at Braze scale will increase demand for low-latency, fresh per-user data serving.", "based_on": ["b7", "b8"] },
+    { "inference": "ClickHouse's presence suggests Braze already needed a faster engine for some event analytics than Snowflake provides.", "based_on": ["b1"] }
+  ],
+
+  "unknowns": [
+    "Employee headcount (not confirmed from the 10-K).",
+    "Exact posting dates of the Greenhouse roles (pages show none; observed open on 2026-10-14).",
+    "Which workloads run on ClickHouse versus Snowflake versus Databricks.",
+    "Current event volume, MAU and message figures from a dated first-party source (latest engineering figures found are from 2018).",
+    "Whether Braze uses any vector database or vector search for AI features.",
+    "Named current owners of data platform and infrastructure."
+  ],
+
+  "discovery_questions": [
+    "How do you decide which event workloads go to ClickHouse, Snowflake or Databricks today?",
+    "What freshness and latency do customer-facing analytics and segmentation need, and where does the current stack fall short?",
+    "How will OfferFit decisioning agents read per-user behavior and outcome data at serving time?",
+    "What does it cost in engineering time to keep event data consistent across three engines plus customer data shares?",
+    "Are there AI features in the roadmap that need vector or hybrid search over customer content?"
+  ],
+
+  "opportunity_hypothesis": "Hypothesis to validate: Braze stores the same high-volume event data across Snowflake, ClickHouse and Databricks, and its AI decisioning work (OfferFit) needs fresh, low-latency per-user data. SingleStore could be a single real-time engine for hot event analytics and decisioning features, reducing data copies while keeping Snowflake for sharing and long-term analysis. Confirm which workloads ClickHouse serves and whether freshness or cost is an active concern before positioning.",
+
+  "outreach": {
+    "persona": "Engineering leader, Data Lakehouse",
+    "subject": "Event data across Snowflake, ClickHouse and Databricks",
+    "body": "Hi - your Data Lakehouse postings describe tens of billions of event rows per day managed across Snowflake, ClickHouse and Databricks and shared with customers. With OfferFit decisioning now part of Braze, I'm curious how you plan to serve fresh per-user data at low latency. SingleStore is a distributed SQL engine that ingests from Kafka and runs real-time aggregations and point lookups in one place, which some teams use to cut down on copying the same events between engines. Would you be open to a short conversation on how you split workloads today and whether a comparison on one of them would be worth running?"
+  },
+
+  "singlestore_relationship": "none found - web search for 'Braze SingleStore customer' (2026-10-14) found only third-party connector pages (Hightouch, Stacksync) syncing data between the two products, not a customer or partnership announcement."
+}

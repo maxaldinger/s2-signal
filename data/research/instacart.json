@@ -1,0 +1,392 @@
+{
+  "slug": "instacart",
+  "name": "Instacart",
+  "domain": "instacart.com",
+  "hq": "San Francisco, CA, USA",
+  "industry": "ecommerce",
+  "business_model": "Online grocery marketplace connecting consumers with thousands of retailers for delivery and pickup, plus a retail-media advertising business and enterprise technology for retailers.",
+  "employee_range": "1001-5000",
+  "ownership": "public (NASDAQ: CART)",
+  "overview": "Instacart runs a grocery marketplace whose catalog spans billions of items across thousands of retailers and whose systems take billions of writes per day for catalog, price and availability data (s1). In 2025 its engineering team described consolidating search from Elasticsearch and a standalone FAISS vector service into sharded Postgres with pgvector (s1, s2). Snowflake is used across nearly every team (s5), and a 2026 data-infrastructure job posting describes building a multi-engine compute portfolio and real-time streaming for Ads, Fraud and ML (s4).",
+  "researched_at": "2026-10-14",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://company.instacart.com/tech-innovation/how-instacart-built-a-modern-search-infrastructure-on-postgres",
+      "title": "How Instacart Built a Modern Search Infrastructure on Postgres",
+      "publisher": "Instacart tech blog",
+      "published_date": "2025-05-29",
+      "excerpt": "Search moved from denormalized Elasticsearch to sharded, normalized Postgres (about 10x lower write load), then FAISS semantic search was replaced by hybrid pgvector retrieval. Catalog: billions of items, thousands of retailers, billions of writes per day."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.infoq.com/news/2025/08/instacart-elasticsearch-postgres",
+      "title": "Instacart Consolidates Search Infrastructure on PostgreSQL",
+      "publisher": "InfoQ",
+      "published_date": "2025-08-25",
+      "excerpt": "Running Elasticsearch next to transactional Postgres meant keeping two systems in sync, which added cost and operational work. Consolidation cut write load ~10x and storage/indexing cost by nearly 80%, per an Instacart engineer."
+    },
+    {
+      "id": "s3",
+      "url": "https://company.instacart.com/tech-innovation/instacarts-item-availability-architecture-solving-for-scale-and-consistency",
+      "title": "Instacart's Item Availability Architecture: Solving for Scale and Consistency",
+      "publisher": "Instacart tech blog",
+      "published_date": "2023-09-06",
+      "excerpt": "ML availability scores for hundreds of millions of items across 80,000+ locations are written to Snowflake several times a day, then synced into the serving database because RPC lookups were too slow for retrieval-time filtering; lazy refresh cut ingestion load about two-thirds."
+    },
+    {
+      "id": "s4",
+      "url": "https://jobs.khoslaventures.com/companies/instacart/jobs/73408270-staff-software-engineer-data-infrastructure",
+      "title": "Staff Software Engineer, Data Infrastructure (Instacart)",
+      "publisher": "Job-board mirrors of Instacart posting (Khosla Ventures, Jobgether)",
+      "published_date": "2026-07-30",
+      "excerpt": "Role owns the lakehouse and a multi-engine compute portfolio meant to avoid vendor lock-in, real-time/streaming infra for Ads, Fraud and ML, and cost/TCO modeling. Stack: Iceberg, Flink, Trino, ClickHouse, Kafka, Spark, Snowflake, Databricks, Postgres, AWS."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.snowflake.com/blog/snowflake-and-instacart-the-facts",
+      "title": "Snowflake and Instacart: The Facts",
+      "publisher": "Snowflake blog",
+      "published_date": "2023-08-30",
+      "excerpt": "Snowflake says Instacart's actual usage was $28M in 2021, $28M in 2022 and $11M in H1 2023, that nearly every Instacart team uses Snowflake, and that workload-by-workload optimization freed budget for more use cases."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.confluent.io/customers/instacart/",
+      "title": "Instacart customer story",
+      "publisher": "Confluent",
+      "published_date": "2022-01",
+      "excerpt": "Instacart adopted Confluent Cloud (managed Kafka) in 2020 for real-time inventory availability, order fulfillment and fraud detection, with a goal of using it as the backbone of a company-wide data mesh. Page undated; PDF name suggests Jan 2022."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000018/cart-20251231.htm",
+      "title": "Maplebear Inc. Form 10-K for fiscal year 2025",
+      "publisher": "SEC EDGAR",
+      "published_date": "2026",
+      "excerpt": "Reports approximately 3,600 full-time employees as of December 31, 2025 (figure taken from a search summary of the filing, not read directly from the document)."
+    }
+  ],
+  "tech_signals": [
+    {
+      "technology": "PostgreSQL (sharded) + pgvector",
+      "category": "oltp",
+      "detail": "Sharded, normalized Postgres serves full-text search (GIN indexes, modified ts_rank, pg_trgm) and hybrid lexical + vector retrieval via pgvector; hundreds of GBs of ML features joined in SQL.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "technology": "Elasticsearch",
+      "category": "search",
+      "detail": "Original full-text search engine; replaced by Postgres for search because partial-update write load and indexing cost did not scale.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "technology": "FAISS",
+      "category": "vector",
+      "detail": "Standalone ANN service (one HNSW index per retailer) used for semantic search from 2021; replaced by pgvector because of overfetching, app-side merging and dual-store consistency issues.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "Snowflake",
+      "category": "warehouse",
+      "detail": "Used by nearly every team; ML availability scores land in a Snowflake table several times a day before being synced to the serving DB.",
+      "evidence": "verified",
+      "source_ids": [
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "technology": "Databricks / Iceberg / Delta Lake / Trino / Spark",
+      "category": "lakehouse",
+      "detail": "Listed in a 2026 data-infrastructure posting describing an open lakehouse and multi-engine compute portfolio.",
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "technology": "ClickHouse",
+      "category": "olap",
+      "detail": "Named in a 2026 data-infrastructure posting as one of the compute engines; how and where it is used is not stated.",
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "technology": "Kafka (Confluent Cloud) and Flink",
+      "category": "streaming",
+      "detail": "Confluent Cloud adopted in 2020 for inventory, fulfillment and fraud; 2026 posting names Kafka, Confluent and Flink for real-time Ads, Fraud and ML.",
+      "evidence": "verified",
+      "source_ids": [
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "technology": "Amazon Kinesis",
+      "category": "streaming",
+      "detail": "Aggregates lazy-refresh availability score updates before ingestion into the serving database.",
+      "evidence": "verified",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "buying_signals": [
+    {
+      "kind": "technology",
+      "title": "Consolidated search, vector and transactional data into one engine (2025)",
+      "detail": "Instacart publicly retired Elasticsearch and a separate FAISS service to put lexical + vector search next to transactional data in Postgres, citing sync overhead and cost. This shows the team values one-engine consolidation of the exact workloads SingleStore combines; it also means they already chose Postgres for it, so the opening is scale/latency limits of that design, not consolidation itself.",
+      "signal_date": "2025-05-29",
+      "strength": 4,
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "kind": "organizational",
+      "title": "Hiring to build a multi-engine compute portfolio and real-time infra for Ads/Fraud/ML",
+      "detail": "A 2026 Staff Data Infrastructure posting asks for a multi-engine strategy that avoids vendor lock-in, real-time streaming SLAs for Ads, Fraud and ML, and TCO models. An active engine-evaluation mandate is the window where a new engine can be considered.",
+      "signal_date": "2026-07-30",
+      "strength": 4,
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "kind": "technology",
+      "title": "Warehouse-to-serving-DB sync for ML scores",
+      "detail": "Availability scores computed into Snowflake are copied into the serving DB several times a day plus a lazy refresh path, because RPC lookups were too slow. This is the analytical-to-operational data movement that an HTAP engine can shorten. Whether this is still the design in 2026 is unknown.",
+      "signal_date": "2023-09-06",
+      "strength": 3,
+      "evidence": "verified",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "kind": "business",
+      "title": "Data-platform cost scrutiny",
+      "detail": "Snowflake publicly described workload-by-workload cost optimization at Instacart, and the 2026 posting asks for TCO modeling and AI-assisted cost optimization. Cost is a stated priority; no source says current spend is a problem.",
+      "signal_date": "2026-07-30",
+      "strength": 2,
+      "evidence": "verified",
+      "source_ids": [
+        "s4",
+        "s5"
+      ]
+    }
+  ],
+  "initiatives": [
+    {
+      "title": "Hybrid search on Postgres + pgvector",
+      "detail": "Replaced Elasticsearch and FAISS with sharded Postgres; uses real-time availability as a pre-filter and plans brand/category attribute filters next. A/B test showed 6% fewer zero-result searches.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "title": "Open lakehouse and multi-engine compute (3-5 year roadmap)",
+      "detail": "Unified table formats, storage governance and interactive/batch/streaming engines chosen to avoid lock-in, owned by a small foundations team.",
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "title": "Real-time availability prediction",
+      "detail": "ML scoring of hundreds of millions of items across 80,000+ locations, served in the database for retrieval-time filtering.",
+      "evidence": "verified",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "scoring": {
+    "architectural_fit": {
+      "score": 4,
+      "rationale": "Large write-heavy catalog, hybrid lexical+vector retrieval, warehouse-to-serving sync, and a sprawling multi-engine stack (Postgres, Snowflake, Databricks, ClickHouse, Kafka/Flink) all map to SingleStore workloads.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    "buying_signals": {
+      "score": 3,
+      "rationale": "Active multi-engine evaluation mandate in 2026, but the flagship search consolidation already landed on Postgres, which lowers urgency for that workload.",
+      "source_ids": [
+        "s1",
+        "s4"
+      ]
+    },
+    "workload_relevance": {
+      "score": 4,
+      "rationale": "Real-time ads, fraud and ML features plus hybrid search are core SingleStore use cases.",
+      "source_ids": [
+        "s1",
+        "s4"
+      ]
+    },
+    "organizational_fit": {
+      "score": 3,
+      "rationale": "Strong in-house data-infra team that publishes its designs and favors open formats and avoiding lock-in; a proprietary engine would need a clear TCO case.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    "evidence_confidence": {
+      "score": 4,
+      "rationale": "Two first-party engineering posts (2023, 2025) plus a 2026 posting; the posting was read via job-board mirrors and the employee figure via a search summary of the 10-K."
+    }
+  },
+  "personas": [
+    {
+      "title": "Head of Data Infrastructure / Data Foundations",
+      "why": "Owns the lakehouse and multi-engine compute strategy described in the 2026 posting.",
+      "name": null,
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "title": "Engineering lead, Search & Discovery infrastructure",
+      "why": "Owns the Postgres + pgvector hybrid search system and its latency/recall trade-offs.",
+      "name": null,
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "title": "Engineering lead, Ads platform",
+      "why": "Ads is a named consumer of real-time streaming infrastructure.",
+      "name": null,
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "use_cases": [
+    {
+      "title": "Hybrid search at catalog scale",
+      "detail": "Lexical + vector retrieval with live price/availability filters on billions of items in one engine, with sharding built in rather than service-layer shard routing.",
+      "singlestore_capability": "vector + full-text search with SQL filters, distributed sharding"
+    },
+    {
+      "title": "Serve ML scores without warehouse-to-DB copy jobs",
+      "detail": "Write model outputs and query them for retrieval filtering in the same engine that runs analytical aggregations.",
+      "singlestore_capability": "HTAP / real-time ingest"
+    },
+    {
+      "title": "Real-time ads and fraud analytics",
+      "detail": "Kafka-fed, low-latency aggregations for ad pacing, reporting and fraud features.",
+      "singlestore_capability": "Pipelines from Kafka / real-time analytics / high concurrency"
+    }
+  ],
+  "verified_facts": [
+    {
+      "fact": "Instacart's catalog has billions of items across thousands of retailers and takes billions of writes per day.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "fact": "Moving search from Elasticsearch to normalized Postgres reduced write workload about 10x.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "fact": "An Instacart engineer cited nearly 80% savings in storage and indexing costs from the consolidation.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "fact": "pgvector hybrid search replaced a standalone FAISS service; an A/B test showed a 6% drop in zero-result searches.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "fact": "ML availability scores are written to Snowflake several times a day and synced into the serving database.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "fact": "A 2026 data-infrastructure posting lists Iceberg, Flink, Trino, ClickHouse, Kafka, Spark, Snowflake, Databricks and Postgres and calls for a multi-engine portfolio that avoids vendor lock-in.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "fact": "Snowflake reported Instacart's usage at $28M in each of 2021 and 2022.",
+      "source_ids": [
+        "s5"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "inference": "Instacart is open to consolidating search, vector and transactional data in one engine, since it already did so; a pitch would need to show gains over its current Postgres design, not consolidation for its own sake.",
+      "based_on": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "inference": "The number of engines named (Postgres, Snowflake, Databricks, Trino, ClickHouse, Flink) suggests meaningful data movement and operational overhead between systems.",
+      "based_on": [
+        "s4"
+      ]
+    },
+    {
+      "inference": "Service-layer shard routing and pgvector being marginally slower than FAISS on large retailers may become pressure points as filters and catalog size grow.",
+      "based_on": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Current p99 search latency, QPS and Postgres shard count (not published).",
+    "Whether the Snowflake-to-serving-DB score sync described in 2023 is still in use.",
+    "What ClickHouse is used for and at what scale.",
+    "Current named owners of data infrastructure, search and ads engineering (a ~2022 Confluent story named a VP Engineering and Director of Data Engineering; not reverified for 2026).",
+    "Current Snowflake/Databricks spend and contract timing.",
+    "Whether the posting's multi-engine evaluation includes operational or HTAP engines or only lakehouse query engines."
+  ],
+  "discovery_questions": [
+    "As catalog size and filters grow, where does Postgres + pgvector hybrid search hit its limits first: latency, recall, or shard operations?",
+    "How are ML scores and features moved from Snowflake/lakehouse into serving today, and how fresh do they need to be?",
+    "What is the role of ClickHouse in the stack, and which real-time Ads or Fraud queries does it serve?",
+    "In the multi-engine compute strategy, which workloads are still without a clear home?",
+    "How do you measure TCO across Snowflake, Databricks and the self-managed engines today?"
+  ],
+  "opportunity_hypothesis": "Hypothesis to validate: Instacart's data platform team is actively shaping a multi-engine strategy, and its real-time Ads, Fraud and ML workloads still depend on moving data between Snowflake/lakehouse, Kafka/Flink and Postgres. SingleStore could serve as the real-time operational-analytics engine for one of those workloads, such as ads reporting or fraud features, while the Postgres search consolidation shows they value fewer systems. Validate whether any real-time workload is underserved before positioning against Postgres search.",
+  "outreach": {
+    "persona": "Head of Data Infrastructure",
+    "subject": "Real-time engine choices in Instacart's multi-engine roadmap",
+    "body": "Hi - I read the 2025 post on moving search from Elasticsearch and FAISS into Postgres with pgvector. The ~10x write reduction from normalizing the model stood out. I also saw your data infrastructure team is building a multi-engine compute strategy with real-time streaming for Ads, Fraud and ML. SingleStore runs transactional writes, real-time aggregations and vector + full-text search in one distributed SQL engine, so teams can sometimes skip copying data from the warehouse into serving systems. Would a 20-minute comparison on one real-time workload, such as ads reporting or fraud features, be useful as you evaluate engines?"
+  },
+  "singlestore_relationship": "none found - web search for 'Instacart SingleStore' (2026-10-14) returned no customer story, case study or partnership; only unrelated investor-portfolio listings."
+}

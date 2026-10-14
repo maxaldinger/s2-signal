@@ -1,0 +1,408 @@
+{
+  "slug": "abnormal-ai",
+  "name": "Abnormal AI",
+  "domain": "abnormal.ai",
+  "hq": "San Francisco, CA, USA (2024 releases datelined San Francisco; 2025 rebrand release datelined Las Vegas)",
+  "industry": "cybersecurity",
+  "business_model": "SaaS behavioral-AI security platform, led by email security and expanding to collaboration and cloud applications, sold to enterprises on subscription.",
+  "employee_range": null,
+  "ownership": "private (Series D, $5.1B valuation, Aug 2024)",
+  "overview": "Abnormal AI sells AI-native 'human behavior security', starting with cloud email protection. In August 2024 it reported more than $200M ARR, 100%+ year-over-year ARR growth and 2,400+ customer organizations including 17% of the Fortune 500. In April 2025 it rebranded from Abnormal Security to Abnormal AI to signal expansion beyond email into a broader behavioral AI platform. Its engineering blog describes a real-time detection engine fed by Kafka and Redis peaking at 35,000 QPS plus a Spark batch system processing about 3 TB/day.",
+  "researched_at": "2026-10-14",
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.builtinsf.com/job/software-engineer-i-data-platform/10432842",
+      "title": "Software Engineer I, Data Platform (Abnormal AI)",
+      "publisher": "Built In SF (job listing)",
+      "published_date": "2026",
+      "excerpt": "Data Platform team runs storage (PostgreSQL, OpenSearch, Redis, RocksDB, DynamoDB), batch and stream processing (Kafka, Spark), orchestration (Airflow, DBT) on AWS with Databricks; listing removed 2026-08-06."
+    },
+    {
+      "id": "s2",
+      "url": "https://abnormal.ai/blog/ai-innovation-high-scale-aggregation-in-production",
+      "title": "Abnormal AI Innovation: High-Scale Aggregation Systems in Production",
+      "publisher": "abnormal.ai engineering blog",
+      "published_date": "2025-07-09",
+      "excerpt": "Signals DAG runs in a realtime scorer, a realtime aggregation system (Kafka, Go consumers, Redis; peaks ~35k QPS) and a Spark/Airflow batch job (~3 TB/day). Parallel batch and realtime paths created a leaky abstraction; team plans a Lambda-architecture unification."
+    },
+    {
+      "id": "s3",
+      "url": "https://abnormal.ai/blog/ai-innovation-fault-tolerant-scoring-engine",
+      "title": "Abnormal AI Innovation: Inside the Fault-Tolerant Scoring Engine",
+      "publisher": "abnormal.ai engineering blog",
+      "published_date": "2025-08-12",
+      "excerpt": "Real-time detection engine depends on many upstream signals (an employee database, Whois, historical sender stats); FTS framework keeps scoring on healthy signals and rescores after recovery. Growing dependency webs caused firefighting."
+    },
+    {
+      "id": "s4",
+      "url": "https://abnormal.ai/blog/ai-agents-build-detectors",
+      "title": "How Abnormal Taught AI Agents To Write Detectors",
+      "publisher": "abnormal.ai engineering blog",
+      "published_date": "2026-05-28",
+      "excerpt": "AI Detection Agents (deep research + adaptive detection) turn customer-reported misses into deployed detectors, evaluated against historical traffic with LLM labeling; context is thousands of attack patterns and millions of mailboxes. No data stores named."
+    },
+    {
+      "id": "s5",
+      "url": "https://abnormal.ai/newsroom/press-releases/series-d-5b-valuation",
+      "title": "Abnormal Security Series D at $5.1B valuation",
+      "publisher": "abnormal.ai newsroom (Business Wire)",
+      "published_date": "2024-08-06",
+      "excerpt": "$250M Series D led by Wellington Management at $5.1B valuation; total $546M raised; ARR over $200M with 100%+ YoY growth; 2,400+ organizations incl. 17% of Fortune 500."
+    },
+    {
+      "id": "s6",
+      "url": "https://abnormal.ai/newsroom/press-releases/announcing-abnormal-ai",
+      "title": "Abnormal Security rebrands to Abnormal AI",
+      "publisher": "abnormal.ai newsroom",
+      "published_date": "2025-04-16",
+      "excerpt": "Company renamed Abnormal AI, Inc. and moved to abnormal.ai, framing the change as expansion from email security to a broader behavioral AI platform securing people across the enterprise."
+    },
+    {
+      "id": "s7",
+      "url": "https://abnormal.ai/blog/category/engineering",
+      "title": "Abnormal engineering blog category listing",
+      "publisher": "abnormal.ai engineering blog",
+      "published_date": "2026-05-28",
+      "excerpt": "2025-2026 engineering posts include using MCP for developer velocity (2025-05-08), Cursor in an enterprise codebase (2025-04-07), AI in the ML lifecycle (2025-05-27) and GenAI personalized security training (2025-07-15)."
+    }
+  ],
+  "tech_signals": [
+    {
+      "technology": "Kafka",
+      "category": "streaming",
+      "detail": "Real-time event streaming into the realtime aggregation system, consumed by Go services; also named in Data Platform job listing.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "technology": "Redis",
+      "category": "cache",
+      "detail": "Data store for realtime aggregations, chosen for high write throughput; system peaks around 35,000 QPS.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "technology": "Apache Spark + Airflow",
+      "category": "etl_cdc",
+      "detail": "Batch aggregation job processing about 3 TB/day, orchestrated by Airflow.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "technology": "PostgreSQL",
+      "category": "oltp",
+      "detail": "Listed among storage systems operated by the Data Platform team; no scale stated.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "OpenSearch / Elasticsearch",
+      "category": "search",
+      "detail": "Listed among storage systems operated by the Data Platform team; no workload detail stated.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "DynamoDB",
+      "category": "oltp",
+      "detail": "Listed among storage systems operated by the Data Platform team.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "RocksDB",
+      "category": "other",
+      "detail": "Listed among storage systems operated by the Data Platform team.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "Databricks",
+      "category": "lakehouse",
+      "detail": "Named in Data Platform job listing alongside AWS; usage not described.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "technology": "dbt",
+      "category": "etl_cdc",
+      "detail": "Named for orchestration/transformation in Data Platform listing.",
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "buying_signals": [
+    {
+      "kind": "technology",
+      "title": "Separate realtime and batch aggregation paths flagged as a leaky abstraction",
+      "detail": "Engineering blog says building realtime (Kafka/Redis) and batch (Spark) aggregation systems in parallel forces ML engineers to account for differences, the batch system had to be redesigned for load, and the team plans to unify them under a Lambda architecture. A single engine serving streaming ingest plus analytical aggregation is a relevant conversation, though the team's chosen direction is Lambda, not consolidation.",
+      "signal_date": "2025-07-09",
+      "strength": 4,
+      "evidence": "verified",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "kind": "technology",
+      "title": "Many-store data platform",
+      "detail": "Data Platform team operates PostgreSQL, OpenSearch, Redis, RocksDB, DynamoDB, Kafka, Spark and Databricks. Breadth of stores is verified; whether it causes cost or operational pain is not stated.",
+      "signal_date": "2026",
+      "strength": 3,
+      "evidence": "verified",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "kind": "business",
+      "title": "Platform expansion beyond email",
+      "detail": "Rebrand to Abnormal AI positions the company as a broader behavioral AI platform beyond email, implying more data sources (collaboration, cloud apps) feeding detection.",
+      "signal_date": "2025-04-16",
+      "strength": 3,
+      "evidence": "verified",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "kind": "technology",
+      "title": "Agentic AI in detection engineering",
+      "detail": "AI Detection Agents research attacks and evaluate candidate detectors against historical traffic, an agent workload that queries large historical datasets.",
+      "signal_date": "2026-05-28",
+      "strength": 3,
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "kind": "business",
+      "title": "Rapid growth funded",
+      "detail": "$250M Series D at $5.1B with 100%+ YoY ARR growth; growth is cited in the engineering blog as the cause of repeated scaling bottlenecks.",
+      "signal_date": "2024-08-06",
+      "strength": 2,
+      "evidence": "verified",
+      "source_ids": [
+        "s5",
+        "s2"
+      ]
+    }
+  ],
+  "initiatives": [
+    {
+      "title": "Unify realtime and batch aggregation (Lambda architecture)",
+      "detail": "Stated plan to unify the Kafka/Redis realtime aggregation and Spark batch aggregation systems for consistency and robustness.",
+      "evidence": "verified",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "title": "Fault-tolerant scoring",
+      "detail": "FTS framework lets the detection engine keep scoring when upstream data dependencies fail and rescore afterwards.",
+      "evidence": "verified",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "title": "AI Detection Agents",
+      "detail": "Agents that turn customer-reported misses into tested, deployed detectors.",
+      "evidence": "verified",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "title": "AI-assisted developer tooling",
+      "detail": "Published posts on MCP, Cursor and AI across the ML lifecycle in 2025.",
+      "evidence": "verified",
+      "source_ids": [
+        "s7"
+      ]
+    }
+  ],
+  "scoring": {
+    "architectural_fit": {
+      "score": 4,
+      "rationale": "Verified Kafka -> Redis realtime aggregation at ~35k QPS beside a separate Spark batch path, plus Postgres, OpenSearch, DynamoDB and Databricks: classic multi-store pattern SingleStore targets.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    "buying_signals": {
+      "score": 3,
+      "rationale": "Team publicly names the dual realtime/batch design as a leaky abstraction and plans re-architecture, but chose a Lambda approach; no stated database evaluation.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    "workload_relevance": {
+      "score": 4,
+      "rationale": "High-QPS real-time feature aggregation over streaming email events plus historical analysis for detectors maps to SingleStore streaming ingest + real-time analytics.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    "organizational_fit": {
+      "score": 3,
+      "rationale": "Dedicated Data Platform team and well-funded high-growth company; buying process and database ownership unknown.",
+      "source_ids": [
+        "s1",
+        "s5"
+      ]
+    },
+    "evidence_confidence": {
+      "score": 4,
+      "rationale": "Mostly first-party engineering blog posts from 2025-2026 plus a 2026 job listing; financials are from 2024."
+    }
+  },
+  "personas": [
+    {
+      "title": "Head of Data Platform / Data Platform engineering lead",
+      "why": "Owns the storage, streaming and orchestration systems listed in the Data Platform job posting.",
+      "name": null,
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "title": "Engineering lead, Detection Engine / Signals",
+      "why": "Owns the realtime scorer and aggregation systems described in the blog and the planned unification.",
+      "name": null,
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "title": "VP Engineering / CTO",
+      "why": "Sponsor for platform consolidation as the company expands beyond email.",
+      "name": null,
+      "source_ids": []
+    }
+  ],
+  "use_cases": [
+    {
+      "title": "Unified real-time + historical signal aggregation",
+      "detail": "Ingest Kafka email events directly and serve both realtime aggregates and batch-style backfills from one engine, removing the batch/realtime divergence ML engineers must handle.",
+      "singlestore_capability": "Pipelines from Kafka + HTAP / real-time analytics"
+    },
+    {
+      "title": "Fast historical evaluation for detection agents",
+      "detail": "Let AI detection agents and engineers run ad hoc analytical queries over historical traffic features when testing candidate detectors.",
+      "singlestore_capability": "Columnstore real-time analytics with high concurrency"
+    },
+    {
+      "title": "Hybrid search over security content",
+      "detail": "Combine full-text and vector similarity on message/attack content for investigation and agent research, potentially reducing a separate search tier.",
+      "singlestore_capability": "Vector + full-text search"
+    }
+  ],
+  "verified_facts": [
+    {
+      "fact": "Realtime aggregation peaks at about 35,000 QPS using Kafka, Go and Redis; batch job processes about 3 TB/day on Spark with Airflow.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "fact": "Engineering describes the parallel batch/realtime systems as a leaky abstraction and plans to unify them under a Lambda architecture.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "fact": "Data Platform team operates PostgreSQL, OpenSearch, Redis, RocksDB, DynamoDB, Kafka, Spark, Airflow, DBT on AWS and uses Databricks.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "fact": "August 2024: $250M Series D at $5.1B valuation, ARR over $200M growing 100%+ YoY, 2,400+ customer organizations.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "fact": "Renamed from Abnormal Security to Abnormal AI in April 2025, positioning beyond email security.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "fact": "In 2026 the company built AI agents that generate and test detectors from customer-reported misses.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "inference": "Keeping separate realtime (Redis) and batch (Spark) code paths in sync is an ongoing engineering cost, making a single real-time analytics engine worth discussing.",
+      "based_on": [
+        "s2"
+      ]
+    },
+    {
+      "inference": "Expansion beyond email will add new event sources and volume to the detection pipeline.",
+      "based_on": [
+        "s6",
+        "s2"
+      ]
+    },
+    {
+      "inference": "Redis holding aggregates is likely memory-cost sensitive at growing scale, but no source states cost pressure.",
+      "based_on": [
+        "s2"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Current employee count (third-party profiles list ~1,000 with no date).",
+    "Whether Abnormal has evaluated or chosen a specific technology for the planned Lambda unification.",
+    "Data volumes in PostgreSQL, OpenSearch or Databricks, and any data-infrastructure cost pressure.",
+    "Whether a vector database is used for AI features.",
+    "Current HQ of record (San Francisco vs Las Vegas datelines).",
+    "ARR and customer counts after August 2024 from a first-party source."
+  ],
+  "discovery_questions": [
+    "How far along is the plan to unify the realtime and batch aggregation systems, and what are the options on the table?",
+    "What does it cost in memory and operations to keep realtime aggregates in Redis as volume grows?",
+    "When ML engineers add a new signal, how much work goes into making the batch and realtime implementations match?",
+    "As you add collaboration and cloud-app data, which stores take on the new event volume?",
+    "What do the detection agents query when they evaluate a candidate detector against historical traffic, and how long does that take?",
+    "Which workloads run on OpenSearch today, and is vector search part of the roadmap?"
+  ],
+  "opportunity_hypothesis": "Hypothesis to validate: Abnormal's detection pipeline maintains parallel Kafka/Redis realtime and Spark batch aggregation paths that engineering itself calls a leaky abstraction, and it plans to re-architect them. SingleStore could serve streaming ingest, real-time aggregates and historical backfills from one engine, simplifying that unification. Fit depends on whether the Lambda redesign is already committed and on Redis/Spark cost.",
+  "outreach": {
+    "persona": "Head of Data Platform",
+    "subject": "Your realtime + batch aggregation unification",
+    "body": "Hi - I read Fang Deng's July 2025 post on the Signals DAG: realtime aggregation at ~35k QPS on Kafka and Redis, a Spark batch job at ~3 TB/day, and a plan to unify the two under a Lambda architecture. Some teams in that position test whether one engine can ingest from Kafka and serve both live aggregates and historical backfills with SQL, so there is one code path to keep consistent. SingleStore does that, and adds vector and full-text search. Would a 20-minute comparison against your unification options be useful? If the design is already settled, I'd still like to hear what drove it."
+  },
+  "singlestore_relationship": "none found (web search for Abnormal Security / Abnormal AI + SingleStore returned no customer, partner or integration mention, 2026-10-14)"
+}

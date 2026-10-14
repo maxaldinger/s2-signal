@@ -1,0 +1,99 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "domain": "perplexity.ai",
+  "hq": "San Francisco, CA, USA",
+  "industry": "ai_native",
+  "business_model": "AI answer engine combining its own web search index with LLMs, monetized through consumer/enterprise subscriptions and a developer Search API.",
+  "employee_range": null,
+  "ownership": "private (reported $20B valuation, Sept 2025)",
+  "overview": "Perplexity is an AI answer engine built on its own search infrastructure. In September 2025 it launched a Search API and published research describing an exabyte-scale index tracking over 200 billion URLs, about 200 million queries per day, hybrid lexical + semantic retrieval and p50 latency of 358 ms. Vespa describes Perplexity as having used Vespa for retrieval and ranking before moving its web index to an internal system. A June 2026 job posting describes a Data Platform built on Databricks, Snowflake, Kafka, Flink, ClickHouse, Iceberg and more.",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "s1", "url": "https://www.perplexity.ai/hub/blog/architecting-and-evaluating-an-ai-first-search-api", "title": "Architecting and evaluating an AI-first Search API", "publisher": "Perplexity Research", "published_date": "2025-09-25", "excerpt": "~200M queries/day; exabyte-scale index tracking 200B+ URLs; tens of thousands of indexing ops/sec; hybrid lexical + semantic retrieval, multi-stage ranking with cross-encoders, span-level scoring; p50 358 ms, p95 under 800 ms." },
+    { "id": "s2", "url": "https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api", "title": "Introducing the Perplexity Search API", "publisher": "perplexity.ai blog", "published_date": "2025-09-25", "excerpt": "Search API exposes Perplexity's index of hundreds of billions of webpages, handling tens of thousands of index updates per second and returning ranked sub-document snippets." },
+    { "id": "s3", "url": "https://vespa.ai/perplexity/", "title": "Perplexity at a Glance (case study)", "publisher": "vespa.ai (vendor case study)", "published_date": null, "excerpt": "Perplexity chose Vespa for unified keyword + semantic retrieval, filtering and ranking because vector DBs struggled with filtering; later moved its web index to an internal system but still uses Vespa for other workloads. Cites 780M+ queries/month." },
+    { "id": "s4", "url": "https://jobs.accel.com/companies/perplexity-2/jobs/81552478-member-of-technical-staff-software-engineer-data-platform", "title": "Member of Technical Staff (Software Engineer, Data Platform)", "publisher": "Accel job board (Perplexity listing)", "published_date": "2026-06-04", "excerpt": "Data Platform team owns ingestion, processing, storage and serving for product, analytics, experimentation and AI workloads; stack includes Databricks, Snowflake, Spark, Kafka, Flink, Airflow, Dagster, dbt, Iceberg, Delta Lake, ClickHouse." },
+    { "id": "s5", "url": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/", "title": "Perplexity reportedly raised $200M at $20B valuation", "publisher": "TechCrunch", "published_date": "2025-09-10", "excerpt": "Citing The Information: $200M at $20B valuation, two months after $18B; ~$1.5B total raised per PitchBook; ARR reportedly approaching $200M." }
+  ],
+
+  "tech_signals": [
+    { "technology": "In-house web search index", "category": "search", "detail": "Exabyte-scale index of 200B+ URLs with hybrid lexical + semantic retrieval, tens of thousands of indexing ops/sec, ~200M queries/day.", "evidence": "verified", "source_ids": ["s1", "s2"] },
+    { "technology": "Vespa", "category": "search", "detail": "Previously the retrieval/ranking engine for the web index; per vendor, now used for other workloads after the web index moved to an internal system.", "evidence": "verified", "source_ids": ["s3"] },
+    { "technology": "Databricks", "category": "lakehouse", "detail": "Part of Data Platform stack (with Delta Lake).", "evidence": "verified", "source_ids": ["s4"] },
+    { "technology": "Snowflake", "category": "warehouse", "detail": "Part of Data Platform stack alongside Databricks.", "evidence": "verified", "source_ids": ["s4"] },
+    { "technology": "ClickHouse", "category": "olap", "detail": "Named in Data Platform stack; specific workload not described.", "evidence": "verified", "source_ids": ["s4"] },
+    { "technology": "Kafka / Flink", "category": "streaming", "detail": "Event-driven streaming for real-time ingestion, transformation and delivery.", "evidence": "verified", "source_ids": ["s4"] },
+    { "technology": "Spark, Airflow, Dagster, dbt", "category": "etl_cdc", "detail": "Batch processing and orchestration for backfills and aggregations.", "evidence": "verified", "source_ids": ["s4"] },
+    { "technology": "Apache Iceberg / Delta Lake", "category": "lakehouse", "detail": "Open table formats in the data lake.", "evidence": "verified", "source_ids": ["s4"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Two warehouses plus ClickHouse plus streaming", "detail": "Data Platform stack spans Databricks, Snowflake, ClickHouse, Kafka, Flink, Iceberg and Delta Lake. This breadth is verified; whether it causes cost or consistency pain is not stated, but it is the multi-system pattern SingleStore consolidation targets.", "signal_date": "2026-06-04", "strength": 4, "evidence": "verified", "source_ids": ["s4"] },
+    { "kind": "organizational", "title": "Senior/staff hiring to define data platform architecture", "detail": "Role sets long-term architecture across storage, compute, orchestration and data APIs and builds a self-serve platform, meaning architecture choices are actively being made.", "signal_date": "2026-06-04", "strength": 4, "evidence": "verified", "source_ids": ["s4"] },
+    { "kind": "technology", "title": "Moved web index off Vespa to internal system", "detail": "Shows willingness to replace infrastructure at scale; also shows core retrieval is built in-house, so SingleStore is unlikely to displace the web index.", "signal_date": null, "strength": 2, "evidence": "verified", "source_ids": ["s3"] },
+    { "kind": "business", "title": "Hyper-growth and new API product", "detail": "$20B reported valuation (Sept 2025) and launch of a developer Search API create new usage-metering and customer analytics needs.", "signal_date": "2025-09-25", "strength": 3, "evidence": "verified", "source_ids": ["s2", "s5"] }
+  ],
+
+  "initiatives": [
+    { "title": "Perplexity Search API", "detail": "Public API over its own index with span-level ranking and an open-source search_evals framework.", "evidence": "verified", "source_ids": ["s1", "s2"] },
+    { "title": "Self-serve data platform", "detail": "Batch + streaming pipelines, orchestration, observability, data contracts and lineage for product, analytics, experimentation and AI training/eval.", "evidence": "verified", "source_ids": ["s4"] }
+  ],
+
+  "scoring": {
+    "architectural_fit":   { "score": 4, "rationale": "Verified Databricks + Snowflake + ClickHouse + Kafka/Flink + lake formats: a multi-engine analytics estate where a unified real-time engine could reduce movement.", "source_ids": ["s4"] },
+    "buying_signals":      { "score": 3, "rationale": "Active senior hiring to set data architecture; no public statement of pain or evaluation.", "source_ids": ["s4"] },
+    "workload_relevance":  { "score": 3, "rationale": "Real-time product analytics, experimentation and API usage metering fit well; the core web search index is in-house and out of scope.", "source_ids": ["s1", "s4"] },
+    "organizational_fit":  { "score": 3, "rationale": "Large, well-funded, engineering-heavy; strong build-it-yourself culture may resist new vendors.", "source_ids": ["s3", "s5"] },
+    "evidence_confidence": { "score": 4, "rationale": "First-party research post (Sep 2025), recent June 2026 job posting; Vespa page is a vendor case study; funding via press report citing The Information." }
+  },
+
+  "personas": [
+    { "title": "Data Platform engineering lead", "why": "Owns the Databricks/Snowflake/ClickHouse/Kafka estate and architecture decisions described in the posting.", "name": null, "source_ids": ["s4"] },
+    { "title": "Head of API Platform", "why": "Search API launch implies usage, billing and customer analytics needs.", "name": null, "source_ids": ["s2"] },
+    { "title": "Head of Data Science / Experimentation", "why": "Data Platform serves experimentation and analytics consumers.", "name": null, "source_ids": ["s4"] }
+  ],
+
+  "use_cases": [
+    { "title": "Real-time product and experimentation analytics", "detail": "Ingest Kafka events directly and serve low-latency, high-concurrency experiment and product metrics without staging through multiple engines.", "singlestore_capability": "Kafka pipelines + real-time analytics" },
+    { "title": "Customer-facing API usage analytics and metering", "detail": "Per-key usage, latency and billing dashboards for Search API customers with fresh data and high concurrency.", "singlestore_capability": "HTAP / high-concurrency low-latency queries" },
+    { "title": "Hybrid retrieval for non-web workloads", "detail": "Vector + full-text + SQL filtering for internal or enterprise-file retrieval outside the core web index, which already uses Vespa for other workloads.", "singlestore_capability": "Vector + full-text search" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Search infrastructure handles about 200M queries/day over an exabyte-scale index tracking 200B+ URLs, with p50 latency of 358 ms.", "source_ids": ["s1"] },
+    { "fact": "Retrieval is hybrid lexical + semantic with multi-stage ranking and span-level scoring.", "source_ids": ["s1"] },
+    { "fact": "Perplexity moved its web index from Vespa to an internal system but still uses Vespa for other workloads (vendor-stated).", "source_ids": ["s3"] },
+    { "fact": "Data Platform stack includes Databricks, Snowflake, Spark, Kafka, Flink, Airflow, Dagster, dbt, Iceberg, Delta Lake and ClickHouse (June 2026 posting).", "source_ids": ["s4"] },
+    { "fact": "Launched a developer Search API on 2025-09-25.", "source_ids": ["s2"] },
+    { "fact": "Reportedly raised $200M at a $20B valuation in September 2025.", "source_ids": ["s5"] }
+  ],
+  "inferences": [
+    { "inference": "Running Databricks, Snowflake and ClickHouse side by side implies data copied between engines for different latency needs, a consolidation conversation for SingleStore.", "based_on": ["s4"] },
+    { "inference": "The core search index is built in-house, so the realistic SingleStore entry point is analytics/data platform or API metering, not web retrieval.", "based_on": ["s1", "s3"] }
+  ],
+  "unknowns": [
+    "What ClickHouse is used for and at what scale.",
+    "How Databricks and Snowflake split responsibilities.",
+    "Which workloads still run on Vespa.",
+    "Operational database (OLTP) for product and accounts: not found in sources.",
+    "Current employee count and 2026 valuation/ARR from a first-party source (third-party figures conflict).",
+    "Any data infrastructure cost concern."
+  ],
+  "discovery_questions": [
+    "How do Databricks, Snowflake and ClickHouse divide the work today, and where is data copied between them?",
+    "Which dashboards or product features need sub-second freshness from Kafka events?",
+    "How are Search API usage, latency and billing analytics served to customers?",
+    "What does the self-serve data platform look like in 12 months, and what would you remove?",
+    "Which workloads still run on Vespa, and what retrieval needs exist outside the web index?",
+    "What drove moving the web index in-house, and what criteria would a new data store have to meet?"
+  ],
+  "opportunity_hypothesis": "Hypothesis to validate: Perplexity's data platform runs Databricks, Snowflake and ClickHouse alongside Kafka/Flink streaming, and a senior hire is being brought in to define its long-term architecture. SingleStore could consolidate real-time product, experimentation and API-usage analytics on one engine fed directly from Kafka. The in-house web index is out of scope, and a strong build culture is a likely objection.",
+  "outreach": {
+    "persona": "Data Platform engineering lead",
+    "subject": "Databricks + Snowflake + ClickHouse + Kafka",
+    "body": "Hi - Perplexity's Data Platform posting lists Databricks, Snowflake, ClickHouse, Kafka and Flink serving product features, experimentation and AI workloads, and describes an architecture you are shaping for the long term. Teams with that mix sometimes test whether one engine can ingest from Kafka and serve fresh, high-concurrency analytics, such as Search API usage dashboards or experiment metrics, without copying data between systems. SingleStore does that, with vector and full-text search in the same SQL. Would 20 minutes to compare notes on where that fits, or doesn't, in your design be useful?"
+  },
+  "singlestore_relationship": "none found (web search for Perplexity + SingleStore returned only a third-party CData MCP connector guide, no customer or partner relationship, 2026-10-14)"
+}

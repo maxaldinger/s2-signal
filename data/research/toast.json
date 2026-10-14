@@ -1,0 +1,105 @@
+{
+  "slug": "toast",
+  "name": "Toast",
+  "domain": "toasttab.com",
+  "hq": "Boston, MA, USA",
+  "industry": "saas",
+  "business_model": "Cloud restaurant platform combining POS, front- and back-of-house software subscriptions with embedded payment processing (financial technology solutions).",
+  "employee_range": null,
+  "ownership": "public (NYSE: TOST)",
+  "overview": "Toast provides a cloud platform for restaurants covering POS, operations and payments. In Q2 2026 it reported about 180,000 locations (up 22%), $2.4B ARR and $60.7B quarterly gross payment volume. Its Advanced Analytics Platform team runs Kafka/Pulsar streaming, Spark and a lakehouse migrating to Apache Iceberg, plus a new Feature Store, over DynamoDB and Postgres operational stores. Toast IQ, an LLM-backed assistant that answers questions over a restaurant's sales, labor and menu data, is a growth product.",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "s1", "url": "https://www.sec.gov/Archives/edgar/data/0001650164/000165016426000162/tost-20260630xexhibit991.htm", "title": "Toast Announces Second Quarter 2026 Financial Results (8-K Exhibit 99.1)", "publisher": "SEC EDGAR (Toast 8-K)", "published_date": "2026-08-04", "excerpt": "~180,000 locations (+22% YoY), ARR $2.4B (+25%), Q2 GPV $60.7B (+22%), net income $154M; CEO calls Toast IQ Grow the fastest-growing new offering; platform integrates agentic AI." },
+    { "id": "s2", "url": "https://www.builtinboston.com/job/principal-software-engineer-advanced-analytics-platform/10115778", "title": "Principal Software Engineer, Advanced Analytics Platform (Toast)", "publisher": "Built In Boston (Toast job posting)", "published_date": "2026", "excerpt": "AAP team owns streaming, lakehouse and feature serving for analytics and AI/ML; stack AWS, Iceberg, Kafka and Pulsar, Spark, DynamoDB and Postgres; migrating to Iceberg, standing up a Feature Store, moving off legacy ETL. Removed 2026-09-08." },
+    { "id": "s3", "url": "https://support.toasttab.com/en/article/Toast-IQ-Overview?lang=en_US", "title": "Toast IQ AI Assistant Overview", "publisher": "support.toasttab.com", "published_date": "2026-10-06", "excerpt": "Toast IQ answers plain-language questions on sales, menu, labor, tips, delivery, marketing and benchmarking by pulling account data and sending it to a third-party enterprise LLM instance, then can make changes after confirmation." },
+    { "id": "s4", "url": "https://www.businesswire.com/news/home/20250501039656/en/toast-launches-toastiq-to-superpower-the-future-of-restaurants", "title": "Toast Launches ToastIQ to Superpower the Future of Restaurants", "publisher": "Business Wire (Toast press release)", "published_date": "2025-05-01", "excerpt": "ToastIQ intelligence engine introduced with prompts, personalized recommendations and automated workflows, including Menu Upsells and an AI marketing assistant." }
+  ],
+
+  "tech_signals": [
+    { "technology": "PostgreSQL", "category": "oltp", "detail": "Named as an operational data store in the AAP team's stack.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Amazon DynamoDB", "category": "oltp", "detail": "Named as an operational data store in the AAP team's stack.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Apache Kafka", "category": "streaming", "detail": "Real-time streaming; team is scaling streaming infrastructure.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Apache Pulsar", "category": "streaming", "detail": "Second real-time streaming system in the same stack.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Apache Iceberg", "category": "lakehouse", "detail": "Table format and lakehouse architecture; active migration to Iceberg.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Apache Spark", "category": "lakehouse", "detail": "Data processing engine for the lakehouse.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Feature Store (in build)", "category": "other", "detail": "New Feature Store being stood up for ML-driven product experiences; implementation not named.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Third-party LLM (enterprise instance)", "category": "other", "detail": "Toast IQ sends retrieved account data to a dedicated enterprise LLM instance for analysis.", "evidence": "verified", "source_ids": ["s3"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Platform modernization away from legacy ETL", "detail": "AAP team is migrating from legacy ETL to a cloud-native Iceberg lakehouse, standing up a Feature Store and scaling streaming. Active re-architecture is a window for evaluating serving-layer options.", "signal_date": "2026", "strength": 4, "evidence": "verified", "source_ids": ["s2"] },
+    { "kind": "technology", "title": "Two streaming systems plus two operational stores", "detail": "Kafka and Pulsar alongside DynamoDB and Postgres, feeding Spark/Iceberg, indicates a multi-engine architecture with data movement; no stated pain.", "signal_date": "2026", "strength": 3, "evidence": "verified", "source_ids": ["s2"] },
+    { "kind": "business", "title": "Conversational AI over operational data is a growth driver", "detail": "Toast IQ answers questions over each restaurant's sales, labor and menu data and can take actions; CEO calls Toast IQ Grow the fastest-growing offering. This requires low-latency, per-tenant analytical queries on fresh data.", "signal_date": "2026-08-04", "strength": 4, "evidence": "verified", "source_ids": ["s1", "s3"] },
+    { "kind": "business", "title": "Rapid location and payment volume growth", "detail": "~180,000 locations (+22%) and $60.7B quarterly GPV (+22%) imply growing transaction volume and multi-tenant analytics load.", "signal_date": "2026-08-04", "strength": 3, "evidence": "verified", "source_ids": ["s1"] }
+  ],
+
+  "initiatives": [
+    { "title": "Iceberg lakehouse migration", "detail": "Moving from legacy ETL patterns to a cloud-native lakehouse on Apache Iceberg with Spark.", "evidence": "verified", "source_ids": ["s2"] },
+    { "title": "Feature Store for ML", "detail": "Standing up a Feature Store to power ML-driven product experiences.", "evidence": "verified", "source_ids": ["s2"] },
+    { "title": "Toast IQ / ToastIQ AI products", "detail": "Intelligence engine (May 2025) and conversational assistant that queries account data and calls an LLM; Toast IQ Grow cited as fastest-growing offering.", "evidence": "verified", "source_ids": ["s1", "s3", "s4"] }
+  ],
+
+  "scoring": {
+    "architectural_fit": { "score": 4, "rationale": "Postgres + DynamoDB + Kafka + Pulsar + Spark/Iceberg + Feature Store is a complex multi-engine stack in active migration.", "source_ids": ["s2"] },
+    "buying_signals": { "score": 4, "rationale": "Ongoing modernization, new Feature Store build and a fast-growing AI assistant over customer data are concrete, dated signals.", "source_ids": ["s1", "s2"] },
+    "workload_relevance": { "score": 4, "rationale": "Per-restaurant real-time reporting and AI Q&A across ~180K locations fits high-concurrency multi-tenant analytics; feature serving fits low-latency lookups.", "source_ids": ["s1", "s3"] },
+    "organizational_fit": { "score": 3, "rationale": "Public, profitable company with a dedicated analytics platform team; open-source-leaning stack (Iceberg, Kafka, Pulsar, Spark) may favor OSS components.", "source_ids": ["s1", "s2"] },
+    "evidence_confidence": { "score": 3, "rationale": "Financials from SEC 8-K (Aug 2026) and first-party help center (Oct 2026); architecture only from 2026 job postings, no engineering blog detail." }
+  },
+
+  "personas": [
+    { "title": "Head of Advanced Analytics Platform / Data Platform Engineering", "why": "Owns the streaming, Iceberg lakehouse and Feature Store build.", "name": null, "source_ids": [] },
+    { "title": "Engineering lead, Toast IQ", "why": "Owns how the assistant retrieves per-restaurant data quickly and safely for LLM calls.", "name": null, "source_ids": [] },
+    { "title": "VP Engineering, Infrastructure", "why": "Accountable for cost and reliability across Kafka, Pulsar, DynamoDB, Postgres and Spark.", "name": null, "source_ids": [] }
+  ],
+
+  "use_cases": [
+    { "title": "Low-latency data layer for Toast IQ", "detail": "Serve per-restaurant sales, labor and menu aggregates on fresh data with high concurrency so the assistant can answer quickly across ~180K locations.", "singlestore_capability": "high-concurrency real-time analytics, multi-tenant" },
+    { "title": "Online feature serving", "detail": "Use one engine for feature computation on streaming data and low-latency online feature lookups, alongside the Iceberg offline store.", "singlestore_capability": "HTAP / Kafka pipelines / point lookups + aggregates" },
+    { "title": "Hybrid retrieval for assistant context", "detail": "Combine help content and menu text (full-text + vector) with transactional metrics in a single query.", "singlestore_capability": "vector + full-text search with SQL" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Toast had approximately 180,000 locations as of Q2 2026, up 22% year over year.", "source_ids": ["s1"] },
+    { "fact": "Toast ARR was $2.4B as of June 30, 2026, up 25% year over year; Q2 2026 GPV was $60.7B.", "source_ids": ["s1"] },
+    { "fact": "Toast's AAP team stack includes AWS, Iceberg, Kafka, Pulsar, Spark, DynamoDB and Postgres.", "source_ids": ["s2"] },
+    { "fact": "Toast is migrating from legacy ETL to an Iceberg lakehouse and standing up a Feature Store.", "source_ids": ["s2"] },
+    { "fact": "Toast IQ pulls a restaurant's account data and sends it to a dedicated third-party LLM instance to answer questions.", "source_ids": ["s3"] },
+    { "fact": "Toast launched the ToastIQ intelligence engine on 2025-05-01.", "source_ids": ["s4"] }
+  ],
+
+  "inferences": [
+    { "inference": "Toast IQ's question answering over sales and labor data likely issues many per-tenant analytical queries, making latency and concurrency of the serving layer important.", "based_on": ["s1", "s3"] },
+    { "inference": "Building a Feature Store implies a need for an online low-latency store; which technology is chosen is not public.", "based_on": ["s2"] },
+    { "inference": "Running both Kafka and Pulsar suggests historical or team-level divergence in streaming tools, a possible consolidation topic.", "based_on": ["s2"] }
+  ],
+
+  "unknowns": [
+    "Employee headcount (not captured from a cited source).",
+    "What engine serves customer-facing restaurant reports today.",
+    "Whether Toast uses Snowflake, Databricks, ClickHouse, Elasticsearch or a vector database (Databricks is listed only as a bonus skill).",
+    "Feature Store technology choice and online-store requirements.",
+    "Latency or cost pain in current reporting or Toast IQ data retrieval.",
+    "Exact original posting date of the AAP job listing (removed 2026-09-08)."
+  ],
+
+  "discovery_questions": [
+    "When Toast IQ answers a question, which systems does it query, and what latency do you target?",
+    "What will serve as the online store for the new Feature Store, and how fresh must features be?",
+    "What drives running both Kafka and Pulsar, and is consolidation on the roadmap?",
+    "How are per-restaurant reports served today relative to the Iceberg lakehouse?",
+    "As locations grow past 180K, where does reporting concurrency or cost hurt most?"
+  ],
+
+  "opportunity_hypothesis": "Hypothesis to validate: Toast is mid-migration (legacy ETL to Iceberg, new Feature Store, scaling streaming) while its LLM-backed Toast IQ assistant needs fast per-restaurant analytics across ~180K locations. SingleStore could fit as the real-time serving tier for Toast IQ and online feature serving, complementing the Iceberg lakehouse. Fit depends on whether current serving layers are a bottleneck, which is not public.",
+
+  "outreach": {
+    "persona": "Head of Advanced Analytics Platform",
+    "subject": "Serving layer for Toast IQ and the new Feature Store",
+    "body": "Hi - I saw your team is moving Toast to an Iceberg lakehouse, standing up a Feature Store and scaling Kafka/Pulsar streaming, while Toast IQ is now answering operators' questions over their own sales and labor data. I'm curious how you think about the serving layer between the lakehouse and those low-latency, per-restaurant queries. SingleStore runs real-time ingest, high-concurrency analytics and vector plus full-text search in one SQL engine, and some teams use it next to Iceberg for online serving. Would a 20-minute conversation to compare approaches be useful?"
+  },
+
+  "singlestore_relationship": "none found - searched 'Toast SingleStore' and SingleStore customer material (2026-10-14); no public SingleStore customer reference located."
+}

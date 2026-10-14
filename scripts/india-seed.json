@@ -1,0 +1,5298 @@
+{
+ "companies": [
+  {
+   "name": "Tata Consultancy Services",
+   "domain": "tcs.com",
+   "employees": 607000
+  },
+  {
+   "name": "Infosys",
+   "domain": "infosys.com",
+   "employees": 323000
+  },
+  {
+   "name": "Wipro",
+   "domain": "wipro.com",
+   "employees": 233000
+  },
+  {
+   "name": "HCLTech",
+   "domain": "hcltech.com",
+   "employees": 223000
+  },
+  {
+   "name": "Tech Mahindra",
+   "domain": "techmahindra.com",
+   "employees": 148000
+  },
+  {
+   "name": "LTIMindtree",
+   "domain": "ltimindtree.com",
+   "employees": 85000
+  },
+  {
+   "name": "WNS (Holdings)",
+   "domain": "wns.com",
+   "employees": 62000
+  },
+  {
+   "name": "Sagility India",
+   "domain": "sagilityhealth.com",
+   "employees": 38000
+  },
+  {
+   "name": "Firstsource Solutions",
+   "domain": "firstsource.com",
+   "employees": 34000
+  },
+  {
+   "name": "Coforge",
+   "domain": "coforge.com",
+   "employees": 33000
+  },
+  {
+   "name": "Hexaware Technologies",
+   "domain": "hexaware.com",
+   "employees": 32000
+  },
+  {
+   "name": "Mphasis",
+   "domain": "mphasis.com",
+   "employees": 31000
+  },
+  {
+   "name": "Conneqt Business Solutions",
+   "domain": "conneqtcorp.com",
+   "employees": 30000
+  },
+  {
+   "name": "iEnergizer",
+   "domain": "ienergizer.com",
+   "employees": 25000
+  },
+  {
+   "name": "Persistent Systems",
+   "domain": "persistent.com",
+   "employees": 24000
+  },
+  {
+   "name": "L&T Technology Services",
+   "domain": "ltts.com",
+   "employees": 24000
+  },
+  {
+   "name": "Hinduja Global Solutions",
+   "domain": "hgs.cx",
+   "employees": 19000
+  },
+  {
+   "name": "eClerx Services",
+   "domain": "eclerx.com",
+   "employees": 18000
+  },
+  {
+   "name": "Zoho Corporation",
+   "domain": "zoho.com",
+   "employees": 16000
+  },
+  {
+   "name": "Cyient",
+   "domain": "cyient.com",
+   "employees": 15000
+  },
+  {
+   "name": "IGT Solutions",
+   "domain": "igtsolutions.com",
+   "employees": 15000
+  },
+  {
+   "name": "Fusion CX",
+   "domain": "fusioncx.com",
+   "employees": 14000
+  },
+  {
+   "name": "KPIT Technologies",
+   "domain": "kpit.com",
+   "employees": 13000
+  },
+  {
+   "name": "Tata Elxsi",
+   "domain": "tataelxsi.com",
+   "employees": 13000
+  },
+  {
+   "name": "Inventurus Knowledge Solutions (IKS Health)",
+   "domain": "ikshealth.com",
+   "employees": 13000
+  },
+  {
+   "name": "Tata Technologies",
+   "domain": "tatatechnologies.com",
+   "employees": 12500
+  },
+  {
+   "name": "ITC Infotech",
+   "domain": "itcinfotech.com",
+   "employees": 12500
+  },
+  {
+   "name": "Birlasoft",
+   "domain": "birlasoft.com",
+   "employees": 12000
+  },
+  {
+   "name": "Datamatics Global Services",
+   "domain": "datamatics.com",
+   "employees": 11500
+  },
+  {
+   "name": "Zensar Technologies",
+   "domain": "zensar.com",
+   "employees": 10500
+  },
+  {
+   "name": "Altruist Technologies",
+   "employees": 10000
+  },
+  {
+   "name": "CitiusTech",
+   "domain": "citiustech.com",
+   "employees": 8500
+  },
+  {
+   "name": "Cybage Software",
+   "domain": "cybage.com",
+   "employees": 7500
+  },
+  {
+   "name": "Computer Age Management Services (CAMS)",
+   "domain": "camsonline.com",
+   "employees": 7500
+  },
+  {
+   "name": "ValueLabs",
+   "domain": "valuelabs.com",
+   "employees": 7000
+  },
+  {
+   "name": "Happiest Minds Technologies",
+   "domain": "happiestminds.com",
+   "employees": 6500
+  },
+  {
+   "name": "Sonata Software",
+   "domain": "sonata-software.com",
+   "employees": 6500
+  },
+  {
+   "name": "Intellect Design Arena",
+   "domain": "intellectdesign.com",
+   "employees": 6000
+  },
+  {
+   "name": "Prodapt",
+   "domain": "prodapt.com",
+   "employees": 6000
+  },
+  {
+   "name": "KFin Technologies",
+   "domain": "kfintech.com",
+   "employees": 6000
+  },
+  {
+   "name": "Mastek",
+   "domain": "mastek.com",
+   "employees": 5500
+  },
+  {
+   "name": "Indegene",
+   "domain": "indegene.com",
+   "employees": 5200
+  },
+  {
+   "name": "Clover Infotech",
+   "domain": "cloverinfotech.com",
+   "employees": 5000
+  },
+  {
+   "name": "Allsec Technologies",
+   "domain": "allsectech.com",
+   "employees": 5000
+  },
+  {
+   "name": "3i Infotech",
+   "domain": "3i-infotech.com",
+   "employees": 5000
+  },
+  {
+   "name": "CMS IT Services",
+   "domain": "cmsitservices.com",
+   "employees": 5000
+  },
+  {
+   "name": "Aspire Systems",
+   "domain": "aspiresys.com",
+   "employees": 4500
+  },
+  {
+   "name": "Microland",
+   "domain": "microland.com",
+   "employees": 4500
+  },
+  {
+   "name": "Fractal Analytics",
+   "domain": "fractal.ai",
+   "employees": 4500
+  },
+  {
+   "name": "Newgen Software",
+   "domain": "newgensoft.com",
+   "employees": 4500
+  },
+  {
+   "name": "R Systems International",
+   "domain": "rsystems.com",
+   "employees": 4400
+  },
+  {
+   "name": "IBS Software",
+   "domain": "ibsplc.com",
+   "employees": 4000
+  },
+  {
+   "name": "RMSI",
+   "domain": "rmsi.com",
+   "employees": 4000
+  },
+  {
+   "name": "Sify Technologies",
+   "domain": "sifytechnologies.com",
+   "employees": 3500
+  },
+  {
+   "name": "Tata Consulting Engineers",
+   "domain": "tce.co.in",
+   "employees": 3500
+  },
+  {
+   "name": "Tessolve Semiconductor",
+   "domain": "tessolve.com",
+   "employees": 3000
+  },
+  {
+   "name": "Course5 Intelligence",
+   "domain": "course5i.com",
+   "employees": 3000
+  },
+  {
+   "name": "MPS Limited",
+   "domain": "mpslimited.com",
+   "employees": 3000
+  },
+  {
+   "name": "Indium Software",
+   "employees": 3000
+  },
+  {
+   "name": "Allied Digital Services",
+   "domain": "allieddigital.net",
+   "employees": 3000
+  },
+  {
+   "name": "Axiscades Technologies",
+   "domain": "axiscades.com",
+   "employees": 2700
+  },
+  {
+   "name": "RateGain Travel Technologies",
+   "domain": "rategain.com",
+   "employees": 2700
+  },
+  {
+   "name": "Maveric Systems",
+   "domain": "maveric-systems.com",
+   "employees": 2600
+  },
+  {
+   "name": "Financial Software & Systems (FSS)",
+   "domain": "fsstech.com",
+   "employees": 2500
+  },
+  {
+   "name": "Suma Soft",
+   "domain": "sumasoft.com",
+   "employees": 2500
+  },
+  {
+   "name": "Motherson Technology Services",
+   "employees": 2500
+  },
+  {
+   "name": "To The New",
+   "domain": "tothenew.com",
+   "employees": 2500
+  },
+  {
+   "name": "Aurionpro Solutions",
+   "domain": "aurionpro.com",
+   "employees": 2500
+  },
+  {
+   "name": "Searce",
+   "domain": "searce.com",
+   "employees": 2500
+  },
+  {
+   "name": "QBurst",
+   "domain": "qburst.com",
+   "employees": 2500
+  },
+  {
+   "name": "Hinduja Tech",
+   "domain": "hindujatech.com",
+   "employees": 2500
+  },
+  {
+   "name": "Onward Technologies",
+   "domain": "onwardgroup.com",
+   "employees": 2500
+  },
+  {
+   "name": "Team Computers",
+   "domain": "teamcomputers.com",
+   "employees": 2500
+  },
+  {
+   "name": "LatentView Analytics",
+   "domain": "latentview.com",
+   "employees": 2300
+  },
+  {
+   "name": "Cloud4C",
+   "domain": "cloud4c.com",
+   "employees": 2000
+  },
+  {
+   "name": "QualityKiosk Technologies",
+   "domain": "qualitykiosk.com",
+   "employees": 2000
+  },
+  {
+   "name": "Saksoft",
+   "domain": "saksoft.com",
+   "employees": 2000
+  },
+  {
+   "name": "Nucleus Software Exports",
+   "domain": "nucleussoftware.com",
+   "employees": 2000
+  },
+  {
+   "name": "Genesys International Corporation",
+   "employees": 2000
+  },
+  {
+   "name": "Cyfuture",
+   "domain": "cyfuture.com",
+   "employees": 2000
+  },
+  {
+   "name": "Sasken Technologies",
+   "domain": "sasken.com",
+   "employees": 1800
+  },
+  {
+   "name": "Aranca",
+   "domain": "aranca.com",
+   "employees": 1800
+  },
+  {
+   "name": "Kellton Tech Solutions",
+   "domain": "kellton.com",
+   "employees": 1800
+  },
+  {
+   "name": "Ramco Systems",
+   "domain": "ramco.com",
+   "employees": 1700
+  },
+  {
+   "name": "GS Lab | GAVS",
+   "domain": "gslab.com",
+   "employees": 1500
+  },
+  {
+   "name": "Inspira Enterprise",
+   "domain": "inspiraenterprise.com",
+   "employees": 1500
+  },
+  {
+   "name": "SG Analytics",
+   "domain": "sganalytics.com",
+   "employees": 1300
+  },
+  {
+   "name": "MosChip Technologies",
+   "domain": "moschip.com",
+   "employees": 1300
+  },
+  {
+   "name": "Daffodil Software",
+   "domain": "daffodilsw.com",
+   "employees": 1200
+  },
+  {
+   "name": "ASM Technologies",
+   "domain": "asmltd.com",
+   "employees": 1200
+  },
+  {
+   "name": "ESDS Software Solution",
+   "domain": "esds.co.in",
+   "employees": 1200
+  },
+  {
+   "name": "SunTec Business Solutions",
+   "domain": "suntecgroup.com",
+   "employees": 1200
+  },
+  {
+   "name": "Grazitti Interactive",
+   "domain": "grazitti.com",
+   "employees": 1200
+  },
+  {
+   "name": "Netscribes",
+   "domain": "netscribes.com",
+   "employees": 1000
+  },
+  {
+   "name": "Mindfire Solutions",
+   "domain": "mindfiresolutions.com",
+   "employees": 1000
+  },
+  {
+   "name": "Appinventiv",
+   "domain": "appinventiv.com",
+   "employees": 1000
+  },
+  {
+   "name": "Nihilent",
+   "domain": "nihilent.com",
+   "employees": 1000
+  },
+  {
+   "name": "Mindteck",
+   "domain": "mindteck.com",
+   "employees": 1000
+  },
+  {
+   "name": "Nelito Systems",
+   "domain": "nelito.com",
+   "employees": 1000
+  },
+  {
+   "name": "Tanla Platforms",
+   "domain": "tanla.com",
+   "employees": 900
+  },
+  {
+   "name": "Subex",
+   "domain": "subex.com",
+   "employees": 800
+  },
+  {
+   "name": "Godrej Infotech",
+   "domain": "godrejinfotech.com",
+   "employees": 800
+  },
+  {
+   "name": "Ignitarium",
+   "domain": "ignitarium.com",
+   "employees": 700
+  },
+  {
+   "name": "WNS",
+   "domain": "wns.com",
+   "employees": 62000
+  },
+  {
+   "name": "Flipkart",
+   "domain": "flipkart.com",
+   "employees": 50000
+  },
+  {
+   "name": "Delhivery",
+   "domain": "delhivery.com",
+   "employees": 30000
+  },
+  {
+   "name": "Dixon Technologies",
+   "domain": "dixoninfo.com",
+   "employees": 25000
+  },
+  {
+   "name": "Paytm (One97 Communications)",
+   "domain": "paytm.com",
+   "employees": 20000
+  },
+  {
+   "name": "eClerx",
+   "domain": "eclerx.com",
+   "employees": 18000
+  },
+  {
+   "name": "Zoho",
+   "domain": "zoho.com",
+   "employees": 15000
+  },
+  {
+   "name": "PB Fintech (Policybazaar)",
+   "domain": "policybazaar.com",
+   "employees": 15000
+  },
+  {
+   "name": "XpressBees",
+   "domain": "xpressbees.com",
+   "employees": 15000
+  },
+  {
+   "name": "Ecom Express",
+   "domain": "ecomexpress.in",
+   "employees": 15000
+  },
+  {
+   "name": "Physics Wallah",
+   "domain": "pw.live",
+   "employees": 12000
+  },
+  {
+   "name": "Tata Communications",
+   "domain": "tatacommunications.com",
+   "employees": 12000
+  },
+  {
+   "name": "Lenskart",
+   "domain": "lenskart.com",
+   "employees": 12000
+  },
+  {
+   "name": "Justdial",
+   "domain": "justdial.com",
+   "employees": 10000
+  },
+  {
+   "name": "Datamatics",
+   "domain": "datamatics.com",
+   "employees": 10000
+  },
+  {
+   "name": "BigBasket",
+   "domain": "bigbasket.com",
+   "employees": 10000
+  },
+  {
+   "name": "Cybage",
+   "domain": "cybage.com",
+   "employees": 8000
+  },
+  {
+   "name": "Ola Electric",
+   "domain": "olaelectric.com",
+   "employees": 8000
+  },
+  {
+   "name": "Zomato (Eternal)",
+   "domain": "zomato.com",
+   "employees": 8000
+  },
+  {
+   "name": "Cars24",
+   "domain": "cars24.com",
+   "employees": 8000
+  },
+  {
+   "name": "CAMS",
+   "domain": "camsonline.com",
+   "employees": 7000
+  },
+  {
+   "name": "Swiggy",
+   "domain": "swiggy.com",
+   "employees": 6000
+  },
+  {
+   "name": "PhonePe",
+   "domain": "phonepe.com",
+   "employees": 6000
+  },
+  {
+   "name": "Info Edge (Naukri)",
+   "domain": "infoedge.in",
+   "employees": 6000
+  },
+  {
+   "name": "Happiest Minds",
+   "domain": "happiestminds.com",
+   "employees": 5500
+  },
+  {
+   "name": "NoBroker",
+   "domain": "nobroker.in",
+   "employees": 5000
+  },
+  {
+   "name": "Square Yards",
+   "domain": "squareyards.com",
+   "employees": 5000
+  },
+  {
+   "name": "FirstCry (Brainbees Solutions)",
+   "domain": "firstcry.com",
+   "employees": 5000
+  },
+  {
+   "name": "OYO (Oravel Stays)",
+   "domain": "oyorooms.com",
+   "employees": 5000
+  },
+  {
+   "name": "Freshworks",
+   "domain": "freshworks.com",
+   "employees": 5000
+  },
+  {
+   "name": "IndiaMART",
+   "domain": "indiamart.com",
+   "employees": 5000
+  },
+  {
+   "name": "PharmEasy (API Holdings)",
+   "domain": "pharmeasy.in",
+   "employees": 5000
+  },
+  {
+   "name": "upGrad",
+   "domain": "upgrad.com",
+   "employees": 4000
+  },
+  {
+   "name": "Tiger Analytics",
+   "domain": "tigeranalytics.com",
+   "employees": 4000
+  },
+  {
+   "name": "Go Digit General Insurance",
+   "domain": "godigit.com",
+   "employees": 4000
+  },
+  {
+   "name": "Nykaa (FSN E-Commerce)",
+   "domain": "nykaa.com",
+   "employees": 4000
+  },
+  {
+   "name": "NIIT",
+   "domain": "niit.com",
+   "employees": 4000
+  },
+  {
+   "name": "Matrimony.com",
+   "domain": "matrimony.com",
+   "employees": 4000
+  },
+  {
+   "name": "Ather Energy",
+   "domain": "atherenergy.com",
+   "employees": 4000
+  },
+  {
+   "name": "Rebel Foods",
+   "domain": "rebelfoods.com",
+   "employees": 4000
+  },
+  {
+   "name": "Spinny",
+   "domain": "spinny.com",
+   "employees": 4000
+  },
+  {
+   "name": "R Systems",
+   "domain": "rsystems.com",
+   "employees": 4000
+  },
+  {
+   "name": "Navi",
+   "domain": "navi.com",
+   "employees": 3500
+  },
+  {
+   "name": "Mu Sigma",
+   "domain": "mu-sigma.com",
+   "employees": 3500
+  },
+  {
+   "name": "MakeMyTrip",
+   "domain": "makemytrip.com",
+   "employees": 3500
+  },
+  {
+   "name": "Pine Labs",
+   "domain": "pinelabs.com",
+   "employees": 3500
+  },
+  {
+   "name": "Myntra",
+   "domain": "myntra.com",
+   "employees": 3500
+  },
+  {
+   "name": "HighRadius",
+   "domain": "highradius.com",
+   "employees": 3500
+  },
+  {
+   "name": "Angel One",
+   "domain": "angelone.in",
+   "employees": 3000
+  },
+  {
+   "name": "Quantiphi",
+   "domain": "quantiphi.com",
+   "employees": 3000
+  },
+  {
+   "name": "Razorpay",
+   "domain": "razorpay.com",
+   "employees": 3000
+  },
+  {
+   "name": "Zepto",
+   "domain": "zeptonow.com",
+   "employees": 3000
+  },
+  {
+   "name": "Porter",
+   "domain": "porter.in",
+   "employees": 3000
+  },
+  {
+   "name": "Shadowfax",
+   "domain": "shadowfax.in",
+   "employees": 3000
+  },
+  {
+   "name": "Ola (ANI Technologies)",
+   "domain": "olacabs.com",
+   "employees": 3000
+  },
+  {
+   "name": "OfBusiness",
+   "domain": "ofbusiness.com",
+   "employees": 3000
+  },
+  {
+   "name": "Infra.Market",
+   "domain": "infra.market",
+   "employees": 3000
+  },
+  {
+   "name": "Livspace",
+   "domain": "livspace.com",
+   "employees": 3000
+  },
+  {
+   "name": "Cult.fit (Curefit)",
+   "domain": "cult.fit",
+   "employees": 3000
+  },
+  {
+   "name": "Simplilearn",
+   "domain": "simplilearn.com",
+   "employees": 3000
+  },
+  {
+   "name": "Great Learning",
+   "domain": "mygreatlearning.com",
+   "employees": 3000
+  },
+  {
+   "name": "Licious",
+   "domain": "licious.in",
+   "employees": 3000
+  },
+  {
+   "name": "CarDekho",
+   "domain": "cardekho.com",
+   "employees": 3000
+  },
+  {
+   "name": "Tata 1mg",
+   "domain": "1mg.com",
+   "employees": 3000
+  },
+  {
+   "name": "Sterlite Technologies",
+   "domain": "stl.tech",
+   "employees": 3000
+  },
+  {
+   "name": "Urban Company",
+   "domain": "urbancompany.com",
+   "employees": 2500
+  },
+  {
+   "name": "InMobi",
+   "domain": "inmobi.com",
+   "employees": 2500
+  },
+  {
+   "name": "Icertis",
+   "domain": "icertis.com",
+   "employees": 2500
+  },
+  {
+   "name": "Practo",
+   "domain": "practo.com",
+   "employees": 2000
+  },
+  {
+   "name": "Innovaccer",
+   "domain": "innovaccer.com",
+   "employees": 2000
+  },
+  {
+   "name": "Moglix",
+   "domain": "moglix.com",
+   "employees": 2000
+  },
+  {
+   "name": "Zetwerk",
+   "domain": "zetwerk.com",
+   "employees": 2000
+  },
+  {
+   "name": "Udaan",
+   "domain": "udaan.com",
+   "employees": 2000
+  },
+  {
+   "name": "Meesho",
+   "domain": "meesho.com",
+   "employees": 2000
+  },
+  {
+   "name": "Unacademy",
+   "domain": "unacademy.com",
+   "employees": 2000
+  },
+  {
+   "name": "Vedantu",
+   "domain": "vedantu.com",
+   "employees": 2000
+  },
+  {
+   "name": "Eruditus",
+   "domain": "eruditus.com",
+   "employees": 2000
+  },
+  {
+   "name": "Nucleus Software",
+   "domain": "nucleussoftware.com",
+   "employees": 2000
+  },
+  {
+   "name": "Tejas Networks",
+   "domain": "tejasnetworks.com",
+   "employees": 2000
+  },
+  {
+   "name": "KreditBee",
+   "domain": "kreditbee.in",
+   "employees": 2000
+  },
+  {
+   "name": "Rapido",
+   "domain": "rapido.bike",
+   "employees": 2000
+  },
+  {
+   "name": "BlackBuck (Zinka Logistics)",
+   "domain": "blackbuck.com",
+   "employees": 2000
+  },
+  {
+   "name": "Infibeam Avenues",
+   "domain": "infibeam.com",
+   "employees": 2000
+  },
+  {
+   "name": "Groww",
+   "domain": "groww.in",
+   "employees": 1500
+  },
+  {
+   "name": "Upstox",
+   "domain": "upstox.com",
+   "employees": 1500
+  },
+  {
+   "name": "Acko",
+   "domain": "acko.com",
+   "employees": 1500
+  },
+  {
+   "name": "Zeta",
+   "domain": "zeta.tech",
+   "employees": 1500
+  },
+  {
+   "name": "Gupshup",
+   "domain": "gupshup.io",
+   "employees": 1500
+  },
+  {
+   "name": "Netcore Cloud",
+   "domain": "netcorecloud.com",
+   "employees": 1500
+  },
+  {
+   "name": "Shiprocket",
+   "domain": "shiprocket.in",
+   "employees": 1500
+  },
+  {
+   "name": "Zenoti",
+   "domain": "zenoti.com",
+   "employees": 1500
+  },
+  {
+   "name": "Juspay",
+   "domain": "juspay.in",
+   "employees": 1500
+  },
+  {
+   "name": "Scaler",
+   "domain": "scaler.com",
+   "employees": 1500
+  },
+  {
+   "name": "Quick Heal",
+   "domain": "quickheal.com",
+   "employees": 1400
+  },
+  {
+   "name": "BrowserStack",
+   "domain": "browserstack.com",
+   "employees": 1200
+  },
+  {
+   "name": "CleverTap",
+   "domain": "clevertap.com",
+   "employees": 1200
+  },
+  {
+   "name": "Druva",
+   "domain": "druva.com",
+   "employees": 1200
+  },
+  {
+   "name": "LeadSquared",
+   "domain": "leadsquared.com",
+   "employees": 1200
+  },
+  {
+   "name": "ShareChat (Mohalla Tech)",
+   "domain": "sharechat.com",
+   "employees": 1200
+  },
+  {
+   "name": "Zerodha",
+   "domain": "zerodha.com",
+   "employees": 1100
+  },
+  {
+   "name": "Chargebee",
+   "domain": "chargebee.com",
+   "employees": 1000
+  },
+  {
+   "name": "CRED",
+   "domain": "cred.club",
+   "employees": 1000
+  },
+  {
+   "name": "Darwinbox",
+   "domain": "darwinbox.com",
+   "employees": 1000
+  },
+  {
+   "name": "Keka",
+   "domain": "keka.com",
+   "employees": 1000
+  },
+  {
+   "name": "Whatfix",
+   "domain": "whatfix.com",
+   "employees": 1000
+  },
+  {
+   "name": "Capillary Technologies",
+   "domain": "capillarytech.com",
+   "employees": 1000
+  },
+  {
+   "name": "Amagi",
+   "domain": "amagi.com",
+   "employees": 1000
+  },
+  {
+   "name": "Route Mobile",
+   "domain": "routemobile.com",
+   "employees": 1000
+  },
+  {
+   "name": "Games24x7",
+   "domain": "games24x7.com",
+   "employees": 1000
+  },
+  {
+   "name": "Nazara Technologies",
+   "domain": "nazara.com",
+   "employees": 1000
+  },
+  {
+   "name": "BharatPe",
+   "domain": "bharatpe.com",
+   "employees": 1000
+  },
+  {
+   "name": "BillDesk",
+   "domain": "billdesk.com",
+   "employees": 1000
+  },
+  {
+   "name": "Dream Sports (Dream11)",
+   "domain": "dream11.com",
+   "employees": 1000
+  },
+  {
+   "name": "Postman",
+   "domain": "postman.com",
+   "employees": 800
+  },
+  {
+   "name": "MoEngage",
+   "domain": "moengage.com",
+   "employees": 800
+  },
+  {
+   "name": "Byju's (Think & Learn)",
+   "domain": "byjus.com"
+  },
+  {
+   "name": "State Bank of India",
+   "domain": "sbi.co.in",
+   "employees": 232000
+  },
+  {
+   "name": "HDFC Bank",
+   "domain": "hdfcbank.com",
+   "employees": 213000
+  },
+  {
+   "name": "ICICI Bank",
+   "domain": "icicibank.com",
+   "employees": 141000
+  },
+  {
+   "name": "HDB Financial Services",
+   "domain": "hdbfs.com",
+   "employees": 120000
+  },
+  {
+   "name": "Axis Bank",
+   "domain": "axisbank.com",
+   "employees": 104000
+  },
+  {
+   "name": "Kotak Mahindra Bank",
+   "domain": "kotak.com",
+   "employees": 100000
+  },
+  {
+   "name": "Punjab National Bank",
+   "domain": "pnbindia.in",
+   "employees": 100000
+  },
+  {
+   "name": "Life Insurance Corporation of India",
+   "domain": "licindia.in",
+   "employees": 98000
+  },
+  {
+   "name": "Canara Bank",
+   "domain": "canarabank.com",
+   "employees": 82000
+  },
+  {
+   "name": "Shriram Finance",
+   "domain": "shriramfinance.in",
+   "employees": 75000
+  },
+  {
+   "name": "Bank of Baroda",
+   "domain": "bankofbaroda.in",
+   "employees": 74000
+  },
+  {
+   "name": "Union Bank of India",
+   "domain": "unionbankofindia.co.in",
+   "employees": 74000
+  },
+  {
+   "name": "Bandhan Bank",
+   "domain": "bandhanbank.com",
+   "employees": 72000
+  },
+  {
+   "name": "Bajaj Finance",
+   "domain": "bajajfinserv.in",
+   "employees": 55000
+  },
+  {
+   "name": "Cholamandalam Investment and Finance Company",
+   "domain": "cholamandalam.com",
+   "employees": 52000
+  },
+  {
+   "name": "Bank of India",
+   "domain": "bankofindia.co.in",
+   "employees": 51000
+  },
+  {
+   "name": "Aditya Birla Capital",
+   "domain": "adityabirlacapital.com",
+   "employees": 50000
+  },
+  {
+   "name": "AU Small Finance Bank",
+   "domain": "aubank.in",
+   "employees": 46000
+  },
+  {
+   "name": "IDFC First Bank",
+   "domain": "idfcfirstbank.com",
+   "employees": 40000
+  },
+  {
+   "name": "Indian Bank",
+   "domain": "indianbank.in",
+   "employees": 40000
+  },
+  {
+   "name": "Manappuram Finance",
+   "domain": "manappuram.com",
+   "employees": 40000
+  },
+  {
+   "name": "IndusInd Bank",
+   "domain": "indusind.com",
+   "employees": 38000
+  },
+  {
+   "name": "IIFL Finance",
+   "domain": "iifl.com",
+   "employees": 35000
+  },
+  {
+   "name": "L&T Finance",
+   "employees": 30000
+  },
+  {
+   "name": "Muthoot Finance",
+   "domain": "muthootfinance.com",
+   "employees": 30000
+  },
+  {
+   "name": "Central Bank of India",
+   "domain": "centralbankofindia.co.in",
+   "employees": 30000
+  },
+  {
+   "name": "Yes Bank",
+   "domain": "yesbank.in",
+   "employees": 28000
+  },
+  {
+   "name": "Mahindra & Mahindra Financial Services",
+   "domain": "mahindrafinance.com",
+   "employees": 27000
+  },
+  {
+   "name": "One97 Communications (Paytm)",
+   "domain": "paytm.com",
+   "employees": 25000
+  },
+  {
+   "name": "SBI Life Insurance",
+   "domain": "sbilife.co.in",
+   "employees": 25000
+  },
+  {
+   "name": "Equitas Small Finance Bank",
+   "domain": "equitasbank.com",
+   "employees": 23000
+  },
+  {
+   "name": "Ujjivan Small Finance Bank",
+   "domain": "ujjivansfb.in",
+   "employees": 23000
+  },
+  {
+   "name": "HDFC Life Insurance",
+   "domain": "hdfclife.com",
+   "employees": 22000
+  },
+  {
+   "name": "Indian Overseas Bank",
+   "domain": "iob.in",
+   "employees": 22000
+  },
+  {
+   "name": "UCO Bank",
+   "domain": "ucobank.com",
+   "employees": 21000
+  },
+  {
+   "name": "Jana Small Finance Bank",
+   "domain": "janabank.com",
+   "employees": 20000
+  },
+  {
+   "name": "Muthoot Fincorp",
+   "domain": "muthootfincorp.com",
+   "employees": 20000
+  },
+  {
+   "name": "Bajaj Allianz Life Insurance",
+   "employees": 20000
+  },
+  {
+   "name": "Axis Max Life Insurance",
+   "employees": 20000
+  },
+  {
+   "name": "ICICI Prudential Life Insurance",
+   "domain": "iciciprulife.com",
+   "employees": 18000
+  },
+  {
+   "name": "CreditAccess Grameen",
+   "employees": 18000
+  },
+  {
+   "name": "IDBI Bank",
+   "domain": "idbibank.in",
+   "employees": 18000
+  },
+  {
+   "name": "New India Assurance",
+   "domain": "newindia.co.in",
+   "employees": 17000
+  },
+  {
+   "name": "Utkarsh Small Finance Bank",
+   "domain": "utkarsh.bank",
+   "employees": 16000
+  },
+  {
+   "name": "RBL Bank",
+   "domain": "rblbank.com",
+   "employees": 15000
+  },
+  {
+   "name": "Star Health and Allied Insurance",
+   "domain": "starhealth.in",
+   "employees": 15000
+  },
+  {
+   "name": "Care Health Insurance",
+   "domain": "careinsurance.com",
+   "employees": 15000
+  },
+  {
+   "name": "TVS Credit Services",
+   "domain": "tvscredit.com",
+   "employees": 15000
+  },
+  {
+   "name": "Federal Bank",
+   "domain": "federalbank.co.in",
+   "employees": 14000
+  },
+  {
+   "name": "ICICI Lombard General Insurance",
+   "domain": "icicilombard.com",
+   "employees": 13000
+  },
+  {
+   "name": "Bank of Maharashtra",
+   "domain": "bankofmaharashtra.in",
+   "employees": 13000
+  },
+  {
+   "name": "Spandana Sphoorty Financial",
+   "domain": "spandanaindia.com",
+   "employees": 13000
+  },
+  {
+   "name": "Satin Creditcare Network",
+   "domain": "satincreditcare.com",
+   "employees": 13000
+  },
+  {
+   "name": "Fusion Finance",
+   "employees": 13000
+  },
+  {
+   "name": "United India Insurance",
+   "domain": "uiic.co.in",
+   "employees": 12000
+  },
+  {
+   "name": "Muthoot Microfin",
+   "domain": "muthootmicrofin.com",
+   "employees": 12000
+  },
+  {
+   "name": "Jammu & Kashmir Bank",
+   "domain": "jkbank.com",
+   "employees": 12000
+  },
+  {
+   "name": "National Insurance Company",
+   "employees": 11000
+  },
+  {
+   "name": "Oriental Insurance Company",
+   "domain": "orientalinsurance.org.in",
+   "employees": 11000
+  },
+  {
+   "name": "Motilal Oswal Financial Services",
+   "domain": "motilaloswal.com",
+   "employees": 11000
+  },
+  {
+   "name": "HDFC ERGO General Insurance",
+   "domain": "hdfcergo.com",
+   "employees": 10000
+  },
+  {
+   "name": "Capri Global Capital",
+   "domain": "capriglobal.in",
+   "employees": 10000
+  },
+  {
+   "name": "Annapurna Finance",
+   "domain": "annapurnafinance.in",
+   "employees": 10000
+  },
+  {
+   "name": "Piramal Enterprises",
+   "employees": 10000
+  },
+  {
+   "name": "DCB Bank",
+   "domain": "dcbbank.com",
+   "employees": 10000
+  },
+  {
+   "name": "South Indian Bank",
+   "domain": "southindianbank.com",
+   "employees": 9500
+  },
+  {
+   "name": "Five Star Business Finance",
+   "domain": "fivestargroup.in",
+   "employees": 9500
+  },
+  {
+   "name": "Tata AIA Life Insurance",
+   "domain": "tataaia.com",
+   "employees": 9000
+  },
+  {
+   "name": "Punjab & Sind Bank",
+   "domain": "punjabandsindbank.co.in",
+   "employees": 9000
+  },
+  {
+   "name": "Karnataka Bank",
+   "domain": "karnatakabank.com",
+   "employees": 8500
+  },
+  {
+   "name": "Karur Vysya Bank",
+   "domain": "kvb.co.in",
+   "employees": 8000
+  },
+  {
+   "name": "Arohan Financial Services",
+   "domain": "arohan.in",
+   "employees": 8000
+  },
+  {
+   "name": "Niva Bupa Health Insurance",
+   "domain": "nivabupa.com",
+   "employees": 8000
+  },
+  {
+   "name": "CSB Bank",
+   "domain": "csb.co.in",
+   "employees": 7500
+  },
+  {
+   "name": "SBI General Insurance",
+   "domain": "sbigeneral.in",
+   "employees": 7500
+  },
+  {
+   "name": "Veritas Finance",
+   "domain": "veritasfin.in",
+   "employees": 7000
+  },
+  {
+   "name": "Suryoday Small Finance Bank",
+   "domain": "suryodaybank.com",
+   "employees": 7000
+  },
+  {
+   "name": "Hero FinCorp",
+   "domain": "herofincorp.com",
+   "employees": 7000
+  },
+  {
+   "name": "ESAF Small Finance Bank",
+   "domain": "esafbank.com",
+   "employees": 6500
+  },
+  {
+   "name": "Edelweiss Financial Services",
+   "domain": "edelweissfin.com",
+   "employees": 6000
+  },
+  {
+   "name": "City Union Bank",
+   "domain": "cityunionbank.com",
+   "employees": 6000
+  },
+  {
+   "name": "Aavas Financiers",
+   "domain": "aavas.in",
+   "employees": 6000
+  },
+  {
+   "name": "Tata Capital",
+   "domain": "tatacapital.com",
+   "employees": 6000
+  },
+  {
+   "name": "Sundaram Finance",
+   "domain": "sundaramfinance.in",
+   "employees": 5000
+  },
+  {
+   "name": "CRISIL",
+   "domain": "crisil.com",
+   "employees": 4800
+  },
+  {
+   "name": "Tamilnad Mercantile Bank",
+   "domain": "tmb.in",
+   "employees": 4500
+  },
+  {
+   "name": "ICICI Securities",
+   "domain": "icicisecurities.com",
+   "employees": 4500
+  },
+  {
+   "name": "SBI Cards and Payment Services",
+   "domain": "sbicard.com",
+   "employees": 4000
+  },
+  {
+   "name": "India Post Payments Bank",
+   "domain": "ippbonline.com",
+   "employees": 4000
+  },
+  {
+   "name": "Aadhar Housing Finance",
+   "domain": "aadharhousing.com",
+   "employees": 4000
+  },
+  {
+   "name": "Fedbank Financial Services",
+   "domain": "fedfina.com",
+   "employees": 4000
+  },
+  {
+   "name": "Kotak Securities",
+   "domain": "kotaksecurities.com",
+   "employees": 4000
+  },
+  {
+   "name": "Choice International",
+   "domain": "choiceindia.com",
+   "employees": 4000
+  },
+  {
+   "name": "NABARD",
+   "domain": "nabard.org",
+   "employees": 3800
+  },
+  {
+   "name": "Nuvama Wealth Management",
+   "domain": "nuvama.com",
+   "employees": 3500
+  },
+  {
+   "name": "HDFC Securities",
+   "domain": "hdfcsec.com",
+   "employees": 3500
+  },
+  {
+   "name": "SMC Global Securities",
+   "domain": "smcindiaonline.com",
+   "employees": 3500
+  },
+  {
+   "name": "IIFL Capital Services",
+   "employees": 3500
+  },
+  {
+   "name": "InCred",
+   "domain": "incred.com",
+   "employees": 3500
+  },
+  {
+   "name": "IndiaFirst Life Insurance",
+   "domain": "indiafirstlife.com",
+   "employees": 3500
+  },
+  {
+   "name": "SBFC Finance",
+   "domain": "sbfc.com",
+   "employees": 3500
+  },
+  {
+   "name": "IndoStar Capital Finance",
+   "domain": "indostarcapital.com",
+   "employees": 3500
+  },
+  {
+   "name": "JM Financial",
+   "domain": "jmfl.com",
+   "employees": 3000
+  },
+  {
+   "name": "Navi Technologies",
+   "domain": "navi.com",
+   "employees": 3000
+  },
+  {
+   "name": "Geojit Financial Services",
+   "domain": "geojit.com",
+   "employees": 3000
+  },
+  {
+   "name": "India Shelter Finance",
+   "domain": "indiashelter.in",
+   "employees": 3000
+  },
+  {
+   "name": "Jio Financial Services",
+   "domain": "jfs.in",
+   "employees": 3000
+  },
+  {
+   "name": "Fino Payments Bank",
+   "domain": "finobank.com",
+   "employees": 2800
+  },
+  {
+   "name": "Aptus Value Housing Finance",
+   "domain": "aptusindia.com",
+   "employees": 2800
+  },
+  {
+   "name": "ICICI Prudential Asset Management",
+   "domain": "icicipruamc.com",
+   "employees": 2800
+  },
+  {
+   "name": "Poonawalla Fincorp",
+   "domain": "poonawallafincorp.com",
+   "employees": 2500
+  },
+  {
+   "name": "REC Limited",
+   "employees": 2500
+  },
+  {
+   "name": "National Payments Corporation of India",
+   "domain": "npci.org.in",
+   "employees": 2500
+  },
+  {
+   "name": "Unity Small Finance Bank",
+   "employees": 2500
+  },
+  {
+   "name": "LIC Housing Finance",
+   "domain": "lichousing.com",
+   "employees": 2400
+  },
+  {
+   "name": "Bajaj Housing Finance",
+   "domain": "bajajhousingfinance.in",
+   "employees": 2300
+  },
+  {
+   "name": "PNB Housing Finance",
+   "domain": "pnbhousing.com",
+   "employees": 2000
+  },
+  {
+   "name": "Capital Small Finance Bank",
+   "domain": "capitalbank.co.in",
+   "employees": 2000
+  },
+  {
+   "name": "Power Finance Corporation",
+   "domain": "pfcindia.com",
+   "employees": 2000
+  },
+  {
+   "name": "National Stock Exchange of India",
+   "domain": "nseindia.com",
+   "employees": 2000
+  },
+  {
+   "name": "Ugro Capital",
+   "domain": "ugrocapital.com",
+   "employees": 1800
+  },
+  {
+   "name": "Prudent Corporate Advisory Services",
+   "domain": "prudentcorporate.com",
+   "employees": 1800
+  },
+  {
+   "name": "Dhanlaxmi Bank",
+   "domain": "dhanbank.com",
+   "employees": 1800
+  },
+  {
+   "name": "Acko General Insurance",
+   "domain": "acko.com",
+   "employees": 1800
+  },
+  {
+   "name": "SBI Funds Management",
+   "domain": "sbimf.com",
+   "employees": 1700
+  },
+  {
+   "name": "National Securities Depository Limited (NSDL)",
+   "domain": "nsdl.co.in",
+   "employees": 1500
+  },
+  {
+   "name": "HDFC Asset Management Company",
+   "domain": "hdfcfund.com",
+   "employees": 1400
+  },
+  {
+   "name": "UTI Asset Management Company",
+   "domain": "utimf.com",
+   "employees": 1400
+  },
+  {
+   "name": "360 One WAM",
+   "domain": "360.one",
+   "employees": 1300
+  },
+  {
+   "name": "Home First Finance Company",
+   "domain": "homefirstindia.com",
+   "employees": 1300
+  },
+  {
+   "name": "SIDBI",
+   "domain": "sidbi.in",
+   "employees": 1200
+  },
+  {
+   "name": "Anand Rathi Wealth",
+   "employees": 1200
+  },
+  {
+   "name": "Nippon Life India Asset Management",
+   "employees": 1200
+  },
+  {
+   "name": "Aditya Birla Sun Life AMC",
+   "employees": 1200
+  },
+  {
+   "name": "MobiKwik",
+   "domain": "mobikwik.com",
+   "employees": 1000
+  },
+  {
+   "name": "Can Fin Homes",
+   "domain": "canfinhomes.com",
+   "employees": 1000
+  },
+  {
+   "name": "Repco Home Finance",
+   "domain": "repcohome.com",
+   "employees": 1000
+  },
+  {
+   "name": "5paisa Capital",
+   "domain": "5paisa.com",
+   "employees": 1000
+  },
+  {
+   "name": "Protean eGov Technologies",
+   "domain": "proteantech.in",
+   "employees": 1000
+  },
+  {
+   "name": "Nainital Bank",
+   "domain": "nainitalbank.co.in",
+   "employees": 900
+  },
+  {
+   "name": "ICRA",
+   "domain": "icra.in",
+   "employees": 900
+  },
+  {
+   "name": "HUDCO",
+   "employees": 800
+  },
+  {
+   "name": "Northern Arc Capital",
+   "domain": "northernarc.com",
+   "employees": 800
+  },
+  {
+   "name": "CARE Ratings (CareEdge)",
+   "employees": 700
+  },
+  {
+   "name": "BSE Limited",
+   "domain": "bseindia.com",
+   "employees": 600
+  },
+  {
+   "name": "General Insurance Corporation of India (GIC Re)",
+   "employees": 550
+  },
+  {
+   "name": "Multi Commodity Exchange of India (MCX)",
+   "domain": "mcxindia.com",
+   "employees": 500
+  },
+  {
+   "name": "Central Depository Services Limited (CDSL)",
+   "domain": "cdslindia.com",
+   "employees": 500
+  },
+  {
+   "name": "Export-Import Bank of India",
+   "domain": "eximbankindia.in",
+   "employees": 350
+  },
+  {
+   "name": "NCDEX",
+   "domain": "ncdex.com",
+   "employees": 300
+  },
+  {
+   "name": "IFCI Limited",
+   "domain": "ifciltd.com",
+   "employees": 300
+  },
+  {
+   "name": "Indian Energy Exchange",
+   "domain": "iexindia.com",
+   "employees": 200
+  },
+  {
+   "name": "IREDA",
+   "domain": "ireda.in",
+   "employees": 200
+  },
+  {
+   "name": "Indian Railway Finance Corporation",
+   "employees": 50
+  },
+  {
+   "name": "Bajaj Finserv"
+  },
+  {
+   "name": "Reliance Industries",
+   "domain": "ril.com",
+   "employees": 350000
+  },
+  {
+   "name": "Coal India",
+   "domain": "coalindia.in",
+   "employees": 230000
+  },
+  {
+   "name": "Samvardhana Motherson International",
+   "domain": "motherson.com",
+   "employees": 190000
+  },
+  {
+   "name": "Larsen & Toubro",
+   "domain": "larsentoubro.com",
+   "employees": 180000
+  },
+  {
+   "name": "Shahi Exports",
+   "domain": "shahi.co.in",
+   "employees": 100000
+  },
+  {
+   "name": "Tata Motors",
+   "domain": "tatamotors.com",
+   "employees": 90000
+  },
+  {
+   "name": "Tata Steel",
+   "domain": "tatasteel.com",
+   "employees": 78000
+  },
+  {
+   "name": "Mahindra & Mahindra",
+   "domain": "mahindra.com",
+   "employees": 55000
+  },
+  {
+   "name": "Steel Authority of India (SAIL)",
+   "domain": "sail.co.in",
+   "employees": 55000
+  },
+  {
+   "name": "Shapoorji Pallonji and Company",
+   "domain": "shapoorjipallonji.com",
+   "employees": 50000
+  },
+  {
+   "name": "Parle Products",
+   "domain": "parleproducts.com",
+   "employees": 50000
+  },
+  {
+   "name": "Singareni Collieries Company",
+   "domain": "scclmines.com",
+   "employees": 42000
+  },
+  {
+   "name": "Maruti Suzuki India",
+   "domain": "marutisuzuki.com",
+   "employees": 40000
+  },
+  {
+   "name": "Sun Pharmaceutical Industries",
+   "domain": "sunpharma.com",
+   "employees": 40000
+  },
+  {
+   "name": "Tata Electronics",
+   "employees": 40000
+  },
+  {
+   "name": "Hindalco Industries",
+   "domain": "hindalco.com",
+   "employees": 35000
+  },
+  {
+   "name": "Gokaldas Exports",
+   "domain": "gokaldasexports.com",
+   "employees": 33000
+  },
+  {
+   "name": "Aurobindo Pharma",
+   "domain": "aurobindo.com",
+   "employees": 30000
+  },
+  {
+   "name": "Indian Oil Corporation",
+   "domain": "iocl.com",
+   "employees": 30000
+  },
+  {
+   "name": "Arvind Limited",
+   "domain": "arvind.com",
+   "employees": 30000
+  },
+  {
+   "name": "Bharat Heavy Electricals (BHEL)",
+   "domain": "bhel.com",
+   "employees": 28000
+  },
+  {
+   "name": "Oil and Natural Gas Corporation (ONGC)",
+   "domain": "ongcindia.com",
+   "employees": 26000
+  },
+  {
+   "name": "Dr. Reddy's Laboratories",
+   "domain": "drreddys.com",
+   "employees": 26000
+  },
+  {
+   "name": "Cipla",
+   "domain": "cipla.com",
+   "employees": 25000
+  },
+  {
+   "name": "Zydus Lifesciences",
+   "domain": "zyduslife.com",
+   "employees": 25000
+  },
+  {
+   "name": "Vardhman Textiles",
+   "domain": "vardhman.com",
+   "employees": 25000
+  },
+  {
+   "name": "Pearl Global Industries",
+   "domain": "pearlglobal.com",
+   "employees": 25000
+  },
+  {
+   "name": "Page Industries",
+   "domain": "pageind.com",
+   "employees": 25000
+  },
+  {
+   "name": "Dilip Buildcon",
+   "employees": 25000,
+   "domain": "dilipbuildcon.com"
+  },
+  {
+   "name": "ITC",
+   "domain": "itcportal.com",
+   "employees": 24000
+  },
+  {
+   "name": "Hindustan Aeronautics (HAL)",
+   "domain": "hal-india.co.in",
+   "employees": 24000
+  },
+  {
+   "name": "UltraTech Cement",
+   "domain": "ultratechcement.com",
+   "employees": 23000
+  },
+  {
+   "name": "Hindustan Unilever",
+   "domain": "hul.co.in",
+   "employees": 21000
+  },
+  {
+   "name": "Intas Pharmaceuticals",
+   "domain": "intaspharma.com",
+   "employees": 20000
+  },
+  {
+   "name": "Mankind Pharma",
+   "domain": "mankindpharma.com",
+   "employees": 20000
+  },
+  {
+   "name": "Lupin",
+   "domain": "lupin.com",
+   "employees": 20000
+  },
+  {
+   "name": "Vedanta",
+   "domain": "vedantalimited.com",
+   "employees": 20000
+  },
+  {
+   "name": "Hetero Drugs",
+   "employees": 20000
+  },
+  {
+   "name": "KPR Mill",
+   "employees": 20000,
+   "domain": "kprmilllimited.com"
+  },
+  {
+   "name": "Welspun Living",
+   "domain": "welspunliving.com",
+   "employees": 20000
+  },
+  {
+   "name": "Haldiram's",
+   "employees": 20000
+  },
+  {
+   "name": "Apollo Tyres",
+   "domain": "apollotyres.com",
+   "employees": 19000
+  },
+  {
+   "name": "Alok Industries",
+   "domain": "alokindustries.com",
+   "employees": 18000
+  },
+  {
+   "name": "Divi's Laboratories",
+   "domain": "divislabs.com",
+   "employees": 17000
+  },
+  {
+   "name": "MRF",
+   "domain": "mrftyres.com",
+   "employees": 16000
+  },
+  {
+   "name": "NTPC",
+   "domain": "ntpc.co.in",
+   "employees": 16000
+  },
+  {
+   "name": "Biocon",
+   "domain": "biocon.com",
+   "employees": 16000
+  },
+  {
+   "name": "Amara Raja Energy & Mobility",
+   "domain": "amararaja.com",
+   "employees": 16000
+  },
+  {
+   "name": "Ipca Laboratories",
+   "domain": "ipca.com",
+   "employees": 15000
+  },
+  {
+   "name": "Torrent Pharmaceuticals",
+   "domain": "torrentpharma.com",
+   "employees": 15000
+  },
+  {
+   "name": "Alkem Laboratories",
+   "domain": "alkemlabs.com",
+   "employees": 15000
+  },
+  {
+   "name": "Macleods Pharmaceuticals",
+   "domain": "macleodspharma.com",
+   "employees": 15000
+  },
+  {
+   "name": "Grasim Industries",
+   "domain": "grasim.com",
+   "employees": 15000
+  },
+  {
+   "name": "Varun Beverages",
+   "domain": "varunpepsi.com",
+   "employees": 15000
+  },
+  {
+   "name": "Uno Minda",
+   "domain": "unominda.com",
+   "employees": 15000
+  },
+  {
+   "name": "Rashtriya Ispat Nigam (Vizag Steel)",
+   "domain": "vizagsteel.com",
+   "employees": 14000
+  },
+  {
+   "name": "Trident Limited",
+   "domain": "tridentindia.com",
+   "employees": 14000
+  },
+  {
+   "name": "JSW Steel",
+   "domain": "jsw.in",
+   "employees": 13000
+  },
+  {
+   "name": "Glenmark Pharmaceuticals",
+   "domain": "glenmarkpharma.com",
+   "employees": 13000
+  },
+  {
+   "name": "UPL",
+   "domain": "upl-ltd.com",
+   "employees": 13000
+  },
+  {
+   "name": "Godrej & Boyce",
+   "employees": 12000,
+   "domain": "godrej.com"
+  },
+  {
+   "name": "Godrej Consumer Products",
+   "domain": "godrejcp.com",
+   "employees": 12000
+  },
+  {
+   "name": "Ashok Leyland",
+   "domain": "ashokleyland.com",
+   "employees": 12000
+  },
+  {
+   "name": "Tata Power",
+   "domain": "tatapower.com",
+   "employees": 12000
+  },
+  {
+   "name": "SP Apparels",
+   "employees": 12000
+  },
+  {
+   "name": "NLC India",
+   "employees": 11000,
+   "domain": "nlcindia.in"
+  },
+  {
+   "name": "Emcure Pharmaceuticals",
+   "employees": 11000,
+   "domain": "emcure.co.in"
+  },
+  {
+   "name": "Jindal Steel & Power",
+   "domain": "jindalsteelpower.com",
+   "employees": 10000
+  },
+  {
+   "name": "Bajaj Auto",
+   "domain": "bajajauto.com",
+   "employees": 10000
+  },
+  {
+   "name": "Escorts Kubota",
+   "domain": "escortskubota.com",
+   "employees": 10000
+  },
+  {
+   "name": "Voltas",
+   "domain": "voltas.com",
+   "employees": 10000
+  },
+  {
+   "name": "Raymond",
+   "domain": "raymond.in",
+   "employees": 10000
+  },
+  {
+   "name": "Adani Enterprises",
+   "domain": "adanienterprises.com",
+   "employees": 10000
+  },
+  {
+   "name": "Titan Company",
+   "domain": "titancompany.in",
+   "employees": 9000
+  },
+  {
+   "name": "Hero MotoCorp",
+   "domain": "heromotocorp.com",
+   "employees": 9000
+  },
+  {
+   "name": "Siemens Limited (India)",
+   "employees": 9000
+  },
+  {
+   "name": "Relaxo Footwears",
+   "domain": "relaxofootwear.com",
+   "employees": 9000
+  },
+  {
+   "name": "Hindustan Petroleum Corporation (HPCL)",
+   "domain": "hindustanpetroleum.com",
+   "employees": 9000
+  },
+  {
+   "name": "Bosch Limited",
+   "domain": "bosch.in",
+   "employees": 9000
+  },
+  {
+   "name": "CESC",
+   "domain": "cesc.co.in",
+   "employees": 9000
+  },
+  {
+   "name": "Kitex Garments",
+   "domain": "kitexgarments.com",
+   "employees": 9000
+  },
+  {
+   "name": "Bharat Electronics (BEL)",
+   "domain": "bel-india.in",
+   "employees": 9000
+  },
+  {
+   "name": "Torrent Power",
+   "domain": "torrentpower.com",
+   "employees": 8500
+  },
+  {
+   "name": "Bharat Petroleum Corporation (BPCL)",
+   "domain": "bharatpetroleum.in",
+   "employees": 8500
+  },
+  {
+   "name": "Power Grid Corporation of India",
+   "domain": "powergrid.in",
+   "employees": 8500
+  },
+  {
+   "name": "Bharat Forge",
+   "domain": "bharatforge.com",
+   "employees": 8000
+  },
+  {
+   "name": "Asian Paints",
+   "domain": "asianpaints.com",
+   "employees": 8000
+  },
+  {
+   "name": "Pidilite Industries",
+   "domain": "pidilite.com",
+   "employees": 8000
+  },
+  {
+   "name": "KEC International",
+   "domain": "kecrpg.com",
+   "employees": 8000
+  },
+  {
+   "name": "Afcons Infrastructure",
+   "domain": "afcons.com",
+   "employees": 8000
+  },
+  {
+   "name": "Uflex",
+   "domain": "uflexltd.com",
+   "employees": 8000
+  },
+  {
+   "name": "Force Motors",
+   "domain": "forcemotors.com",
+   "employees": 8000
+  },
+  {
+   "name": "Dabur India",
+   "domain": "dabur.com",
+   "employees": 8000
+  },
+  {
+   "name": "Nestle India",
+   "domain": "nestle.in",
+   "employees": 8000
+  },
+  {
+   "name": "CEAT",
+   "domain": "ceat.com",
+   "employees": 8000
+  },
+  {
+   "name": "JK Tyre & Industries",
+   "domain": "jktyre.com",
+   "employees": 8000
+  },
+  {
+   "name": "SRF",
+   "domain": "srf.com",
+   "employees": 7500
+  },
+  {
+   "name": "Century Plyboards",
+   "domain": "centuryply.com",
+   "employees": 7000
+  },
+  {
+   "name": "Adani Ports and Special Economic Zone",
+   "domain": "adaniports.com",
+   "employees": 7000
+  },
+  {
+   "name": "Mazagon Dock Shipbuilders",
+   "domain": "mazagondock.in",
+   "employees": 7000
+  },
+  {
+   "name": "International Tractors (Sonalika)",
+   "domain": "sonalika.com",
+   "employees": 7000
+  },
+  {
+   "name": "Oil India",
+   "domain": "oil-india.com",
+   "employees": 6500
+  },
+  {
+   "name": "TVS Motor Company",
+   "domain": "tvsmotor.com",
+   "employees": 6500
+  },
+  {
+   "name": "Shree Cement",
+   "domain": "shreecement.com",
+   "employees": 6500
+  },
+  {
+   "name": "Havells India",
+   "domain": "havells.com",
+   "employees": 6000
+  },
+  {
+   "name": "ABB India",
+   "employees": 6000
+  },
+  {
+   "name": "Aarti Industries",
+   "domain": "aarti-industries.com",
+   "employees": 6000
+  },
+  {
+   "name": "Dalmia Bharat",
+   "domain": "dalmiabharat.com",
+   "employees": 6000
+  },
+  {
+   "name": "Suzlon Energy",
+   "domain": "suzlon.com",
+   "employees": 6000
+  },
+  {
+   "name": "Endurance Technologies",
+   "domain": "endurancegroup.com",
+   "employees": 6000
+  },
+  {
+   "name": "Balrampur Chini Mills",
+   "domain": "chini.com",
+   "employees": 6000
+  },
+  {
+   "name": "Solar Industries India",
+   "domain": "solargroup.com",
+   "employees": 6000
+  },
+  {
+   "name": "Laurus Labs",
+   "domain": "lauruslabs.com",
+   "employees": 6000
+  },
+  {
+   "name": "Jubilant Pharmova",
+   "domain": "jubilantpharmova.com",
+   "employees": 6000
+  },
+  {
+   "name": "Tata Projects",
+   "domain": "tataprojects.com",
+   "employees": 6000
+  },
+  {
+   "name": "Jindal Stainless",
+   "domain": "jindalstainless.com",
+   "employees": 6000
+  },
+  {
+   "name": "NMDC",
+   "domain": "nmdc.co.in",
+   "employees": 5500
+  },
+  {
+   "name": "National Aluminium Company (NALCO)",
+   "domain": "nalcoindia.com",
+   "employees": 5500
+  },
+  {
+   "name": "BEML",
+   "domain": "bemlindia.in",
+   "employees": 5500
+  },
+  {
+   "name": "Jindal Saw",
+   "domain": "jindalsaw.com",
+   "employees": 5000
+  },
+  {
+   "name": "Ambuja Cements",
+   "domain": "ambujacement.com",
+   "employees": 5000
+  },
+  {
+   "name": "ACC",
+   "domain": "acclimited.com",
+   "employees": 5000
+  },
+  {
+   "name": "Exide Industries",
+   "domain": "exideindustries.com",
+   "employees": 5000
+  },
+  {
+   "name": "Polycab India",
+   "domain": "polycab.com",
+   "employees": 5000
+  },
+  {
+   "name": "Supreme Industries",
+   "domain": "supreme.co.in",
+   "employees": 5000
+  },
+  {
+   "name": "Sundram Fasteners",
+   "domain": "sundram.com",
+   "employees": 5000
+  },
+  {
+   "name": "Thermax",
+   "domain": "thermaxglobal.com",
+   "employees": 5000
+  },
+  {
+   "name": "NCC Limited",
+   "domain": "ncclimited.com",
+   "employees": 5000
+  },
+  {
+   "name": "Coromandel International",
+   "domain": "coromandel.biz",
+   "employees": 5000
+  },
+  {
+   "name": "Kajaria Ceramics",
+   "domain": "kajariaceramics.com",
+   "employees": 5000
+  },
+  {
+   "name": "DCM Shriram",
+   "domain": "dcmshriram.com",
+   "employees": 5000
+  },
+  {
+   "name": "Ramkrishna Forgings",
+   "domain": "ramkrishnaforgings.com",
+   "employees": 5000
+  },
+  {
+   "name": "Natco Pharma",
+   "domain": "natcopharma.co.in",
+   "employees": 5000
+  },
+  {
+   "name": "Hatsun Agro Product",
+   "domain": "hap.in",
+   "employees": 5000
+  },
+  {
+   "name": "Tube Investments of India",
+   "domain": "tiindia.com",
+   "employees": 5000
+  },
+  {
+   "name": "Eicher Motors",
+   "domain": "eichermotors.com",
+   "employees": 5000
+  },
+  {
+   "name": "NHPC",
+   "domain": "nhpcindia.com",
+   "employees": 4700
+  },
+  {
+   "name": "Godrej Agrovet",
+   "domain": "godrejagrovet.com",
+   "employees": 4500
+  },
+  {
+   "name": "Tata Chemicals",
+   "domain": "tatachemicals.com",
+   "employees": 4500
+  },
+  {
+   "name": "GAIL (India)",
+   "domain": "gailonline.com",
+   "employees": 4500
+  },
+  {
+   "name": "Britannia Industries",
+   "domain": "britannia.co.in",
+   "employees": 4500
+  },
+  {
+   "name": "Cummins India",
+   "employees": 4500
+  },
+  {
+   "name": "Hindustan Zinc",
+   "domain": "hzlindia.com",
+   "employees": 4000
+  },
+  {
+   "name": "Berger Paints India",
+   "domain": "bergerpaints.com",
+   "employees": 4000
+  },
+  {
+   "name": "JK Cement",
+   "domain": "jkcement.com",
+   "employees": 4000
+  },
+  {
+   "name": "Tractors and Farm Equipment (TAFE)",
+   "domain": "tafe.com",
+   "employees": 3500
+  },
+  {
+   "name": "Adani Power",
+   "domain": "adanipower.com",
+   "employees": 3500
+  },
+  {
+   "name": "The Ramco Cements",
+   "domain": "ramcocements.in",
+   "employees": 3500
+  },
+  {
+   "name": "PI Industries",
+   "domain": "piindustries.com",
+   "employees": 3500
+  },
+  {
+   "name": "Apollo Hospitals",
+   "domain": "apollohospitals.com",
+   "employees": 70000
+  },
+  {
+   "name": "Manipal Hospitals",
+   "domain": "manipalhospitals.com",
+   "employees": 30000
+  },
+  {
+   "name": "Hetero",
+   "domain": "heteroworld.com",
+   "employees": 23000
+  },
+  {
+   "name": "Fortis Healthcare",
+   "domain": "fortishealthcare.com",
+   "employees": 23000
+  },
+  {
+   "name": "Aster DM Healthcare",
+   "domain": "asterdmhealthcare.com",
+   "employees": 22000
+  },
+  {
+   "name": "MedPlus Health Services",
+   "domain": "medplusindia.com",
+   "employees": 20000
+  },
+  {
+   "name": "Narayana Health",
+   "domain": "narayanahealth.org",
+   "employees": 19000
+  },
+  {
+   "name": "Max Healthcare",
+   "domain": "maxhealthcare.in",
+   "employees": 18000
+  },
+  {
+   "name": "MSN Laboratories",
+   "domain": "msnlabs.com",
+   "employees": 14000
+  },
+  {
+   "name": "Akums Drugs & Pharmaceuticals",
+   "domain": "akums.in",
+   "employees": 13000
+  },
+  {
+   "name": "Medanta (Global Health)",
+   "domain": "medanta.org",
+   "employees": 13000
+  },
+  {
+   "name": "Alembic Pharmaceuticals",
+   "domain": "alembicpharmaceuticals.com",
+   "employees": 12000
+  },
+  {
+   "name": "Micro Labs",
+   "domain": "microlabsltd.com",
+   "employees": 11000
+  },
+  {
+   "name": "KIMS Hospitals (Krishna Institute of Medical Sciences)",
+   "domain": "kimshospitals.com",
+   "employees": 10000
+  },
+  {
+   "name": "CARE Hospitals",
+   "domain": "carehospitals.com",
+   "employees": 10000
+  },
+  {
+   "name": "Yashoda Hospitals",
+   "domain": "yashodahospitals.com",
+   "employees": 10000
+  },
+  {
+   "name": "Aristo Pharmaceuticals",
+   "employees": 9500
+  },
+  {
+   "name": "Serum Institute of India",
+   "domain": "seruminstitute.com",
+   "employees": 9000
+  },
+  {
+   "name": "Syngene International",
+   "domain": "syngeneintl.com",
+   "employees": 8000
+  },
+  {
+   "name": "Cadila Pharmaceuticals",
+   "domain": "cadilapharma.com",
+   "employees": 8000
+  },
+  {
+   "name": "Meril Life Sciences",
+   "domain": "merillife.com",
+   "employees": 8000
+  },
+  {
+   "name": "HealthCare Global Enterprises (HCG)",
+   "domain": "hcgoncology.com",
+   "employees": 8000
+  },
+  {
+   "name": "USV",
+   "employees": 7500
+  },
+  {
+   "name": "Ajanta Pharma",
+   "domain": "ajantapharma.com",
+   "employees": 7500
+  },
+  {
+   "name": "Himalaya Wellness",
+   "domain": "himalayawellness.com",
+   "employees": 7500
+  },
+  {
+   "name": "Biological E",
+   "domain": "biologicale.com",
+   "employees": 7000
+  },
+  {
+   "name": "Piramal Pharma",
+   "domain": "piramalpharma.com",
+   "employees": 6500
+  },
+  {
+   "name": "Wockhardt",
+   "domain": "wockhardt.com",
+   "employees": 6500
+  },
+  {
+   "name": "Eris Lifesciences",
+   "domain": "eris.co.in",
+   "employees": 6500
+  },
+  {
+   "name": "Metropolis Healthcare",
+   "domain": "metropolisindia.com",
+   "employees": 6500
+  },
+  {
+   "name": "Dr Lal PathLabs",
+   "domain": "lalpathlabs.com",
+   "employees": 6000
+  },
+  {
+   "name": "Agilus Diagnostics",
+   "domain": "agilusdiagnostics.com",
+   "employees": 6000
+  },
+  {
+   "name": "FDC Limited",
+   "domain": "fdcindia.com",
+   "employees": 6000
+  },
+  {
+   "name": "Rainbow Children's Medicare",
+   "domain": "rainbowhospitals.in",
+   "employees": 6000
+  },
+  {
+   "name": "Indoco Remedies",
+   "domain": "indoco.com",
+   "employees": 6000
+  },
+  {
+   "name": "Kauvery Hospital",
+   "domain": "kauveryhospital.com",
+   "employees": 6000
+  },
+  {
+   "name": "JB Chemicals & Pharmaceuticals (JB Pharma)",
+   "domain": "jbpharma.com",
+   "employees": 5500
+  },
+  {
+   "name": "Gland Pharma",
+   "domain": "glandpharma.com",
+   "employees": 5500
+  },
+  {
+   "name": "Aravind Eye Care System",
+   "domain": "aravind.org",
+   "employees": 5500
+  },
+  {
+   "name": "Strides Pharma Science",
+   "domain": "strides.com",
+   "employees": 5000
+  },
+  {
+   "name": "La Renon Healthcare",
+   "domain": "larenon.com",
+   "employees": 5000
+  },
+  {
+   "name": "Dr. Agarwal's Health Care",
+   "domain": "dragarwal.com",
+   "employees": 5000
+  },
+  {
+   "name": "MIOT International",
+   "domain": "miotinternational.com",
+   "employees": 5000
+  },
+  {
+   "name": "Sahyadri Hospitals",
+   "domain": "sahyadrihospital.com",
+   "employees": 5000
+  },
+  {
+   "name": "Paras Health",
+   "domain": "parashospitals.com",
+   "employees": 5000
+  },
+  {
+   "name": "Jupiter Life Line Hospitals",
+   "domain": "jupiterhospital.com",
+   "employees": 5000
+  },
+  {
+   "name": "KIMSHEALTH",
+   "domain": "kimshealth.org",
+   "employees": 5000
+  },
+  {
+   "name": "AIG Hospitals",
+   "domain": "aighospitals.com",
+   "employees": 5000
+  },
+  {
+   "name": "Kovai Medical Center and Hospital (KMCH)",
+   "domain": "kmchhospitals.com",
+   "employees": 5000
+  },
+  {
+   "name": "Aragen Life Sciences",
+   "domain": "aragen.com",
+   "employees": 4500
+  },
+  {
+   "name": "Granules India",
+   "domain": "granulesindia.com",
+   "employees": 4500
+  },
+  {
+   "name": "Cloudnine Hospitals",
+   "domain": "cloudninecare.com",
+   "employees": 4500
+  },
+  {
+   "name": "ACG Group",
+   "domain": "acg-world.com",
+   "employees": 4500
+  },
+  {
+   "name": "NephroPlus",
+   "domain": "nephroplus.com",
+   "employees": 4500
+  },
+  {
+   "name": "Healthium Medtech",
+   "domain": "healthium.com",
+   "employees": 4000
+  },
+  {
+   "name": "HLL Lifecare",
+   "domain": "lifecarehll.com",
+   "employees": 4000
+  },
+  {
+   "name": "Artemis Hospitals",
+   "domain": "artemishospitals.com",
+   "employees": 4000
+  },
+  {
+   "name": "Neuberg Diagnostics",
+   "domain": "neubergdiagnostics.com",
+   "employees": 4000
+  },
+  {
+   "name": "Wellness Forever Medicare",
+   "domain": "wellnessforever.com",
+   "employees": 4000
+  },
+  {
+   "name": "CK Birla Hospitals",
+   "domain": "ckbirlahospitals.com",
+   "employees": 4000
+  },
+  {
+   "name": "Hindustan Syringes & Medical Devices (HMD)",
+   "domain": "hmdhealthcare.com",
+   "employees": 4000
+  },
+  {
+   "name": "Wockhardt Hospitals",
+   "domain": "wockhardthospitals.com",
+   "employees": 3500
+  },
+  {
+   "name": "Shalby Hospitals",
+   "domain": "shalby.org",
+   "employees": 3500
+  },
+  {
+   "name": "Poly Medicure",
+   "domain": "polymedicure.com",
+   "employees": 3500
+  },
+  {
+   "name": "Unichem Laboratories",
+   "domain": "unichemlabs.com",
+   "employees": 3500
+  },
+  {
+   "name": "Motherhood Hospitals",
+   "domain": "motherhoodindia.com",
+   "employees": 3500
+  },
+  {
+   "name": "Yatharth Super Speciality Hospitals",
+   "domain": "yatharthhospitals.com",
+   "employees": 3500
+  },
+  {
+   "name": "Bharat Biotech",
+   "domain": "bharatbiotech.com",
+   "employees": 3000
+  },
+  {
+   "name": "Caplin Point Laboratories",
+   "domain": "caplinpoint.net",
+   "employees": 3000
+  },
+  {
+   "name": "Sai Life Sciences",
+   "domain": "sailife.com",
+   "employees": 3000
+  },
+  {
+   "name": "Sterling Hospitals",
+   "domain": "sterlinghospitals.com",
+   "employees": 3000
+  },
+  {
+   "name": "Rela Hospital",
+   "domain": "relainstitute.com",
+   "employees": 3000
+  },
+  {
+   "name": "Portea Medical",
+   "domain": "portea.com",
+   "employees": 3000
+  },
+  {
+   "name": "Krsnaa Diagnostics",
+   "domain": "krsnaadiagnostics.com",
+   "employees": 3000
+  },
+  {
+   "name": "Redcliffe Labs",
+   "domain": "redcliffelabs.com",
+   "employees": 3000
+  },
+  {
+   "name": "Arya Vaidya Sala Kottakkal",
+   "domain": "aryavaidyasala.com",
+   "employees": 3000
+  },
+  {
+   "name": "Aarti Drugs",
+   "domain": "aartidrugs.co.in",
+   "employees": 2800
+  },
+  {
+   "name": "Panacea Biotec",
+   "domain": "panaceabiotec.com",
+   "employees": 2500
+  },
+  {
+   "name": "Morepen Laboratories",
+   "domain": "morepen.com",
+   "employees": 2500
+  },
+  {
+   "name": "Continental Hospitals",
+   "domain": "continentalhospitals.com",
+   "employees": 2500
+  },
+  {
+   "name": "Thyrocare Technologies",
+   "domain": "thyrocare.com",
+   "employees": 2500
+  },
+  {
+   "name": "Vijaya Diagnostic Centre",
+   "domain": "vijayadiagnostic.com",
+   "employees": 2500
+  },
+  {
+   "name": "Centaur Pharmaceuticals",
+   "domain": "centaurpharma.com",
+   "employees": 2500
+  },
+  {
+   "name": "Corona Remedies",
+   "domain": "coronaremedies.com",
+   "employees": 2500
+  },
+  {
+   "name": "Hikal",
+   "domain": "hikal.com",
+   "employees": 2200
+  },
+  {
+   "name": "Shilpa Medicare",
+   "domain": "vbshilpa.com",
+   "employees": 2200
+  },
+  {
+   "name": "Anthem Biosciences",
+   "domain": "anthembio.com",
+   "employees": 2000
+  },
+  {
+   "name": "Molbio Diagnostics",
+   "domain": "molbiodiagnostics.com",
+   "employees": 2000
+  },
+  {
+   "name": "Solara Active Pharma Sciences",
+   "domain": "solara.co.in",
+   "employees": 2000
+  },
+  {
+   "name": "Nectar Lifesciences",
+   "domain": "neclife.com",
+   "employees": 2000
+  },
+  {
+   "name": "SeQuent Scientific",
+   "domain": "sequent.in",
+   "employees": 2000
+  },
+  {
+   "name": "Innova Captab",
+   "domain": "innovacaptab.com",
+   "employees": 2000
+  },
+  {
+   "name": "Pristyn Care",
+   "domain": "pristyncare.com",
+   "employees": 2000
+  },
+  {
+   "name": "Nova IVF Fertility",
+   "domain": "novaivffertility.com",
+   "employees": 2000
+  },
+  {
+   "name": "Healthians",
+   "domain": "healthians.com",
+   "employees": 2000
+  },
+  {
+   "name": "Centre for Sight",
+   "domain": "centreforsight.net",
+   "employees": 2000
+  },
+  {
+   "name": "Tynor Orthotics",
+   "domain": "tynor.com",
+   "employees": 2000
+  },
+  {
+   "name": "Romsons",
+   "domain": "romsons.com",
+   "employees": 2000
+  },
+  {
+   "name": "MediBuddy",
+   "domain": "medibuddy.in",
+   "employees": 2000
+  },
+  {
+   "name": "Transasia Bio-Medicals",
+   "domain": "transasia.co.in",
+   "employees": 1800
+  },
+  {
+   "name": "Trivitron Healthcare",
+   "domain": "trivitron.com",
+   "employees": 1800
+  },
+  {
+   "name": "Marksans Pharma",
+   "domain": "marksanspharma.com",
+   "employees": 1800
+  },
+  {
+   "name": "Bharat Serums and Vaccines",
+   "domain": "bharatserums.com",
+   "employees": 1800
+  },
+  {
+   "name": "Concord Biotech",
+   "domain": "concordbiotech.com",
+   "employees": 1700
+  },
+  {
+   "name": "Neuland Laboratories",
+   "domain": "neulandlabs.com",
+   "employees": 1700
+  },
+  {
+   "name": "RPG Life Sciences",
+   "domain": "rpglifesciences.com",
+   "employees": 1600
+  },
+  {
+   "name": "Orchid Pharma",
+   "domain": "orchidpharma.com",
+   "employees": 1500
+  },
+  {
+   "name": "Indian Immunologicals",
+   "domain": "indimmune.com",
+   "employees": 1500
+  },
+  {
+   "name": "TCG Lifesciences",
+   "domain": "tcgls.com",
+   "employees": 1500
+  },
+  {
+   "name": "Gufic Biosciences",
+   "domain": "guficbio.com",
+   "employees": 1500
+  },
+  {
+   "name": "Cliantha Research",
+   "domain": "cliantha.com",
+   "employees": 1500
+  },
+  {
+   "name": "Allengers Medical Systems",
+   "domain": "allengers.com",
+   "employees": 1500
+  },
+  {
+   "name": "MedGenome",
+   "domain": "medgenome.com",
+   "employees": 1500
+  },
+  {
+   "name": "SMS Pharmaceuticals",
+   "domain": "smspharma.com",
+   "employees": 1500
+  },
+  {
+   "name": "TTK Healthcare",
+   "domain": "ttkhealthcare.com",
+   "employees": 1500
+  },
+  {
+   "name": "Windlas Biotech",
+   "domain": "windlas.com",
+   "employees": 1400
+  },
+  {
+   "name": "Vimta Labs",
+   "domain": "vimta.com",
+   "employees": 1300
+  },
+  {
+   "name": "Bliss GVS Pharma",
+   "domain": "blissgvs.com",
+   "employees": 1300
+  },
+  {
+   "name": "OmniActive Health Technologies",
+   "domain": "omniactives.com",
+   "employees": 1300
+  },
+  {
+   "name": "Suven Pharmaceuticals",
+   "domain": "suvenpharm.com",
+   "employees": 1200
+  },
+  {
+   "name": "Venus Remedies",
+   "domain": "venusremedies.com",
+   "employees": 1200
+  },
+  {
+   "name": "Veeda Clinical Research",
+   "domain": "veedacr.com",
+   "employees": 1200
+  },
+  {
+   "name": "Lincoln Pharmaceuticals",
+   "domain": "lincolnpharma.com",
+   "employees": 1200
+  },
+  {
+   "name": "Ami Organics",
+   "domain": "amiorganics.com",
+   "employees": 1100
+  },
+  {
+   "name": "Hester Biosciences",
+   "domain": "hester.in",
+   "employees": 1000
+  },
+  {
+   "name": "Advanced Enzyme Technologies",
+   "domain": "advancedenzymes.com",
+   "employees": 1000
+  },
+  {
+   "name": "Motherson Sumi Wiring India",
+   "employees": 30000
+  },
+  {
+   "name": "TVS Supply Chain Solutions",
+   "domain": "tvsscs.com",
+   "employees": 17000
+  },
+  {
+   "name": "Minda Corporation (Spark Minda)",
+   "domain": "sparkminda.com",
+   "employees": 15000
+  },
+  {
+   "name": "Suprajit Engineering",
+   "domain": "suprajit.com",
+   "employees": 15000
+  },
+  {
+   "name": "Tata AutoComp Systems",
+   "domain": "tataautocomp.com",
+   "employees": 15000
+  },
+  {
+   "name": "JBM Auto",
+   "domain": "jbmgroup.com",
+   "employees": 14000
+  },
+  {
+   "name": "Sansera Engineering",
+   "domain": "sansera.in",
+   "employees": 10000
+  },
+  {
+   "name": "Sandhar Technologies",
+   "domain": "sandhargroup.com",
+   "employees": 10000
+  },
+  {
+   "name": "Varroc Engineering",
+   "domain": "varroc.com",
+   "employees": 10000
+  },
+  {
+   "name": "Belrise Industries",
+   "domain": "belriseindustries.com",
+   "employees": 10000
+  },
+  {
+   "name": "Dhoot Transmission",
+   "employees": 8000
+  },
+  {
+   "name": "Asahi India Glass",
+   "domain": "aisglass.com",
+   "employees": 7000
+  },
+  {
+   "name": "Shriram Pistons & Rings",
+   "domain": "shrirampistons.com",
+   "employees": 7000
+  },
+  {
+   "name": "Craftsman Automation",
+   "domain": "craftsmanautomation.com",
+   "employees": 7000
+  },
+  {
+   "name": "CIE Automotive India",
+   "employees": 7000
+  },
+  {
+   "name": "Brakes India",
+   "employees": 6000
+  },
+  {
+   "name": "Pricol",
+   "domain": "pricol.com",
+   "employees": 5000
+  },
+  {
+   "name": "Sona BLW Precision Forgings (Sona Comstar)",
+   "domain": "sonacomstar.com",
+   "employees": 5000
+  },
+  {
+   "name": "Hyundai Motor India",
+   "employees": 5000
+  },
+  {
+   "name": "Rockman Industries",
+   "employees": 5000
+  },
+  {
+   "name": "Hero Cycles",
+   "domain": "herocycles.com",
+   "employees": 5000
+  },
+  {
+   "name": "Federal-Mogul Goetze India",
+   "employees": 5000
+  },
+  {
+   "name": "Wheels India",
+   "domain": "wheelsindia.com",
+   "employees": 4500
+  },
+  {
+   "name": "TVS Srichakra",
+   "employees": 4500
+  },
+  {
+   "name": "Lucas TVS",
+   "employees": 4000
+  },
+  {
+   "name": "Balkrishna Industries (BKT)",
+   "domain": "bkt-tires.com",
+   "employees": 4000
+  },
+  {
+   "name": "Fiem Industries",
+   "domain": "fiemindustries.com",
+   "employees": 4000
+  },
+  {
+   "name": "Rico Auto Industries",
+   "domain": "ricoauto.com",
+   "employees": 4000
+  },
+  {
+   "name": "LG Balakrishnan & Bros",
+   "domain": "lgb.co.in",
+   "employees": 4000
+  },
+  {
+   "name": "Uniparts India",
+   "domain": "unipartsgroup.com",
+   "employees": 4000
+  },
+  {
+   "name": "Texmaco Rail & Engineering",
+   "domain": "texmaco.in",
+   "employees": 4000
+  },
+  {
+   "name": "Rane (Madras)",
+   "employees": 4000
+  },
+  {
+   "name": "Schaeffler India",
+   "employees": 4000
+  },
+  {
+   "name": "ZF Commercial Vehicle Control Systems India",
+   "employees": 4000
+  },
+  {
+   "name": "Landmark Cars",
+   "employees": 4000
+  },
+  {
+   "name": "Popular Vehicles & Services",
+   "employees": 4000
+  },
+  {
+   "name": "Subros",
+   "domain": "subros.com",
+   "employees": 4000
+  },
+  {
+   "name": "Gabriel India",
+   "domain": "gabrielindia.com",
+   "employees": 3500
+  },
+  {
+   "name": "Lumax Industries",
+   "domain": "lumaxworld.in",
+   "employees": 3500
+  },
+  {
+   "name": "ASK Automotive",
+   "employees": 3000
+  },
+  {
+   "name": "Jay Bharat Maruti",
+   "employees": 3000
+  },
+  {
+   "name": "Greaves Cotton",
+   "domain": "greavescotton.com",
+   "employees": 3000
+  },
+  {
+   "name": "Steel Strips Wheels",
+   "domain": "sswlindia.com",
+   "employees": 3000
+  },
+  {
+   "name": "GNA Axles",
+   "employees": 3000
+  },
+  {
+   "name": "MM Forgings",
+   "domain": "mmforgings.com",
+   "employees": 3000
+  },
+  {
+   "name": "Alicon Castalloy",
+   "domain": "alicongroup.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "Napino Auto & Electronics",
+   "domain": "napino.com",
+   "employees": 3000
+  },
+  {
+   "name": "RSB Transmissions",
+   "domain": "rsbglobal.com",
+   "employees": 3000
+  },
+  {
+   "name": "National Engineering Industries (NBC Bearings)",
+   "domain": "nbcbearings.com",
+   "employees": 3000
+  },
+  {
+   "name": "ANI Technologies (Ola)",
+   "domain": "olacabs.com",
+   "employees": 3000
+  },
+  {
+   "name": "Banco Products (India)",
+   "domain": "bancoindia.com",
+   "employees": 2500
+  },
+  {
+   "name": "Sharda Motor Industries",
+   "domain": "shardamotor.com",
+   "employees": 2500
+  },
+  {
+   "name": "Jamna Auto Industries",
+   "domain": "jaispring.com",
+   "employees": 2500
+  },
+  {
+   "name": "Happy Forgings",
+   "domain": "happyforgings.com",
+   "employees": 2500
+  },
+  {
+   "name": "SKF India",
+   "employees": 2500
+  },
+  {
+   "name": "Omax Autos",
+   "domain": "omaxauto.com",
+   "employees": 2500
+  },
+  {
+   "name": "Sundaram-Clayton",
+   "employees": 2500
+  },
+  {
+   "name": "Titagarh Rail Systems",
+   "domain": "titagarh.in",
+   "employees": 2500
+  },
+  {
+   "name": "Olectra Greentech",
+   "domain": "olectra.com",
+   "employees": 2000
+  },
+  {
+   "name": "Avon Cycles",
+   "domain": "avoncycles.com",
+   "employees": 2000
+  },
+  {
+   "name": "VST Tillers Tractors",
+   "domain": "vsttillers.com",
+   "employees": 2000
+  },
+  {
+   "name": "SML Isuzu",
+   "domain": "smlisuzu.com",
+   "employees": 2000
+  },
+  {
+   "name": "Jupiter Wagons",
+   "domain": "jupiterwagons.com",
+   "employees": 2000
+  },
+  {
+   "name": "Precision Camshafts",
+   "domain": "pclindia.in",
+   "employees": 2000
+  },
+  {
+   "name": "Hi-Tech Gears",
+   "employees": 2000
+  },
+  {
+   "name": "CarTrade Tech",
+   "domain": "cartrade.com",
+   "employees": 2000
+  },
+  {
+   "name": "Munjal Showa",
+   "employees": 1800
+  },
+  {
+   "name": "Munjal Auto Industries",
+   "employees": 1800
+  },
+  {
+   "name": "Talbros Automotive Components",
+   "domain": "talbros.com",
+   "employees": 1500
+  },
+  {
+   "name": "Automotive Axles",
+   "domain": "autoaxle.com",
+   "employees": 1500
+  },
+  {
+   "name": "Atul Auto",
+   "domain": "atulauto.co.in",
+   "employees": 1500
+  },
+  {
+   "name": "PPAP Automotive",
+   "employees": 1500
+  },
+  {
+   "name": "Sundaram Brake Linings",
+   "employees": 1500
+  },
+  {
+   "name": "Rolex Rings",
+   "domain": "rolexrings.com",
+   "employees": 1500
+  },
+  {
+   "name": "Shivam Autotech",
+   "employees": 1500
+  },
+  {
+   "name": "UCAL Fuel Systems",
+   "employees": 1500
+  },
+  {
+   "name": "Autoline Industries",
+   "employees": 1500
+  },
+  {
+   "name": "Timken India",
+   "employees": 1300
+  },
+  {
+   "name": "Bharat Gears",
+   "domain": "bharatgears.com",
+   "employees": 1300
+  },
+  {
+   "name": "Sterling Tools",
+   "employees": 1200
+  },
+  {
+   "name": "India Nippon Electricals",
+   "employees": 1000
+  },
+  {
+   "name": "Euler Motors",
+   "domain": "eulermotors.com",
+   "employees": 1000
+  },
+  {
+   "name": "Chalo",
+   "domain": "chalo.com",
+   "employees": 1000
+  },
+  {
+   "name": "Setco Automotive",
+   "employees": 1000
+  },
+  {
+   "name": "RACL Geartech",
+   "employees": 1000
+  },
+  {
+   "name": "Goodyear India",
+   "employees": 900
+  },
+  {
+   "name": "Kinetic Engineering",
+   "domain": "kineticindia.com",
+   "employees": 800
+  },
+  {
+   "name": "Divgi TorqTransfer Systems",
+   "employees": 700
+  },
+  {
+   "name": "Ultraviolette Automotive",
+   "domain": "ultraviolette.com",
+   "employees": 500
+  },
+  {
+   "name": "Zoomcar",
+   "domain": "zoomcar.com"
+  },
+  {
+   "name": "Hindustan Motors"
+  },
+  {
+   "name": "Wardwizard Innovations & Mobility"
+  },
+  {
+   "name": "Reliance Retail",
+   "domain": "relianceretail.com",
+   "employees": 250000
+  },
+  {
+   "name": "Reliance Jio Infocomm",
+   "domain": "jio.com",
+   "employees": 85000
+  },
+  {
+   "name": "Avenue Supermarts (DMart)",
+   "domain": "dmartindia.com",
+   "employees": 70000
+  },
+  {
+   "name": "Bharat Sanchar Nigam (BSNL)",
+   "domain": "bsnl.co.in",
+   "employees": 55000
+  },
+  {
+   "name": "Jubilant FoodWorks",
+   "domain": "jubilantfoodworks.com",
+   "employees": 33000
+  },
+  {
+   "name": "Indian Hotels Company (Taj)",
+   "domain": "ihcltata.com",
+   "employees": 30000
+  },
+  {
+   "name": "Aditya Birla Fashion and Retail",
+   "domain": "abfrl.com",
+   "employees": 26000
+  },
+  {
+   "name": "Devyani International",
+   "domain": "devyani.co.in",
+   "employees": 25000
+  },
+  {
+   "name": "Bharti Airtel",
+   "domain": "airtel.in",
+   "employees": 24000
+  },
+  {
+   "name": "ITC Limited",
+   "domain": "itcportal.com",
+   "employees": 23000
+  },
+  {
+   "name": "Malabar Gold & Diamonds",
+   "domain": "malabargoldanddiamonds.com",
+   "employees": 21000
+  },
+  {
+   "name": "Trent Limited",
+   "domain": "trentlimited.com",
+   "employees": 20000
+  },
+  {
+   "name": "Vishal Mega Mart",
+   "domain": "vishalmegamart.com",
+   "employees": 15000
+  },
+  {
+   "name": "Sapphire Foods India",
+   "domain": "sapphirefoods.in",
+   "employees": 15000
+  },
+  {
+   "name": "Raymond Limited",
+   "domain": "raymond.in",
+   "employees": 15000
+  },
+  {
+   "name": "Westlife Foodworld",
+   "domain": "westlife.co.in",
+   "employees": 12000
+  },
+  {
+   "name": "PVR Inox",
+   "domain": "pvrinox.com",
+   "employees": 12000
+  },
+  {
+   "name": "BigBasket (Innovative Retail Concepts)",
+   "domain": "bigbasket.com",
+   "employees": 10000
+  },
+  {
+   "name": "Patanjali Ayurved",
+   "employees": 10000
+  },
+  {
+   "name": "V-Mart Retail",
+   "domain": "vmartretail.com",
+   "employees": 10000
+  },
+  {
+   "name": "ITC Hotels",
+   "employees": 10000
+  },
+  {
+   "name": "Restaurant Brands Asia (Burger King India)",
+   "employees": 9000
+  },
+  {
+   "name": "Vodafone Idea",
+   "domain": "myvi.in",
+   "employees": 9000
+  },
+  {
+   "name": "Eternal (Zomato)",
+   "domain": "zomato.com",
+   "employees": 8000
+  },
+  {
+   "name": "Barbeque Nation Hospitality",
+   "domain": "barbequenation.com",
+   "employees": 8000
+  },
+  {
+   "name": "EIH Limited (Oberoi Hotels)",
+   "domain": "oberoihotels.com",
+   "employees": 8000
+  },
+  {
+   "name": "Kalyan Jewellers",
+   "domain": "kalyanjewellers.net",
+   "employees": 8000
+  },
+  {
+   "name": "Joyalukkas",
+   "domain": "joyalukkas.com",
+   "employees": 8000
+  },
+  {
+   "name": "Thomas Cook (India)",
+   "domain": "thomascook.in",
+   "employees": 8000
+  },
+  {
+   "name": "Bennett Coleman & Co (Times Group)",
+   "domain": "timesgroup.com",
+   "employees": 8000
+  },
+  {
+   "name": "DB Corp (Dainik Bhaskar)",
+   "domain": "dbcorpltd.com",
+   "employees": 8000
+  },
+  {
+   "name": "Lemon Tree Hotels",
+   "domain": "lemontreehotels.com",
+   "employees": 7000
+  },
+  {
+   "name": "Shoppers Stop",
+   "domain": "shoppersstop.com",
+   "employees": 7000
+  },
+  {
+   "name": "Jagran Prakashan",
+   "domain": "jplcorp.in",
+   "employees": 7000
+  },
+  {
+   "name": "Tata Consumer Products",
+   "domain": "tataconsumer.com",
+   "employees": 6000
+  },
+  {
+   "name": "Bisleri International",
+   "domain": "bisleri.com",
+   "employees": 6000
+  },
+  {
+   "name": "Infiniti Retail (Croma)",
+   "domain": "croma.com",
+   "employees": 6000
+  },
+  {
+   "name": "Network18 Media & Investments",
+   "domain": "nw18.com",
+   "employees": 5000
+  },
+  {
+   "name": "Jyothy Labs",
+   "domain": "jyothylabs.com",
+   "employees": 5000
+  },
+  {
+   "name": "Coffee Day Enterprises (Cafe Coffee Day)",
+   "domain": "cafecoffeeday.com",
+   "employees": 5000
+  },
+  {
+   "name": "Vijay Sales",
+   "domain": "vijaysales.com",
+   "employees": 5000
+  },
+  {
+   "name": "Balaji Wafers",
+   "domain": "balajiwafers.com",
+   "employees": 5000
+  },
+  {
+   "name": "Mrs. Bectors Food Specialities",
+   "employees": 4000
+  },
+  {
+   "name": "Fabindia",
+   "domain": "fabindia.com",
+   "employees": 4000
+  },
+  {
+   "name": "Metro Brands",
+   "domain": "metrobrands.com",
+   "employees": 4000
+  },
+  {
+   "name": "VLCC Health Care",
+   "employees": 4000
+  },
+  {
+   "name": "Indus Towers",
+   "domain": "industowers.com",
+   "employees": 4000
+  },
+  {
+   "name": "Mahindra Holidays & Resorts (Club Mahindra)",
+   "domain": "clubmahindra.com",
+   "employees": 4000
+  },
+  {
+   "name": "Patanjali Foods",
+   "domain": "patanjalifoods.com",
+   "employees": 4000
+  },
+  {
+   "name": "VIP Industries",
+   "domain": "vipindustries.co.in",
+   "employees": 4000
+  },
+  {
+   "name": "JioStar",
+   "domain": "jiostar.com",
+   "employees": 4000
+  },
+  {
+   "name": "Brainbees Solutions (FirstCry)",
+   "domain": "firstcry.com",
+   "employees": 4000
+  },
+  {
+   "name": "Spencer's Retail",
+   "domain": "spencersretail.com",
+   "employees": 4000
+  },
+  {
+   "name": "Schloss Bangalore (The Leela)",
+   "domain": "theleela.com",
+   "employees": 3500
+  },
+  {
+   "name": "Zee Entertainment Enterprises",
+   "domain": "zee.com",
+   "employees": 3500
+  },
+  {
+   "name": "V-Guard Industries",
+   "domain": "vguard.in",
+   "employees": 3500
+  },
+  {
+   "name": "FSN E-Commerce Ventures (Nykaa)",
+   "domain": "nykaa.com",
+   "employees": 3000
+  },
+  {
+   "name": "Radico Khaitan",
+   "domain": "radicokhaitan.com",
+   "employees": 3000
+  },
+  {
+   "name": "Sun TV Network",
+   "domain": "suntv.in",
+   "employees": 3000
+  },
+  {
+   "name": "Emami",
+   "domain": "emamiltd.in",
+   "employees": 3000
+  },
+  {
+   "name": "Bikaji Foods International",
+   "domain": "bikaji.com",
+   "employees": 3000
+  },
+  {
+   "name": "HT Media",
+   "domain": "htmedia.in",
+   "employees": 3000
+  },
+  {
+   "name": "Bajaj Electricals",
+   "domain": "bajajelectricals.com",
+   "employees": 3000
+  },
+  {
+   "name": "Blue Star",
+   "domain": "bluestarindia.com",
+   "employees": 3000
+  },
+  {
+   "name": "Heritage Foods",
+   "domain": "heritagefoods.in",
+   "employees": 3000
+  },
+  {
+   "name": "Dodla Dairy",
+   "domain": "dodladairy.com",
+   "employees": 3000
+  },
+  {
+   "name": "Milky Mist Dairy",
+   "domain": "milkymist.com",
+   "employees": 3000
+  },
+  {
+   "name": "Campus Activewear",
+   "domain": "campusshoes.com",
+   "employees": 3000
+  },
+  {
+   "name": "Mahanagar Telephone Nigam (MTNL)",
+   "employees": 3000
+  },
+  {
+   "name": "Atria Convergence Technologies (ACT)",
+   "domain": "actcorp.in",
+   "employees": 3000
+  },
+  {
+   "name": "Vedant Fashions (Manyavar)",
+   "domain": "manyavar.com",
+   "employees": 2500
+  },
+  {
+   "name": "AWL Agri Business (formerly Adani Wilmar)",
+   "employees": 2500
+  },
+  {
+   "name": "TTK Prestige",
+   "domain": "ttkprestige.com",
+   "employees": 2500
+  },
+  {
+   "name": "Tata Play",
+   "domain": "tataplay.com",
+   "employees": 2500
+  },
+  {
+   "name": "HFCL",
+   "domain": "hfcl.com",
+   "employees": 2500
+  },
+  {
+   "name": "Chalet Hotels",
+   "domain": "chalethotels.com",
+   "employees": 2500
+  },
+  {
+   "name": "Senco Gold",
+   "domain": "sencogoldanddiamonds.com",
+   "employees": 2500
+  },
+  {
+   "name": "Liberty Shoes",
+   "domain": "libertyshoes.com",
+   "employees": 2500
+  },
+  {
+   "name": "Speciality Restaurants",
+   "domain": "speciality.co.in",
+   "employees": 2500
+  },
+  {
+   "name": "Tata Teleservices",
+   "employees": 2500
+  },
+  {
+   "name": "Hathway Cable & Datacom",
+   "domain": "hathway.com",
+   "employees": 2000
+  },
+  {
+   "name": "IRCTC",
+   "domain": "irctc.co.in",
+   "employees": 2000
+  },
+  {
+   "name": "TV Today Network",
+   "employees": 2000
+  },
+  {
+   "name": "The Hindu Group (Kasturi & Sons)",
+   "domain": "thehindu.com",
+   "employees": 2000
+  },
+  {
+   "name": "Apeejay Surrendra Park Hotels",
+   "domain": "theparkhotels.com",
+   "employees": 2000
+  },
+  {
+   "name": "Royal Orchid Hotels",
+   "domain": "royalorchidhotels.com",
+   "employees": 2000
+  },
+  {
+   "name": "CavinKare",
+   "domain": "cavinkare.com",
+   "employees": 2000
+  },
+  {
+   "name": "Allied Blenders and Distillers",
+   "domain": "abdindia.com",
+   "employees": 2000
+  },
+  {
+   "name": "LT Foods (Daawat)",
+   "domain": "ltgroup.in",
+   "employees": 2000
+  },
+  {
+   "name": "Stove Kraft (Pigeon)",
+   "domain": "stovekraft.com",
+   "employees": 2000
+  },
+  {
+   "name": "Parag Milk Foods",
+   "domain": "paragmilkfoods.com",
+   "employees": 2000
+  },
+  {
+   "name": "Zepto (Kiranakart Technologies)",
+   "domain": "zeptonow.com",
+   "employees": 2000
+  },
+  {
+   "name": "Crompton Greaves Consumer Electricals",
+   "domain": "crompton.co.in",
+   "employees": 2000
+  },
+  {
+   "name": "Zydus Wellness",
+   "employees": 1800
+  },
+  {
+   "name": "Marico",
+   "domain": "marico.com",
+   "employees": 1700
+  },
+  {
+   "name": "Wonderla Holidays",
+   "domain": "wonderla.com",
+   "employees": 1500
+  },
+  {
+   "name": "Orient Electric",
+   "domain": "orientelectric.com",
+   "employees": 1500
+  },
+  {
+   "name": "Eveready Industries India",
+   "domain": "evereadyindia.com",
+   "employees": 1500
+  },
+  {
+   "name": "Godfrey Phillips India",
+   "domain": "godfreyphillips.com",
+   "employees": 1000
+  },
+  {
+   "name": "Dish TV India",
+   "domain": "dishtv.in",
+   "employees": 1000
+  },
+  {
+   "name": "Gujarat Cooperative Milk Marketing Federation (Amul)",
+   "domain": "amul.com",
+   "employees": 1000
+  },
+  {
+   "name": "Imagine Marketing (boAt)",
+   "domain": "boat-lifestyle.com",
+   "employees": 1000
+  },
+  {
+   "name": "Honasa Consumer (Mamaearth)",
+   "employees": 1000
+  },
+  {
+   "name": "Bajaj Consumer Care",
+   "domain": "bajajconsumercare.com",
+   "employees": 1000
+  },
+  {
+   "name": "Saregama India",
+   "domain": "saregama.com",
+   "employees": 700
+  },
+  {
+   "name": "Haldiram Snacks Food"
+  },
+  {
+   "name": "Bikanervala Foods",
+   "domain": "bikanervala.com"
+  },
+  {
+   "name": "Everest Spices",
+   "domain": "everestspices.com"
+  },
+  {
+   "name": "Amar Ujala",
+   "domain": "amarujala.com"
+  },
+  {
+   "name": "Lokmat Media",
+   "domain": "lokmat.com"
+  },
+  {
+   "name": "Ushodaya Enterprises (Eenadu)",
+   "domain": "eenadu.net"
+  },
+  {
+   "name": "Mother Dairy Fruit & Vegetable",
+   "domain": "motherdairy.com"
+  },
+  {
+   "name": "Maharashtra State Road Transport Corporation (MSRTC)",
+   "employees": 90000
+  },
+  {
+   "name": "Tamil Nadu Generation and Distribution Corporation (TANGEDCO)",
+   "employees": 50000
+  },
+  {
+   "name": "Maharashtra State Electricity Distribution Co. (MSEDCL)",
+   "domain": "mahadiscom.in",
+   "employees": 50000
+  },
+  {
+   "name": "Andhra Pradesh State Road Transport Corporation (APSRTC)",
+   "employees": 48000
+  },
+  {
+   "name": "Uttar Pradesh State Road Transport Corporation (UPSRTC)",
+   "employees": 45000
+  },
+  {
+   "name": "Telangana State Road Transport Corporation (TGSRTC)",
+   "employees": 43000
+  },
+  {
+   "name": "Uttar Pradesh Power Corporation (UPPCL)",
+   "domain": "uppcl.org",
+   "employees": 40000
+  },
+  {
+   "name": "InterGlobe Aviation (IndiGo)",
+   "domain": "goindigo.in",
+   "employees": 37000
+  },
+  {
+   "name": "Gujarat State Road Transport Corporation (GSRTC)",
+   "domain": "gsrtc.in",
+   "employees": 35000
+  },
+  {
+   "name": "Karnataka State Road Transport Corporation (KSRTC)",
+   "domain": "ksrtc.in",
+   "employees": 33000
+  },
+  {
+   "name": "Air India",
+   "domain": "airindia.com",
+   "employees": 30000
+  },
+  {
+   "name": "Kerala State Electricity Board (KSEB)",
+   "domain": "kseb.in",
+   "employees": 28000
+  },
+  {
+   "name": "Brihanmumbai Electric Supply and Transport (BEST)",
+   "domain": "bestundertaking.com",
+   "employees": 27000
+  },
+  {
+   "name": "Punjab State Power Corporation (PSPCL)",
+   "domain": "pspcl.in",
+   "employees": 27000
+  },
+  {
+   "name": "Kerala State Road Transport Corporation",
+   "employees": 25000
+  },
+  {
+   "name": "VRL Logistics",
+   "domain": "vrlgroup.in",
+   "employees": 25000
+  },
+  {
+   "name": "Food Corporation of India",
+   "domain": "fci.gov.in",
+   "employees": 20000
+  },
+  {
+   "name": "Vedanta Limited",
+   "domain": "vedantalimited.com",
+   "employees": 20000
+  },
+  {
+   "name": "West Bengal State Electricity Distribution Co. (WBSEDCL)",
+   "domain": "wbsedcl.in",
+   "employees": 18000
+  },
+  {
+   "name": "Airports Authority of India",
+   "domain": "aai.aero",
+   "employees": 17000
+  },
+  {
+   "name": "Maharashtra State Power Generation Co. (MAHAGENCO)",
+   "domain": "mahagenco.in",
+   "employees": 13000
+  },
+  {
+   "name": "Blue Dart Express",
+   "domain": "bluedart.com",
+   "employees": 13000
+  },
+  {
+   "name": "Delhi Metro Rail Corporation (DMRC)",
+   "domain": "delhimetrorail.com",
+   "employees": 12000
+  },
+  {
+   "name": "DTDC Express",
+   "domain": "dtdc.in",
+   "employees": 10000
+  },
+  {
+   "name": "Safexpress",
+   "domain": "safexpress.com",
+   "employees": 10000
+  },
+  {
+   "name": "Megha Engineering and Infrastructures (MEIL)",
+   "domain": "meil.in",
+   "employees": 10000
+  },
+  {
+   "name": "GR Infraprojects",
+   "domain": "grinfra.com",
+   "employees": 10000
+  },
+  {
+   "name": "Delhi Transport Corporation (DTC)",
+   "employees": 10000
+  },
+  {
+   "name": "Allcargo Logistics",
+   "domain": "allcargologistics.com",
+   "employees": 7000
+  },
+  {
+   "name": "SpiceJet",
+   "domain": "spicejet.com",
+   "employees": 6000
+  },
+  {
+   "name": "MOIL",
+   "domain": "moil.nic.in",
+   "employees": 5500
+  },
+  {
+   "name": "Transport Corporation of India (TCI)",
+   "domain": "tcil.com",
+   "employees": 5000
+  },
+  {
+   "name": "Mahindra Logistics",
+   "domain": "mahindralogistics.com",
+   "employees": 5000
+  },
+  {
+   "name": "IRB Infrastructure Developers",
+   "domain": "irb.co.in",
+   "employees": 5000
+  },
+  {
+   "name": "Damodar Valley Corporation (DVC)",
+   "domain": "dvc.gov.in",
+   "employees": 4500
+  },
+  {
+   "name": "Great Eastern Shipping",
+   "domain": "greatship.com",
+   "employees": 4000
+  },
+  {
+   "name": "Konkan Railway Corporation",
+   "domain": "konkanrailway.com",
+   "employees": 4000
+  },
+  {
+   "name": "Uranium Corporation of India (UCIL)",
+   "domain": "ucil.gov.in",
+   "employees": 4000
+  },
+  {
+   "name": "Hutti Gold Mines Company",
+   "employees": 4000
+  },
+  {
+   "name": "GMR Airports Infrastructure",
+   "domain": "gmrgroup.in",
+   "employees": 4000
+  },
+  {
+   "name": "Akasa Air",
+   "domain": "akasaair.com",
+   "employees": 3500
+  },
+  {
+   "name": "Gati",
+   "domain": "gati.com",
+   "employees": 3500
+  },
+  {
+   "name": "JSW Energy",
+   "domain": "jsw.in",
+   "employees": 3000
+  },
+  {
+   "name": "Shipping Corporation of India",
+   "domain": "shipindia.com",
+   "employees": 3000
+  },
+  {
+   "name": "RITES",
+   "domain": "rites.com",
+   "employees": 3000
+  },
+  {
+   "name": "Central Warehousing Corporation",
+   "domain": "cewacor.nic.in",
+   "employees": 3000
+  },
+  {
+   "name": "TCI Express",
+   "domain": "tciexpress.in",
+   "employees": 3000
+  },
+  {
+   "name": "ReNew Energy Global",
+   "domain": "renew.com",
+   "employees": 2500
+  },
+  {
+   "name": "Adani Green Energy",
+   "domain": "adanigreenenergy.com",
+   "employees": 2500
+  },
+  {
+   "name": "Nayara Energy",
+   "domain": "nayaraenergy.com",
+   "employees": 2500
+  },
+  {
+   "name": "Engineers India Limited",
+   "domain": "engineersindia.com",
+   "employees": 2500
+  },
+  {
+   "name": "North Eastern Electric Power Corporation (NEEPCO)",
+   "domain": "neepco.co.in",
+   "employees": 2300
+  },
+  {
+   "name": "Hindustan Copper",
+   "domain": "hindustancopper.com",
+   "employees": 2000
+  },
+  {
+   "name": "Cochin Shipyard",
+   "domain": "cochinshipyard.in",
+   "employees": 2000
+  },
+  {
+   "name": "NBCC (India)",
+   "employees": 2000
+  },
+  {
+   "name": "Hindustan Construction Company (HCC)",
+   "domain": "hccindia.com",
+   "employees": 2000
+  },
+  {
+   "name": "Indian Railway Catering and Tourism Corporation (IRCTC)",
+   "domain": "irctc.co.in",
+   "employees": 2000
+  },
+  {
+   "name": "Mangalore Refinery and Petrochemicals (MRPL)",
+   "domain": "mrpl.co.in",
+   "employees": 1900
+  },
+  {
+   "name": "Chennai Petroleum Corporation (CPCL)",
+   "domain": "cpcl.co.in",
+   "employees": 1600
+  },
+  {
+   "name": "THDC India",
+   "domain": "thdc.co.in",
+   "employees": 1600
+  },
+  {
+   "name": "SJVN",
+   "domain": "sjvn.nic.in",
+   "employees": 1500
+  },
+  {
+   "name": "Gujarat Mineral Development Corporation (GMDC)",
+   "domain": "gmdcltd.com",
+   "employees": 1500
+  },
+  {
+   "name": "Balmer Lawrie",
+   "domain": "balmerlawrie.com",
+   "employees": 1500
+  },
+  {
+   "name": "IRCON International",
+   "domain": "ircon.org",
+   "employees": 1300
+  },
+  {
+   "name": "Numaligarh Refinery",
+   "domain": "nrl.co.in",
+   "employees": 1000
+  },
+  {
+   "name": "Container Corporation of India (CONCOR)",
+   "domain": "concorindia.co.in",
+   "employees": 1000
+  },
+  {
+   "name": "Pawan Hans",
+   "domain": "pawanhans.co.in",
+   "employees": 900
+  },
+  {
+   "name": "Indraprastha Gas",
+   "domain": "iglonline.net",
+   "employees": 800
+  },
+  {
+   "name": "KIOCL",
+   "domain": "kioclltd.in",
+   "employees": 700
+  },
+  {
+   "name": "Adani Total Gas",
+   "domain": "adanigas.com",
+   "employees": 700
+  },
+  {
+   "name": "Mahanagar Gas",
+   "domain": "mahanagargas.com",
+   "employees": 600
+  },
+  {
+   "name": "Petronet LNG",
+   "domain": "petronetlng.in",
+   "employees": 500
+  },
+  {
+   "name": "Adani Energy Solutions",
+   "domain": "adanienergysolutions.com"
+  },
+  {
+   "name": "Rail Vikas Nigam (RVNL)",
+   "domain": "rvnl.org"
+  },
+  {
+   "name": "Waaree Energies",
+   "domain": "waaree.com"
+  },
+  {
+   "name": "Inox Wind",
+   "domain": "inoxwind.com"
+  },
+  {
+   "name": "Sterling and Wilson Renewable Energy",
+   "domain": "sterlingandwilson.com"
+  },
+  {
+   "name": "Kalpataru Projects International"
+  },
+  {
+   "name": "Ashoka Buildcon",
+   "domain": "ashokabuildcon.com"
+  },
+  {
+   "name": "PNC Infratech",
+   "domain": "pncinfratech.com"
+  },
+  {
+   "name": "HG Infra Engineering",
+   "domain": "hginfra.com"
+  },
+  {
+   "name": "Reliance Power",
+   "domain": "reliancepower.co.in"
+  },
+  {
+   "name": "Reliance Infrastructure",
+   "domain": "rinfra.com"
+  },
+  {
+   "name": "Greenko Group",
+   "domain": "greenkogroup.com"
+  },
+  {
+   "name": "Gateway Distriparks",
+   "domain": "gateway-distriparks.com"
+  },
+  {
+   "name": "Gujarat Gas",
+   "domain": "gujaratgas.com"
+  },
+  {
+   "name": "JM Baxi Ports and Logistics",
+   "domain": "jmbaxi.com"
+  },
+  {
+   "name": "Om Logistics",
+   "domain": "omlogistics.co.in"
+  },
+  {
+   "name": "CJ Darcl Logistics",
+   "domain": "darcl.com"
+  },
+  {
+   "name": "JSW Infrastructure"
+  },
+  {
+   "name": "Quess Corp",
+   "domain": "quesscorp.com",
+   "employees": 500000
+  },
+  {
+   "name": "TeamLease Services",
+   "domain": "teamlease.com",
+   "employees": 300000
+  },
+  {
+   "name": "SIS Limited (Security and Intelligence Services)",
+   "domain": "sisindia.com",
+   "employees": 280000
+  },
+  {
+   "name": "FirstMeridian Business Services",
+   "employees": 100000
+  },
+  {
+   "name": "BVG India",
+   "domain": "bvgindia.com",
+   "employees": 60000
+  },
+  {
+   "name": "Updater Services (UDS)",
+   "domain": "uds.in",
+   "employees": 60000
+  },
+  {
+   "name": "Tamil Nadu State Transport Corporation (TNSTC)",
+   "employees": 60000
+  },
+  {
+   "name": "Sri Chaitanya Educational Institutions",
+   "domain": "srichaitanya.net",
+   "employees": 50000
+  },
+  {
+   "name": "Narayana Educational Institutions",
+   "domain": "narayanagroup.com",
+   "employees": 40000
+  },
+  {
+   "name": "McLeod Russel India",
+   "domain": "mcleodrussel.com",
+   "employees": 30000
+  },
+  {
+   "name": "Kiran Gems",
+   "domain": "kirangems.com",
+   "employees": 30000
+  },
+  {
+   "name": "Bangalore Metropolitan Transport Corporation (BMTC)",
+   "employees": 30000
+  },
+  {
+   "name": "Munitions India",
+   "employees": 24000
+  },
+  {
+   "name": "CMS Info Systems",
+   "employees": 20000
+  },
+  {
+   "name": "Aakash Educational Services",
+   "domain": "aakash.ac.in",
+   "employees": 15000
+  },
+  {
+   "name": "Allen Career Institute",
+   "domain": "allen.ac.in",
+   "employees": 15000
+  },
+  {
+   "name": "Nirma",
+   "domain": "nirma.co.in",
+   "employees": 15000
+  },
+  {
+   "name": "RSPL Group (Ghari)",
+   "domain": "rsplgroup.com",
+   "employees": 15000
+  },
+  {
+   "name": "RSWM Limited",
+   "domain": "rswm.in",
+   "employees": 15000
+  },
+  {
+   "name": "Farida Group",
+   "employees": 15000
+  },
+  {
+   "name": "Jay Shree Tea & Industries",
+   "employees": 15000
+  },
+  {
+   "name": "Asirvad Micro Finance",
+   "employees": 12000
+  },
+  {
+   "name": "Nuclear Power Corporation of India (NPCIL)",
+   "domain": "npcil.nic.in",
+   "employees": 12000
+  },
+  {
+   "name": "Armoured Vehicles Nigam (AVNL)",
+   "employees": 12000
+  },
+  {
+   "name": "Harrisons Malayalam",
+   "employees": 12000
+  },
+  {
+   "name": "Tata International",
+   "domain": "tatainternational.com",
+   "employees": 12000
+  },
+  {
+   "name": "Jain Irrigation Systems",
+   "domain": "jains.com",
+   "employees": 10000
+  },
+  {
+   "name": "Suguna Foods",
+   "domain": "sugunafoods.com",
+   "employees": 10000
+  },
+  {
+   "name": "Venky's (India)",
+   "domain": "venkys.com",
+   "employees": 10000
+  },
+  {
+   "name": "ABIS Exports (IB Group)",
+   "employees": 10000
+  },
+  {
+   "name": "Jaquar Group",
+   "domain": "jaquar.com",
+   "employees": 10000
+  },
+  {
+   "name": "DS Group (Dharampal Satyapal)",
+   "domain": "dsgroup.com",
+   "employees": 10000
+  },
+  {
+   "name": "VVDN Technologies",
+   "domain": "vvdntech.com",
+   "employees": 10000
+  },
+  {
+   "name": "Security Printing and Minting Corporation of India (SPMCIL)",
+   "domain": "spmcil.com",
+   "employees": 10000
+  },
+  {
+   "name": "Shyam Metalics and Energy",
+   "domain": "shyammetalics.com",
+   "employees": 10000
+  },
+  {
+   "name": "Sutlej Textiles and Industries",
+   "domain": "sutlejtextiles.com",
+   "employees": 10000
+  },
+  {
+   "name": "Banswara Syntex",
+   "employees": 10000
+  },
+  {
+   "name": "Andrew Yule & Company",
+   "domain": "andrewyule.com",
+   "employees": 10000
+  },
+  {
+   "name": "Badve Engineering",
+   "employees": 10000
+  },
+  {
+   "name": "Nahar Spinning Mills",
+   "employees": 8000
+  },
+  {
+   "name": "Tata Advanced Systems",
+   "employees": 8000
+  },
+  {
+   "name": "Tata AIG General Insurance",
+   "domain": "tataaig.com",
+   "employees": 8000
+  },
+  {
+   "name": "Reliance General Insurance",
+   "domain": "reliancegeneral.co.in",
+   "employees": 8000
+  },
+  {
+   "name": "Bajaj Allianz General Insurance",
+   "domain": "bajajallianz.com",
+   "employees": 8000
+  },
+  {
+   "name": "Hari Krishna Exports",
+   "domain": "hk.co",
+   "employees": 8000
+  },
+  {
+   "name": "VKC Group",
+   "employees": 8000
+  },
+  {
+   "name": "Johnson Lifts",
+   "domain": "johnsonliftsltd.com",
+   "employees": 7000
+  },
+  {
+   "name": "Indo Count Industries",
+   "domain": "indocount.com",
+   "employees": 7000
+  },
+  {
+   "name": "Nitin Spinners",
+   "domain": "nitinspinners.com",
+   "employees": 7000
+  },
+  {
+   "name": "Eureka Forbes",
+   "domain": "eurekaforbes.com",
+   "employees": 6000
+  },
+  {
+   "name": "IFFCO (Indian Farmers Fertiliser Cooperative)",
+   "domain": "iffco.in",
+   "employees": 6000
+  },
+  {
+   "name": "CG Power and Industrial Solutions",
+   "domain": "cgglobal.com",
+   "employees": 6000
+  },
+  {
+   "name": "Shree Ramkrishna Exports",
+   "employees": 6000
+  },
+  {
+   "name": "Parle Agro",
+   "domain": "parleagro.com",
+   "employees": 5000
+  },
+  {
+   "name": "Sheela Foam (Sleepwell)",
+   "domain": "sheelafoam.com",
+   "employees": 5000
+  },
+  {
+   "name": "APL Apollo Tubes",
+   "domain": "aplapollo.com",
+   "employees": 5000
+  },
+  {
+   "name": "Welspun Corp",
+   "domain": "welspuncorp.com",
+   "employees": 5000
+  },
+  {
+   "name": "Astral Limited",
+   "domain": "astralpipes.com",
+   "employees": 5000
+  },
+  {
+   "name": "KEI Industries",
+   "domain": "kei-ind.com",
+   "employees": 5000
+  },
+  {
+   "name": "Amber Enterprises India",
+   "domain": "ambergroupindia.com",
+   "employees": 5000
+  },
+  {
+   "name": "PG Electroplast",
+   "domain": "pgel.in",
+   "employees": 5000
+  },
+  {
+   "name": "Kirloskar Brothers",
+   "domain": "kirloskarpumps.com",
+   "employees": 5000
+  },
+  {
+   "name": "Birla Corporation",
+   "domain": "birlacorporation.com",
+   "employees": 5000
+  },
+  {
+   "name": "Carborundum Universal (CUMI)",
+   "domain": "cumi-murugappa.com",
+   "employees": 5000
+  },
+  {
+   "name": "Bajaj Hindusthan Sugar",
+   "domain": "bajajhindusthan.com",
+   "employees": 5000
+  },
+  {
+   "name": "Greenply Industries",
+   "domain": "greenply.com",
+   "employees": 5000
+  },
+  {
+   "name": "Merino Industries",
+   "employees": 5000
+  },
+  {
+   "name": "Surya Roshni",
+   "domain": "surya.co.in",
+   "employees": 5000
+  },
+  {
+   "name": "Premier Energies",
+   "domain": "premierenergies.com",
+   "employees": 5000
+  },
+  {
+   "name": "Cello World",
+   "domain": "celloworld.com",
+   "employees": 5000
+  },
+  {
+   "name": "Wow! Momo Foods",
+   "domain": "wowmomo.com",
+   "employees": 5000
+  },
+  {
+   "name": "GRT Jewellers",
+   "domain": "grtjewels.com",
+   "employees": 5000
+  },
+  {
+   "name": "Paragon Footwear",
+   "domain": "paragonfootwear.com",
+   "employees": 5000
+  },
+  {
+   "name": "J Kumar Infraprojects",
+   "domain": "jkumar.com",
+   "employees": 5000
+  },
+  {
+   "name": "Himatsingka Seide",
+   "domain": "himatsingka.com",
+   "employees": 5000
+  },
+  {
+   "name": "Siyaram Silk Mills",
+   "domain": "siyaram.com",
+   "employees": 5000
+  },
+  {
+   "name": "Redington",
+   "domain": "redingtongroup.com",
+   "employees": 5000
+  },
+  {
+   "name": "Saraswat Co-operative Bank",
+   "domain": "saraswatbank.com",
+   "employees": 5000
+  },
+  {
+   "name": "Macrotech Developers (Lodha)",
+   "employees": 4500
+  },
+  {
+   "name": "RR Kabel",
+   "domain": "rrkabel.com",
+   "employees": 4000
+  },
+  {
+   "name": "Apar Industries",
+   "domain": "apar.com",
+   "employees": 4000
+  },
+  {
+   "name": "Kirloskar Oil Engines",
+   "domain": "kirloskaroilengines.com",
+   "employees": 4000
+  },
+  {
+   "name": "ISGEC Heavy Engineering",
+   "domain": "isgec.com",
+   "employees": 4000
+  },
+  {
+   "name": "Nilkamal",
+   "domain": "nilkamal.com",
+   "employees": 4000
+  },
+  {
+   "name": "DOMS Industries",
+   "domain": "domsindia.com",
+   "employees": 4000
+  },
+  {
+   "name": "Time Technoplast",
+   "domain": "timetechnoplast.com",
+   "employees": 4000
+  },
+  {
+   "name": "Avanti Feeds",
+   "domain": "avantifeeds.com",
+   "employees": 4000
+  },
+  {
+   "name": "IFB Industries",
+   "employees": 4000
+  },
+  {
+   "name": "Poorvika Mobiles",
+   "domain": "poorvika.com",
+   "employees": 4000
+  },
+  {
+   "name": "Sammaan Capital (formerly Indiabulls Housing Finance)",
+   "domain": "sammaancapital.com",
+   "employees": 4000
+  },
+  {
+   "name": "Vaibhav Global",
+   "domain": "vaibhavglobal.com",
+   "employees": 4000
+  },
+  {
+   "name": "IREL (India)",
+   "domain": "irel.co.in",
+   "employees": 4000
+  },
+  {
+   "name": "Gujarat State Fertilizers & Chemicals (GSFC)",
+   "domain": "gsfclimited.com",
+   "employees": 3500
+  },
+  {
+   "name": "Gujarat Narmada Valley Fertilizers & Chemicals (GNFC)",
+   "domain": "gnfc.in",
+   "employees": 3500
+  },
+  {
+   "name": "Electronics Corporation of India (ECIL)",
+   "domain": "ecil.co.in",
+   "employees": 3500
+  },
+  {
+   "name": "EPL Limited (formerly Essel Propack)",
+   "domain": "eplglobal.com",
+   "employees": 3500
+  },
+  {
+   "name": "EID Parry (India)",
+   "domain": "eidparry.com",
+   "employees": 3500
+  },
+  {
+   "name": "Lakshmi Machine Works (LMW)",
+   "domain": "lmwglobal.com",
+   "employees": 3500
+  },
+  {
+   "name": "Kaynes Technology",
+   "employees": 3500
+  },
+  {
+   "name": "DLF",
+   "domain": "dlf.in",
+   "employees": 3000
+  },
+  {
+   "name": "Godrej Properties",
+   "domain": "godrejproperties.com",
+   "employees": 3000
+  },
+  {
+   "name": "Prestige Estates Projects",
+   "domain": "prestigeconstructions.com",
+   "employees": 3000
+  },
+  {
+   "name": "Sobha Limited",
+   "domain": "sobha.com",
+   "employees": 3000
+  },
+  {
+   "name": "ITD Cementation India",
+   "domain": "itdcem.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "Elgi Equipments",
+   "domain": "elgi.com",
+   "employees": 3000
+  },
+  {
+   "name": "Syrma SGS Technology",
+   "domain": "syrmasgs.com",
+   "employees": 3000
+  },
+  {
+   "name": "Lava International",
+   "domain": "lavamobiles.com",
+   "employees": 3000
+  },
+  {
+   "name": "Vikram Solar",
+   "domain": "vikramsolar.com",
+   "employees": 3000
+  },
+  {
+   "name": "Bharat Dynamics (BDL)",
+   "domain": "bdl-india.in",
+   "employees": 3000
+  },
+  {
+   "name": "ITI Limited",
+   "domain": "itiltd.in",
+   "employees": 3000
+  },
+  {
+   "name": "India Cements",
+   "domain": "indiacements.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "JK Lakshmi Cement",
+   "domain": "jklakshmicement.com",
+   "employees": 3000
+  },
+  {
+   "name": "Nuvoco Vistas",
+   "employees": 3000
+  },
+  {
+   "name": "JSW Cement",
+   "domain": "jswcement.in",
+   "employees": 3000
+  },
+  {
+   "name": "National Fertilizers (NFL)",
+   "domain": "nationalfertilizers.com",
+   "employees": 3000
+  },
+  {
+   "name": "Rashtriya Chemicals & Fertilizers (RCF)",
+   "domain": "rcfltd.com",
+   "employees": 3000
+  },
+  {
+   "name": "Atul Ltd",
+   "domain": "atul.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "Gujarat Fluorochemicals",
+   "domain": "gfl.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "India Glycols",
+   "domain": "indiaglycols.com",
+   "employees": 3000
+  },
+  {
+   "name": "Jubilant Ingrevia",
+   "domain": "jubilantingrevia.com",
+   "employees": 3000
+  },
+  {
+   "name": "JK Paper",
+   "domain": "jkpaper.com",
+   "employees": 3000
+  },
+  {
+   "name": "Cera Sanitaryware",
+   "domain": "cera-india.com",
+   "employees": 3000
+  },
+  {
+   "name": "Hindware Home Innovation",
+   "domain": "hindware.com",
+   "employees": 3000
+  },
+  {
+   "name": "Kent RO Systems",
+   "domain": "kent.co.in",
+   "employees": 3000
+  },
+  {
+   "name": "Usha International",
+   "domain": "usha.com",
+   "employees": 3000
+  },
+  {
+   "name": "BLS International Services",
+   "domain": "blsinternational.com",
+   "employees": 3000
+  },
+  {
+   "name": "Lux Industries",
+   "domain": "luxinnerwear.com",
+   "employees": 3000
+  },
+  {
+   "name": "Electrosteel Castings",
+   "employees": 3000
+  },
+  {
+   "name": "Malayala Manorama",
+   "employees": 3000
+  },
+  {
+   "name": "Star Cement",
+   "employees": 2500
+  },
+  {
+   "name": "KRIBHCO (Krishak Bharati Cooperative)",
+   "domain": "kribhco.net",
+   "employees": 2500
+  },
+  {
+   "name": "Deepak Fertilisers and Petrochemicals",
+   "domain": "dfpcl.com",
+   "employees": 2500
+  },
+  {
+   "name": "Deepak Nitrite",
+   "domain": "deepaknitrite.com",
+   "employees": 2500
+  },
+  {
+   "name": "GHCL",
+   "domain": "ghcl.co.in",
+   "employees": 2500
+  },
+  {
+   "name": "Triveni Engineering & Industries",
+   "domain": "trivenigroup.com",
+   "employees": 2500
+  },
+  {
+   "name": "West Coast Paper Mills",
+   "domain": "westcoastpaper.com",
+   "employees": 2500
+  },
+  {
+   "name": "Tamil Nadu Newsprint and Papers (TNPL)",
+   "domain": "tnpl.com",
+   "employees": 2500
+  },
+  {
+   "name": "Somany Ceramics",
+   "domain": "somanyceramics.com",
+   "employees": 2500
+  },
+  {
+   "name": "Usha Martin",
+   "domain": "ushamartin.com",
+   "employees": 2500
+  },
+  {
+   "name": "HBL Engineering",
+   "domain": "hbl.in",
+   "employees": 2500
+  },
+  {
+   "name": "Garden Reach Shipbuilders & Engineers (GRSE)",
+   "domain": "grse.in",
+   "employees": 2500
+  },
+  {
+   "name": "Brigade Enterprises",
+   "domain": "brigadegroup.com",
+   "employees": 2500
+  },
+  {
+   "name": "VerSe Innovation (Dailyhunt)",
+   "employees": 2500
+  },
+  {
+   "name": "KRBL",
+   "domain": "krblrice.com",
+   "employees": 2000
+  },
+  {
+   "name": "Tally Solutions",
+   "domain": "tallysolutions.com",
+   "employees": 2000
+  }
+ ]
+}

@@ -1,0 +1,6354 @@
+{
+ "companies": [
+  {
+   "name": "Accenture",
+   "domain": "accenture.com",
+   "employees": 780000
+  },
+  {
+   "name": "Capgemini",
+   "domain": "capgemini.com",
+   "employees": 340000
+  },
+  {
+   "name": "SAP",
+   "domain": "sap.com",
+   "employees": 110000
+  },
+  {
+   "name": "Ericsson",
+   "domain": "ericsson.com",
+   "employees": 94000
+  },
+  {
+   "name": "Nokia",
+   "domain": "nokia.com",
+   "employees": 78000
+  },
+  {
+   "name": "Atos",
+   "domain": "atos.net",
+   "employees": 78000
+  },
+  {
+   "name": "Infineon Technologies",
+   "domain": "infineon.com",
+   "employees": 58000
+  },
+  {
+   "name": "Alten",
+   "domain": "alten.com",
+   "employees": 57000
+  },
+  {
+   "name": "Indra Sistemas",
+   "domain": "indracompany.com",
+   "employees": 57000
+  },
+  {
+   "name": "Sopra Steria",
+   "domain": "soprasteria.com",
+   "employees": 56000
+  },
+  {
+   "name": "STMicroelectronics",
+   "domain": "st.com",
+   "employees": 50000
+  },
+  {
+   "name": "Akkodis",
+   "domain": "akkodis.com",
+   "employees": 50000
+  },
+  {
+   "name": "Delivery Hero",
+   "domain": "deliveryhero.com",
+   "employees": 45000
+  },
+  {
+   "name": "Almaviva",
+   "domain": "almaviva.it",
+   "employees": 45000
+  },
+  {
+   "name": "ASML",
+   "domain": "asml.com",
+   "employees": 44000
+  },
+  {
+   "name": "Capita",
+   "domain": "capita.com",
+   "employees": 40000
+  },
+  {
+   "name": "RELX",
+   "domain": "relx.com",
+   "employees": 36000
+  },
+  {
+   "name": "NXP Semiconductors",
+   "domain": "nxp.com",
+   "employees": 34000
+  },
+  {
+   "name": "Asseco Group",
+   "domain": "asseco.com",
+   "employees": 33000
+  },
+  {
+   "name": "Globant",
+   "domain": "globant.com",
+   "employees": 29000
+  },
+  {
+   "name": "Inetum",
+   "domain": "inetum.com",
+   "employees": 28000
+  },
+  {
+   "name": "T-Systems",
+   "domain": "t-systems.com",
+   "employees": 26000
+  },
+  {
+   "name": "Prosus",
+   "domain": "prosus.com",
+   "employees": 24000
+  },
+  {
+   "name": "Dassault Systèmes",
+   "domain": "3ds.com",
+   "employees": 24000
+  },
+  {
+   "name": "Tietoevry",
+   "domain": "tietoevry.com",
+   "employees": 24000
+  },
+  {
+   "name": "Hexagon",
+   "domain": "hexagon.com",
+   "employees": 24000
+  },
+  {
+   "name": "Experian",
+   "domain": "experian.com",
+   "employees": 22000
+  },
+  {
+   "name": "Wolters Kluwer",
+   "domain": "wolterskluwer.com",
+   "employees": 21000
+  },
+  {
+   "name": "Evolution",
+   "domain": "evolution.com",
+   "employees": 21000
+  },
+  {
+   "name": "Booking.com",
+   "domain": "booking.com",
+   "employees": 20000
+  },
+  {
+   "name": "Computacenter",
+   "domain": "computacenter.com",
+   "employees": 20000
+  },
+  {
+   "name": "ams OSRAM",
+   "domain": "ams-osram.com",
+   "employees": 20000
+  },
+  {
+   "name": "Amadeus IT Group",
+   "domain": "amadeus.com",
+   "employees": 20000
+  },
+  {
+   "name": "Ocado Group",
+   "domain": "ocado.com",
+   "employees": 19000
+  },
+  {
+   "name": "HelloFresh",
+   "domain": "hellofresh.com",
+   "employees": 19000
+  },
+  {
+   "name": "Ubisoft",
+   "domain": "ubisoft.com",
+   "employees": 18500
+  },
+  {
+   "name": "Worldline",
+   "domain": "worldline.com",
+   "employees": 18000
+  },
+  {
+   "name": "Nagarro",
+   "domain": "nagarro.com",
+   "employees": 18000
+  },
+  {
+   "name": "Expleo",
+   "domain": "expleo.com",
+   "employees": 17000
+  },
+  {
+   "name": "Visma",
+   "domain": "visma.com",
+   "employees": 16000
+  },
+  {
+   "name": "Bechtle",
+   "domain": "bechtle.com",
+   "employees": 15500
+  },
+  {
+   "name": "Zalando",
+   "domain": "zalando.com",
+   "employees": 15500
+  },
+  {
+   "name": "Reply",
+   "domain": "reply.com",
+   "employees": 15000
+  },
+  {
+   "name": "IDEMIA",
+   "domain": "idemia.com",
+   "employees": 15000
+  },
+  {
+   "name": "Engineering Ingegneria Informatica",
+   "domain": "eng.it",
+   "employees": 14000
+  },
+  {
+   "name": "Nexperia",
+   "domain": "nexperia.com",
+   "employees": 14000
+  },
+  {
+   "name": "Giesecke+Devrient",
+   "domain": "gi-de.com",
+   "employees": 14000
+  },
+  {
+   "name": "Keywords Studios",
+   "domain": "keywordsstudios.com",
+   "employees": 12500
+  },
+  {
+   "name": "GFT Technologies",
+   "domain": "gft.com",
+   "employees": 12000
+  },
+  {
+   "name": "Just Eat Takeaway.com",
+   "domain": "justeattakeaway.com",
+   "employees": 12000
+  },
+  {
+   "name": "Sage Group",
+   "domain": "sage.com",
+   "employees": 11500
+  },
+  {
+   "name": "Endava",
+   "domain": "endava.com",
+   "employees": 11500
+  },
+  {
+   "name": "Devoteam",
+   "domain": "devoteam.com",
+   "employees": 11000
+  },
+  {
+   "name": "United Internet",
+   "domain": "united-internet.de",
+   "employees": 10600
+  },
+  {
+   "name": "Embracer Group",
+   "domain": "embracer.com",
+   "employees": 10000
+  },
+  {
+   "name": "Nexi",
+   "domain": "nexigroup.com",
+   "employees": 10000
+  },
+  {
+   "name": "ION Group",
+   "domain": "iongroup.com",
+   "employees": 10000
+  },
+  {
+   "name": "Revolut",
+   "domain": "revolut.com",
+   "employees": 10000
+  },
+  {
+   "name": "msg group",
+   "domain": "msg.group",
+   "employees": 10000
+  },
+  {
+   "name": "adesso",
+   "domain": "adesso.de",
+   "employees": 10000
+  },
+  {
+   "name": "DATEV",
+   "domain": "datev.de",
+   "employees": 9000
+  },
+  {
+   "name": "Zucchetti",
+   "domain": "zucchetti.com",
+   "employees": 9000
+  },
+  {
+   "name": "SoftwareOne",
+   "domain": "softwareone.com",
+   "employees": 9000
+  },
+  {
+   "name": "Econocom",
+   "domain": "econocom.com",
+   "employees": 9000
+  },
+  {
+   "name": "CompuGroup Medical",
+   "domain": "cgm.com",
+   "employees": 8700
+  },
+  {
+   "name": "Netcompany",
+   "domain": "netcompany.com",
+   "employees": 7800
+  },
+  {
+   "name": "Sii Poland",
+   "domain": "sii.pl",
+   "employees": 7700
+  },
+  {
+   "name": "Dedalus",
+   "domain": "dedalus.com",
+   "employees": 7600
+  },
+  {
+   "name": "The Access Group",
+   "domain": "theaccessgroup.com",
+   "employees": 7500
+  },
+  {
+   "name": "Temenos",
+   "domain": "temenos.com",
+   "employees": 7500
+  },
+  {
+   "name": "Arm",
+   "domain": "arm.com",
+   "employees": 7500
+  },
+  {
+   "name": "Spotify",
+   "domain": "spotify.com",
+   "employees": 7400
+  },
+  {
+   "name": "IFS",
+   "domain": "ifs.com",
+   "employees": 7000
+  },
+  {
+   "name": "Logitech",
+   "domain": "logitech.com",
+   "employees": 7000
+  },
+  {
+   "name": "Finastra",
+   "domain": "finastra.com",
+   "employees": 7000
+  },
+  {
+   "name": "Playtech",
+   "domain": "playtech.com",
+   "employees": 7000
+  },
+  {
+   "name": "Allegro",
+   "domain": "allegro.eu",
+   "employees": 7000
+  },
+  {
+   "name": "AVEVA",
+   "domain": "aveva.com",
+   "employees": 6500
+  },
+  {
+   "name": "Sagemcom",
+   "domain": "sagemcom.com",
+   "employees": 6500
+  },
+  {
+   "name": "Comarch",
+   "domain": "comarch.com",
+   "employees": 6500
+  },
+  {
+   "name": "AUTO1 Group",
+   "domain": "auto1-group.com",
+   "employees": 6000
+  },
+  {
+   "name": "FNZ",
+   "domain": "fnz.com",
+   "employees": 6000
+  },
+  {
+   "name": "SITA",
+   "domain": "sita.aero",
+   "employees": 5800
+  },
+  {
+   "name": "Cancom",
+   "domain": "cancom.de",
+   "employees": 5600
+  },
+  {
+   "name": "Wise",
+   "domain": "wise.com",
+   "employees": 5500
+  },
+  {
+   "name": "Odoo",
+   "domain": "odoo.com",
+   "employees": 5300
+  },
+  {
+   "name": "Adevinta",
+   "domain": "adevinta.com",
+   "employees": 5200
+  },
+  {
+   "name": "Flix",
+   "employees": 5000
+  },
+  {
+   "name": "Civica",
+   "domain": "civica.com",
+   "employees": 5000
+  },
+  {
+   "name": "Cegid",
+   "domain": "cegid.com",
+   "employees": 5000
+  },
+  {
+   "name": "Sophos",
+   "domain": "sophos.com",
+   "employees": 4500
+  },
+  {
+   "name": "ASM International",
+   "domain": "asm.com",
+   "employees": 4500
+  },
+  {
+   "name": "Bolt",
+   "domain": "bolt.eu",
+   "employees": 4500
+  },
+  {
+   "name": "Adyen",
+   "domain": "adyen.com",
+   "employees": 4500
+  },
+  {
+   "name": "X-FAB",
+   "domain": "xfab.com",
+   "employees": 4400
+  },
+  {
+   "name": "Materialise",
+   "domain": "materialise.com",
+   "employees": 4400
+  },
+  {
+   "name": "Klarna",
+   "domain": "klarna.com",
+   "employees": 4000
+  },
+  {
+   "name": "Deliveroo",
+   "domain": "deliveroo.co.uk",
+   "employees": 4000
+  },
+  {
+   "name": "Sinch",
+   "domain": "sinch.com",
+   "employees": 4000
+  },
+  {
+   "name": "TeamSystem",
+   "domain": "teamsystem.com",
+   "employees": 4000
+  },
+  {
+   "name": "Ciklum",
+   "domain": "ciklum.com",
+   "employees": 4000
+  },
+  {
+   "name": "Monzo",
+   "domain": "monzo.com",
+   "employees": 3700
+  },
+  {
+   "name": "TomTom",
+   "domain": "tomtom.com",
+   "employees": 3600
+  },
+  {
+   "name": "Infobip",
+   "domain": "infobip.com",
+   "employees": 3500
+  },
+  {
+   "name": "Criteo",
+   "domain": "criteo.com",
+   "employees": 3500
+  },
+  {
+   "name": "Ingenico",
+   "domain": "ingenico.com",
+   "employees": 3500
+  },
+  {
+   "name": "FDM Group",
+   "domain": "fdmgroup.com",
+   "employees": 3500
+  },
+  {
+   "name": "Nemetschek",
+   "domain": "nemetschek.com",
+   "employees": 3400
+  },
+  {
+   "name": "Version 1",
+   "domain": "version1.com",
+   "employees": 3300
+  },
+  {
+   "name": "Barco",
+   "domain": "barco.com",
+   "employees": 3300
+  },
+  {
+   "name": "Paysafe",
+   "domain": "paysafe.com",
+   "employees": 3200
+  },
+  {
+   "name": "Starling Bank",
+   "domain": "starlingbank.com",
+   "employees": 3200
+  },
+  {
+   "name": "Celonis",
+   "domain": "celonis.com",
+   "employees": 3000
+  },
+  {
+   "name": "SimCorp",
+   "domain": "simcorp.com",
+   "employees": 3000
+  },
+  {
+   "name": "Kainos",
+   "domain": "kainos.com",
+   "employees": 3000
+  },
+  {
+   "name": "OVHcloud",
+   "domain": "ovhcloud.com",
+   "employees": 3000
+  },
+  {
+   "name": "Murex",
+   "domain": "murex.com",
+   "employees": 3000
+  },
+  {
+   "name": "SumUp",
+   "domain": "sumup.com",
+   "employees": 3000
+  },
+  {
+   "name": "IRIS Software Group",
+   "domain": "iris.co.uk",
+   "employees": 3000
+  },
+  {
+   "name": "Software AG",
+   "domain": "softwareag.com",
+   "employees": 3000
+  },
+  {
+   "name": "Doctolib",
+   "domain": "doctolib.fr",
+   "employees": 2900
+  },
+  {
+   "name": "OneAdvanced",
+   "domain": "oneadvanced.com",
+   "employees": 2800
+  },
+  {
+   "name": "Unit4",
+   "domain": "unit4.com",
+   "employees": 2700
+  },
+  {
+   "name": "Softcat",
+   "domain": "softcat.com",
+   "employees": 2600
+  },
+  {
+   "name": "SUSE",
+   "domain": "suse.com",
+   "employees": 2500
+  },
+  {
+   "name": "Avaloq",
+   "domain": "avaloq.com",
+   "employees": 2500
+  },
+  {
+   "name": "Darktrace",
+   "domain": "darktrace.com",
+   "employees": 2400
+  },
+  {
+   "name": "JetBrains",
+   "domain": "jetbrains.com",
+   "employees": 2200
+  },
+  {
+   "name": "Soitec",
+   "domain": "soitec.com",
+   "employees": 2200
+  },
+  {
+   "name": "Scout24",
+   "domain": "scout24.com",
+   "employees": 2000
+  },
+  {
+   "name": "Backbase",
+   "domain": "backbase.com",
+   "employees": 2000
+  },
+  {
+   "name": "ESET",
+   "domain": "eset.com",
+   "employees": 2000
+  },
+  {
+   "name": "Exact",
+   "domain": "exact.com",
+   "employees": 2000
+  },
+  {
+   "name": "NCC Group",
+   "domain": "nccgroup.com",
+   "employees": 2000
+  },
+  {
+   "name": "Acronis",
+   "domain": "acronis.com",
+   "employees": 2000
+  },
+  {
+   "name": "Nord Security",
+   "domain": "nordsecurity.com",
+   "employees": 2000
+  },
+  {
+   "name": "Personio",
+   "domain": "personio.com",
+   "employees": 2000
+  },
+  {
+   "name": "Melexis",
+   "domain": "melexis.com",
+   "employees": 2000
+  },
+  {
+   "name": "BE Semiconductor Industries",
+   "domain": "besi.com",
+   "employees": 2000
+  },
+  {
+   "name": "Vinted",
+   "domain": "vinted.com",
+   "employees": 2000
+  },
+  {
+   "name": "Bitdefender",
+   "domain": "bitdefender.com",
+   "employees": 1800
+  },
+  {
+   "name": "eDreams ODIGEO",
+   "domain": "edreamsodigeo.com",
+   "employees": 1800
+  },
+  {
+   "name": "Checkout.com",
+   "domain": "checkout.com",
+   "employees": 1700
+  },
+  {
+   "name": "WithSecure",
+   "domain": "withsecure.com",
+   "employees": 1600
+  },
+  {
+   "name": "Basware",
+   "domain": "basware.com",
+   "employees": 1600
+  },
+  {
+   "name": "TeamViewer",
+   "domain": "teamviewer.com",
+   "employees": 1500
+  },
+  {
+   "name": "N26",
+   "domain": "n26.com",
+   "employees": 1500
+  },
+  {
+   "name": "Nordic Semiconductor",
+   "domain": "nordicsemi.com",
+   "employees": 1500
+  },
+  {
+   "name": "Canonical",
+   "domain": "canonical.com",
+   "employees": 1200
+  },
+  {
+   "name": "CD Projekt",
+   "domain": "cdprojekt.com",
+   "employees": 1200
+  },
+  {
+   "name": "Volkswagen Group",
+   "domain": "volkswagenag.com",
+   "employees": 680000
+  },
+  {
+   "name": "Robert Bosch",
+   "domain": "bosch.com",
+   "employees": 418000
+  },
+  {
+   "name": "Siemens",
+   "domain": "siemens.com",
+   "employees": 320000
+  },
+  {
+   "name": "Stellantis",
+   "domain": "stellantis.com",
+   "employees": 250000
+  },
+  {
+   "name": "Continental",
+   "domain": "continental.com",
+   "employees": 190000
+  },
+  {
+   "name": "Mercedes-Benz Group",
+   "domain": "mercedes-benz.com",
+   "employees": 165000
+  },
+  {
+   "name": "ZF Friedrichshafen",
+   "domain": "zf.com",
+   "employees": 161000
+  },
+  {
+   "name": "Saint-Gobain",
+   "domain": "saint-gobain.com",
+   "employees": 160000
+  },
+  {
+   "name": "BMW Group",
+   "domain": "bmwgroup.com",
+   "employees": 159000
+  },
+  {
+   "name": "Airbus",
+   "domain": "airbus.com",
+   "employees": 156000
+  },
+  {
+   "name": "Schneider Electric",
+   "domain": "se.com",
+   "employees": 150000
+  },
+  {
+   "name": "Forvia",
+   "domain": "forvia.com",
+   "employees": 150000
+  },
+  {
+   "name": "Michelin",
+   "domain": "michelin.com",
+   "employees": 130000
+  },
+  {
+   "name": "ArcelorMittal",
+   "domain": "arcelormittal.com",
+   "employees": 126000
+  },
+  {
+   "name": "Schaeffler",
+   "domain": "schaeffler.com",
+   "employees": 120000
+  },
+  {
+   "name": "BASF",
+   "domain": "basf.com",
+   "employees": 112000
+  },
+  {
+   "name": "ABB",
+   "domain": "abb.com",
+   "employees": 110000
+  },
+  {
+   "name": "BAE Systems",
+   "domain": "baesystems.com",
+   "employees": 107000
+  },
+  {
+   "name": "Valeo",
+   "domain": "valeo.com",
+   "employees": 106000
+  },
+  {
+   "name": "Volvo Group",
+   "domain": "volvogroup.com",
+   "employees": 102000
+  },
+  {
+   "name": "Safran",
+   "domain": "safran-group.com",
+   "employees": 100000
+  },
+  {
+   "name": "Daimler Truck",
+   "domain": "daimlertruck.com",
+   "employees": 100000
+  },
+  {
+   "name": "Renault Group",
+   "domain": "renaultgroup.com",
+   "employees": 100000
+  },
+  {
+   "name": "Smurfit Westrock",
+   "domain": "smurfitwestrock.com",
+   "employees": 100000
+  },
+  {
+   "name": "SGS",
+   "domain": "sgs.com",
+   "employees": 99000
+  },
+  {
+   "name": "Siemens Energy",
+   "domain": "siemens-energy.com",
+   "employees": 99000
+  },
+  {
+   "name": "Thyssenkrupp",
+   "domain": "thyssenkrupp.com",
+   "employees": 98000
+  },
+  {
+   "name": "Leoni",
+   "domain": "leoni.com",
+   "employees": 95000
+  },
+  {
+   "name": "Bayer",
+   "domain": "bayer.com",
+   "employees": 93000
+  },
+  {
+   "name": "Würth Group",
+   "domain": "wurth.com",
+   "employees": 88000
+  },
+  {
+   "name": "Alstom",
+   "domain": "alstom.com",
+   "employees": 86000
+  },
+  {
+   "name": "Bureau Veritas",
+   "domain": "bureauveritas.com",
+   "employees": 83000
+  },
+  {
+   "name": "Thales",
+   "domain": "thalesgroup.com",
+   "employees": 83000
+  },
+  {
+   "name": "CRH",
+   "domain": "crh.com",
+   "employees": 78000
+  },
+  {
+   "name": "Siemens Healthineers",
+   "domain": "siemens-healthineers.com",
+   "employees": 72000
+  },
+  {
+   "name": "Mahle",
+   "domain": "mahle.com",
+   "employees": 72000
+  },
+  {
+   "name": "Dräxlmaier",
+   "domain": "draexlmaier.com",
+   "employees": 70000
+  },
+  {
+   "name": "Mondragon Corporation",
+   "employees": 70000
+  },
+  {
+   "name": "Philips",
+   "domain": "philips.com",
+   "employees": 68000
+  },
+  {
+   "name": "Air Liquide",
+   "domain": "airliquide.com",
+   "employees": 67000
+  },
+  {
+   "name": "Linde",
+   "domain": "linde.com",
+   "employees": 66000
+  },
+  {
+   "name": "B. Braun",
+   "domain": "bbraun.com",
+   "employees": 64000
+  },
+  {
+   "name": "Assa Abloy",
+   "domain": "assaabloy.com",
+   "employees": 63000
+  },
+  {
+   "name": "Merck Group (Merck KGaA)",
+   "domain": "merckgroup.com",
+   "employees": 62000
+  },
+  {
+   "name": "Kone",
+   "domain": "kone.com",
+   "employees": 60000
+  },
+  {
+   "name": "Holcim",
+   "domain": "holcim.com",
+   "employees": 60000
+  },
+  {
+   "name": "Indra",
+   "domain": "indracompany.com",
+   "employees": 57000
+  },
+  {
+   "name": "Atlas Copco",
+   "domain": "atlascopco.com",
+   "employees": 55000
+  },
+  {
+   "name": "Liebherr Group",
+   "domain": "liebherr.com",
+   "employees": 54000
+  },
+  {
+   "name": "Leonardo",
+   "domain": "leonardo.com",
+   "employees": 53000
+  },
+  {
+   "name": "Freudenberg Group",
+   "domain": "freudenberg.com",
+   "employees": 52000
+  },
+  {
+   "name": "Voestalpine",
+   "domain": "voestalpine.com",
+   "employees": 51000
+  },
+  {
+   "name": "Heidelberg Materials",
+   "domain": "heidelbergmaterials.com",
+   "employees": 51000
+  },
+  {
+   "name": "TK Elevator",
+   "domain": "tkelevator.com",
+   "employees": 50000
+  },
+  {
+   "name": "Dekra",
+   "domain": "dekra.com",
+   "employees": 49000
+  },
+  {
+   "name": "Henkel",
+   "domain": "henkel.com",
+   "employees": 48000
+  },
+  {
+   "name": "Carl Zeiss",
+   "domain": "zeiss.com",
+   "employees": 46000
+  },
+  {
+   "name": "Electrolux",
+   "domain": "electroluxgroup.com",
+   "employees": 45000
+  },
+  {
+   "name": "Arçelik",
+   "employees": 45000,
+   "domain": "arcelikglobal.com"
+  },
+  {
+   "name": "Intertek",
+   "domain": "intertek.com",
+   "employees": 44000
+  },
+  {
+   "name": "Volvo Cars",
+   "domain": "volvocars.com",
+   "employees": 43000
+  },
+  {
+   "name": "Rolls-Royce",
+   "domain": "rolls-royce.com",
+   "employees": 43000
+  },
+  {
+   "name": "Danfoss",
+   "domain": "danfoss.com",
+   "employees": 42000
+  },
+  {
+   "name": "KION Group",
+   "domain": "kiongroup.com",
+   "employees": 42000
+  },
+  {
+   "name": "Sandvik",
+   "domain": "home.sandvik",
+   "employees": 41000
+  },
+  {
+   "name": "Knauf",
+   "domain": "knauf.com",
+   "employees": 41000
+  },
+  {
+   "name": "Amcor",
+   "domain": "amcor.com",
+   "employees": 41000
+  },
+  {
+   "name": "Rheinmetall",
+   "domain": "rheinmetall.com",
+   "employees": 40000
+  },
+  {
+   "name": "SKF",
+   "domain": "skf.com",
+   "employees": 40000
+  },
+  {
+   "name": "Gestamp",
+   "domain": "gestamp.com",
+   "employees": 40000
+  },
+  {
+   "name": "CNH Industrial",
+   "employees": 40000
+  },
+  {
+   "name": "Legrand",
+   "domain": "legrand.com",
+   "employees": 38000
+  },
+  {
+   "name": "Iveco Group",
+   "domain": "ivecogroup.com",
+   "employees": 36000
+  },
+  {
+   "name": "Wood Group",
+   "domain": "woodplc.com",
+   "employees": 35000
+  },
+  {
+   "name": "AkzoNobel",
+   "domain": "akzonobel.com",
+   "employees": 35000
+  },
+  {
+   "name": "Hilti",
+   "domain": "hilti.com",
+   "employees": 34000
+  },
+  {
+   "name": "Sika",
+   "domain": "sika.com",
+   "employees": 33000
+  },
+  {
+   "name": "Norsk Hydro",
+   "domain": "hydro.com",
+   "employees": 33000
+  },
+  {
+   "name": "Groupe SEB",
+   "domain": "groupeseb.com",
+   "employees": 33000
+  },
+  {
+   "name": "Knorr-Bremse",
+   "domain": "knorr-bremse.com",
+   "employees": 32000
+  },
+  {
+   "name": "Evonik",
+   "domain": "evonik.com",
+   "employees": 32000
+  },
+  {
+   "name": "Signify",
+   "domain": "signify.com",
+   "employees": 32000
+  },
+  {
+   "name": "Prysmian",
+   "domain": "prysmiangroup.com",
+   "employees": 31000
+  },
+  {
+   "name": "Pirelli",
+   "domain": "pirelli.com",
+   "employees": 31000
+  },
+  {
+   "name": "Andritz",
+   "domain": "andritz.com",
+   "employees": 30000
+  },
+  {
+   "name": "Brose",
+   "domain": "brose.com",
+   "employees": 30000
+  },
+  {
+   "name": "Saipem",
+   "domain": "saipem.com",
+   "employees": 30000
+  },
+  {
+   "name": "Tenaris",
+   "domain": "tenaris.com",
+   "employees": 30000
+  },
+  {
+   "name": "Vestas",
+   "domain": "vestas.com",
+   "employees": 29000
+  },
+  {
+   "name": "Lego Group",
+   "domain": "lego.com",
+   "employees": 28000
+  },
+  {
+   "name": "DSM-Firmenich",
+   "domain": "dsm-firmenich.com",
+   "employees": 28000
+  },
+  {
+   "name": "Nexans",
+   "domain": "nexans.com",
+   "employees": 28000
+  },
+  {
+   "name": "Ineos",
+   "domain": "ineos.com",
+   "employees": 26000
+  },
+  {
+   "name": "Babcock International",
+   "domain": "babcockinternational.com",
+   "employees": 26000
+  },
+  {
+   "name": "TÜV SÜD",
+   "domain": "tuvsud.com",
+   "employees": 26000
+  },
+  {
+   "name": "Grupo Antolin",
+   "domain": "antolin.com",
+   "employees": 25000
+  },
+  {
+   "name": "CIE Automotive",
+   "domain": "cieautomotive.com",
+   "employees": 25000
+  },
+  {
+   "name": "Salzgitter",
+   "domain": "salzgitter-ag.com",
+   "employees": 25000
+  },
+  {
+   "name": "Saab",
+   "domain": "saab.com",
+   "employees": 25000
+  },
+  {
+   "name": "Tetra Pak",
+   "domain": "tetrapak.com",
+   "employees": 24000
+  },
+  {
+   "name": "Bekaert",
+   "domain": "bekaert.com",
+   "employees": 24000
+  },
+  {
+   "name": "TI Fluid Systems",
+   "domain": "tifluidsystems.com",
+   "employees": 24000
+  },
+  {
+   "name": "Miele",
+   "domain": "miele.com",
+   "employees": 23000
+  },
+  {
+   "name": "Benteler",
+   "domain": "benteler.com",
+   "employees": 23000
+  },
+  {
+   "name": "Voith",
+   "domain": "voith.com",
+   "employees": 22000
+  },
+  {
+   "name": "Kingspan",
+   "domain": "kingspan.com",
+   "employees": 22000
+  },
+  {
+   "name": "Mondi",
+   "domain": "mondigroup.com",
+   "employees": 22000
+  },
+  {
+   "name": "Phoenix Contact",
+   "domain": "phoenixcontact.com",
+   "employees": 22000
+  },
+  {
+   "name": "Arkema",
+   "domain": "arkema.com",
+   "employees": 21000
+  },
+  {
+   "name": "Alfa Laval",
+   "domain": "alfalaval.com",
+   "employees": 21000
+  },
+  {
+   "name": "Fincantieri",
+   "domain": "fincantieri.com",
+   "employees": 21000
+  },
+  {
+   "name": "Jungheinrich",
+   "domain": "jungheinrich.com",
+   "employees": 21000
+  },
+  {
+   "name": "Stora Enso",
+   "domain": "storaenso.com",
+   "employees": 20000
+  },
+  {
+   "name": "Grundfos",
+   "domain": "grundfos.com",
+   "employees": 20000
+  },
+  {
+   "name": "Ardagh Group",
+   "domain": "ardaghgroup.com",
+   "employees": 20000
+  },
+  {
+   "name": "Festo",
+   "domain": "festo.com",
+   "employees": 20000
+  },
+  {
+   "name": "Valmet",
+   "domain": "valmet.com",
+   "employees": 19000
+  },
+  {
+   "name": "Stihl",
+   "domain": "stihl.com",
+   "employees": 19000
+  },
+  {
+   "name": "Georg Fischer",
+   "domain": "georgfischer.com",
+   "employees": 19000
+  },
+  {
+   "name": "Krones",
+   "domain": "krones.com",
+   "employees": 19000
+  },
+  {
+   "name": "Wienerberger",
+   "domain": "wienerberger.com",
+   "employees": 19000
+  },
+  {
+   "name": "Yara",
+   "domain": "yara.com",
+   "employees": 18000
+  },
+  {
+   "name": "GEA Group",
+   "domain": "gea.com",
+   "employees": 18000
+  },
+  {
+   "name": "Wärtsilä",
+   "domain": "wartsila.com",
+   "employees": 18000
+  },
+  {
+   "name": "Trumpf",
+   "domain": "trumpf.com",
+   "employees": 18000
+  },
+  {
+   "name": "Epiroc",
+   "domain": "epiroc.com",
+   "employees": 18000
+  },
+  {
+   "name": "Smith & Nephew",
+   "domain": "smith-nephew.com",
+   "employees": 18000
+  },
+  {
+   "name": "Heraeus",
+   "domain": "heraeus.com",
+   "employees": 17500
+  },
+  {
+   "name": "Covestro",
+   "domain": "covestro.com",
+   "employees": 17500
+  },
+  {
+   "name": "MBDA",
+   "domain": "mbda-systems.com",
+   "employees": 17000
+  },
+  {
+   "name": "Orano",
+   "domain": "orano.group",
+   "employees": 17000
+  },
+  {
+   "name": "Endress+Hauser",
+   "domain": "endress.com",
+   "employees": 17000
+  },
+  {
+   "name": "Vallourec",
+   "domain": "vallourec.com",
+   "employees": 17000
+  },
+  {
+   "name": "Metso",
+   "domain": "metso.com",
+   "employees": 17000
+  },
+  {
+   "name": "Schott",
+   "domain": "schott.com",
+   "employees": 17000
+  },
+  {
+   "name": "Technip Energies",
+   "domain": "technipenergies.com",
+   "employees": 17000
+  },
+  {
+   "name": "Wacker Chemie",
+   "domain": "wacker.com",
+   "employees": 16000
+  },
+  {
+   "name": "GKN Aerospace",
+   "domain": "gknaerospace.com",
+   "employees": 16000
+  },
+  {
+   "name": "Dräger",
+   "domain": "draeger.com",
+   "employees": 16000
+  },
+  {
+   "name": "Givaudan",
+   "domain": "givaudan.com",
+   "employees": 16000
+  },
+  {
+   "name": "Naval Group",
+   "domain": "naval-group.com",
+   "employees": 15000
+  },
+  {
+   "name": "Dassault Aviation",
+   "domain": "dassault-aviation.com",
+   "employees": 14000
+  },
+  {
+   "name": "Kongsberg Gruppen",
+   "domain": "kongsberg.com",
+   "employees": 13000
+  },
+  {
+   "name": "Toyota Motor",
+   "domain": "toyota.co.jp",
+   "employees": 380000
+  },
+  {
+   "name": "NTT (Nippon Telegraph and Telephone)",
+   "domain": "group.ntt",
+   "employees": 335000
+  },
+  {
+   "name": "Sumitomo Electric Industries",
+   "domain": "sumitomoelectric.com",
+   "employees": 285000
+  },
+  {
+   "name": "Hitachi",
+   "domain": "hitachi.com",
+   "employees": 268000
+  },
+  {
+   "name": "Samsung Electronics",
+   "domain": "samsung.com",
+   "employees": 267000
+  },
+  {
+   "name": "Yazaki",
+   "domain": "yazaki-group.com",
+   "employees": 235000
+  },
+  {
+   "name": "Panasonic Holdings",
+   "domain": "panasonic.com",
+   "employees": 228000
+  },
+  {
+   "name": "Honda Motor",
+   "domain": "honda.co.jp",
+   "employees": 194000
+  },
+  {
+   "name": "NTT Data",
+   "domain": "nttdata.com",
+   "employees": 193000
+  },
+  {
+   "name": "Canon",
+   "domain": "global.canon",
+   "employees": 165000
+  },
+  {
+   "name": "Denso",
+   "domain": "denso.com",
+   "employees": 162000
+  },
+  {
+   "name": "Mitsubishi Electric",
+   "domain": "mitsubishielectric.com",
+   "employees": 150000
+  },
+  {
+   "name": "Nissan Motor",
+   "domain": "nissan-global.com",
+   "employees": 130000
+  },
+  {
+   "name": "Bridgestone",
+   "domain": "bridgestone.com",
+   "employees": 125000
+  },
+  {
+   "name": "Fujitsu",
+   "domain": "fujitsu.com",
+   "employees": 124000
+  },
+  {
+   "name": "Hyundai Motor",
+   "domain": "hyundai.com",
+   "employees": 123000
+  },
+  {
+   "name": "Aisin",
+   "domain": "aisin.com",
+   "employees": 118000
+  },
+  {
+   "name": "Sony Group",
+   "domain": "sony.com",
+   "employees": 113000
+  },
+  {
+   "name": "NEC",
+   "domain": "nec.com",
+   "employees": 105000
+  },
+  {
+   "name": "Toshiba",
+   "domain": "global.toshiba",
+   "employees": 105000
+  },
+  {
+   "name": "Nidec",
+   "domain": "nidec.com",
+   "employees": 100000
+  },
+  {
+   "name": "TDK",
+   "domain": "tdk.com",
+   "employees": 100000
+  },
+  {
+   "name": "Daikin Industries",
+   "domain": "daikin.com",
+   "employees": 98000
+  },
+  {
+   "name": "Astemo",
+   "domain": "astemo.com",
+   "employees": 90000
+  },
+  {
+   "name": "Kyocera",
+   "domain": "kyocera.co.jp",
+   "employees": 80000
+  },
+  {
+   "name": "MinebeaMitsumi",
+   "domain": "minebeamitsumi.com",
+   "employees": 80000
+  },
+  {
+   "name": "Mitsubishi Heavy Industries",
+   "domain": "mhi.com",
+   "employees": 78000
+  },
+  {
+   "name": "Murata Manufacturing",
+   "domain": "murata.com",
+   "employees": 77000
+  },
+  {
+   "name": "Seiko Epson",
+   "domain": "epson.com",
+   "employees": 77000
+  },
+  {
+   "name": "Toyota Industries",
+   "domain": "toyota-industries.com",
+   "employees": 76000
+  },
+  {
+   "name": "Coupang",
+   "domain": "coupang.com",
+   "employees": 75000
+  },
+  {
+   "name": "Ricoh",
+   "domain": "ricoh.com",
+   "employees": 75000
+  },
+  {
+   "name": "LG Electronics",
+   "domain": "lg.com",
+   "employees": 74000
+  },
+  {
+   "name": "Fujifilm Holdings",
+   "domain": "fujifilm.com",
+   "employees": 73000
+  },
+  {
+   "name": "Suzuki Motor",
+   "domain": "suzuki.co.jp",
+   "employees": 69000
+  },
+  {
+   "name": "SoftBank Group",
+   "domain": "group.softbank",
+   "employees": 65000
+  },
+  {
+   "name": "Komatsu",
+   "domain": "komatsu.jp",
+   "employees": 65000
+  },
+  {
+   "name": "KDDI",
+   "domain": "kddi.com",
+   "employees": 64000
+  },
+  {
+   "name": "LG Display",
+   "domain": "lgdisplay.com",
+   "employees": 62000
+  },
+  {
+   "name": "Recruit Holdings",
+   "domain": "recruit-holdings.com",
+   "employees": 58000
+  },
+  {
+   "name": "Transcosmos",
+   "domain": "trans-cosmos.co.jp",
+   "employees": 58000
+  },
+  {
+   "name": "Fujikura",
+   "domain": "fujikura.co.jp",
+   "employees": 56000
+  },
+  {
+   "name": "Yamaha Motor",
+   "domain": "yamaha-motor.com",
+   "employees": 53000
+  },
+  {
+   "name": "Kia",
+   "domain": "kia.com",
+   "employees": 52000
+  },
+  {
+   "name": "Kubota",
+   "domain": "kubota.com",
+   "employees": 52000
+  },
+  {
+   "name": "JTEKT",
+   "domain": "jtekt.co.jp",
+   "employees": 50000
+  },
+  {
+   "name": "Mazda Motor",
+   "domain": "mazda.com",
+   "employees": 48000
+  },
+  {
+   "name": "Furukawa Electric",
+   "domain": "furukawa.co.jp",
+   "employees": 47000
+  },
+  {
+   "name": "Isuzu Motors",
+   "domain": "isuzu.co.jp",
+   "employees": 45000
+  },
+  {
+   "name": "Sharp",
+   "domain": "sharp.co.jp",
+   "employees": 43000
+  },
+  {
+   "name": "Brother Industries",
+   "domain": "brother.co.jp",
+   "employees": 40000
+  },
+  {
+   "name": "Kawasaki Heavy Industries",
+   "domain": "khi.co.jp",
+   "employees": 39000
+  },
+  {
+   "name": "Konica Minolta",
+   "domain": "konicaminolta.com",
+   "employees": 39000
+  },
+  {
+   "name": "Subaru",
+   "domain": "subaru.co.jp",
+   "employees": 37000
+  },
+  {
+   "name": "Hoya",
+   "domain": "hoya.co.jp",
+   "employees": 37000
+  },
+  {
+   "name": "LG Energy Solution",
+   "domain": "lgensol.com",
+   "employees": 36000
+  },
+  {
+   "name": "Hyundai Mobis",
+   "domain": "mobis.co.kr",
+   "employees": 34000
+  },
+  {
+   "name": "POSCO Holdings",
+   "domain": "posco.co.kr",
+   "employees": 34000
+  },
+  {
+   "name": "SK hynix",
+   "domain": "skhynix.com",
+   "employees": 32000
+  },
+  {
+   "name": "Alps Alpine",
+   "domain": "alpsalpine.com",
+   "employees": 32000
+  },
+  {
+   "name": "Rakuten Group",
+   "domain": "rakuten.co.jp",
+   "employees": 32000
+  },
+  {
+   "name": "NSK",
+   "domain": "nsk.com",
+   "employees": 30000
+  },
+  {
+   "name": "Terumo",
+   "domain": "terumo.co.jp",
+   "employees": 30000
+  },
+  {
+   "name": "IHI",
+   "domain": "ihi.co.jp",
+   "employees": 29000
+  },
+  {
+   "name": "Hino Motors",
+   "domain": "hino.co.jp",
+   "employees": 29000
+  },
+  {
+   "name": "Omron",
+   "domain": "omron.com",
+   "employees": 28000
+  },
+  {
+   "name": "Mitsubishi Motors",
+   "domain": "mitsubishi-motors.com",
+   "employees": 28000
+  },
+  {
+   "name": "LY Corporation (LINE Yahoo)",
+   "domain": "lycorp.co.jp",
+   "employees": 28000
+  },
+  {
+   "name": "Fuji Electric",
+   "domain": "fujielectric.com",
+   "employees": 28000
+  },
+  {
+   "name": "Olympus",
+   "domain": "olympus-global.com",
+   "employees": 27000
+  },
+  {
+   "name": "Samsung SDS",
+   "domain": "samsungsds.com",
+   "employees": 25000
+  },
+  {
+   "name": "Samsung Electro-Mechanics",
+   "domain": "samsungsem.com",
+   "employees": 25000
+  },
+  {
+   "name": "Samsung SDI",
+   "domain": "samsungsdi.com",
+   "employees": 23000
+  },
+  {
+   "name": "Rohm",
+   "domain": "rohm.com",
+   "employees": 22000
+  },
+  {
+   "name": "TIS",
+   "domain": "tis.co.jp",
+   "employees": 22000
+  },
+  {
+   "name": "Renesas Electronics",
+   "domain": "renesas.com",
+   "employees": 21000
+  },
+  {
+   "name": "SMC",
+   "domain": "smcworld.com",
+   "employees": 21000
+  },
+  {
+   "name": "KT",
+   "domain": "kt.com",
+   "employees": 20000
+  },
+  {
+   "name": "Yamaha",
+   "domain": "yamaha.com",
+   "employees": 20000
+  },
+  {
+   "name": "Kioxia",
+   "domain": "kioxia.com",
+   "employees": 19000
+  },
+  {
+   "name": "Makita",
+   "domain": "makita.co.jp",
+   "employees": 19000
+  },
+  {
+   "name": "Nikon",
+   "domain": "nikon.com",
+   "employees": 19000
+  },
+  {
+   "name": "Ebara",
+   "domain": "ebara.com",
+   "employees": 19000
+  },
+  {
+   "name": "Tokyo Electron",
+   "domain": "tel.com",
+   "employees": 18000
+  },
+  {
+   "name": "Yokogawa Electric",
+   "domain": "yokogawa.com",
+   "employees": 18000
+  },
+  {
+   "name": "Nomura Research Institute",
+   "domain": "nri.com",
+   "employees": 17000
+  },
+  {
+   "name": "Kakao",
+   "domain": "kakaocorp.com",
+   "employees": 17000
+  },
+  {
+   "name": "SCSK",
+   "domain": "scsk.jp",
+   "employees": 16000
+  },
+  {
+   "name": "Fuji Soft",
+   "domain": "fsi.co.jp",
+   "employees": 16000
+  },
+  {
+   "name": "JVCKenwood",
+   "domain": "jvckenwood.com",
+   "employees": 16000
+  },
+  {
+   "name": "Oki Electric Industry",
+   "domain": "oki.com",
+   "employees": 15000
+  },
+  {
+   "name": "LG Innotek",
+   "domain": "lginnotek.com",
+   "employees": 14000
+  },
+  {
+   "name": "HD Hyundai Heavy Industries",
+   "domain": "hhi.co.kr",
+   "employees": 14000
+  },
+  {
+   "name": "Shimadzu",
+   "domain": "shimadzu.com",
+   "employees": 14000
+  },
+  {
+   "name": "Daifuku",
+   "domain": "daifuku.com",
+   "employees": 13000
+  },
+  {
+   "name": "Hanon Systems",
+   "domain": "hanonsystems.com",
+   "employees": 13000
+  },
+  {
+   "name": "CyberAgent",
+   "domain": "cyberagent.co.jp",
+   "employees": 13000
+  },
+  {
+   "name": "Yaskawa Electric",
+   "domain": "yaskawa.co.jp",
+   "employees": 13000
+  },
+  {
+   "name": "Shimano",
+   "domain": "shimano.com",
+   "employees": 11500
+  },
+  {
+   "name": "Sysmex",
+   "domain": "sysmex.co.jp",
+   "employees": 11000
+  },
+  {
+   "name": "M3",
+   "domain": "m3.com",
+   "employees": 11000
+  },
+  {
+   "name": "Azbil",
+   "domain": "azbil.com",
+   "employees": 10000
+  },
+  {
+   "name": "LG Uplus",
+   "domain": "uplus.co.kr",
+   "employees": 10000
+  },
+  {
+   "name": "Bandai Namco Holdings",
+   "domain": "bandainamco.co.jp",
+   "employees": 10000
+  },
+  {
+   "name": "Samsung Heavy Industries",
+   "domain": "samsungshi.com",
+   "employees": 10000
+  },
+  {
+   "name": "Hanwha Ocean",
+   "domain": "hanwhaocean.com",
+   "employees": 10000
+  },
+  {
+   "name": "Keyence",
+   "domain": "keyence.com",
+   "employees": 10000
+  },
+  {
+   "name": "Itochu Techno-Solutions (CTC)",
+   "domain": "ctc-g.co.jp",
+   "employees": 10000
+  },
+  {
+   "name": "Casio Computer",
+   "domain": "casio.com",
+   "employees": 9500
+  },
+  {
+   "name": "Konami Group",
+   "domain": "konami.com",
+   "employees": 9000
+  },
+  {
+   "name": "Otsuka Corporation",
+   "domain": "otsuka-shokai.co.jp",
+   "employees": 9000
+  },
+  {
+   "name": "LG CNS",
+   "domain": "lgcns.com",
+   "employees": 9000
+  },
+  {
+   "name": "Horiba",
+   "domain": "horiba.com",
+   "employees": 8500
+  },
+  {
+   "name": "Fanuc",
+   "domain": "fanuc.co.jp",
+   "employees": 8500
+  },
+  {
+   "name": "Sega Sammy Holdings",
+   "domain": "segasammy.co.jp",
+   "employees": 8000
+  },
+  {
+   "name": "BIPROGY",
+   "domain": "biprogy.com",
+   "employees": 8000
+  },
+  {
+   "name": "Nintendo",
+   "domain": "nintendo.co.jp",
+   "employees": 7700
+  },
+  {
+   "name": "Screen Holdings",
+   "domain": "screen.co.jp",
+   "employees": 7600
+  },
+  {
+   "name": "GMO Internet Group",
+   "domain": "gmo.jp",
+   "employees": 7500
+  },
+  {
+   "name": "Advantest",
+   "domain": "advantest.com",
+   "employees": 7500
+  },
+  {
+   "name": "Doosan Enerbility",
+   "domain": "doosanenerbility.com",
+   "employees": 7500
+  },
+  {
+   "name": "Netmarble",
+   "domain": "netmarble.com",
+   "employees": 7000
+  },
+  {
+   "name": "Nexon",
+   "domain": "nexon.com",
+   "employees": 7000
+  },
+  {
+   "name": "Hyundai AutoEver",
+   "domain": "hyundai-autoever.com",
+   "employees": 7000
+  },
+  {
+   "name": "Trend Micro",
+   "domain": "trendmicro.com",
+   "employees": 7000
+  },
+  {
+   "name": "Hanwha Aerospace",
+   "employees": 7000
+  },
+  {
+   "name": "Disco",
+   "domain": "disco.co.jp",
+   "employees": 7000
+  },
+  {
+   "name": "Naver",
+   "domain": "navercorp.com",
+   "employees": 7000
+  },
+  {
+   "name": "SK Telecom",
+   "domain": "sktelecom.com",
+   "employees": 5500
+  },
+  {
+   "name": "Korea Aerospace Industries",
+   "domain": "koreaaero.com",
+   "employees": 5500
+  },
+  {
+   "name": "Hanwha Systems",
+   "domain": "hanwhasystems.com",
+   "employees": 5000
+  },
+  {
+   "name": "Square Enix Holdings",
+   "domain": "square-enix.com",
+   "employees": 5000
+  },
+  {
+   "name": "Internet Initiative Japan",
+   "domain": "iij.ad.jp",
+   "employees": 4800
+  },
+  {
+   "name": "NCSoft",
+   "domain": "ncsoft.com",
+   "employees": 4500
+  },
+  {
+   "name": "Hyundai Rotem",
+   "domain": "hyundai-rotem.co.kr",
+   "employees": 4300
+  },
+  {
+   "name": "Krafton",
+   "domain": "krafton.com",
+   "employees": 4000
+  },
+  {
+   "name": "LIG Nex1",
+   "domain": "lignex1.com",
+   "employees": 4000
+  },
+  {
+   "name": "Anritsu",
+   "domain": "anritsu.com",
+   "employees": 4000
+  },
+  {
+   "name": "Capcom",
+   "domain": "capcom.co.jp",
+   "employees": 3500
+  },
+  {
+   "name": "Smilegate",
+   "domain": "smilegate.com",
+   "employees": 3000
+  },
+  {
+   "name": "DeNA",
+   "domain": "dena.com",
+   "employees": 2900
+  },
+  {
+   "name": "Socionext",
+   "domain": "socionext.com",
+   "employees": 2700
+  },
+  {
+   "name": "Koei Tecmo Holdings",
+   "domain": "koeitecmo.co.jp",
+   "employees": 2600
+  },
+  {
+   "name": "Money Forward",
+   "domain": "moneyforward.com",
+   "employees": 2300
+  },
+  {
+   "name": "Mercari",
+   "domain": "mercari.com",
+   "employees": 2100
+  },
+  {
+   "name": "Viva Republica (Toss)",
+   "domain": "toss.im",
+   "employees": 2000
+  },
+  {
+   "name": "freee",
+   "domain": "freee.co.jp",
+   "employees": 2000
+  },
+  {
+   "name": "Douzone Bizon",
+   "domain": "douzone.com",
+   "employees": 2000
+  },
+  {
+   "name": "NHN",
+   "domain": "nhn.com",
+   "employees": 2000
+  },
+  {
+   "name": "Yanolja",
+   "domain": "yanolja.com",
+   "employees": 1700
+  },
+  {
+   "name": "BYD",
+   "domain": "byd.com",
+   "employees": 900000
+  },
+  {
+   "name": "Foxconn (Hon Hai Precision Industry)",
+   "domain": "foxconn.com",
+   "employees": 800000
+  },
+  {
+   "name": "JD.com",
+   "domain": "jd.com",
+   "employees": 620000
+  },
+  {
+   "name": "China Mobile",
+   "domain": "chinamobileltd.com",
+   "employees": 450000
+  },
+  {
+   "name": "AVIC (Aviation Industry Corporation of China)",
+   "domain": "avic.com",
+   "employees": 400000
+  },
+  {
+   "name": "China Telecom",
+   "domain": "chinatelecom.com.cn",
+   "employees": 280000
+  },
+  {
+   "name": "China Unicom",
+   "domain": "chinaunicom.com",
+   "employees": 240000
+  },
+  {
+   "name": "Luxshare Precision",
+   "domain": "luxshare-ict.com",
+   "employees": 230000
+  },
+  {
+   "name": "Huawei",
+   "domain": "huawei.com",
+   "employees": 207000
+  },
+  {
+   "name": "China Electronics Technology Group (CETC)",
+   "domain": "cetc.com.cn",
+   "employees": 200000
+  },
+  {
+   "name": "Alibaba Group",
+   "domain": "alibaba.com",
+   "employees": 195000
+  },
+  {
+   "name": "Midea Group",
+   "domain": "midea.com",
+   "employees": 190000
+  },
+  {
+   "name": "CRRC",
+   "domain": "crrcgc.cc",
+   "employees": 160000
+  },
+  {
+   "name": "SAIC Motor",
+   "domain": "saicmotor.com",
+   "employees": 150000
+  },
+  {
+   "name": "ByteDance",
+   "domain": "bytedance.com",
+   "employees": 150000
+  },
+  {
+   "name": "Pegatron",
+   "domain": "pegatroncorp.com",
+   "employees": 150000
+  },
+  {
+   "name": "FAW Group",
+   "employees": 120000
+  },
+  {
+   "name": "Zhejiang Geely Holding Group",
+   "domain": "geely.com",
+   "employees": 120000
+  },
+  {
+   "name": "CATL (Contemporary Amperex Technology)",
+   "domain": "catl.com",
+   "employees": 118000
+  },
+  {
+   "name": "TCL",
+   "domain": "tcl.com",
+   "employees": 110000
+  },
+  {
+   "name": "Dongfeng Motor",
+   "employees": 110000
+  },
+  {
+   "name": "Haier",
+   "domain": "haier.com",
+   "employees": 110000
+  },
+  {
+   "name": "Ke Holdings (Beike)",
+   "domain": "ke.com",
+   "employees": 110000
+  },
+  {
+   "name": "Tencent",
+   "domain": "tencent.com",
+   "employees": 108000
+  },
+  {
+   "name": "BAIC Group",
+   "employees": 100000
+  },
+  {
+   "name": "Meituan",
+   "domain": "meituan.com",
+   "employees": 100000
+  },
+  {
+   "name": "Hisense",
+   "domain": "hisense.com",
+   "employees": 100000
+  },
+  {
+   "name": "Lens Technology",
+   "employees": 100000
+  },
+  {
+   "name": "ASE Technology Holding",
+   "domain": "aseglobal.com",
+   "employees": 95000
+  },
+  {
+   "name": "GAC Group",
+   "employees": 90000
+  },
+  {
+   "name": "Quanta Computer",
+   "domain": "quantatw.com",
+   "employees": 90000
+  },
+  {
+   "name": "iSoftStone",
+   "domain": "isoftstone.com",
+   "employees": 90000
+  },
+  {
+   "name": "Goertek",
+   "domain": "goertek.com",
+   "employees": 85000
+  },
+  {
+   "name": "Wistron",
+   "domain": "wistron.com",
+   "employees": 85000
+  },
+  {
+   "name": "Chinasoft International",
+   "domain": "chinasofti.com",
+   "employees": 85000
+  },
+  {
+   "name": "Great Wall Motor",
+   "domain": "gwm.com.cn",
+   "employees": 80000
+  },
+  {
+   "name": "Delta Electronics",
+   "domain": "deltaww.com",
+   "employees": 80000
+  },
+  {
+   "name": "TSMC",
+   "domain": "tsmc.com",
+   "employees": 80000
+  },
+  {
+   "name": "Weichai Power",
+   "domain": "weichai.com",
+   "employees": 80000
+  },
+  {
+   "name": "Lenovo",
+   "domain": "lenovo.com",
+   "employees": 77000
+  },
+  {
+   "name": "BOE Technology",
+   "domain": "boe.com",
+   "employees": 75000
+  },
+  {
+   "name": "Gree Electric Appliances",
+   "domain": "gree.com",
+   "employees": 72000
+  },
+  {
+   "name": "ZTE",
+   "domain": "zte.com.cn",
+   "employees": 70000
+  },
+  {
+   "name": "Zhen Ding Technology",
+   "employees": 70000
+  },
+  {
+   "name": "Chery Automobile",
+   "employees": 70000
+  },
+  {
+   "name": "Sea Limited",
+   "domain": "sea.com",
+   "employees": 67000
+  },
+  {
+   "name": "Compal Electronics",
+   "domain": "compal.com",
+   "employees": 60000
+  },
+  {
+   "name": "Huaqin Technology",
+   "domain": "huaqin.com",
+   "employees": 60000
+  },
+  {
+   "name": "LONGi Green Energy",
+   "domain": "longi.com",
+   "employees": 60000
+  },
+  {
+   "name": "CIMC (China International Marine Containers)",
+   "domain": "cimc.com",
+   "employees": 60000
+  },
+  {
+   "name": "Changan Automobile",
+   "domain": "changan.com.cn",
+   "employees": 60000
+  },
+  {
+   "name": "Hikvision",
+   "domain": "hikvision.com",
+   "employees": 58000
+  },
+  {
+   "name": "Techtronic Industries",
+   "domain": "ttigroup.com",
+   "employees": 47000
+  },
+  {
+   "name": "Innolux",
+   "domain": "innolux.com",
+   "employees": 46000
+  },
+  {
+   "name": "Xiaomi",
+   "domain": "mi.com",
+   "employees": 45000
+  },
+  {
+   "name": "JinkoSolar",
+   "domain": "jinkosolar.com",
+   "employees": 45000
+  },
+  {
+   "name": "Tongwei",
+   "employees": 45000
+  },
+  {
+   "name": "Vipshop",
+   "domain": "vip.com",
+   "employees": 44000
+  },
+  {
+   "name": "Yageo",
+   "domain": "yageo.com",
+   "employees": 42000
+  },
+  {
+   "name": "Sunwoda Electronic",
+   "domain": "sunwoda.com",
+   "employees": 40000
+  },
+  {
+   "name": "OPPO",
+   "domain": "oppo.com",
+   "employees": 40000
+  },
+  {
+   "name": "AAC Technologies",
+   "domain": "aactechnologies.com",
+   "employees": 40000
+  },
+  {
+   "name": "AUO (AU Optronics)",
+   "domain": "auo.com",
+   "employees": 38000
+  },
+  {
+   "name": "JA Solar",
+   "domain": "jasolar.com",
+   "employees": 38000
+  },
+  {
+   "name": "Lite-On Technology",
+   "domain": "liteon.com",
+   "employees": 36000
+  },
+  {
+   "name": "WuXi AppTec",
+   "domain": "wuxiapptec.com",
+   "employees": 36000
+  },
+  {
+   "name": "Chicony Electronics",
+   "employees": 36000
+  },
+  {
+   "name": "Baidu",
+   "domain": "baidu.com",
+   "employees": 35000
+  },
+  {
+   "name": "SANY Group",
+   "domain": "sanygroup.com",
+   "employees": 35000
+  },
+  {
+   "name": "XCMG",
+   "domain": "xcmg.com",
+   "employees": 35000
+  },
+  {
+   "name": "Wingtech Technology",
+   "domain": "wingtech.com",
+   "employees": 35000
+  },
+  {
+   "name": "Trip.com Group",
+   "domain": "trip.com",
+   "employees": 34000
+  },
+  {
+   "name": "Inventec",
+   "domain": "inventec.com",
+   "employees": 33000
+  },
+  {
+   "name": "Inspur",
+   "domain": "inspur.com",
+   "employees": 33000
+  },
+  {
+   "name": "NIO",
+   "domain": "nio.com",
+   "employees": 32000
+  },
+  {
+   "name": "NetEase",
+   "domain": "netease.com",
+   "employees": 32000
+  },
+  {
+   "name": "Li Auto",
+   "domain": "lixiang.com",
+   "employees": 30000
+  },
+  {
+   "name": "DiDi Global",
+   "domain": "didiglobal.com",
+   "employees": 30000
+  },
+  {
+   "name": "Trina Solar",
+   "domain": "trinasolar.com",
+   "employees": 30000
+  },
+  {
+   "name": "Skyworth",
+   "domain": "skyworth.com",
+   "employees": 30000
+  },
+  {
+   "name": "Kingboard Holdings",
+   "domain": "kingboard.com",
+   "employees": 30000
+  },
+  {
+   "name": "Johnson Electric",
+   "domain": "johnsonelectric.com",
+   "employees": 30000
+  },
+  {
+   "name": "Zoomlion",
+   "domain": "zoomlion.com",
+   "employees": 28000
+  },
+  {
+   "name": "vivo",
+   "domain": "vivo.com",
+   "employees": 28000
+  },
+  {
+   "name": "Kuaishou",
+   "domain": "kuaishou.com",
+   "employees": 28000
+  },
+  {
+   "name": "Sunny Optical Technology",
+   "domain": "sunnyoptical.com",
+   "employees": 28000
+  },
+  {
+   "name": "O-Film",
+   "domain": "ofilm.com",
+   "employees": 27000
+  },
+  {
+   "name": "Unimicron",
+   "domain": "unimicron.com",
+   "employees": 26000
+  },
+  {
+   "name": "Ant Group",
+   "domain": "antgroup.com",
+   "employees": 25000
+  },
+  {
+   "name": "TP-Link",
+   "domain": "tp-link.com",
+   "employees": 25000
+  },
+  {
+   "name": "Dahua Technology",
+   "domain": "dahuasecurity.com",
+   "employees": 23000
+  },
+  {
+   "name": "VTech",
+   "domain": "vtech.com",
+   "employees": 22000
+  },
+  {
+   "name": "MediaTek",
+   "domain": "mediatek.com",
+   "employees": 21000
+  },
+  {
+   "name": "Chunghwa Telecom",
+   "domain": "cht.com.tw",
+   "employees": 21000
+  },
+  {
+   "name": "UMC (United Microelectronics)",
+   "domain": "umc.com",
+   "employees": 20000
+  },
+  {
+   "name": "SMIC (Semiconductor Manufacturing International)",
+   "domain": "smics.com",
+   "employees": 20000
+  },
+  {
+   "name": "H3C",
+   "domain": "h3c.com",
+   "employees": 20000
+  },
+  {
+   "name": "PDD Holdings (Pinduoduo)",
+   "domain": "pddholdings.com",
+   "employees": 18000
+  },
+  {
+   "name": "Yonyou",
+   "domain": "yonyou.com",
+   "employees": 18000
+  },
+  {
+   "name": "Neusoft",
+   "domain": "neusoft.com",
+   "employees": 18000
+  },
+  {
+   "name": "Mindray",
+   "domain": "mindray.com",
+   "employees": 18000
+  },
+  {
+   "name": "Shein",
+   "domain": "shein.com",
+   "employees": 16000
+  },
+  {
+   "name": "Transsion Holdings",
+   "domain": "transsion.com",
+   "employees": 16000
+  },
+  {
+   "name": "PCCW",
+   "domain": "pccw.com",
+   "employees": 16000
+  },
+  {
+   "name": "iFlytek",
+   "domain": "iflytek.com",
+   "employees": 15000
+  },
+  {
+   "name": "ASUS",
+   "domain": "asus.com",
+   "employees": 15000
+  },
+  {
+   "name": "MSI (Micro-Star International)",
+   "domain": "msi.com",
+   "employees": 15000
+  },
+  {
+   "name": "XPeng Motors",
+   "employees": 15000
+  },
+  {
+   "name": "Leapmotor",
+   "domain": "leapmotor.com",
+   "employees": 15000
+  },
+  {
+   "name": "COMAC",
+   "domain": "comac.cc",
+   "employees": 15000
+  },
+  {
+   "name": "DJI",
+   "domain": "dji.com",
+   "employees": 14000
+  },
+  {
+   "name": "Hundsun Technologies",
+   "domain": "hundsun.com",
+   "employees": 13000
+  },
+  {
+   "name": "Sungrow Power Supply",
+   "domain": "sungrowpower.com",
+   "employees": 13000
+  },
+  {
+   "name": "Han's Laser",
+   "domain": "hanslaser.com",
+   "employees": 13000
+  },
+  {
+   "name": "Goldwind",
+   "domain": "goldwind.com",
+   "employees": 12000
+  },
+  {
+   "name": "Honor",
+   "domain": "hihonor.com",
+   "employees": 12000
+  },
+  {
+   "name": "NAURA Technology Group",
+   "employees": 12000
+  },
+  {
+   "name": "Kingdee",
+   "domain": "kingdee.com",
+   "employees": 11000
+  },
+  {
+   "name": "Grab",
+   "domain": "grab.com",
+   "employees": 11000
+  },
+  {
+   "name": "ASMPT",
+   "domain": "asmpt.com",
+   "employees": 11000
+  },
+  {
+   "name": "FiberHome Technologies",
+   "domain": "fiberhome.com",
+   "employees": 10000
+  },
+  {
+   "name": "YMTC (Yangtze Memory Technologies)",
+   "domain": "ymtc.com",
+   "employees": 10000
+  },
+  {
+   "name": "CXMT (ChangXin Memory Technologies)",
+   "domain": "cxmt.com",
+   "employees": 10000
+  },
+  {
+   "name": "Hua Hong Semiconductor",
+   "employees": 10000
+  },
+  {
+   "name": "United Imaging Healthcare",
+   "domain": "united-imaging.com",
+   "employees": 10000
+  },
+  {
+   "name": "BGI Genomics",
+   "domain": "bgi.com",
+   "employees": 10000
+  },
+  {
+   "name": "Xiaohongshu (RED)",
+   "domain": "xiaohongshu.com",
+   "employees": 10000
+  },
+  {
+   "name": "Qihoo 360",
+   "domain": "360.cn",
+   "employees": 9000
+  },
+  {
+   "name": "Bilibili",
+   "domain": "bilibili.com",
+   "employees": 9000
+  },
+  {
+   "name": "Gigabyte Technology",
+   "domain": "gigabyte.com",
+   "employees": 9000
+  },
+  {
+   "name": "Hytera",
+   "domain": "hytera.com",
+   "employees": 9000
+  },
+  {
+   "name": "Advantech",
+   "domain": "advantech.com",
+   "employees": 8500
+  },
+  {
+   "name": "Wiwynn",
+   "domain": "wiwynn.com",
+   "employees": 8000
+  },
+  {
+   "name": "Acer",
+   "domain": "acer.com",
+   "employees": 7700
+  },
+  {
+   "name": "Winbond Electronics",
+   "domain": "winbond.com",
+   "employees": 7500
+  },
+  {
+   "name": "Ecovacs Robotics",
+   "domain": "ecovacs.com",
+   "employees": 7000
+  },
+  {
+   "name": "Kingsoft",
+   "domain": "kingsoft.com",
+   "employees": 7000
+  },
+  {
+   "name": "Realtek Semiconductor",
+   "domain": "realtek.com",
+   "employees": 6500
+  },
+  {
+   "name": "UNISOC",
+   "domain": "unisoc.com",
+   "employees": 5500
+  },
+  {
+   "name": "iQIYI",
+   "domain": "iqiyi.com",
+   "employees": 5000
+  },
+  {
+   "name": "Anker Innovations",
+   "domain": "anker.com",
+   "employees": 5000
+  },
+  {
+   "name": "miHoYo",
+   "domain": "mihoyo.com",
+   "employees": 5000
+  },
+  {
+   "name": "Weibo",
+   "domain": "weibo.com",
+   "employees": 5000
+  },
+  {
+   "name": "HTC",
+   "domain": "htc.com",
+   "employees": 4500
+  },
+  {
+   "name": "SenseTime",
+   "domain": "sensetime.com",
+   "employees": 4000
+  },
+  {
+   "name": "Macronix International",
+   "domain": "macronix.com",
+   "employees": 4000
+  },
+  {
+   "name": "Nanya Technology",
+   "domain": "nanya.com",
+   "employees": 3800
+  },
+  {
+   "name": "Phison Electronics",
+   "domain": "phison.com",
+   "employees": 3800
+  },
+  {
+   "name": "Novatek Microelectronics",
+   "domain": "novatek.com.tw",
+   "employees": 3000
+  },
+  {
+   "name": "AMEC (Advanced Micro-Fabrication Equipment)",
+   "domain": "amec-inc.com",
+   "employees": 2000
+  },
+  {
+   "name": "Astra International",
+   "domain": "astra.co.id",
+   "employees": 190000
+  },
+  {
+   "name": "Woolworths Group",
+   "domain": "woolworthsgroup.com.au",
+   "employees": 180000
+  },
+  {
+   "name": "CP All",
+   "domain": "cpall.co.th",
+   "employees": 150000
+  },
+  {
+   "name": "Vingroup",
+   "domain": "vingroup.net",
+   "employees": 130000
+  },
+  {
+   "name": "Wesfarmers",
+   "domain": "wesfarmers.com.au",
+   "employees": 120000
+  },
+  {
+   "name": "SM Investments",
+   "domain": "sminvestments.com",
+   "employees": 120000
+  },
+  {
+   "name": "Coles Group",
+   "domain": "colesgroup.com.au",
+   "employees": 115000
+  },
+  {
+   "name": "Bank Rakyat Indonesia (BRI)",
+   "domain": "bri.co.id",
+   "employees": 80000
+  },
+  {
+   "name": "IHH Healthcare",
+   "domain": "ihhhealthcare.com",
+   "employees": 70000
+  },
+  {
+   "name": "Central Retail",
+   "domain": "centralretail.com",
+   "employees": 68000
+  },
+  {
+   "name": "Sea Group (Shopee/Garena)",
+   "domain": "sea.com",
+   "employees": 67000
+  },
+  {
+   "name": "Australia Post",
+   "domain": "auspost.com.au",
+   "employees": 60000
+  },
+  {
+   "name": "FPT Corporation",
+   "domain": "fpt.com",
+   "employees": 60000
+  },
+  {
+   "name": "Mobile World Group (MWG)",
+   "domain": "mwg.vn",
+   "employees": 60000
+  },
+  {
+   "name": "Rio Tinto",
+   "domain": "riotinto.com",
+   "employees": 57000
+  },
+  {
+   "name": "Siam Cement Group (SCG)",
+   "domain": "scg.com",
+   "employees": 55000
+  },
+  {
+   "name": "Petronas",
+   "domain": "petronas.com",
+   "employees": 50000
+  },
+  {
+   "name": "Viettel",
+   "domain": "viettel.com.vn",
+   "employees": 50000
+  },
+  {
+   "name": "Commonwealth Bank of Australia",
+   "domain": "commbank.com.au",
+   "employees": 50000
+  },
+  {
+   "name": "Worley",
+   "domain": "worley.com",
+   "employees": 49000
+  },
+  {
+   "name": "San Miguel Corporation",
+   "domain": "sanmiguel.com.ph",
+   "employees": 48000
+  },
+  {
+   "name": "BHP",
+   "domain": "bhp.com",
+   "employees": 45000
+  },
+  {
+   "name": "Maybank",
+   "domain": "maybank.com",
+   "employees": 43000
+  },
+  {
+   "name": "BDO Unibank",
+   "domain": "bdo.com.ph",
+   "employees": 41000
+  },
+  {
+   "name": "ANZ Banking Group",
+   "domain": "anz.com",
+   "employees": 40000
+  },
+  {
+   "name": "PLN",
+   "domain": "pln.co.id",
+   "employees": 40000
+  },
+  {
+   "name": "Ayala Corporation",
+   "domain": "ayala.com",
+   "employees": 40000
+  },
+  {
+   "name": "PSA International",
+   "domain": "globalpsa.com",
+   "employees": 40000
+  },
+  {
+   "name": "National Australia Bank",
+   "domain": "nab.com.au",
+   "employees": 38000
+  },
+  {
+   "name": "Bank Mandiri",
+   "domain": "bankmandiri.co.id",
+   "employees": 38000
+  },
+  {
+   "name": "DBS Bank",
+   "domain": "dbs.com",
+   "employees": 38000
+  },
+  {
+   "name": "Tenaga Nasional",
+   "domain": "tnb.com.my",
+   "employees": 36000
+  },
+  {
+   "name": "Westpac",
+   "domain": "westpac.com.au",
+   "employees": 35000
+  },
+  {
+   "name": "Pertamina",
+   "domain": "pertamina.com",
+   "employees": 35000
+  },
+  {
+   "name": "VNPT",
+   "domain": "vnpt.com.vn",
+   "employees": 35000
+  },
+  {
+   "name": "CIMB Group",
+   "domain": "cimb.com",
+   "employees": 33000
+  },
+  {
+   "name": "OCBC Bank",
+   "domain": "ocbc.com",
+   "employees": 33000
+  },
+  {
+   "name": "Downer Group",
+   "domain": "downergroup.com",
+   "employees": 32000
+  },
+  {
+   "name": "CSL",
+   "domain": "csl.com",
+   "employees": 32000
+  },
+  {
+   "name": "Telstra",
+   "domain": "telstra.com.au",
+   "employees": 31000
+  },
+  {
+   "name": "UOB",
+   "domain": "uobgroup.com",
+   "employees": 31000
+  },
+  {
+   "name": "BIDV",
+   "domain": "bidv.com.vn",
+   "employees": 28000
+  },
+  {
+   "name": "Bank Negara Indonesia (BNI)",
+   "domain": "bni.co.id",
+   "employees": 27000
+  },
+  {
+   "name": "Kasikornbank",
+   "domain": "kasikornbank.com",
+   "employees": 27000
+  },
+  {
+   "name": "SCB X (Siam Commercial Bank)",
+   "domain": "scb.co.th",
+   "employees": 27000
+  },
+  {
+   "name": "Qantas",
+   "domain": "qantas.com",
+   "employees": 26000
+  },
+  {
+   "name": "ST Engineering",
+   "domain": "stengg.com",
+   "employees": 26000
+  },
+  {
+   "name": "Singapore Airlines",
+   "domain": "singaporeair.com",
+   "employees": 25000
+  },
+  {
+   "name": "PTT",
+   "domain": "pttplc.com",
+   "employees": 25000
+  },
+  {
+   "name": "Krungthai Bank",
+   "domain": "krungthai.com",
+   "employees": 25000
+  },
+  {
+   "name": "Bank Central Asia (BCA)",
+   "domain": "bca.co.id",
+   "employees": 25000
+  },
+  {
+   "name": "VPBank",
+   "domain": "vpbank.com.vn",
+   "employees": 25000
+  },
+  {
+   "name": "Bangkok Bank",
+   "domain": "bangkokbank.com",
+   "employees": 24000
+  },
+  {
+   "name": "ComfortDelGro",
+   "domain": "comfortdelgro.com",
+   "employees": 24000
+  },
+  {
+   "name": "VietinBank",
+   "domain": "vietinbank.vn",
+   "employees": 24000
+  },
+  {
+   "name": "Telkom Indonesia",
+   "domain": "telkom.co.id",
+   "employees": 23000
+  },
+  {
+   "name": "Singtel",
+   "domain": "singtel.com",
+   "employees": 23000
+  },
+  {
+   "name": "Vietcombank",
+   "domain": "vietcombank.com.vn",
+   "employees": 23000
+  },
+  {
+   "name": "Macquarie Group",
+   "domain": "macquarie.com",
+   "employees": 20000
+  },
+  {
+   "name": "Jollibee Foods Corporation",
+   "domain": "jfc.com.ph",
+   "employees": 20000
+  },
+  {
+   "name": "Bank of the Philippine Islands (BPI)",
+   "domain": "bpi.com.ph",
+   "employees": 20000
+  },
+  {
+   "name": "Fonterra",
+   "domain": "fonterra.com",
+   "employees": 19000
+  },
+  {
+   "name": "Telekom Malaysia",
+   "domain": "tm.com.my",
+   "employees": 19000
+  },
+  {
+   "name": "Public Bank",
+   "domain": "pbebank.com",
+   "employees": 19000
+  },
+  {
+   "name": "Capital A (AirAsia)",
+   "domain": "airasia.com",
+   "employees": 18000
+  },
+  {
+   "name": "True Corporation",
+   "domain": "truecorp.co.th",
+   "employees": 18000
+  },
+  {
+   "name": "PLDT",
+   "domain": "pldt.com",
+   "employees": 16000
+  },
+  {
+   "name": "RHB Bank",
+   "domain": "rhbgroup.com",
+   "employees": 14000
+  },
+  {
+   "name": "Thai Airways",
+   "domain": "thaiairways.com",
+   "employees": 14000
+  },
+  {
+   "name": "Metrobank",
+   "domain": "metrobank.com.ph",
+   "employees": 14000
+  },
+  {
+   "name": "Computershare",
+   "domain": "computershare.com",
+   "employees": 14000
+  },
+  {
+   "name": "Flight Centre Travel Group",
+   "domain": "fctgl.com",
+   "employees": 13000
+  },
+  {
+   "name": "Insurance Australia Group (IAG)",
+   "domain": "iag.com.au",
+   "employees": 13000
+  },
+  {
+   "name": "QBE Insurance",
+   "domain": "qbe.com",
+   "employees": 13000
+  },
+  {
+   "name": "YTL Corporation",
+   "domain": "ytl.com",
+   "employees": 13000
+  },
+  {
+   "name": "Trafigura",
+   "domain": "trafigura.com",
+   "employees": 13000
+  },
+  {
+   "name": "AIS (Advanced Info Service)",
+   "domain": "ais.co.th",
+   "employees": 13000
+  },
+  {
+   "name": "Suncorp Group",
+   "domain": "suncorpgroup.com.au",
+   "employees": 12000
+  },
+  {
+   "name": "Atlassian",
+   "domain": "atlassian.com",
+   "employees": 12000
+  },
+  {
+   "name": "Techcombank",
+   "domain": "techcombank.com",
+   "employees": 12000
+  },
+  {
+   "name": "Garuda Indonesia",
+   "domain": "garuda-indonesia.com",
+   "employees": 12000
+  },
+  {
+   "name": "Air New Zealand",
+   "domain": "airnewzealand.co.nz",
+   "employees": 11000
+  },
+  {
+   "name": "Fortescue",
+   "domain": "fortescue.com",
+   "employees": 10000
+  },
+  {
+   "name": "Axiata Group",
+   "domain": "axiata.com",
+   "employees": 10000
+  },
+  {
+   "name": "Lazada",
+   "domain": "lazada.com",
+   "employees": 10000
+  },
+  {
+   "name": "ICTSI",
+   "domain": "ictsi.com",
+   "employees": 10000
+  },
+  {
+   "name": "Aristocrat Leisure",
+   "domain": "aristocrat.com",
+   "employees": 8500
+  },
+  {
+   "name": "Lendlease",
+   "domain": "lendlease.com",
+   "employees": 8000
+  },
+  {
+   "name": "Globe Telecom",
+   "domain": "globe.com.ph",
+   "employees": 8000
+  },
+  {
+   "name": "Bendigo and Adelaide Bank",
+   "domain": "bendigoadelaide.com.au",
+   "employees": 7000
+  },
+  {
+   "name": "Virgin Australia",
+   "domain": "virginaustralia.com",
+   "employees": 7000
+  },
+  {
+   "name": "Fisher & Paykel Healthcare",
+   "domain": "fphcare.com",
+   "employees": 7000
+  },
+  {
+   "name": "GoTo Group (Gojek-Tokopedia)",
+   "domain": "gotocompany.com",
+   "employees": 7000
+  },
+  {
+   "name": "Datacom",
+   "domain": "datacom.com",
+   "employees": 6500
+  },
+  {
+   "name": "Vietjet Air",
+   "domain": "vietjetair.com",
+   "employees": 6000
+  },
+  {
+   "name": "Canva",
+   "domain": "canva.com",
+   "employees": 5500
+  },
+  {
+   "name": "Maxis",
+   "domain": "maxis.com.my",
+   "employees": 5000
+  },
+  {
+   "name": "TPG Telecom",
+   "domain": "tpgtelecom.com.au",
+   "employees": 5000
+  },
+  {
+   "name": "Spark New Zealand",
+   "domain": "spark.co.nz",
+   "employees": 5000
+  },
+  {
+   "name": "Blibli",
+   "domain": "blibli.com",
+   "employees": 5000
+  },
+  {
+   "name": "Ninja Van",
+   "domain": "ninjavan.co",
+   "employees": 5000
+  },
+  {
+   "name": "Cochlear",
+   "domain": "cochlear.com",
+   "employees": 4500
+  },
+  {
+   "name": "Xero",
+   "domain": "xero.com",
+   "employees": 4500
+  },
+  {
+   "name": "Cebu Pacific",
+   "domain": "cebupacificair.com",
+   "employees": 4500
+  },
+  {
+   "name": "Medibank",
+   "domain": "medibank.com.au",
+   "employees": 4000
+  },
+  {
+   "name": "AGL Energy",
+   "domain": "agl.com.au",
+   "employees": 4000
+  },
+  {
+   "name": "Ruangguru",
+   "domain": "ruangguru.com",
+   "employees": 4000
+  },
+  {
+   "name": "Crypto.com",
+   "domain": "crypto.com",
+   "employees": 4000
+  },
+  {
+   "name": "Union Bank of the Philippines",
+   "domain": "unionbankph.com",
+   "employees": 4000
+  },
+  {
+   "name": "WiseTech Global",
+   "domain": "wisetechglobal.com",
+   "employees": 3500
+  },
+  {
+   "name": "REA Group",
+   "domain": "rea-group.com",
+   "employees": 3500
+  },
+  {
+   "name": "Seek",
+   "domain": "seek.com.au",
+   "employees": 3500
+  },
+  {
+   "name": "Transurban",
+   "domain": "transurban.com",
+   "employees": 3500
+  },
+  {
+   "name": "VNG Corporation",
+   "domain": "vng.com.vn",
+   "employees": 3500
+  },
+  {
+   "name": "CelcomDigi",
+   "domain": "celcomdigi.com",
+   "employees": 3500
+  },
+  {
+   "name": "Indosat Ooredoo Hutchison",
+   "domain": "ioh.co.id",
+   "employees": 3500
+  },
+  {
+   "name": "Tabcorp",
+   "domain": "tabcorp.com.au",
+   "employees": 3000
+  },
+  {
+   "name": "CAR Group (Carsales)",
+   "domain": "carsales.com.au",
+   "employees": 3000
+  },
+  {
+   "name": "One New Zealand",
+   "domain": "one.nz",
+   "employees": 3000
+  },
+  {
+   "name": "StarHub",
+   "domain": "starhub.com",
+   "employees": 2500
+  },
+  {
+   "name": "Traveloka",
+   "domain": "traveloka.com",
+   "employees": 2500
+  },
+  {
+   "name": "MoMo",
+   "domain": "momo.vn",
+   "employees": 2000
+  },
+  {
+   "name": "VNPay",
+   "domain": "vnpay.vn",
+   "employees": 2000
+  },
+  {
+   "name": "Kiwibank",
+   "domain": "kiwibank.co.nz",
+   "employees": 2000
+  },
+  {
+   "name": "Maya (PayMaya)",
+   "domain": "maya.ph",
+   "employees": 2000
+  },
+  {
+   "name": "Iress",
+   "domain": "iress.com",
+   "employees": 2000
+  },
+  {
+   "name": "bolttech",
+   "domain": "bolttech.io",
+   "employees": 1800
+  },
+  {
+   "name": "Airwallex",
+   "domain": "airwallex.com",
+   "employees": 1700
+  },
+  {
+   "name": "Hansen Technologies",
+   "domain": "hansencx.com",
+   "employees": 1600
+  },
+  {
+   "name": "TechnologyOne",
+   "domain": "technologyonecorp.com",
+   "employees": 1500
+  },
+  {
+   "name": "Razer",
+   "domain": "razer.com",
+   "employees": 1500
+  },
+  {
+   "name": "Domain Group",
+   "domain": "domain.com.au",
+   "employees": 1400
+  },
+  {
+   "name": "Bravura Solutions",
+   "domain": "bravurasolutions.com",
+   "employees": 1200
+  },
+  {
+   "name": "ASX",
+   "domain": "asx.com.au",
+   "employees": 1200
+  },
+  {
+   "name": "PropertyGuru Group",
+   "domain": "propertygurugroup.com",
+   "employees": 1200
+  },
+  {
+   "name": "Singapore Exchange (SGX)",
+   "domain": "sgx.com",
+   "employees": 1200
+  },
+  {
+   "name": "SiteMinder",
+   "domain": "siteminder.com",
+   "employees": 1100
+  },
+  {
+   "name": "Zip Co",
+   "domain": "zip.co",
+   "employees": 1000
+  },
+  {
+   "name": "Culture Amp",
+   "domain": "cultureamp.com",
+   "employees": 1000
+  },
+  {
+   "name": "LINE MAN Wongnai",
+   "domain": "lmwn.com",
+   "employees": 1000
+  },
+  {
+   "name": "Halodoc",
+   "domain": "halodoc.com",
+   "employees": 1000
+  },
+  {
+   "name": "SafetyCulture",
+   "domain": "safetyculture.com",
+   "employees": 800
+  },
+  {
+   "name": "Xendit",
+   "domain": "xendit.co",
+   "employees": 800
+  },
+  {
+   "name": "Gentrack",
+   "domain": "gentrack.com",
+   "employees": 800
+  },
+  {
+   "name": "Trade Me",
+   "domain": "trademe.co.nz",
+   "employees": 700
+  },
+  {
+   "name": "Vista Group",
+   "domain": "vista.co",
+   "employees": 700
+  },
+  {
+   "name": "Carousell",
+   "domain": "carousell.com",
+   "employees": 700
+  },
+  {
+   "name": "Nium",
+   "domain": "nium.com",
+   "employees": 700
+  },
+  {
+   "name": "J&T Express"
+  },
+  {
+   "name": "FEMSA",
+   "domain": "femsa.com",
+   "employees": 390000
+  },
+  {
+   "name": "Brookfield",
+   "domain": "brookfield.com",
+   "employees": 240000
+  },
+  {
+   "name": "Loblaw Companies",
+   "domain": "loblaw.ca",
+   "employees": 221000
+  },
+  {
+   "name": "América Móvil",
+   "domain": "americamovil.com",
+   "employees": 175000
+  },
+  {
+   "name": "Magna International",
+   "domain": "magna.com",
+   "employees": 170000
+  },
+  {
+   "name": "Alimentation Couche-Tard",
+   "domain": "couche-tard.com",
+   "employees": 149000
+  },
+  {
+   "name": "Grupo Bimbo",
+   "domain": "grupobimbo.com",
+   "employees": 145000
+  },
+  {
+   "name": "Cencosud",
+   "domain": "cencosud.com",
+   "employees": 120000
+  },
+  {
+   "name": "Grupo Coppel",
+   "domain": "coppel.com",
+   "employees": 115000
+  },
+  {
+   "name": "Telus",
+   "domain": "telus.com",
+   "employees": 105000
+  },
+  {
+   "name": "Itaú Unibanco",
+   "domain": "itau.com.br",
+   "employees": 96000
+  },
+  {
+   "name": "TD Bank Group",
+   "domain": "td.com",
+   "employees": 95000
+  },
+  {
+   "name": "Royal Bank of Canada",
+   "domain": "rbc.com",
+   "employees": 94000
+  },
+  {
+   "name": "CGI",
+   "domain": "cgi.com",
+   "employees": 91000
+  },
+  {
+   "name": "Scotiabank",
+   "domain": "scotiabank.com",
+   "employees": 89000
+  },
+  {
+   "name": "Banco do Brasil",
+   "domain": "bb.com.br",
+   "employees": 85000
+  },
+  {
+   "name": "Banco Bradesco",
+   "domain": "bradesco.com.br",
+   "employees": 84000
+  },
+  {
+   "name": "Mercado Libre",
+   "domain": "mercadolibre.com",
+   "employees": 84000
+  },
+  {
+   "name": "Falabella",
+   "domain": "falabella.com",
+   "employees": 80000
+  },
+  {
+   "name": "WSP Global",
+   "domain": "wsp.com",
+   "employees": 73000
+  },
+  {
+   "name": "El Puerto de Liverpool",
+   "domain": "liverpool.com.mx",
+   "employees": 70000
+  },
+  {
+   "name": "Vale",
+   "domain": "vale.com",
+   "employees": 65000
+  },
+  {
+   "name": "Desjardins Group",
+   "domain": "desjardins.com",
+   "employees": 56000
+  },
+  {
+   "name": "BMO Financial Group",
+   "domain": "bmo.com",
+   "employees": 55000
+  },
+  {
+   "name": "Constellation Software",
+   "domain": "csisoftware.com",
+   "employees": 50000
+  },
+  {
+   "name": "CIBC",
+   "domain": "cibc.com",
+   "employees": 48000
+  },
+  {
+   "name": "Cemex",
+   "domain": "cemex.com",
+   "employees": 46000
+  },
+  {
+   "name": "Petrobras",
+   "domain": "petrobras.com.br",
+   "employees": 46000
+  },
+  {
+   "name": "WEG",
+   "domain": "weg.net",
+   "employees": 42000
+  },
+  {
+   "name": "BCE (Bell Canada)",
+   "domain": "bce.ca",
+   "employees": 40000
+  },
+  {
+   "name": "Magazine Luiza",
+   "domain": "magazineluiza.com.br",
+   "employees": 40000
+  },
+  {
+   "name": "Air Canada",
+   "domain": "aircanada.com",
+   "employees": 38000
+  },
+  {
+   "name": "AtkinsRéalis",
+   "domain": "atkinsrealis.com",
+   "employees": 38000
+  },
+  {
+   "name": "Manulife",
+   "domain": "manulife.com",
+   "employees": 38000
+  },
+  {
+   "name": "LATAM Airlines Group",
+   "domain": "latamairlines.com",
+   "employees": 38000
+  },
+  {
+   "name": "Bancolombia",
+   "domain": "bancolombia.com",
+   "employees": 35000
+  },
+  {
+   "name": "Canadian Tire Corporation",
+   "domain": "canadiantire.ca",
+   "employees": 33000
+  },
+  {
+   "name": "Linamar",
+   "domain": "linamar.com",
+   "employees": 32000
+  },
+  {
+   "name": "Stantec",
+   "domain": "stantec.com",
+   "employees": 32000
+  },
+  {
+   "name": "Sun Life",
+   "domain": "sunlife.com",
+   "employees": 31000
+  },
+  {
+   "name": "Intact Financial",
+   "domain": "intactfc.com",
+   "employees": 30000
+  },
+  {
+   "name": "Great-West Lifeco",
+   "domain": "greatwestlifeco.com",
+   "employees": 30000
+  },
+  {
+   "name": "Grupo Financiero Banorte",
+   "domain": "banorte.com",
+   "employees": 30000
+  },
+  {
+   "name": "Ambev",
+   "domain": "ambev.com.br",
+   "employees": 30000
+  },
+  {
+   "name": "Stefanini",
+   "domain": "stefanini.com",
+   "employees": 30000
+  },
+  {
+   "name": "Grupo Casas Bahia",
+   "domain": "casasbahia.com.br",
+   "employees": 30000
+  },
+  {
+   "name": "National Bank of Canada",
+   "domain": "nbc.ca",
+   "employees": 28000
+  },
+  {
+   "name": "Natura &Co",
+   "employees": 28000
+  },
+  {
+   "name": "Celestica",
+   "domain": "celestica.com",
+   "employees": 26000
+  },
+  {
+   "name": "Thomson Reuters",
+   "domain": "thomsonreuters.com",
+   "employees": 26000
+  },
+  {
+   "name": "Nutrien",
+   "domain": "nutrien.com",
+   "employees": 25000
+  },
+  {
+   "name": "Canadian National Railway",
+   "domain": "cn.ca",
+   "employees": 24000
+  },
+  {
+   "name": "Rogers Communications",
+   "domain": "rogers.com",
+   "employees": 24000
+  },
+  {
+   "name": "OpenText",
+   "domain": "opentext.com",
+   "employees": 23000
+  },
+  {
+   "name": "YPF",
+   "domain": "ypf.com",
+   "employees": 22000
+  },
+  {
+   "name": "Banco de Crédito del Perú (BCP)",
+   "domain": "viabcp.com",
+   "employees": 22000
+  },
+  {
+   "name": "Embraer",
+   "domain": "embraer.com",
+   "employees": 21000
+  },
+  {
+   "name": "Canadian Pacific Kansas City",
+   "domain": "cpkcr.com",
+   "employees": 20000
+  },
+  {
+   "name": "BRP",
+   "domain": "brp.com",
+   "employees": 20000
+  },
+  {
+   "name": "Nemak",
+   "domain": "nemak.com",
+   "employees": 20000
+  },
+  {
+   "name": "Ecopetrol",
+   "domain": "ecopetrol.com.co",
+   "employees": 19000
+  },
+  {
+   "name": "Martinrea International",
+   "domain": "martinrea.com",
+   "employees": 19000
+  },
+  {
+   "name": "Bombardier",
+   "domain": "bombardier.com",
+   "employees": 18000
+  },
+  {
+   "name": "Aeroméxico",
+   "domain": "aeromexico.com",
+   "employees": 16000
+  },
+  {
+   "name": "Suncor Energy",
+   "domain": "suncor.com",
+   "employees": 16000
+  },
+  {
+   "name": "Softtek",
+   "domain": "softtek.com",
+   "employees": 15000
+  },
+  {
+   "name": "Sonda",
+   "domain": "sonda.com",
+   "employees": 15000
+  },
+  {
+   "name": "Copa Airlines",
+   "domain": "copaair.com",
+   "employees": 15000
+  },
+  {
+   "name": "Grupo Boticário",
+   "domain": "grupoboticario.com.br",
+   "employees": 15000
+  },
+  {
+   "name": "Azul Linhas Aéreas",
+   "domain": "voeazul.com.br",
+   "employees": 15000
+  },
+  {
+   "name": "Localiza",
+   "domain": "localiza.com",
+   "employees": 15000
+  },
+  {
+   "name": "Gol Linhas Aéreas",
+   "domain": "voegol.com.br",
+   "employees": 14000
+  },
+  {
+   "name": "Avianca",
+   "domain": "avianca.com",
+   "employees": 14000
+  },
+  {
+   "name": "StoneCo",
+   "domain": "stone.com.br",
+   "employees": 14000
+  },
+  {
+   "name": "Enbridge",
+   "domain": "enbridge.com",
+   "employees": 14000
+  },
+  {
+   "name": "CAE",
+   "domain": "cae.com",
+   "employees": 13000
+  },
+  {
+   "name": "TOTVS",
+   "domain": "totvs.com",
+   "employees": 13000
+  },
+  {
+   "name": "Grupo Globo",
+   "domain": "globo.com",
+   "employees": 12000
+  },
+  {
+   "name": "Banco de Chile",
+   "domain": "bancochile.cl",
+   "employees": 12000
+  },
+  {
+   "name": "WestJet",
+   "domain": "westjet.com",
+   "employees": 11000
+  },
+  {
+   "name": "Hatch",
+   "domain": "hatch.com",
+   "employees": 10000
+  },
+  {
+   "name": "Entel Chile",
+   "domain": "entel.cl",
+   "employees": 9000
+  },
+  {
+   "name": "Shopify",
+   "domain": "shopify.com",
+   "employees": 8100
+  },
+  {
+   "name": "Nubank",
+   "domain": "nubank.com.br",
+   "employees": 8000
+  },
+  {
+   "name": "ATS Corporation",
+   "domain": "atsautomation.com",
+   "employees": 7500
+  },
+  {
+   "name": "XP Inc.",
+   "domain": "xpinc.com",
+   "employees": 7000
+  },
+  {
+   "name": "BTG Pactual",
+   "domain": "btgpactual.com",
+   "employees": 7000
+  },
+  {
+   "name": "PagBank (PagSeguro)",
+   "domain": "pagbank.com.br",
+   "employees": 7000
+  },
+  {
+   "name": "CI&T",
+   "domain": "ciandt.com",
+   "employees": 7000
+  },
+  {
+   "name": "iFood",
+   "domain": "ifood.com.br",
+   "employees": 6000
+  },
+  {
+   "name": "Rappi",
+   "domain": "rappi.com",
+   "employees": 5000
+  },
+  {
+   "name": "Despegar",
+   "domain": "despegar.com",
+   "employees": 5000
+  },
+  {
+   "name": "Kavak",
+   "domain": "kavak.com",
+   "employees": 5000
+  },
+  {
+   "name": "C6 Bank",
+   "domain": "c6bank.com.br",
+   "employees": 5000
+  },
+  {
+   "name": "B3",
+   "domain": "b3.com.br",
+   "employees": 5000
+  },
+  {
+   "name": "Cielo",
+   "domain": "cielo.com.br",
+   "employees": 4000
+  },
+  {
+   "name": "Neoris",
+   "domain": "neoris.com",
+   "employees": 4000
+  },
+  {
+   "name": "PicPay",
+   "domain": "picpay.com",
+   "employees": 4000
+  },
+  {
+   "name": "Banco Inter",
+   "domain": "inter.co",
+   "employees": 4000
+  },
+  {
+   "name": "QuintoAndar",
+   "domain": "quintoandar.com.br",
+   "employees": 3500
+  },
+  {
+   "name": "Creditas",
+   "domain": "creditas.com",
+   "employees": 3000
+  },
+  {
+   "name": "Alithya",
+   "domain": "alithya.com",
+   "employees": 3000
+  },
+  {
+   "name": "MDA Space",
+   "domain": "mda.space",
+   "employees": 3000
+  },
+  {
+   "name": "Lightspeed Commerce",
+   "domain": "lightspeedhq.com",
+   "employees": 3000
+  },
+  {
+   "name": "Loggi",
+   "domain": "loggi.com",
+   "employees": 3000
+  },
+  {
+   "name": "Descartes Systems Group",
+   "domain": "descartes.com",
+   "employees": 2600
+  },
+  {
+   "name": "BlackBerry",
+   "domain": "blackberry.com",
+   "employees": 2600
+  },
+  {
+   "name": "Enghouse Systems",
+   "domain": "enghouse.com",
+   "employees": 2500
+  },
+  {
+   "name": "Geotab",
+   "domain": "geotab.com",
+   "employees": 2500
+  },
+  {
+   "name": "Kinaxis",
+   "domain": "kinaxis.com",
+   "employees": 2000
+  },
+  {
+   "name": "Genetec",
+   "domain": "genetec.com",
+   "employees": 2000
+  },
+  {
+   "name": "PointClickCare",
+   "domain": "pointclickcare.com",
+   "employees": 2000
+  },
+  {
+   "name": "Evertz Technologies",
+   "domain": "evertz.com",
+   "employees": 2000
+  },
+  {
+   "name": "Questrade",
+   "domain": "questrade.com",
+   "employees": 2000
+  },
+  {
+   "name": "Nuvei",
+   "domain": "nuvei.com",
+   "employees": 2000
+  },
+  {
+   "name": "Moneris",
+   "domain": "moneris.com",
+   "employees": 1900
+  },
+  {
+   "name": "Hopper",
+   "domain": "hopper.com",
+   "employees": 1500
+  },
+  {
+   "name": "SSENSE",
+   "domain": "ssense.com",
+   "employees": 1500
+  },
+  {
+   "name": "EBANX",
+   "domain": "ebanx.com",
+   "employees": 1500
+  },
+  {
+   "name": "ApplyBoard",
+   "domain": "applyboard.com",
+   "employees": 1500
+  },
+  {
+   "name": "Ualá",
+   "domain": "uala.com.ar",
+   "employees": 1500
+  },
+  {
+   "name": "Wealthsimple",
+   "domain": "wealthsimple.com",
+   "employees": 1400
+  },
+  {
+   "name": "StackAdapt",
+   "domain": "stackadapt.com",
+   "employees": 1400
+  },
+  {
+   "name": "Dye & Durham",
+   "domain": "dyedurham.com",
+   "employees": 1400
+  },
+  {
+   "name": "1Password",
+   "domain": "1password.com",
+   "employees": 1300
+  },
+  {
+   "name": "VTEX",
+   "domain": "vtex.com",
+   "employees": 1300
+  },
+  {
+   "name": "Hotmart",
+   "domain": "hotmart.com",
+   "employees": 1300
+  },
+  {
+   "name": "Clio",
+   "domain": "clio.com",
+   "employees": 1200
+  },
+  {
+   "name": "D2L",
+   "domain": "d2l.com",
+   "employees": 1200
+  },
+  {
+   "name": "Behaviour Interactive",
+   "domain": "bhvr.com",
+   "employees": 1200
+  },
+  {
+   "name": "Hootsuite",
+   "domain": "hootsuite.com",
+   "employees": 1100
+  },
+  {
+   "name": "dLocal",
+   "domain": "dlocal.com",
+   "employees": 1000
+  },
+  {
+   "name": "Docebo",
+   "domain": "docebo.com",
+   "employees": 1000
+  },
+  {
+   "name": "Benevity",
+   "domain": "benevity.com",
+   "employees": 1000
+  },
+  {
+   "name": "Jobber",
+   "domain": "getjobber.com",
+   "employees": 1000
+  },
+  {
+   "name": "Tucows",
+   "domain": "tucows.com",
+   "employees": 1000
+  },
+  {
+   "name": "Tiendanube (Nuvemshop)",
+   "domain": "tiendanube.com",
+   "employees": 1000
+  },
+  {
+   "name": "Coveo",
+   "domain": "coveo.com",
+   "employees": 800
+  },
+  {
+   "name": "Wildlife Studios",
+   "domain": "wildlifestudios.com",
+   "employees": 800
+  },
+  {
+   "name": "Vena Solutions",
+   "domain": "venasolutions.com",
+   "employees": 700
+  },
+  {
+   "name": "Cohere",
+   "domain": "cohere.com",
+   "employees": 500
+  },
+  {
+   "name": "FreshBooks",
+   "domain": "freshbooks.com",
+   "employees": 500
+  },
+  {
+   "name": "CloudWalk",
+   "domain": "cloudwalk.io",
+   "employees": 500
+  },
+  {
+   "name": "Tivit",
+   "domain": "tivit.com"
+  },
+  {
+   "name": "Shoprite Holdings",
+   "domain": "shopriteholdings.co.za",
+   "employees": 150000
+  },
+  {
+   "name": "Bidvest Group",
+   "domain": "bidvest.co.za",
+   "employees": 130000
+  },
+  {
+   "name": "Koç Holding",
+   "domain": "koc.com.tr",
+   "employees": 120000
+  },
+  {
+   "name": "Sonatrach",
+   "employees": 120000
+  },
+  {
+   "name": "Emirates Group",
+   "domain": "emirates.com",
+   "employees": 112000
+  },
+  {
+   "name": "DP World",
+   "domain": "dpworld.com",
+   "employees": 110000
+  },
+  {
+   "name": "Pick n Pay",
+   "domain": "pnp.co.za",
+   "employees": 85000
+  },
+  {
+   "name": "Turkish Airlines",
+   "domain": "turkishairlines.com",
+   "employees": 80000
+  },
+  {
+   "name": "Sibanye-Stillwater",
+   "domain": "sibanyestillwater.com",
+   "employees": 78000
+  },
+  {
+   "name": "Saudi Aramco",
+   "domain": "aramco.com",
+   "employees": 73000
+  },
+  {
+   "name": "Arab Contractors",
+   "domain": "arabcont.com",
+   "employees": 70000
+  },
+  {
+   "name": "Lulu Group International",
+   "domain": "lulugroupinternational.com",
+   "employees": 65000
+  },
+  {
+   "name": "Sabancı Holding",
+   "domain": "sabanci.com",
+   "employees": 60000
+  },
+  {
+   "name": "Impala Platinum (Implats)",
+   "domain": "implats.co.za",
+   "employees": 55000
+  },
+  {
+   "name": "Qatar Airways",
+   "domain": "qatarairways.com",
+   "employees": 55000
+  },
+  {
+   "name": "Landmark Group",
+   "domain": "landmarkgroup.com",
+   "employees": 50000
+  },
+  {
+   "name": "Standard Bank Group",
+   "domain": "standardbank.com",
+   "employees": 50000
+  },
+  {
+   "name": "Transnet",
+   "domain": "transnet.net",
+   "employees": 50000
+  },
+  {
+   "name": "ADNOC",
+   "domain": "adnoc.ae",
+   "employees": 50000
+  },
+  {
+   "name": "FirstRand",
+   "domain": "firstrand.co.za",
+   "employees": 48000
+  },
+  {
+   "name": "Agility",
+   "domain": "agility.com",
+   "employees": 45000
+  },
+  {
+   "name": "Orascom Construction",
+   "domain": "orascom.com",
+   "employees": 45000
+  },
+  {
+   "name": "Telecom Egypt",
+   "domain": "te.eg",
+   "employees": 45000
+  },
+  {
+   "name": "e& (Etisalat Group)",
+   "domain": "eand.com",
+   "employees": 44000
+  },
+  {
+   "name": "Majid Al Futtaim",
+   "domain": "majidalfuttaim.com",
+   "employees": 43000
+  },
+  {
+   "name": "Almarai",
+   "domain": "almarai.com",
+   "employees": 41000
+  },
+  {
+   "name": "Woolworths Holdings",
+   "domain": "woolworthsholdings.co.za",
+   "employees": 40000
+  },
+  {
+   "name": "Alshaya Group",
+   "domain": "alshaya.com",
+   "employees": 40000
+  },
+  {
+   "name": "Eskom",
+   "domain": "eskom.co.za",
+   "employees": 40000
+  },
+  {
+   "name": "The Foschini Group (TFG)",
+   "domain": "tfglimited.co.za",
+   "employees": 40000
+  },
+  {
+   "name": "Teva Pharmaceutical Industries",
+   "domain": "tevapharm.com",
+   "employees": 37000
+  },
+  {
+   "name": "Absa Group",
+   "domain": "absa.africa",
+   "employees": 36000
+  },
+  {
+   "name": "Commercial Bank of Ethiopia",
+   "domain": "combanketh.et",
+   "employees": 35000
+  },
+  {
+   "name": "Mediclinic Group",
+   "domain": "mediclinic.com",
+   "employees": 34000
+  },
+  {
+   "name": "Netcare",
+   "domain": "netcare.co.za",
+   "employees": 33000
+  },
+  {
+   "name": "Harmony Gold",
+   "domain": "harmony.co.za",
+   "employees": 33000
+  },
+  {
+   "name": "Al-Futtaim Group",
+   "domain": "alfuttaim.com",
+   "employees": 33000
+  },
+  {
+   "name": "Türk Telekom",
+   "domain": "turktelekom.com.tr",
+   "employees": 33000
+  },
+  {
+   "name": "SABIC",
+   "domain": "sabic.com",
+   "employees": 32000
+  },
+  {
+   "name": "Saudi Electricity Company",
+   "domain": "se.com.sa",
+   "employees": 30000
+  },
+  {
+   "name": "Qatar National Bank (QNB)",
+   "domain": "qnb.com",
+   "employees": 30000
+  },
+  {
+   "name": "Old Mutual",
+   "domain": "oldmutual.com",
+   "employees": 30000
+  },
+  {
+   "name": "Dangote Industries",
+   "domain": "dangote.com",
+   "employees": 30000
+  },
+  {
+   "name": "Savola Group",
+   "domain": "savola.com",
+   "employees": 30000
+  },
+  {
+   "name": "Saudia (Saudi Arabian Airlines)",
+   "domain": "saudia.com",
+   "employees": 30000
+  },
+  {
+   "name": "Amdocs",
+   "domain": "amdocs.com",
+   "employees": 29000
+  },
+  {
+   "name": "Access Holdings (Access Bank)",
+   "domain": "accessbankplc.com",
+   "employees": 28000
+  },
+  {
+   "name": "Sasol",
+   "domain": "sasol.com",
+   "employees": 28000
+  },
+  {
+   "name": "Emirates NBD",
+   "domain": "emiratesnbd.com",
+   "employees": 27000
+  },
+  {
+   "name": "Nedbank",
+   "domain": "nedbank.co.za",
+   "employees": 26000
+  },
+  {
+   "name": "Naspers (Prosus)",
+   "domain": "naspers.com",
+   "employees": 25000
+  },
+  {
+   "name": "PureHealth",
+   "domain": "purehealth.ae",
+   "employees": 25000
+  },
+  {
+   "name": "stc (Saudi Telecom Company)",
+   "domain": "stc.com.sa",
+   "employees": 24000
+  },
+  {
+   "name": "Ziraat Bank",
+   "domain": "ziraatbank.com.tr",
+   "employees": 24000
+  },
+  {
+   "name": "Şişecam",
+   "domain": "sisecam.com",
+   "employees": 24000
+  },
+  {
+   "name": "İşbank",
+   "domain": "isbank.com.tr",
+   "employees": 22000
+  },
+  {
+   "name": "Attijariwafa Bank",
+   "domain": "attijariwafabank.com",
+   "employees": 21000
+  },
+  {
+   "name": "OCP Group",
+   "domain": "ocpgroup.ma",
+   "employees": 21000
+  },
+  {
+   "name": "Sanlam",
+   "domain": "sanlam.com",
+   "employees": 21000
+  },
+  {
+   "name": "United Bank for Africa (UBA)",
+   "domain": "ubagroup.com",
+   "employees": 20000
+  },
+  {
+   "name": "Elbit Systems",
+   "domain": "elbitsystems.com",
+   "employees": 20000
+  },
+  {
+   "name": "Turkcell",
+   "domain": "turkcell.com.tr",
+   "employees": 20000
+  },
+  {
+   "name": "Elsewedy Electric",
+   "domain": "elsewedyelectric.com",
+   "employees": 19000
+  },
+  {
+   "name": "Kuwait Petroleum Corporation",
+   "domain": "kpc.com.kw",
+   "employees": 18000
+  },
+  {
+   "name": "MTN Group",
+   "domain": "mtn.com",
+   "employees": 17500
+  },
+  {
+   "name": "Ethiopian Airlines",
+   "domain": "ethiopianairlines.com",
+   "employees": 17000
+  },
+  {
+   "name": "Ethio Telecom",
+   "domain": "ethiotelecom.et",
+   "employees": 17000
+  },
+  {
+   "name": "Vestel",
+   "domain": "vestel.com.tr",
+   "employees": 17000
+  },
+  {
+   "name": "Aramex",
+   "domain": "aramex.com",
+   "employees": 16000
+  },
+  {
+   "name": "Al Rajhi Bank",
+   "domain": "alrajhibank.com.sa",
+   "employees": 15000
+  },
+  {
+   "name": "Israel Aerospace Industries",
+   "domain": "iai.co.il",
+   "employees": 15000
+  },
+  {
+   "name": "Capitec Bank",
+   "domain": "capitecbank.co.za",
+   "employees": 15000
+  },
+  {
+   "name": "Kuwait Finance House (KFH)",
+   "domain": "kfh.com",
+   "employees": 15000
+  },
+  {
+   "name": "Bank of Africa (BMCE Group)",
+   "domain": "bankofafrica.ma",
+   "employees": 15000
+  },
+  {
+   "name": "Barloworld",
+   "domain": "barloworld.com",
+   "employees": 14000
+  },
+  {
+   "name": "Alghanim Industries",
+   "domain": "alghanim.com",
+   "employees": 14000
+  },
+  {
+   "name": "Chalhoub Group",
+   "domain": "chalhoubgroup.com",
+   "employees": 14000
+  },
+  {
+   "name": "Turkish Aerospace Industries",
+   "employees": 13000
+  },
+  {
+   "name": "Ecobank",
+   "domain": "ecobank.com",
+   "employees": 13000
+  },
+  {
+   "name": "Ooredoo",
+   "domain": "ooredoo.com",
+   "employees": 13000
+  },
+  {
+   "name": "Discovery Limited",
+   "domain": "discovery.co.za",
+   "employees": 13000
+  },
+  {
+   "name": "Equity Group Holdings",
+   "domain": "equitygroupholdings.com",
+   "employees": 13000
+  },
+  {
+   "name": "Maroc Telecom",
+   "domain": "iam.ma",
+   "employees": 12000
+  },
+  {
+   "name": "Saudi National Bank (SNB)",
+   "domain": "alahli.com",
+   "employees": 12000
+  },
+  {
+   "name": "First Abu Dhabi Bank (FAB)",
+   "domain": "bankfab.com",
+   "employees": 12000
+  },
+  {
+   "name": "KCB Group",
+   "domain": "kcbgroup.com",
+   "employees": 12000
+  },
+  {
+   "name": "ICL Group",
+   "domain": "icl-group.com",
+   "employees": 12000
+  },
+  {
+   "name": "Sappi",
+   "domain": "sappi.com",
+   "employees": 12000
+  },
+  {
+   "name": "Akbank",
+   "domain": "akbank.com",
+   "employees": 12000
+  },
+  {
+   "name": "Datatec",
+   "domain": "datatec.com",
+   "employees": 12000
+  },
+  {
+   "name": "Telkom SA",
+   "domain": "telkom.co.za",
+   "employees": 11000
+  },
+  {
+   "name": "QatarEnergy",
+   "domain": "qatarenergy.qa",
+   "employees": 11000
+  },
+  {
+   "name": "Etihad Airways",
+   "domain": "etihad.com",
+   "employees": 10000
+  },
+  {
+   "name": "Aselsan",
+   "domain": "aselsan.com",
+   "employees": 10000
+  },
+  {
+   "name": "Aspen Pharmacare",
+   "domain": "aspenpharma.com",
+   "employees": 9000
+  },
+  {
+   "name": "Bank Leumi",
+   "domain": "leumi.co.il",
+   "employees": 9000
+  },
+  {
+   "name": "FBN Holdings (First Bank of Nigeria)",
+   "domain": "firstbanknigeria.com",
+   "employees": 9000
+  },
+  {
+   "name": "Dubai Islamic Bank",
+   "domain": "dib.ae",
+   "employees": 9000
+  },
+  {
+   "name": "MultiChoice Group",
+   "domain": "multichoice.com",
+   "employees": 8500
+  },
+  {
+   "name": "NICE Ltd",
+   "domain": "nice.com",
+   "employees": 8500
+  },
+  {
+   "name": "Bank Hapoalim",
+   "domain": "bankhapoalim.co.il",
+   "employees": 8500
+  },
+  {
+   "name": "Investec",
+   "domain": "investec.com",
+   "employees": 8500
+  },
+  {
+   "name": "Zenith Bank",
+   "domain": "zenithbank.com",
+   "employees": 8000
+  },
+  {
+   "name": "Arab Bank",
+   "domain": "arabbank.com",
+   "employees": 8000
+  },
+  {
+   "name": "Rafael Advanced Defense Systems",
+   "domain": "rafael.co.il",
+   "employees": 8000
+  },
+  {
+   "name": "Commercial International Bank (CIB Egypt)",
+   "domain": "cibeg.com",
+   "employees": 8000
+  },
+  {
+   "name": "OQ",
+   "domain": "oq.com",
+   "employees": 8000
+  },
+  {
+   "name": "Vodacom Group",
+   "domain": "vodacom.com",
+   "employees": 8000
+  },
+  {
+   "name": "Emirates Global Aluminium",
+   "domain": "ega.ae",
+   "employees": 7000
+  },
+  {
+   "name": "Zain Group",
+   "domain": "zain.com",
+   "employees": 7000
+  },
+  {
+   "name": "Abu Dhabi Commercial Bank (ADCB)",
+   "domain": "adcb.com",
+   "employees": 7000
+  },
+  {
+   "name": "National Bank of Kuwait (NBK)",
+   "domain": "nbk.com",
+   "employees": 7000
+  },
+  {
+   "name": "Check Point Software",
+   "domain": "checkpoint.com",
+   "employees": 7000
+  },
+  {
+   "name": "Emaar Properties",
+   "domain": "emaar.com",
+   "employees": 7000
+  },
+  {
+   "name": "Ma'aden (Saudi Arabian Mining)",
+   "domain": "maaden.com.sa",
+   "employees": 7000
+  },
+  {
+   "name": "Safaricom",
+   "domain": "safaricom.co.ke",
+   "employees": 6500
+  },
+  {
+   "name": "flydubai",
+   "domain": "flydubai.com",
+   "employees": 6000
+  },
+  {
+   "name": "Riyad Bank",
+   "domain": "riyadbank.com",
+   "employees": 6000
+  },
+  {
+   "name": "Mashreq Bank",
+   "domain": "mashreq.com",
+   "employees": 6000
+  },
+  {
+   "name": "Guaranty Trust Holding (GTBank)",
+   "domain": "gtbank.com",
+   "employees": 6000
+  },
+  {
+   "name": "Tower Semiconductor",
+   "domain": "towersemi.com",
+   "employees": 6000
+  },
+  {
+   "name": "Wix.com",
+   "domain": "wix.com",
+   "employees": 5200
+  },
+  {
+   "name": "Talabat",
+   "domain": "talabat.com",
+   "employees": 5000
+  },
+  {
+   "name": "ZIM Integrated Shipping",
+   "domain": "zim.com",
+   "employees": 5000
+  },
+  {
+   "name": "Baykar",
+   "domain": "baykartech.com",
+   "employees": 5000
+  },
+  {
+   "name": "NEOM",
+   "domain": "neom.com",
+   "employees": 5000
+  },
+  {
+   "name": "EFG Holding",
+   "employees": 5000
+  },
+  {
+   "name": "Careem",
+   "domain": "careem.com",
+   "employees": 4000
+  },
+  {
+   "name": "Mobily (Etihad Etisalat)",
+   "domain": "mobily.com.sa",
+   "employees": 4000
+  },
+  {
+   "name": "Kitopi",
+   "domain": "kitopi.com",
+   "employees": 4000
+  },
+  {
+   "name": "Playtika",
+   "domain": "playtika.com",
+   "employees": 4000
+  },
+  {
+   "name": "CyberArk",
+   "domain": "cyberark.com",
+   "employees": 4000
+  },
+  {
+   "name": "ACWA Power",
+   "domain": "acwapower.com",
+   "employees": 4000
+  },
+  {
+   "name": "Elm Company",
+   "domain": "elm.sa",
+   "employees": 4000
+  },
+  {
+   "name": "SolarEdge Technologies",
+   "domain": "solaredge.com",
+   "employees": 3500
+  },
+  {
+   "name": "Air Arabia",
+   "domain": "airarabia.com",
+   "employees": 3000
+  },
+  {
+   "name": "Borouge",
+   "domain": "borouge.com",
+   "employees": 3000
+  },
+  {
+   "name": "M-KOPA",
+   "domain": "m-kopa.com",
+   "employees": 3000
+  },
+  {
+   "name": "monday.com",
+   "domain": "monday.com",
+   "employees": 2700
+  },
+  {
+   "name": "Jumia",
+   "domain": "jumia.com",
+   "employees": 2500
+  },
+  {
+   "name": "du (Emirates Integrated Telecommunications)",
+   "domain": "du.ae",
+   "employees": 2500
+  },
+  {
+   "name": "Moniepoint",
+   "domain": "moniepoint.com",
+   "employees": 2000
+  },
+  {
+   "name": "Fawry",
+   "domain": "fawry.com",
+   "employees": 2000
+  },
+  {
+   "name": "Tabby",
+   "domain": "tabby.ai",
+   "employees": 1500
+  },
+  {
+   "name": "Interswitch",
+   "domain": "interswitchgroup.com",
+   "employees": 1000
+  },
+  {
+   "name": "Flutterwave",
+   "domain": "flutterwave.com",
+   "employees": 1000
+  },
+  {
+   "name": "G42",
+   "domain": "g42.ai"
+  },
+  {
+   "name": "noon",
+   "domain": "noon.com"
+  },
+  {
+   "name": "Liquid Intelligent Technologies",
+   "domain": "liquid.tech"
+  },
+  {
+   "name": "DHL Group",
+   "domain": "dhl.com",
+   "employees": 590000
+  },
+  {
+   "name": "Schwarz Group (Lidl & Kaufland)",
+   "domain": "gruppe.schwarz",
+   "employees": 575000
+  },
+  {
+   "name": "Aeon",
+   "domain": "aeon.info",
+   "employees": 560000
+  },
+  {
+   "name": "Compass Group",
+   "domain": "compass-group.com",
+   "employees": 550000
+  },
+  {
+   "name": "Teleperformance",
+   "domain": "teleperformance.com",
+   "employees": 490000
+  },
+  {
+   "name": "Agricultural Bank of China",
+   "domain": "abchina.com",
+   "employees": 450000
+  },
+  {
+   "name": "Charoen Pokphand Group",
+   "domain": "cpgroupglobal.com",
+   "employees": 450000
+  },
+  {
+   "name": "Yum China",
+   "domain": "yumchina.com",
+   "employees": 430000
+  },
+  {
+   "name": "Sodexo",
+   "domain": "sodexo.com",
+   "employees": 430000
+  },
+  {
+   "name": "Industrial and Commercial Bank of China (ICBC)",
+   "domain": "icbc.com.cn",
+   "employees": 415000
+  },
+  {
+   "name": "Edeka Group",
+   "domain": "edeka.de",
+   "employees": 410000
+  },
+  {
+   "name": "Ahold Delhaize",
+   "domain": "aholddelhaize.com",
+   "employees": 400000
+  },
+  {
+   "name": "Jardine Matheson",
+   "domain": "jardines.com",
+   "employees": 400000
+  },
+  {
+   "name": "REWE Group",
+   "domain": "rewe-group.com",
+   "employees": 390000
+  },
+  {
+   "name": "China Construction Bank",
+   "domain": "ccb.com",
+   "employees": 375000
+  },
+  {
+   "name": "ISS",
+   "domain": "issworld.com",
+   "employees": 350000
+  },
+  {
+   "name": "Securitas",
+   "domain": "securitas.com",
+   "employees": 340000
+  },
+  {
+   "name": "NTT",
+   "domain": "group.ntt",
+   "employees": 340000
+  },
+  {
+   "name": "Japan Post Holdings",
+   "domain": "japanpost.jp",
+   "employees": 330000
+  },
+  {
+   "name": "Tesco",
+   "domain": "tesco.com",
+   "employees": 330000
+  },
+  {
+   "name": "Bank of China",
+   "domain": "boc.cn",
+   "employees": 305000
+  },
+  {
+   "name": "Carrefour",
+   "domain": "carrefour.com",
+   "employees": 300000
+  },
+  {
+   "name": "Ping An Insurance",
+   "domain": "pingan.com",
+   "employees": 290000
+  },
+  {
+   "name": "Nestlé",
+   "domain": "nestle.com",
+   "employees": 270000
+  },
+  {
+   "name": "JBS",
+   "domain": "jbs.com.br",
+   "employees": 270000
+  },
+  {
+   "name": "La Poste Groupe",
+   "domain": "laposte.fr",
+   "employees": 230000
+  },
+  {
+   "name": "Panasonic",
+   "domain": "panasonic.com",
+   "employees": 230000
+  },
+  {
+   "name": "HSBC",
+   "domain": "hsbc.com",
+   "employees": 215000
+  },
+  {
+   "name": "Banco Santander",
+   "domain": "santander.com",
+   "employees": 210000
+  },
+  {
+   "name": "LVMH",
+   "domain": "lvmh.com",
+   "employees": 210000
+  },
+  {
+   "name": "MSC Mediterranean Shipping Company",
+   "domain": "msc.com",
+   "employees": 200000
+  },
+  {
+   "name": "Deutsche Telekom",
+   "domain": "telekom.com",
+   "employees": 200000
+  },
+  {
+   "name": "Postal Savings Bank of China",
+   "domain": "psbc.com",
+   "employees": 195000
+  },
+  {
+   "name": "EssilorLuxottica",
+   "domain": "essilorluxottica.com",
+   "employees": 190000
+  },
+  {
+   "name": "Aldi Süd",
+   "domain": "aldi-sued.de",
+   "employees": 190000
+  },
+  {
+   "name": "PICC (People's Insurance Company of China)",
+   "employees": 185000
+  },
+  {
+   "name": "BNP Paribas",
+   "domain": "bnpparibas.com",
+   "employees": 180000
+  },
+  {
+   "name": "Ingka Group (IKEA)",
+   "domain": "ingka.com",
+   "employees": 165000
+  },
+  {
+   "name": "Inditex",
+   "domain": "inditex.com",
+   "employees": 165000
+  },
+  {
+   "name": "Allianz",
+   "domain": "allianz.com",
+   "employees": 157000
+  },
+  {
+   "name": "Anheuser-Busch InBev",
+   "domain": "ab-inbev.com",
+   "employees": 155000
+  },
+  {
+   "name": "CMA CGM",
+   "domain": "cma-cgm.com",
+   "employees": 155000
+  },
+  {
+   "name": "Sainsbury's",
+   "domain": "sainsburys.co.uk",
+   "employees": 150000
+  },
+  {
+   "name": "H&M",
+   "domain": "hm.com",
+   "employees": 150000
+  },
+  {
+   "name": "Crédit Agricole",
+   "domain": "credit-agricole.com",
+   "employees": 150000
+  },
+  {
+   "name": "DSV",
+   "domain": "dsv.com",
+   "employees": 150000
+  },
+  {
+   "name": "Auchan Retail",
+   "employees": 150000
+  },
+  {
+   "name": "Mitsubishi UFJ Financial Group (MUFG)",
+   "domain": "mufg.jp",
+   "employees": 140000
+  },
+  {
+   "name": "Asda",
+   "domain": "asda.com",
+   "employees": 140000
+  },
+  {
+   "name": "Associated British Foods",
+   "domain": "abf.co.uk",
+   "employees": 135000
+  },
+  {
+   "name": "Jerónimo Martins",
+   "domain": "jeronimomartins.com",
+   "employees": 135000
+  },
+  {
+   "name": "Orange",
+   "domain": "orange.com",
+   "employees": 130000
+  },
+  {
+   "name": "Royal Mail Group",
+   "domain": "royalmailgroup.com",
+   "employees": 130000
+  },
+  {
+   "name": "Unilever",
+   "domain": "unilever.com",
+   "employees": 128000
+  },
+  {
+   "name": "Société Générale",
+   "domain": "societegenerale.com",
+   "employees": 120000
+  },
+  {
+   "name": "BBVA",
+   "domain": "bbva.com",
+   "employees": 120000
+  },
+  {
+   "name": "BT Group",
+   "domain": "bt.com",
+   "employees": 120000
+  },
+  {
+   "name": "UBS",
+   "domain": "ubs.com",
+   "employees": 115000
+  },
+  {
+   "name": "Sony",
+   "domain": "sony.com",
+   "employees": 113000
+  },
+  {
+   "name": "China Merchants Bank",
+   "domain": "cmbchina.com",
+   "employees": 110000
+  },
+  {
+   "name": "Telefónica",
+   "domain": "telefonica.com",
+   "employees": 102000
+  },
+  {
+   "name": "WH Group",
+   "domain": "wh-group.com",
+   "employees": 101000
+  },
+  {
+   "name": "Mercadona",
+   "domain": "mercadona.es",
+   "employees": 100000
+  },
+  {
+   "name": "A.P. Moller-Maersk",
+   "domain": "maersk.com",
+   "employees": 100000
+  },
+  {
+   "name": "Wilmar International",
+   "domain": "wilmar-international.com",
+   "employees": 100000
+  },
+  {
+   "name": "China Life Insurance",
+   "employees": 100000
+  },
+  {
+   "name": "Haier Smart Home",
+   "domain": "haier.com",
+   "employees": 100000
+  },
+  {
+   "name": "Lufthansa Group",
+   "domain": "lufthansagroup.com",
+   "employees": 100000
+  },
+  {
+   "name": "Groupe BPCE",
+   "domain": "groupebpce.com",
+   "employees": 100000
+  },
+  {
+   "name": "Decathlon",
+   "domain": "decathlon.com",
+   "employees": 100000
+  },
+  {
+   "name": "Migros",
+   "domain": "migros.ch",
+   "employees": 99000
+  },
+  {
+   "name": "Intesa Sanpaolo",
+   "domain": "intesasanpaolo.com",
+   "employees": 95000
+  },
+  {
+   "name": "AXA",
+   "domain": "axa.com",
+   "employees": 95000
+  },
+  {
+   "name": "Coop Group (Switzerland)",
+   "domain": "coop.ch",
+   "employees": 95000
+  },
+  {
+   "name": "Deutsche Bank",
+   "domain": "db.com",
+   "employees": 90000
+  },
+  {
+   "name": "Danone",
+   "domain": "danone.com",
+   "employees": 90000
+  },
+  {
+   "name": "L'Oréal",
+   "domain": "loreal.com",
+   "employees": 90000
+  },
+  {
+   "name": "Heineken",
+   "domain": "theheinekencompany.com",
+   "employees": 90000
+  },
+  {
+   "name": "Vodafone",
+   "domain": "vodafone.com",
+   "employees": 90000
+  },
+  {
+   "name": "El Corte Inglés",
+   "domain": "elcorteingles.es",
+   "employees": 88000
+  },
+  {
+   "name": "Barclays",
+   "domain": "barclays.com",
+   "employees": 85000
+  },
+  {
+   "name": "Standard Chartered",
+   "domain": "sc.com",
+   "employees": 85000
+  },
+  {
+   "name": "Bupa",
+   "domain": "bupa.com",
+   "employees": 85000
+  },
+  {
+   "name": "Generali",
+   "domain": "generali.com",
+   "employees": 82000
+  },
+  {
+   "name": "Seven & i Holdings",
+   "domain": "7andi.com",
+   "employees": 82000
+  },
+  {
+   "name": "Sompo Holdings",
+   "domain": "sompo-hd.com",
+   "employees": 75000
+  },
+  {
+   "name": "Nippon Life Insurance",
+   "domain": "nissay.co.jp",
+   "employees": 75000
+  },
+  {
+   "name": "Zurich Insurance Group",
+   "domain": "zurich.com",
+   "employees": 60000
+  },
+  {
+   "name": "ING Group",
+   "domain": "ing.com",
+   "employees": 60000
+  },
+  {
+   "name": "Lloyds Banking Group",
+   "domain": "lloydsbankinggroup.com",
+   "employees": 60000
+  },
+  {
+   "name": "NatWest Group",
+   "domain": "natwestgroup.com",
+   "employees": 60000
+  },
+  {
+   "name": "State Grid Corporation of China",
+   "domain": "sgcc.com.cn",
+   "employees": 1300000
+  },
+  {
+   "name": "China National Petroleum Corporation (CNPC)",
+   "domain": "cnpc.com.cn",
+   "employees": 1000000
+  },
+  {
+   "name": "China Post Group",
+   "domain": "chinapost.com.cn",
+   "employees": 950000
+  },
+  {
+   "name": "Sinopec",
+   "domain": "sinopec.com",
+   "employees": 550000
+  },
+  {
+   "name": "Deloitte",
+   "domain": "deloitte.com",
+   "employees": 460000
+  },
+  {
+   "name": "EY",
+   "domain": "ey.com",
+   "employees": 400000
+  },
+  {
+   "name": "China State Construction Engineering",
+   "domain": "cscec.com",
+   "employees": 380000
+  },
+  {
+   "name": "PwC",
+   "domain": "pwc.com",
+   "employees": 370000
+  },
+  {
+   "name": "China Railway Construction Corporation",
+   "domain": "crcc.cn",
+   "employees": 330000
+  },
+  {
+   "name": "Deutsche Bahn",
+   "domain": "deutschebahn.com",
+   "employees": 330000
+  },
+  {
+   "name": "CK Hutchison Holdings",
+   "domain": "ckh.com.hk",
+   "employees": 300000
+  },
+  {
+   "name": "China Railway Group",
+   "domain": "crec.cn",
+   "employees": 290000
+  },
+  {
+   "name": "Accor",
+   "domain": "accor.com",
+   "employees": 290000
+  },
+  {
+   "name": "Vinci",
+   "domain": "vinci.com",
+   "employees": 285000
+  },
+  {
+   "name": "SNCF",
+   "domain": "sncf.com",
+   "employees": 280000
+  },
+  {
+   "name": "KPMG",
+   "domain": "kpmg.com",
+   "employees": 275000
+  },
+  {
+   "name": "CITIC Group",
+   "domain": "citic.com",
+   "employees": 230000
+  },
+  {
+   "name": "Veolia",
+   "domain": "veolia.com",
+   "employees": 218000
+  },
+  {
+   "name": "Bouygues",
+   "domain": "bouygues.com",
+   "employees": 200000
+  },
+  {
+   "name": "Fresenius",
+   "domain": "fresenius.com",
+   "employees": 190000
+  },
+  {
+   "name": "EDF (Électricité de France)",
+   "domain": "edf.fr",
+   "employees": 180000
+  },
+  {
+   "name": "ACS Group",
+   "domain": "grupoacs.com",
+   "employees": 175000
+  },
+  {
+   "name": "Yamato Holdings",
+   "domain": "yamato-hd.co.jp",
+   "employees": 170000
+  },
+  {
+   "name": "COFCO",
+   "domain": "cofco.com",
+   "employees": 160000
+  },
+  {
+   "name": "Lotte",
+   "domain": "lotte.co.kr",
+   "employees": 150000
+  },
+  {
+   "name": "SF Express (S.F. Holding)",
+   "domain": "sf-express.com",
+   "employees": 150000
+  },
+  {
+   "name": "China COSCO Shipping",
+   "domain": "coscoshipping.com",
+   "employees": 130000
+  },
+  {
+   "name": "Poste Italiane",
+   "domain": "posteitaliane.it",
+   "employees": 120000
+  },
+  {
+   "name": "Sumitomo Mitsui Financial Group",
+   "domain": "smfg.co.jp",
+   "employees": 120000
+  },
+  {
+   "name": "Fresenius Medical Care",
+   "domain": "freseniusmedicalcare.com",
+   "employees": 112000
+  },
+  {
+   "name": "WPP",
+   "domain": "wpp.com",
+   "employees": 110000
+  },
+  {
+   "name": "Nippon Steel",
+   "domain": "nipponsteel.com",
+   "employees": 106000
+  },
+  {
+   "name": "Itochu",
+   "domain": "itochu.co.jp",
+   "employees": 105000
+  },
+  {
+   "name": "Publicis Groupe",
+   "domain": "publicisgroupe.com",
+   "employees": 103000
+  },
+  {
+   "name": "China Southern Airlines",
+   "domain": "csair.com",
+   "employees": 100000
+  },
+  {
+   "name": "TotalEnergies",
+   "domain": "totalenergies.com",
+   "employees": 100000
+  },
+  {
+   "name": "Roche",
+   "domain": "roche.com",
+   "employees": 100000
+  },
+  {
+   "name": "BRF",
+   "domain": "brf-global.com",
+   "employees": 100000
+  },
+  {
+   "name": "Engie",
+   "domain": "engie.com",
+   "employees": 97000
+  },
+  {
+   "name": "Shell",
+   "domain": "shell.com",
+   "employees": 96000
+  },
+  {
+   "name": "Bank of Communications",
+   "domain": "bankcomm.com",
+   "employees": 95000
+  },
+  {
+   "name": "AstraZeneca",
+   "domain": "astrazeneca.com",
+   "employees": 90000
+  },
+  {
+   "name": "Metro AG",
+   "domain": "metroag.de",
+   "employees": 90000
+  },
+  {
+   "name": "Ramsay Health Care",
+   "domain": "ramsayhealth.com",
+   "employees": 90000
+  },
+  {
+   "name": "Swire Pacific",
+   "domain": "swirepacific.com",
+   "employees": 90000
+  },
+  {
+   "name": "Metro Inc.",
+   "domain": "metro.ca",
+   "employees": 90000
+  },
+  {
+   "name": "Sanofi",
+   "domain": "sanofi.com",
+   "employees": 86000
+  },
+  {
+   "name": "Strabag",
+   "domain": "strabag.com",
+   "employees": 86000
+  },
+  {
+   "name": "Lactalis",
+   "domain": "lactalis.com",
+   "employees": 85000
+  },
+  {
+   "name": "Mitsubishi Corporation",
+   "domain": "mitsubishicorp.com",
+   "employees": 80000
+  },
+  {
+   "name": "Sumitomo Corporation",
+   "domain": "sumitomocorp.com",
+   "employees": 80000
+  },
+  {
+   "name": "Glencore",
+   "domain": "glencore.com",
+   "employees": 80000
+  },
+  {
+   "name": "BP",
+   "domain": "bp.com",
+   "employees": 80000
+  },
+  {
+   "name": "Kuehne+Nagel",
+   "domain": "kuehne-nagel.com",
+   "employees": 80000
+  },
+  {
+   "name": "China Eastern Airlines",
+   "domain": "ceair.com",
+   "employees": 80000
+  },
+  {
+   "name": "Bertelsmann",
+   "domain": "bertelsmann.com",
+   "employees": 80000
+  },
+  {
+   "name": "Indofood",
+   "domain": "indofood.com",
+   "employees": 80000
+  },
+  {
+   "name": "Novo Nordisk",
+   "domain": "novonordisk.com",
+   "employees": 77000
+  },
+  {
+   "name": "Novartis",
+   "domain": "novartis.com",
+   "employees": 76000
+  },
+  {
+   "name": "Air France-KLM",
+   "domain": "airfranceklm.com",
+   "employees": 75000
+  },
+  {
+   "name": "Nippon Express",
+   "domain": "nipponexpress.com",
+   "employees": 73000
+  },
+  {
+   "name": "E.ON",
+   "domain": "eon.com",
+   "employees": 72000
+  },
+  {
+   "name": "GSK",
+   "domain": "gsk.com",
+   "employees": 70000
+  },
+  {
+   "name": "UniCredit",
+   "domain": "unicreditgroup.eu",
+   "employees": 70000
+  },
+  {
+   "name": "International Airlines Group",
+   "domain": "iairgroup.com",
+   "employees": 70000
+  },
+  {
+   "name": "Dentsu Group",
+   "domain": "dentsu.com",
+   "employees": 70000
+  },
+  {
+   "name": "East Japan Railway Company (JR East)",
+   "domain": "jreast.co.jp",
+   "employees": 70000
+  },
+  {
+   "name": "Schindler",
+   "domain": "schindler.com",
+   "employees": 69000
+  },
+  {
+   "name": "Mitsubishi Chemical Group",
+   "domain": "mcgc.com",
+   "employees": 68000
+  },
+  {
+   "name": "TUI Group",
+   "domain": "tuigroup.com",
+   "employees": 65000
+  },
+  {
+   "name": "Orlen",
+   "domain": "orlen.pl",
+   "employees": 65000
+  },
+  {
+   "name": "Toyota Tsusho",
+   "domain": "toyota-tsusho.com",
+   "employees": 65000
+  },
+  {
+   "name": "Marks & Spencer",
+   "domain": "marksandspencer.com",
+   "employees": 64000
+  },
+  {
+   "name": "JFE Holdings",
+   "employees": 62000
+  },
+  {
+   "name": "Enel",
+   "domain": "enel.com",
+   "employees": 61000
+  },
+  {
+   "name": "Anglo American",
+   "domain": "angloamerican.com",
+   "employees": 60000
+  },
+  {
+   "name": "Fast Retailing",
+   "domain": "fastretailing.com",
+   "employees": 60000
+  },
+  {
+   "name": "CJ Group",
+   "domain": "cj.net",
+   "employees": 60000
+  },
+  {
+   "name": "Arca Continental",
+   "domain": "arcacontal.com",
+   "employees": 60000
+  },
+  {
+   "name": "Olam Group",
+   "domain": "olamgroup.com",
+   "employees": 60000
+  },
+  {
+   "name": "Adidas",
+   "domain": "adidas.com",
+   "employees": 59000
+  },
+  {
+   "name": "Boehringer Ingelheim",
+   "domain": "boehringer-ingelheim.com",
+   "employees": 54000
+  },
+  {
+   "name": "Mizuho Financial Group",
+   "domain": "mizuhogroup.com",
+   "employees": 52000
+  },
+  {
+   "name": "British American Tobacco",
+   "domain": "bat.com",
+   "employees": 50000
+  },
+  {
+   "name": "Takeda Pharmaceutical",
+   "domain": "takeda.com",
+   "employees": 50000
+  },
+  {
+   "name": "Lixil",
+   "domain": "lixil.com",
+   "employees": 50000
+  },
+  {
+   "name": "Genting Group",
+   "domain": "genting.com",
+   "employees": 50000
+  },
+  {
+   "name": "Daiwa House Industry",
+   "domain": "daiwahouse.co.jp",
+   "employees": 49000
+  },
+  {
+   "name": "Asahi Kasei",
+   "domain": "asahi-kasei.com",
+   "employees": 48000
+  },
+  {
+   "name": "Toray Industries",
+   "domain": "toray.com",
+   "employees": 48000
+  },
+  {
+   "name": "Kering",
+   "domain": "kering.com",
+   "employees": 47000
+  },
+  {
+   "name": "Ferrero",
+   "domain": "ferrero.com",
+   "employees": 47000
+  },
+  {
+   "name": "Mitsui & Co.",
+   "domain": "mitsui.com",
+   "employees": 46000
+  },
+  {
+   "name": "ANA Holdings",
+   "domain": "ana.co.jp",
+   "employees": 45000
+  },
+  {
+   "name": "Marubeni",
+   "domain": "marubeni.com",
+   "employees": 45000
+  },
+  {
+   "name": "ENEOS",
+   "domain": "eneos.co.jp",
+   "employees": 45000
+  },
+  {
+   "name": "CaixaBank",
+   "domain": "caixabank.com",
+   "employees": 44000
+  },
+  {
+   "name": "Rabobank",
+   "domain": "rabobank.com",
+   "employees": 43000
+  },
+  {
+   "name": "Tokio Marine Holdings",
+   "domain": "tokiomarinehd.com",
+   "employees": 43000
+  },
+  {
+   "name": "Munich Re",
+   "domain": "munichre.com",
+   "employees": 42000
+  },
+  {
+   "name": "Iberdrola",
+   "domain": "iberdrola.com",
+   "employees": 42000
+  },
+  {
+   "name": "Randstad",
+   "domain": "randstad.com",
+   "employees": 40000
+  },
+  {
+   "name": "Suzano",
+   "domain": "suzano.com.br",
+   "employees": 40000
+  },
+  {
+   "name": "Thai Beverage",
+   "domain": "thaibev.com",
+   "employees": 40000
+  },
+  {
+   "name": "Sonic Healthcare",
+   "domain": "sonichealthcare.com",
+   "employees": 40000
+  },
+  {
+   "name": "Reckitt",
+   "domain": "reckitt.com",
+   "employees": 40000
+  },
+  {
+   "name": "Suntory Holdings",
+   "domain": "suntory.com",
+   "employees": 40000
+  },
+  {
+   "name": "Otto Group",
+   "domain": "ottogroup.com",
+   "employees": 40000
+  },
+  {
+   "name": "OTP Bank",
+   "domain": "otpbank.hu",
+   "employees": 40000
+  },
+  {
+   "name": "Commerzbank",
+   "domain": "commerzbank.de",
+   "employees": 39000
+  },
+  {
+   "name": "Adecco Group",
+   "domain": "adeccogroup.com",
+   "employees": 38000
+  },
+  {
+   "name": "Lululemon Athletica",
+   "domain": "lululemon.com",
+   "employees": 38000
+  },
+  {
+   "name": "Telecom Italia (TIM)",
+   "domain": "gruppotim.it",
+   "employees": 37000
+  },
+  {
+   "name": "Richemont",
+   "domain": "richemont.com",
+   "employees": 37000
+  },
+  {
+   "name": "Japan Airlines",
+   "domain": "jal.com",
+   "employees": 36000
+  },
+  {
+   "name": "Kao",
+   "domain": "kao.com",
+   "employees": 33000
+  },
+  {
+   "name": "Carlsberg",
+   "domain": "carlsberggroup.com",
+   "employees": 33000
+  },
+  {
+   "name": "Eni",
+   "domain": "eni.com",
+   "employees": 33000
+  },
+  {
+   "name": "Swatch Group",
+   "domain": "swatchgroup.com",
+   "employees": 33000
+  },
+  {
+   "name": "Diageo",
+   "domain": "diageo.com",
+   "employees": 30000
+  },
+  {
+   "name": "Syngenta",
+   "domain": "syngenta.com",
+   "employees": 30000
+  },
+  {
+   "name": "Shiseido",
+   "domain": "shiseido.com",
+   "employees": 30000
+  },
+  {
+   "name": "Asahi Group Holdings",
+   "domain": "asahigroup-holdings.com",
+   "employees": 30000
+  },
+  {
+   "name": "Cathay Pacific",
+   "domain": "cathaypacific.com",
+   "employees": 30000
+  },
+  {
+   "name": "Gerdau",
+   "domain": "gerdau.com",
+   "employees": 30000
+  },
+  {
+   "name": "Grupo México",
+   "domain": "gmexico.com",
+   "employees": 30000
+  },
+  {
+   "name": "Restaurant Brands International",
+   "domain": "rbi.com",
+   "employees": 30000
+  },
+  {
+   "name": "National Grid",
+   "domain": "nationalgrid.com",
+   "employees": 30000
+  },
+  {
+   "name": "Nordea",
+   "domain": "nordea.com",
+   "employees": 29000
+  },
+  {
+   "name": "Nomura Holdings",
+   "domain": "nomura.com",
+   "employees": 27000
+  },
+  {
+   "name": "Ryanair",
+   "domain": "ryanair.com",
+   "employees": 27000
+  },
+  {
+   "name": "London Stock Exchange Group",
+   "domain": "lseg.com",
+   "employees": 26000
+  },
+  {
+   "name": "Shin-Etsu Chemical",
+   "domain": "shinetsu.co.jp",
+   "employees": 26000
+  },
+  {
+   "name": "KB Financial Group",
+   "domain": "kbfg.com",
+   "employees": 25000
+  },
+  {
+   "name": "PKO Bank Polski",
+   "domain": "pkobp.pl",
+   "employees": 25000
+  },
+  {
+   "name": "Repsol",
+   "domain": "repsol.com",
+   "employees": 25000
+  },
+  {
+   "name": "Ferrovial",
+   "domain": "ferrovial.com",
+   "employees": 24000
+  },
+  {
+   "name": "AIA Group",
+   "domain": "aia.com",
+   "employees": 23000
+  },
+  {
+   "name": "Equinor",
+   "domain": "equinor.com",
+   "employees": 23000
+  },
+  {
+   "name": "Aviva",
+   "domain": "aviva.com",
+   "employees": 23000
+  },
+  {
+   "name": "Beiersdorf",
+   "domain": "beiersdorf.com",
+   "employees": 22000
+  },
+  {
+   "name": "Korean Air",
+   "domain": "koreanair.com",
+   "employees": 20000
+  },
+  {
+   "name": "Barrick Mining",
+   "domain": "barrick.com",
+   "employees": 20000
+  },
+  {
+   "name": "OMV",
+   "domain": "omv.com",
+   "employees": 20000
+  },
+  {
+   "name": "ABN AMRO",
+   "domain": "abnamro.com",
+   "employees": 20000
+  },
+  {
+   "name": "Danske Bank",
+   "domain": "danskebank.com",
+   "employees": 19000
+  },
+  {
+   "name": "Pernod Ricard",
+   "domain": "pernod-ricard.com",
+   "employees": 19000
+  },
+  {
+   "name": "Puma",
+   "domain": "puma.com",
+   "employees": 18000
+  },
+  {
+   "name": "Codelco",
+   "domain": "codelco.com",
+   "employees": 18000
+  },
+  {
+   "name": "Hapag-Lloyd",
+   "domain": "hapag-lloyd.com",
+   "employees": 16000
+  }
+ ]
+}

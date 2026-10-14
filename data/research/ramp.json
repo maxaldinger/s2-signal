@@ -1,0 +1,109 @@
+{
+  "slug": "ramp",
+  "name": "Ramp",
+  "domain": "ramp.com",
+  "hq": "New York, NY, USA",
+  "industry": "fintech",
+  "business_model": "Corporate card, spend management, bill pay and procurement platform for businesses, monetized largely through card interchange and software subscriptions.",
+  "employee_range": null,
+  "ownership": "private (Series F, June 2026, $44B valuation)",
+  "overview": "Ramp is a spend management and corporate card platform. As of June 1, 2026 it reported over $1B in annualized revenue, 70,000+ customers and about $200B in annualized purchase volume, alongside a $750M Series F at a $44B valuation. Its data platform team rebuilt customer-facing analytics on a Postgres -> Debezium/Kafka -> ClickHouse Cloud pipeline, described publicly in January 2026. The company is shipping AI agents for procurement and accounting workflows.",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "s1", "url": "https://clickhouse.com/blog/ramp", "title": "\"Just OLAP it\": How Ramp rebuilt its analytics platform on ClickHouse Cloud", "publisher": "clickhouse.com blog (vendor case study)", "published_date": "2026-01-20", "excerpt": "Ramp moved reporting off a Postgres transactions table to ClickHouse Cloud via Debezium CDC into Kafka, Python enrichers and a Kafka connector; queries over 40s dropped to milliseconds; powers reporting, Budgets and AI spend insights for 50,000+ customers." },
+    { "id": "s2", "url": "https://otpp.com/en-ca/about-us/news-and-insights/2026/ramp-raises-series-f-at-44-billion-valuation/", "title": "Ramp Raises Series F at $44 Billion Valuation", "publisher": "Ontario Teachers' Pension Plan (republished Ramp announcement)", "published_date": "2026-06-04", "excerpt": "As of June 1, 2026: $1B+ annualized revenue, positive free cash flow, 70,000+ customers, ~$200B annualized purchase volume, 100%+ YoY enterprise growth, 3,200+ customers over $100K; $750M round led by ICONIQ, GIC and OTPP." },
+    { "id": "s3", "url": "https://careers.redpoint.com/companies/ramp-2/jobs/44023303-software-engineer-data-platform", "title": "Software Engineer, Data Platform (Ramp)", "publisher": "Redpoint portfolio job board (Ramp job posting)", "published_date": null, "excerpt": "Data Platform team owns systems for reporting and strategic decision-making and integrates ML models into the product; role names Airflow, Snowflake, ClickHouse and Kafka. Listing marked 6+ months old and closed; exact date not shown." },
+    { "id": "s4", "url": "https://clickhouse.com/videos/open-house-nyc-ramp", "title": "ClickHouse at Ramp: Just OLAP it", "publisher": "clickhouse.com (Open House NYC 2025 talk)", "published_date": "2025", "excerpt": "Ramp engineering talk on moving from Postgres bottlenecks to real-time pipelines on ClickHouse." },
+    { "id": "s5", "url": "https://ramp.com/authors/rene-sultan", "title": "Rene Sultan - Ramp author page", "publisher": "ramp.com", "published_date": null, "excerpt": "Author profile states work on LLM safety, agentic systems and the infrastructure behind Ramp Router, Ramp's AI gateway across LLM providers." }
+  ],
+
+  "tech_signals": [
+    { "technology": "PostgreSQL", "category": "oltp", "detail": "Postgres monolith holds core card-transaction data; it is the CDC source for the analytics pipeline. Large-account reports on it had slowed as data grew.", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "Debezium", "category": "etl_cdc", "detail": "Emits Postgres change data capture streams into Kafka, one topic per table.", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "Apache Kafka", "category": "streaming", "detail": "Carries CDC topics and denormalized enriched topics consumed by a Kafka-to-ClickHouse connector.", "evidence": "verified", "source_ids": ["s1", "s3"] },
+    { "technology": "ClickHouse Cloud", "category": "olap", "detail": "Serves customer-facing reporting, Ramp Budgets, AI-powered spend insights and proactive budget controls; ReplacingMergeTree tables with OPTIMIZE/FINAL for dedup.", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "Python stream enrichers", "category": "etl_cdc", "detail": "Stateless Python services join reference data and publish denormalized records to downstream Kafka topics.", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "Snowflake", "category": "warehouse", "detail": "Named in a Data Platform job posting alongside Airflow, ClickHouse and Kafka; scope of use not described.", "evidence": "verified", "source_ids": ["s3"] },
+    { "technology": "Apache Airflow", "category": "other", "detail": "Orchestration named in Data Platform job posting.", "evidence": "verified", "source_ids": ["s3"] },
+    { "technology": "Ramp Router", "category": "other", "detail": "Internal AI gateway for accessing and optimizing across LLM providers.", "evidence": "verified", "source_ids": ["s5"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Customer-facing analytics rebuilt on a multi-hop CDC pipeline", "detail": "Ramp runs Postgres -> Debezium -> Kafka -> Python enrichers -> Kafka -> ClickHouse to serve in-app reporting. This is the kind of OLTP+OLAP split with a streaming middle layer that SingleStore's single-engine HTAP pitch targets; it is not evidence that the pipeline is causing pain.", "signal_date": "2026-01-20", "strength": 3, "evidence": "verified", "source_ids": ["s1"] },
+    { "kind": "technology", "title": "Recent, successful ClickHouse adoption", "detail": "The ClickHouse migration reportedly cut 40s+ queries to milliseconds and was publicized as a success in 2025-2026. This lowers the likelihood of near-term OLAP displacement; any angle is more plausibly consolidation or new AI workloads.", "signal_date": "2026-01-20", "strength": 2, "evidence": "verified", "source_ids": ["s1", "s4"] },
+    { "kind": "business", "title": "Rapid growth in customers and enterprise mix", "detail": "Customers grew to 70,000+ with 100%+ YoY enterprise growth and $200B annualized purchase volume, implying growing transaction and reporting volume.", "signal_date": "2026-06-04", "strength": 3, "evidence": "verified", "source_ids": ["s2"] },
+    { "kind": "business", "title": "Agentic AI products in market", "detail": "Ramp announced procurement and accounting agents, AI token spend management and a Visa partnership for agent-initiated payments. Agent workloads typically need low-latency access to fresh transactional context; whether Ramp has a retrieval or vector-search need is not public.", "signal_date": "2026-06-04", "strength": 3, "evidence": "verified", "source_ids": ["s2"] },
+    { "kind": "business", "title": "New capital raised", "detail": "$750M primary round at a $44B valuation gives budget capacity for infrastructure investment; no stated use of funds.", "signal_date": "2026-06-04", "strength": 2, "evidence": "verified", "source_ids": ["s2"] }
+  ],
+
+  "initiatives": [
+    { "title": "\"Just OLAP it\" analytics platform", "detail": "Data platform team moves slow queries and lagging dashboards to ClickHouse; first table enriched_spend_events; built by a four-engineer OLAP pod and live for initial customers within weeks.", "evidence": "verified", "source_ids": ["s1"] },
+    { "title": "AI agents for finance workflows", "detail": "Procurement agents, accounting agents for close and reconciliation, and agent payments with real-time controls via Visa.", "evidence": "verified", "source_ids": ["s2"] },
+    { "title": "LLM gateway (Ramp Router)", "detail": "Internal AI gateway for routing and optimizing across LLM providers.", "evidence": "verified", "source_ids": ["s5"] }
+  ],
+
+  "scoring": {
+    "architectural_fit": { "score": 4, "rationale": "Postgres OLTP + Kafka/Debezium CDC + custom enrichers + ClickHouse + Snowflake is a clear multi-engine architecture serving customer-facing real-time analytics.", "source_ids": ["s1", "s3"] },
+    "buying_signals": { "score": 2, "rationale": "Strong growth and AI investment, but the OLAP layer was just modernized onto ClickHouse and publicly celebrated, so no evidence of current dissatisfaction.", "source_ids": ["s1", "s2"] },
+    "workload_relevance": { "score": 4, "rationale": "High-concurrency, multi-tenant, customer-facing reporting over card transactions plus agentic AI on transactional data matches SingleStore's core workloads.", "source_ids": ["s1", "s2"] },
+    "organizational_fit": { "score": 3, "rationale": "Well-funded, engineering-led company with a named data platform team; strong build culture may favor existing tools.", "source_ids": ["s1", "s2"] },
+    "evidence_confidence": { "score": 3, "rationale": "Architecture detail comes from a 2026 vendor case study quoting Ramp's engineering director and a Ramp talk; job posting is undated; financials are company-announced (June 2026)." }
+  },
+
+  "personas": [
+    { "title": "Director of Engineering, Data Platform", "why": "Leads the team that built and owns the Postgres-Kafka-ClickHouse pipeline; primary technical owner of analytics infrastructure.", "name": "Ryan Delgado", "source_ids": ["s1"] },
+    { "title": "Head of AI / Applied AI engineering lead", "why": "Owns agent products that need fresh transactional context and potentially retrieval.", "name": null, "source_ids": [] },
+    { "title": "Head of Infrastructure / Platform Engineering", "why": "Accountable for operational cost and complexity of running multiple data engines and CDC services.", "name": null, "source_ids": [] }
+  ],
+
+  "use_cases": [
+    { "title": "Collapse CDC + enrichment hops for in-app reporting", "detail": "Serve customer-facing spend reports from one engine that ingests transactions and answers analytical queries, reducing Debezium/enricher/connector hops and dedup handling (ReplacingMergeTree + FINAL).", "singlestore_capability": "HTAP / real-time analytics with Kafka pipelines" },
+    { "title": "Agent context store", "detail": "Give procurement and accounting agents a single low-latency store combining live transactions, policy documents (full-text) and embeddings (vector) for retrieval.", "singlestore_capability": "vector + full-text search alongside SQL" },
+    { "title": "Real-time budget and spend controls", "detail": "Evaluate budget thresholds against fresh transactions with high concurrency for Ramp Budgets alerts and controls.", "singlestore_capability": "high-concurrency low-latency queries on fresh data" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Ramp's analytics pipeline is Postgres -> Debezium CDC -> Kafka -> Python enrichers -> Kafka -> ClickHouse Cloud.", "source_ids": ["s1"] },
+    { "fact": "The ClickHouse migration reduced some 40+ second queries to millisecond responses, serving 50,000+ customers at the time.", "source_ids": ["s1"] },
+    { "fact": "ClickHouse powers in-app reporting, Ramp Budgets, AI-powered spend insights and proactive budget controls.", "source_ids": ["s1"] },
+    { "fact": "Ramp evaluated Apache Pinot and Druid before choosing ClickHouse.", "source_ids": ["s1"] },
+    { "fact": "As of June 1, 2026 Ramp reported $1B+ annualized revenue, 70,000+ customers and ~$200B annualized purchase volume.", "source_ids": ["s2"] },
+    { "fact": "Ramp raised a $750M Series F at a $44B valuation in June 2026.", "source_ids": ["s2"] },
+    { "fact": "A Ramp Data Platform job posting lists Airflow, Snowflake, ClickHouse and Kafka.", "source_ids": ["s3"] }
+  ],
+
+  "inferences": [
+    { "inference": "Running Postgres, Debezium, Kafka, custom enrichers, ClickHouse and Snowflake implies meaningful operational overhead and multiple copies of transaction data; whether the team considers this a problem is unknown.", "based_on": ["s1", "s3"] },
+    { "inference": "Because ClickHouse was adopted recently and publicly praised, a displacement pitch is unlikely to land near term; a consolidation or AI-workload angle is more credible.", "based_on": ["s1", "s4"] },
+    { "inference": "Agentic procurement and accounting products likely need low-latency access to current transactional data plus document context.", "based_on": ["s2"] }
+  ],
+
+  "unknowns": [
+    "Employee headcount (not disclosed in sources reviewed).",
+    "Whether Ramp uses a vector database, pgvector or a search engine (Elasticsearch/OpenSearch) for AI or search features.",
+    "Current Snowflake usage scope and spend.",
+    "Data volumes (rows/TB) and query concurrency on ClickHouse today.",
+    "Whether the CDC/enricher pipeline has freshness, correctness or cost issues.",
+    "Exact posting date of the Data Platform job listing.",
+    "Unconfirmed press reports (Bloomberg, Oct 2026) of a ~$60B valuation round were not used."
+  ],
+
+  "discovery_questions": [
+    "How fresh does data in ClickHouse need to be for Budgets controls, and what is end-to-end lag through Debezium, enrichers and the connector today?",
+    "How much engineering time goes into maintaining the enrichers and dedup (ReplacingMergeTree/FINAL) logic?",
+    "Where do your procurement and accounting agents read transactional context from, and do they need semantic or full-text retrieval?",
+    "What role does Snowflake play relative to ClickHouse, and is data duplicated between them?",
+    "As enterprise customers grow, are there tenants or report types that still stress the pipeline?"
+  ],
+
+  "opportunity_hypothesis": "Hypothesis to validate: Ramp's customer-facing analytics depend on a multi-hop CDC pipeline (Postgres, Debezium, Kafka, Python enrichers, ClickHouse) plus Snowflake, and its fast-growing agent products need fresh transactional context. SingleStore might reduce hops for real-time reporting and offer a single store for agent context (SQL + vector + full-text). Given the recent, successful ClickHouse rollout, the likeliest entry point is a new AI/agent workload rather than OLAP replacement.",
+
+  "outreach": {
+    "persona": "Director of Engineering, Data Platform",
+    "subject": "Your \"Just OLAP it\" pipeline and agent workloads",
+    "body": "Hi Ryan - I read the ClickHouse write-up on how your team moved Ramp reporting off Postgres via Debezium, Kafka and Python enrichers, and got 40-second queries down to milliseconds. Impressive turnaround. With Ramp now shipping procurement and accounting agents, I'm curious how you think about giving those agents fresh transactional context alongside document and semantic retrieval. SingleStore runs transactions, real-time analytics, vector and full-text search in one engine, which some teams use to cut pipeline hops for new workloads. Would you be open to a 20-minute conversation comparing notes on where that might or might not fit?"
+  },
+
+  "singlestore_relationship": "none found - searched 'Ramp SingleStore' and SingleStore customer material (2026-10-14); no public SingleStore customer reference located."
+}

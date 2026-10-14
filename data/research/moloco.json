@@ -1,0 +1,113 @@
+{
+  "slug": "moloco",
+  "name": "Moloco",
+  "domain": "moloco.com",
+  "hq": "California, USA (job board lists Menlo Park, CA; several profiles list Redwood City, CA)",
+  "industry": "adtech",
+  "business_model": "ML-driven advertising platform: a mobile app demand-side platform (Moloco Ads), Moloco Commerce Media for retailers and marketplaces to run their own sponsored-ads business, and streaming monetization.",
+  "employee_range": null,
+  "ownership": "private (Bloomberg reported in January 2026 that it is weighing an IPO)",
+  "overview": "Moloco runs a real-time bidding platform on Google Cloud that grew from about 550,000 to over 5 million bid requests per second, using Bigtable for campaign history and BigQuery for analytics (m1). A 2024 conference talk described replacing a Bigtable-based in-house query layer with Apache Pinot/StarTree for real-time ad analytics at about 10 PB processed daily (m3). Its Commerce Media business stores behavioral data in Bigtable to serve sponsored recommendations in milliseconds (m2).",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "m1", "url": "https://cloud.google.com/blog/products/databases/moloco-uses-cloud-bigtable-to-build-their-ad-tech-platform", "title": "How Moloco handles 5 million+ ad requests per second with Cloud Bigtable", "publisher": "Google Cloud blog (authored by Moloco VP of Engineering)", "published_date": "2022-04-14",
+      "excerpt": "Bid requests grew from ~550K to 5M+ per second; 100 ms internal deadline under a 150 ms exchange limit; Bigtable + Memorystore hold campaign history; bid logs stream into BigQuery and GCS for Vertex AI retraining; 3,000+ GKE VMs." },
+    { "id": "m2", "url": "https://cloud.google.com/customers/molocokr", "title": "Moloco: Bringing ML-powered retail media advertising technology to the world", "publisher": "Google Cloud customer story", "published_date": null,
+      "excerpt": "Undated (context suggests ~2023). Retail Media Platform keeps all behavioral data in Bigtable to serve sponsored recommendations within milliseconds; BigQuery runs pre-processing, experiments and ad reports; ~600B bid requests daily; 35,000+ advertisers." },
+    { "id": "m3", "url": "https://startree.ai/user-stories/moloco-uses-pinot-startree-for-real-time-ad-analytics/", "title": "Moloco: Apache Pinot and StarTree Smooth AdTech Company's Journey to Real-Time Ad Analytics", "publisher": "StarTree (vendor user story of a 2024 Real-Time Analytics Summit talk)", "published_date": "2024",
+      "excerpt": "In-house query framework on Bigtable struggled with 40-50 dimension, high-cardinality queries (up to 10 min). Moved internal performance portal and A/B testing analytics to Pinot/StarTree: 100+ tables, ~100 TB, ingest from BigQuery; queries now sub-2 s." },
+    { "id": "m4", "url": "https://www.bloomberg.com/news/articles/2026-01-30/fidelity-backed-ad-tech-platform-moloco-is-said-to-weigh-ipo", "title": "Fidelity-Backed Ad Tech Platform Moloco Is Said to Weigh IPO", "publisher": "Bloomberg", "published_date": "2026-01-30",
+      "excerpt": "Reports, citing people familiar, that Moloco is in early talks with advisers about a possible IPO. Article was paywalled; details read via search summary." },
+    { "id": "m5", "url": "https://v.daum.net/v/20250612174356903", "title": "Moloco sets sights on web and connected TV ad expansion", "publisher": "Korean press (via Daum)", "published_date": "2025-06-12",
+      "excerpt": "CEO Ikkjin Ahn said the company has been profitable for over four years and framed a future IPO as a milestone for its commerce media positioning rather than a fundraising need. Read via search summary." },
+    { "id": "m6", "url": "https://job-boards.greenhouse.io/moloco", "title": "Moloco careers job board", "publisher": "Moloco careers (Greenhouse)", "published_date": "2026-10-14",
+      "excerpt": "Accessed 2026-10-14: 41 open roles incl. Group PM GenAI Creatives, Director of PM Ads Quality - Moloco Commerce Media, Senior SWE Common Infrastructure (Ads Infrastructure), Experiment Platform; offices Menlo Park, Seattle, Seoul." },
+    { "id": "m7", "url": "https://cloud.google.com/customers/moloco", "title": "Moloco: Helping mobile app developers thrive", "publisher": "Google Cloud customer story", "published_date": null,
+      "excerpt": "Older, undated story: GKE bidding servers handled 550K+ bid requests/s backed by SSD Bigtable; BigQuery serves analytics and dashboards for Moloco and customers, with queries cut from minutes to ~10 seconds." }
+  ],
+
+  "tech_signals": [
+    { "technology": "Google Cloud Bigtable", "category": "oltp", "detail": "Low-latency store for campaign history in the bidding path and for all behavioral data behind Commerce Media recommendations.", "evidence": "verified", "source_ids": ["m1", "m2"] },
+    { "technology": "Memorystore (Redis)", "category": "cache", "detail": "Used alongside Bigtable for campaign history lookups at bid time.", "evidence": "verified", "source_ids": ["m1"] },
+    { "technology": "BigQuery", "category": "warehouse", "detail": "Receives streamed bid logs; used for ML pre-processing, experiments, ad performance reports and customer dashboards; batch source for Pinot.", "evidence": "verified", "source_ids": ["m1", "m2", "m3", "m7"] },
+    { "technology": "Apache Pinot / StarTree", "category": "olap", "detail": "Real-time analytics for the internal performance portal and A/B testing; 100+ tables, ~100 TB.", "evidence": "verified", "source_ids": ["m3"] },
+    { "technology": "Vertex AI / Cloud TPU / TensorFlow", "category": "other", "detail": "Model training (TPUs for transformer recommenders) and real-time inference over gRPC.", "evidence": "verified", "source_ids": ["m1", "m2"] },
+    { "technology": "Google Kubernetes Engine", "category": "other", "detail": "Hosts bidding services (3,000+ VMs as of 2022).", "evidence": "verified", "source_ids": ["m1"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Already outgrew one analytics layer and adopted a real-time OLAP engine", "detail": "Moloco replaced a Bigtable-based in-house query framework that took up to 10 minutes on high-cardinality queries with Pinot/StarTree. This shows real-time analytics is a funded, important workload, but it also means an incumbent engine is now in place, so this is a competitive displacement, not a greenfield need.", "signal_date": "2024", "strength": 3, "evidence": "verified", "source_ids": ["m3"] },
+    { "kind": "technology", "title": "Multiple data copies between Bigtable, BigQuery and Pinot", "detail": "Bid logs flow to BigQuery, Pinot ingests in batch from BigQuery and GCS, and serving reads from Bigtable/Memorystore. Several hops for the same event data.", "signal_date": "2024", "strength": 3, "evidence": "inferred", "source_ids": ["m1", "m3"] },
+    { "kind": "business", "title": "Commerce Media growth and possible IPO", "detail": "Commerce Media is a strategic growth line and Moloco is reportedly weighing an IPO; retailer partners typically expect customer-facing, real-time campaign reporting. Business momentum, not a stated data need.", "signal_date": "2026-01-30", "strength": 2, "evidence": "verified", "source_ids": ["m2", "m4", "m5"] },
+    { "kind": "organizational", "title": "Hiring in GenAI creatives, ads infrastructure and experimentation", "detail": "Open roles in GenAI Creatives, Common Infrastructure and Experiment Platform show investment in AI products and platform; no posting viewed names a database evaluation.", "signal_date": "2026-10-14", "strength": 2, "evidence": "verified", "source_ids": ["m6"] }
+  ],
+
+  "initiatives": [
+    { "title": "Real-time ad analytics on Pinot/StarTree", "detail": "Moving internal performance and A/B testing analytics from batch/Bigtable queries to real-time OLAP.", "evidence": "verified", "source_ids": ["m3"] },
+    { "title": "Moloco Commerce Media", "detail": "ML retail-media platform letting retailers run their own performance ads businesses, built on Bigtable, BigQuery, GKE and TPUs.", "evidence": "verified", "source_ids": ["m2"] },
+    { "title": "GenAI creatives", "detail": "Product leadership role open for GenAI creatives in Ads Product.", "evidence": "verified", "source_ids": ["m6"] }
+  ],
+
+  "scoring": {
+    "architectural_fit": { "score": 4, "rationale": "Extreme-throughput ingest, millisecond serving and high-cardinality real-time analytics spread across Bigtable, BigQuery and Pinot fit SingleStore's real-time analytics + operational profile; SingleStore runs on GCP.", "source_ids": ["m1", "m3"] },
+    "buying_signals": { "score": 2, "rationale": "No current public signal of dissatisfaction; real-time analytics was recently re-platformed onto Pinot.", "source_ids": ["m3"] },
+    "workload_relevance": { "score": 5, "rationale": "Bid-time lookups, ad performance analytics and retail-media reporting are core real-time, high-concurrency workloads.", "source_ids": ["m1", "m2", "m3"] },
+    "organizational_fit": { "score": 3, "rationale": "Strongly Google Cloud-native and willing to adopt specialist engines; profitable and growing, but a new engine must beat managed GCP services and Pinot.", "source_ids": ["m1", "m3", "m5"] },
+    "evidence_confidence": { "score": 3, "rationale": "Architecture details come from vendor-hosted stories (Google Cloud 2022, StarTree 2024) authored or presented by Moloco engineers; no 2025-2026 first-party engineering post found." }
+  },
+
+  "personas": [
+    { "title": "VP / Head of Engineering, Ads Infrastructure", "why": "Owns bidding infrastructure and data stores serving the bid path.", "name": null, "source_ids": ["m1", "m6"] },
+    { "title": "Engineering lead, Ads Data / Analytics platform", "why": "Owns the Pinot/StarTree real-time analytics layer and BigQuery pipelines.", "name": null, "source_ids": ["m3"] },
+    { "title": "GM / Engineering lead, Moloco Commerce Media", "why": "Commerce Media serves retailers who need recommendations and reporting with millisecond latency.", "name": null, "source_ids": ["m2"] }
+  ],
+
+  "use_cases": [
+    { "title": "Customer-facing retail-media reporting", "detail": "Serve retailer and advertiser dashboards on fresh campaign data with high concurrency, without batch hops from BigQuery.", "singlestore_capability": "real-time analytics / high concurrency / streaming ingest" },
+    { "title": "Unified feature and campaign-history serving", "detail": "Combine point lookups for bid-time features with aggregations over the same data in one engine.", "singlestore_capability": "HTAP / rowstore + columnstore" },
+    { "title": "Sponsored product retrieval with vector search", "detail": "Embedding-based candidate retrieval with SQL filters for Commerce Media recommendations.", "singlestore_capability": "vector + full-text search" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Moloco's bid request volume grew from about 550,000 to more than 5 million per second, with a 100 ms internal processing deadline.", "source_ids": ["m1"] },
+    { "fact": "Bigtable stores campaign history for bidding and behavioral data for Commerce Media recommendations.", "source_ids": ["m1", "m2"] },
+    { "fact": "Moloco moved real-time ad analytics from a Bigtable-based query framework to Apache Pinot/StarTree, cutting complex queries from up to 10 minutes to under 2 seconds.", "source_ids": ["m3"] },
+    { "fact": "Moloco's Pinot deployment spans 100+ tables and about 100 TB, ingesting batch data from BigQuery.", "source_ids": ["m3"] },
+    { "fact": "Bloomberg reported in January 2026 that Moloco is weighing an IPO.", "source_ids": ["m4"] }
+  ],
+
+  "inferences": [
+    { "inference": "Event data likely flows through several systems (Bigtable, BigQuery, GCS, Pinot), creating data movement and freshness gaps between serving and analytics.", "based_on": ["m1", "m3"] },
+    { "inference": "Commerce Media's retailer customers will need real-time, customer-facing reporting, which raises concurrency requirements beyond internal dashboards.", "based_on": ["m2"] },
+    { "inference": "Since Pinot ingests from BigQuery in batch, some analytics may not be truly real-time end to end.", "based_on": ["m3"] }
+  ],
+
+  "unknowns": [
+    "Employee headcount (third-party estimates conflict, roughly 700-930).",
+    "Current revenue (no first-party figure found).",
+    "Whether Pinot now ingests from streams (Kafka/Pub/Sub) or only batch from BigQuery.",
+    "Whether Commerce Media reporting for retailers runs on Pinot, BigQuery or something else.",
+    "Use of any vector database for retrieval or GenAI creatives.",
+    "Current named engineering leaders (2022 Google blog was authored by the then VP of Engineering; not reverified for 2026).",
+    "Exact HQ city (Menlo Park vs Redwood City)."
+  ],
+
+  "discovery_questions": [
+    "How fresh is the data in your Pinot analytics today, and is end-to-end streaming ingest a goal?",
+    "Which Commerce Media reporting is customer-facing, and what concurrency and latency do retailers expect?",
+    "How many copies of bid and event data exist across Bigtable, BigQuery and Pinot, and what does keeping them in sync cost?",
+    "Is there a need to combine bid-time point lookups with aggregations over the same data?",
+    "How are you approaching retrieval for sponsored products and GenAI creatives: embeddings, vector search, or both?"
+  ],
+
+  "opportunity_hypothesis": "Hypothesis to validate: Moloco's real-time ad data spans Bigtable for serving, BigQuery for logs and Pinot for analytics, and Commerce Media growth will push more customer-facing, high-concurrency reporting. SingleStore on GCP could serve as a single engine for fresh retailer-facing analytics or bid-feature serving, reducing hops between stores. Because Pinot was adopted recently, start with a workload Pinot does not cover today, such as retailer reporting or combined lookup + aggregation, rather than a head-on replacement.",
+
+  "outreach": {
+    "persona": "Engineering lead, Ads Data / Analytics platform",
+    "subject": "Real-time analytics for Moloco Commerce Media",
+    "body": "Hi - I saw the 2024 Real-Time Analytics Summit talk on moving Moloco's performance portal and A/B testing analytics from a Bigtable-based query layer to Pinot, with complex queries going from minutes to seconds. As Commerce Media grows, I'm curious how you're approaching retailer-facing reporting and how fresh that data needs to be. SingleStore runs on Google Cloud and combines streaming ingest, point lookups and real-time aggregations in one SQL engine. Would you be open to comparing notes on one workload, for example retailer reporting, to see if it is worth a closer look?"
+  },
+
+  "singlestore_relationship": "none found - web search for 'Moloco SingleStore' (2026-10-14) found only a Hightouch connector page (SingleStore to Moloco sync), not a customer story or partnership."
+}

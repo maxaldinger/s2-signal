@@ -1,0 +1,98 @@
+{
+  "slug": "harvey",
+  "name": "Harvey",
+  "domain": "harvey.ai",
+  "hq": "San Francisco, CA, USA (engineering roles based there; also a New York office)",
+  "industry": "ai_native",
+  "business_model": "Enterprise subscription software providing domain-specific generative AI (assistant, document vaults, agents) to law firms, professional services firms and corporate legal teams.",
+  "employee_range": null,
+  "ownership": "private (venture-backed; $11B valuation per March 2026 round)",
+  "overview": "Harvey builds generative AI for legal and professional services. Its engineering team published a February 2025 post describing its retrieval stack: LanceDB Enterprise as the main production vector database, with Postgres/pgvector for smaller public-data projects, and strict requirements for private-cloud hosting, customer-controlled storage and fast ingestion. Job postings describe a global, multi-region PostgreSQL fleet and an AI platform handling millions of daily inference requests. It raised $200M at an $11B valuation in March 2026.",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "s1", "url": "https://www.harvey.ai/blog/enterprise-grade-rag-systems", "title": "Enterprise-Grade RAG Systems", "publisher": "harvey.ai blog (Harvey Team)", "published_date": "2025-02-20", "excerpt": "Compared Postgres+pgvector and LanceDB; LanceDB Enterprise is main production vector DB, Postgres for smaller public-data projects. Needs private-cloud hosting, customer-controlled storage, fast ingestion, real-time updates. Sources: thread uploads, Vaults (1k-10k docs), third-party legal data." },
+    { "id": "s2", "url": "https://www.harvey.ai/company/careers/748edfbe-f819-47fd-85bb-3c4974f8913f", "title": "Senior Software Engineer, Core Infrastructure", "publisher": "harvey.ai careers", "published_date": "2026", "excerpt": "Multi-cloud (Azure, GCP) Kubernetes platform processing billions of prompt tokens and millions of daily inference requests; Redis-backed rate limiting; multi-region deployments for data residency; token-level cost attribution." },
+    { "id": "s3", "url": "https://www.builtinsf.com/job/staff-database-administrator-verbose/8830582", "title": "Staff Database Administrator / Software Engineer, Database Infra (Harvey)", "publisher": "Built In SF (job listing)", "published_date": "2026", "excerpt": "Global fleet of PostgreSQL databases across regions and AZs; owns migration governance, multi-region replication, capacity planning, sharding/partitioning, observability (Datadog, pganalyze); bonus Redis, Elasticsearch, Kafka, vector databases." },
+    { "id": "s4", "url": "https://fortune.com/2025/06/23/harvey-raises-300-million-at-5-billion-valuation-to-be-legal-ai-for-lawyers-worldwide", "title": "Harvey raises $300 million at $5 billion valuation", "publisher": "Fortune", "published_date": "2025-06-23", "excerpt": "$300M Series E co-led by Kleiner Perkins and Coatue at $5B; about 337 legal clients in 53 countries; more than 340 employees at the time." },
+    { "id": "s5", "url": "https://news.bloomberglaw.com/bloomberg-government-news/legal-ai-startup-harvey-raises-funds-at-11-billion-valuation", "title": "Legal AI Startup Harvey Raises Funds at $11 Billion Valuation", "publisher": "Bloomberg Law", "published_date": "2026-03-25", "excerpt": "$200M round co-led by GIC and Sequoia at $11B, up from $8B in December 2025; funds to expand AI agents and embedded legal engineering teams." }
+  ],
+
+  "tech_signals": [
+    { "technology": "LanceDB Enterprise", "category": "vector", "detail": "Main production vector database for RAG; benchmarked under 2s P50 on 15M rows with metadata filtering (IVF-PQ).", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "PostgreSQL (pgvector)", "category": "vector", "detail": "Used for smaller-scale projects on public data; benchmarked under 2s P50 on 500K embeddings.", "evidence": "verified", "source_ids": ["s1"] },
+    { "technology": "PostgreSQL", "category": "oltp", "detail": "Global fleet across multiple regions and availability zones; hiring to own replication, sharding/partitioning and migration governance.", "evidence": "verified", "source_ids": ["s3"] },
+    { "technology": "Redis", "category": "cache", "detail": "Backs distributed rate limiting and quota management for bursty inference traffic.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Kubernetes on Azure and GCP", "category": "other", "detail": "Multi-cloud, multi-region platform with data-residency requirements.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Elasticsearch / Kafka", "category": "search", "detail": "Listed only as bonus adjacent-system experience in a database role; production use not confirmed.", "evidence": "inferred", "source_ids": ["s3"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "technology", "title": "Split vector stack: LanceDB plus Postgres/pgvector", "detail": "Harvey runs two vector-retrieval approaches chosen by scale and data sensitivity, alongside a separate Postgres OLTP fleet. Consolidating relational metadata, filtering and vectors is a relevant conversation; Harvey has, however, publicly endorsed LanceDB.", "signal_date": "2025-02-20", "strength": 3, "evidence": "verified", "source_ids": ["s1"] },
+    { "kind": "organizational", "title": "Hiring Staff database engineer to scale global Postgres fleet", "detail": "Role owns multi-region replication, sharding and partitioning strategy, signalling that database scaling is an active priority.", "signal_date": "2026", "strength": 4, "evidence": "verified", "source_ids": ["s3"] },
+    { "kind": "technology", "title": "Strict data residency and private-cloud requirements", "detail": "Vector DB must be hostable in a private cloud with embeddings in customer-controlled storage; infra must meet multi-region data residency. Any vendor must support self-managed/BYOC deployment.", "signal_date": "2025-02-20", "strength": 3, "evidence": "verified", "source_ids": ["s1", "s2"] },
+    { "kind": "business", "title": "Fast funding and agent expansion", "detail": "$5B (June 2025) to $11B (March 2026) valuation; March 2026 funds earmarked for expanding AI agents.", "signal_date": "2026-03-25", "strength": 3, "evidence": "verified", "source_ids": ["s4", "s5"] }
+  ],
+
+  "initiatives": [
+    { "title": "Enterprise-grade RAG across uploads, Vaults and third-party legal data", "detail": "Retrieval pipelines with domain-expert evaluation, fast ingestion and real-time updates.", "evidence": "verified", "source_ids": ["s1"] },
+    { "title": "Global multi-region PostgreSQL scaling", "detail": "Migration governance, multi-region replication, sharding/partitioning and self-service DB tooling.", "evidence": "verified", "source_ids": ["s3"] },
+    { "title": "Next-generation model proxy and quota management", "detail": "Model proxy for millions of daily inference requests with Redis-backed rate limiting and token-level cost attribution.", "evidence": "verified", "source_ids": ["s2"] },
+    { "title": "AI agent expansion", "detail": "March 2026 funding to expand AI agents and legal engineering teams.", "evidence": "verified", "source_ids": ["s5"] }
+  ],
+
+  "scoring": {
+    "architectural_fit":   { "score": 3, "rationale": "Verified Postgres fleet needing sharding plus separate vector stores fits SingleStore's relational + vector story, but LanceDB was deliberately chosen and private-cloud/customer-storage constraints narrow deployment options.", "source_ids": ["s1", "s3"] },
+    "buying_signals":      { "score": 3, "rationale": "Active database-scaling hiring and rapid growth; no public statement of dissatisfaction with current stores.", "source_ids": ["s3", "s5"] },
+    "workload_relevance":  { "score": 4, "rationale": "RAG with metadata filtering, real-time ingestion after upload, and multi-tenant isolation are core SingleStore vector + full-text + SQL workloads.", "source_ids": ["s1"] },
+    "organizational_fit":  { "score": 3, "rationale": "Well funded with dedicated database and core infra roles; small relative to enterprises and strongly opinionated engineering choices.", "source_ids": ["s2", "s3", "s5"] },
+    "evidence_confidence": { "score": 4, "rationale": "First-party engineering blog (Feb 2025) and careers page, recent job listing, and 2025-2026 press; the RAG post is over 18 months old so the stack may have changed." }
+  },
+
+  "personas": [
+    { "title": "Database infrastructure lead (Staff Database Engineer)", "why": "Owns the global Postgres fleet's replication, sharding and partitioning strategy.", "name": null, "source_ids": ["s3"] },
+    { "title": "Head of AI Infrastructure / Retrieval engineering lead", "why": "Owns vector database selection and RAG pipeline performance.", "name": null, "source_ids": ["s1"] },
+    { "title": "Head of Core Infrastructure", "why": "Owns multi-region, data-residency deployment constraints any datastore must meet.", "name": null, "source_ids": ["s2"] }
+  ],
+
+  "use_cases": [
+    { "title": "Relational + vector retrieval in one store for Vault projects", "detail": "Keep document metadata, permissions and embeddings together so filtered semantic search and SQL joins run in one query with immediate availability after upload.", "singlestore_capability": "Vector + full-text search with SQL filtering" },
+    { "title": "Scale-out alternative for sharded Postgres workloads", "detail": "Distributed SQL for tables that are hitting the limits of vertical Postgres scaling, avoiding application-level sharding.", "singlestore_capability": "Distributed SQL / HTAP (MySQL wire protocol)" },
+    { "title": "Token and usage analytics", "detail": "Real-time analytics over inference request logs for token attribution, quota and SLA dashboards.", "singlestore_capability": "Real-time analytics on streaming ingest" }
+  ],
+
+  "verified_facts": [
+    { "fact": "LanceDB Enterprise is Harvey's main production vector DB; Postgres with pgvector is used for smaller public-data projects.", "source_ids": ["s1"] },
+    { "fact": "Harvey requires vector DBs hostable in private cloud with embeddings in customer-controlled storage, plus fast ingestion and real-time updates.", "source_ids": ["s1"] },
+    { "fact": "Harvey runs a global PostgreSQL fleet across regions and AZs and is hiring to own sharding, partitioning and multi-region replication.", "source_ids": ["s3"] },
+    { "fact": "The AI platform processes billions of prompt tokens and millions of daily inference requests on multi-cloud Kubernetes.", "source_ids": ["s2"] },
+    { "fact": "Harvey raised $200M at $11B in March 2026, co-led by GIC and Sequoia.", "source_ids": ["s5"] }
+  ],
+  "inferences": [
+    { "inference": "Running a separate vector DB beside a sharded Postgres fleet means metadata and permissions likely live apart from embeddings, adding sync work for filtered retrieval.", "based_on": ["s1", "s3"] },
+    { "inference": "Any SingleStore proposal must support customer-controlled or private-cloud deployment to be considered.", "based_on": ["s1", "s2"] }
+  ],
+  "unknowns": [
+    "Whether LanceDB remains the primary vector store as of 2026.",
+    "Data volumes in the Postgres fleet and which tables need sharding.",
+    "Analytics or warehouse stack (none found in public sources).",
+    "Current employee count (Fortune reported 340+ in June 2025).",
+    "Reported $550M round at $15.5B (Sep/Oct 2026) seen only in secondary aggregators; not confirmed from a first-party source.",
+    "Current ARR and customer count from a first-party source."
+  ],
+  "discovery_questions": [
+    "Which Postgres workloads are driving the sharding and partitioning work, and what is the target design?",
+    "How do you keep document permissions and metadata in sync with embeddings stored in LanceDB?",
+    "How quickly must a newly uploaded Vault document become searchable, and are you meeting that today?",
+    "For customers requiring their own cloud storage, how do you deploy and operate the database tier per region?",
+    "Where do token-attribution and usage analytics run today?",
+    "Has the vector store choice from early 2025 changed as agent workloads have grown?"
+  ],
+  "opportunity_hypothesis": "Hypothesis to validate: Harvey runs a growing multi-region Postgres fleet that now needs sharding, alongside a separate LanceDB vector tier, under strict data-residency rules. SingleStore might reduce application-level sharding and unify metadata filtering with vector and full-text retrieval, if it can be deployed in the required private-cloud model. The LanceDB choice is deliberate, so the more likely entry point is Postgres scale-out or usage analytics.",
+  "outreach": {
+    "persona": "Database infrastructure lead",
+    "subject": "Scaling the global Postgres fleet",
+    "body": "Hi - Harvey's Staff database role describes owning sharding, partitioning and multi-region replication for a global Postgres fleet, and your February 2025 RAG post explains the LanceDB vs pgvector trade-offs under private-cloud constraints. SingleStore is a distributed SQL database (MySQL wire-compatible) that scales out without application sharding and handles vector plus full-text search in the same query as relational filters. If you are weighing sharding approaches, would it help to compare notes for 20 minutes on where distributed SQL fits and where it doesn't, including deployment in customer-controlled environments?"
+  },
+  "singlestore_relationship": "none found (web search for Harvey + SingleStore returned no customer, partner or integration mention, 2026-10-14)"
+}

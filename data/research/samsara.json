@@ -1,0 +1,101 @@
+{
+  "slug": "samsara",
+  "name": "Samsara",
+  "domain": "samsara.com",
+  "hq": "San Francisco, CA, USA",
+  "industry": "saas",
+  "business_model": "Subscription Connected Operations Cloud that combines IoT devices (vehicle gateways, cameras, asset tags) with SaaS for fleet, safety, equipment and workflow management.",
+  "employee_range": "1001-5000",
+  "ownership": "public (NYSE: IOT)",
+  "overview": "Samsara sells an IoT-plus-SaaS platform for physical operations such as fleets, field service and equipment. It reported $1.89B ending ARR for fiscal 2026 (up 30%) and says more than 25 trillion data points flow through its platform annually. Its Data Platform team moves petabytes from RDS, DynamoDB and internal APIs into a Delta Lake on S3 processed with Spark/Databricks. In 2026 it launched AI agents (AI Safety Coach) and Agent Studio for building custom operational agents.",
+  "researched_at": "2026-10-14",
+
+  "sources": [
+    { "id": "s1", "url": "https://www.samsara.com/company/news/press-releases/q4-fiscal-year-2026-results", "title": "Samsara Q4 and Fiscal Year 2026 results", "publisher": "samsara.com press release", "published_date": "2026-03-05", "excerpt": "FY26 ending ARR $1.9B (+30% YoY), $1.2B ARR from $100K+ customers (+37%), Q4 revenue $444M (+28%); more than 25T data points flow through the platform annually; CEO describes moving to AI agents that automate workflows." },
+    { "id": "s2", "url": "https://builtin.com/job/senior-software-engineer-data-platform/4778349", "title": "Senior Software Engineer - Data Platform (Samsara)", "publisher": "Built In (Samsara job posting)", "published_date": "2025-08", "excerpt": "Team moves, catalogs and processes petabytes; ingestion from RDS, DynamoDB and gRPC APIs into Delta Lake on S3; Spark/Databricks; Unity Catalog; Go and Python; 2.3M+ IoT devices; ~4,000 employees. Listing removed 2025-08-13." },
+    { "id": "s3", "url": "https://www.samsara.com/company/news/press-releases/samsara-launches-new-agentic-capabilities-to-automate-tedious-operational-tasks", "title": "Samsara Launches New Agentic Capabilities to Automate Tedious Operational Tasks", "publisher": "samsara.com press release", "published_date": "2026-06-24", "excerpt": "Agent Studio lets customers build agents or use 15+ templates, add company policies and documents as a knowledge base, preview behavior and track outcomes; CPO Johan Land cites 25T data points captured in 2025." },
+    { "id": "s4", "url": "https://kb.samsara.com/hc/en-us/articles/22060382956429--Beta-Kafka-Connector", "title": "[Beta] Kafka Connector", "publisher": "kb.samsara.com", "published_date": null, "excerpt": "Customer-facing connector that streams Samsara live operations data (GPS, diagnostics, events) into a customer's Kafka cluster for real-time applications and warehouses." }
+  ],
+
+  "tech_signals": [
+    { "technology": "Amazon RDS", "category": "oltp", "detail": "Named as a primary production OLTP source replicated into the lakehouse.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Amazon DynamoDB", "category": "oltp", "detail": "Named as a primary production OLTP source replicated into the lakehouse.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Delta Lake on S3", "category": "lakehouse", "detail": "Lakehouse target for petabytes of ingested and replicated data.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Databricks / Apache Spark", "category": "lakehouse", "detail": "Distributed compute platform the Data Platform team supports for reliability, observability and developer experience.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Unity Catalog", "category": "other", "detail": "Data catalog named in Data Platform posting.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "AWS Kinesis / SQS / Lambda", "category": "streaming", "detail": "AWS services named in Data Platform posting; specific usage not described.", "evidence": "verified", "source_ids": ["s2"] },
+    { "technology": "Apache Kafka (customer-facing connector)", "category": "streaming", "detail": "Samsara offers a beta connector streaming customer data into the customer's own Kafka; this is a product feature, not evidence of Samsara's internal stack.", "evidence": "verified", "source_ids": ["s4"] }
+  ],
+
+  "buying_signals": [
+    { "kind": "business", "title": "Data volume growth to 25T+ data points per year", "detail": "Samsara says more than 25 trillion data points flow through its platform annually and frames this data asset as the basis of its AI strategy. High-volume IoT telemetry with customer-facing dashboards is a core SingleStore ingest-plus-analytics pattern.", "signal_date": "2026-03-05", "strength": 4, "evidence": "verified", "source_ids": ["s1"] },
+    { "kind": "technology", "title": "AI agents with knowledge bases launched", "detail": "Agent Studio lets customers attach policies and documents as a knowledge base and build agents over operational data. This suggests retrieval over documents combined with live telemetry; the underlying retrieval stack is not public.", "signal_date": "2026-06-24", "strength": 4, "evidence": "verified", "source_ids": ["s3"] },
+    { "kind": "technology", "title": "Separate OLTP and lakehouse estates", "detail": "Data flows from RDS and DynamoDB through ingestion/replication systems into Delta Lake for Spark/Databricks processing, indicating data movement between operational and analytical tiers.", "signal_date": "2025-08", "strength": 3, "evidence": "verified", "source_ids": ["s2"] },
+    { "kind": "business", "title": "Strong growth and profitability", "detail": "30% ARR growth, record $1M+ deals and second straight GAAP-profitable quarter suggest capacity to invest in platform.", "signal_date": "2026-03-05", "strength": 2, "evidence": "verified", "source_ids": ["s1"] }
+  ],
+
+  "initiatives": [
+    { "title": "Agent Studio and AI agents", "detail": "Customer-built AI agents with templates, knowledge bases, permissions and performance dashboards; first agent was the AI Safety Coach.", "evidence": "verified", "source_ids": ["s1", "s3"] },
+    { "title": "Petabyte-scale lakehouse ingestion", "detail": "Data Platform team builds ingestion, replication and lakehouse infrastructure from production stores into Delta Lake on S3.", "evidence": "verified", "source_ids": ["s2"] }
+  ],
+
+  "scoring": {
+    "architectural_fit": { "score": 4, "rationale": "RDS + DynamoDB operational stores replicated into a Databricks/Delta lakehouse is a multi-engine architecture with data movement between tiers.", "source_ids": ["s2"] },
+    "buying_signals": { "score": 3, "rationale": "Clear AI-agent launch and rapid data growth, but no public statement of latency, cost or pipeline pain.", "source_ids": ["s1", "s3"] },
+    "workload_relevance": { "score": 5, "rationale": "Trillions of time-stamped IoT events per year feeding customer-facing dashboards and agents is a strong match for high-ingest real-time analytics plus vector/full-text retrieval.", "source_ids": ["s1", "s3"] },
+    "organizational_fit": { "score": 3, "rationale": "Public, profitable, ~4,000 employees with a dedicated Data Platform team; Databricks appears entrenched for lakehouse work.", "source_ids": ["s1", "s2"] },
+    "evidence_confidence": { "score": 3, "rationale": "Strong first-party press releases (2026) for scale and AI; architecture detail only from a 2025 job posting; no engineering blog detail on the serving/query layer." }
+  },
+
+  "personas": [
+    { "title": "Chief Product Officer", "why": "Quoted as the executive behind Agent Studio and the 25T data point narrative.", "name": "Johan Land", "source_ids": ["s3"] },
+    { "title": "Head of Data Platform Engineering", "why": "Owns ingestion, replication and lakehouse infrastructure from RDS/DynamoDB into Delta Lake.", "name": null, "source_ids": [] },
+    { "title": "Engineering lead, AI agents / Agent Studio", "why": "Owns the retrieval and data-access layer for agents and knowledge bases.", "name": null, "source_ids": [] }
+  ],
+
+  "use_cases": [
+    { "title": "Real-time operational dashboards on fresh telemetry", "detail": "Ingest GPS, diagnostics and safety events continuously and serve high-concurrency customer dashboards without waiting on lakehouse batch jobs.", "singlestore_capability": "real-time ingest + analytics (pipelines, columnstore)" },
+    { "title": "Agent retrieval over documents plus live data", "detail": "Combine Agent Studio knowledge-base documents (full-text + vector) with current fleet and asset state in one SQL query for agent grounding.", "singlestore_capability": "vector + full-text search with SQL joins" },
+    { "title": "Operational serving layer next to the lakehouse", "detail": "Keep Databricks for heavy batch/ML while serving low-latency queries from a single HTAP engine, reducing replication hops from RDS/DynamoDB.", "singlestore_capability": "HTAP / reduced data movement" }
+  ],
+
+  "verified_facts": [
+    { "fact": "Samsara ended fiscal 2026 with $1.89B ARR, up 30% year over year.", "source_ids": ["s1"] },
+    { "fact": "More than 25 trillion data points flow through the Samsara platform annually.", "source_ids": ["s1", "s3"] },
+    { "fact": "Samsara launched Agent Studio on 2026-06-24, letting customers build AI agents with templates and document knowledge bases.", "source_ids": ["s3"] },
+    { "fact": "Samsara's Data Platform ingests from RDS, DynamoDB and internal APIs into Delta Lake on S3 processed with Spark/Databricks.", "source_ids": ["s2"] },
+    { "fact": "A 2025 Samsara job posting cites 2.3M+ IoT devices deployed and about 4,000 employees.", "source_ids": ["s2"] }
+  ],
+
+  "inferences": [
+    { "inference": "Agent Studio knowledge bases imply a document retrieval layer (likely embeddings and/or keyword search); the specific technology is unknown.", "based_on": ["s3"] },
+    { "inference": "Replicating RDS and DynamoDB into a lakehouse implies latency between operational events and analytical availability for some workloads.", "based_on": ["s2"] },
+    { "inference": "Databricks is likely entrenched for batch and ML, so SingleStore would complement rather than replace it.", "based_on": ["s2"] }
+  ],
+
+  "unknowns": [
+    "What database or engine serves customer-facing real-time dashboards and reports today.",
+    "Whether Samsara uses Kafka, ClickHouse, Elasticsearch/OpenSearch or a vector database internally.",
+    "Retrieval/vector technology behind Agent Studio knowledge bases.",
+    "Data freshness and latency requirements for agents and dashboards.",
+    "Exact original posting date of the Data Platform job listing (only removal date 2025-08-13 known)."
+  ],
+
+  "discovery_questions": [
+    "What serves the real-time views customers see in the dashboard today, and how does it relate to the Delta Lake estate?",
+    "How do Agent Studio agents retrieve knowledge-base documents and live asset state, and how many systems are involved?",
+    "What is the lag between an event landing in RDS/DynamoDB and being queryable for analytics?",
+    "As data points grow past 25T per year, which parts of the stack scale cost fastest?",
+    "Which agent use cases need sub-second answers over combined telemetry and documents?"
+  ],
+
+  "opportunity_hypothesis": "Hypothesis to validate: Samsara's 25T+ annual data points, split between RDS/DynamoDB operational stores and a Databricks lakehouse, plus new Agent Studio knowledge-base agents, may create demand for a low-latency serving layer that combines fresh telemetry with vector and full-text retrieval. SingleStore would most plausibly complement Databricks as the real-time serving and agent-context tier, not replace it.",
+
+  "outreach": {
+    "persona": "Head of Data Platform Engineering",
+    "subject": "25T data points and Agent Studio",
+    "body": "Hi - Samsara's FY26 release mentions more than 25 trillion data points flowing through the platform each year, and Agent Studio now lets customers ground agents in their own documents. I'm curious how your team serves that mix of live telemetry and document context today alongside the Delta Lake estate. SingleStore is a SQL database that handles high-rate ingest, real-time analytics, and vector plus full-text search in one engine, which some teams use as a serving layer next to Databricks. Open to a short call to compare notes on whether that is relevant for you?"
+  },
+
+  "singlestore_relationship": "none found - searched 'Samsara SingleStore' and SingleStore customer material (2026-10-14); no public SingleStore customer reference located."
+}
