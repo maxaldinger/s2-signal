@@ -1946,6 +1946,9 @@ export function CompanyIntel({
         }
       />
 
+      {/* Look-alike accounts: vector search in SingleStore, right under the proposal action. */}
+      <SimilarAccounts company={acctKey} />
+
       {/* Executive summary — the single narrative for the account (the ICP
           rationale used to duplicate this, so it's dropped; the score lives in
           the breakdown below). */}
@@ -2262,8 +2265,6 @@ export function CompanyIntel({
           />
         )}
       </Section>
-
-      <SimilarAccounts company={acctKey} />
     </div>
   );
 }

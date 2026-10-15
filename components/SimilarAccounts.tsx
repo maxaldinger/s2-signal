@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Code2, Network, Search, Loader2 } from "lucide-react";
 import { SEGMENT_MAP } from "@/lib/data";
 import type { SegmentId } from "@/lib/types";
@@ -30,7 +30,17 @@ interface Result {
  * researched accounts by how close their research is to this one's; the
  * search box ranks them against a free-text theme. Shows the SQL that ran.
  */
-export function SimilarAccounts({ company }: { company: string }) {
+export function SimilarAccounts({
+  company,
+  autoRun = false,
+  compact = false,
+}: {
+  company: string;
+  /** Run the look-alike search as soon as the panel mounts (card toggle). */
+  autoRun?: boolean;
+  /** Tighter spacing, for use inside a card. */
+  compact?: boolean;
+}) {
   const [res, setRes] = useState<Result | null>(null);
   const [loading, setLoading] = useState(false);
   const [theme, setTheme] = useState("");
@@ -52,13 +62,25 @@ export function SimilarAccounts({ company }: { company: string }) {
     }
   };
 
+  // Card toggle: search on open, once.
+  const ran = useRef(false);
+  useEffect(() => {
+    if (autoRun && !ran.current) {
+      ran.current = true;
+      run("like");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoRun]);
+
   return (
-    <section className="animate-fade-in rounded-lg border border-ink-700 bg-ink-900 p-4 sm:p-6">
+    <section
+      className={`animate-fade-in rounded-lg border border-ink-700 bg-ink-900 ${compact ? "p-3 sm:p-4" : "p-4 sm:p-6"}`}
+    >
       <h3 className="mb-1 flex items-center gap-2.5 font-mono text-[12px] font-bold uppercase tracking-[0.14em] text-ink-200">
         <Network className="h-4 w-4 text-neon-400" />
         similar accounts
       </h3>
-      <p className="mb-4 text-xs text-ink-400">
+      <p className={`text-xs text-ink-400 ${compact ? "mb-3" : "mb-4"}`}>
         Vector search over every researched account, run in SingleStore: research embeddings in a VECTOR column with an HNSW index,
         filtered and ranked in one SQL query.
       </p>

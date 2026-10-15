@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import {
+  Network,
   Users,
   GitBranch,
   GitMerge,
@@ -49,6 +50,7 @@ import {
   useSpendOverride,
 } from "@/lib/clientStore";
 import { HubSpotActions } from "./HubSpotActions";
+import { SimilarAccounts } from "./SimilarAccounts";
 
 // Derive a company domain from a signal's citation URL — skips social/code hosts
 // that aren't the company's own site (so Apollo enrich/web search stays accurate).
@@ -258,6 +260,8 @@ export function SignalCard({
   const collapsed = useIsCollapsed(signal.account);
   const favorite = useIsFavorite(signal.account);
   const reviewed = useIsReviewed(signal.account);
+  // Inline "Look-alikes" panel (vector search over researched accounts).
+  const [similarOpen, setSimilarOpen] = useState(false);
 
   // Lead content — the signal's own title/description/url, or lazily researched
   // ones (most-relevant signal for Apollo profile-fit cards; else a blurb).
@@ -507,6 +511,17 @@ export function SignalCard({
         </span>
         <div className="flex flex-wrap items-center justify-end gap-2">
           <button
+            onClick={() => setSimilarOpen((v) => !v)}
+            title="Similar accounts: vector search in SingleStore over every researched account"
+            className={`inline-flex items-center gap-1 rounded border px-2.5 py-1.5 text-xs font-medium transition-colors ${
+              similarOpen
+                ? "border-neon-600/40 bg-neon-500/10 text-neon-300 hover:bg-neon-500/20"
+                : "border-ink-700 text-ink-400 hover:border-neon-600/40 hover:text-neon-200"
+            }`}
+          >
+            <Network className="h-3 w-3" /> Look-alikes
+          </button>
+          <button
             onClick={() => toggleReviewed(signal.account)}
             title={reviewed ? "Mark not reviewed" : "Mark reviewed"}
             className={`inline-flex items-center gap-1 rounded border px-2.5 py-1.5 text-xs font-medium transition-colors ${
@@ -552,6 +567,12 @@ export function SignalCard({
           </button>
         </div>
       </div>
+
+      {similarOpen && (
+        <div className="mt-3">
+          <SimilarAccounts company={signal.account} autoRun compact />
+        </div>
+      )}
 
       {/* Full-width toggle that doubles as the divider into the in-card brief. */}
       <button
